@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1bffb9a-4dd6-445d-9328-4e57a17b5802">
+  <producedTypes>
+    <managerType typeId="084a882a-1496-4fd5-aabf-098f9c877e0e" valueTypeId="64362ac4-b448-42a0-974d-815d6ef00511"/>
+    <valueManagerType typeId="bbcfb0e7-6d1c-4526-9e2b-763932ef293e" valueTypeId="446aa34e-0996-4856-a0c6-2aafa87dacc9"/>
+    <valueKeyType typeId="3273e91b-f882-4169-85e6-6f2fd74573c9" valueTypeId="5e780c64-3ddb-46bc-a0c3-2ff1b256446f"/>
+  </producedTypes>
+  <name>ЗагрузкаИзБухгалтерии</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЗагрузкаИзБухгалтерии</value>
+  </synonym>
+  <comment>Для получения сообщений из одноимённого сервиса</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

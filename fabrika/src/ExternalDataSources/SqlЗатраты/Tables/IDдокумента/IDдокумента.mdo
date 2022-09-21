@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cef623c4-0cd7-44e7-be17-7145aeaf47e6">
+  <producedTypes>
+    <refType typeId="352fc38d-ae4e-4cdb-92c2-ec93be8f9598" valueTypeId="0bc771d0-c068-4cb5-a0ff-3faf0024ba03"/>
+    <listType typeId="5a607b8e-e82c-4e1c-8b4e-3470ebedbd14" valueTypeId="824bc2dd-0235-4250-8a1f-161dac292e46"/>
+    <objectType typeId="908daad2-720f-4c28-af37-15558678c7eb" valueTypeId="f0a9c661-f7c3-4423-941e-6946a6484dec"/>
+    <managerType typeId="9383a144-894d-41b0-9ef7-87bc10d129a2" valueTypeId="e7e0bb74-f209-4cb7-aba5-54410983edf4"/>
+    <recordManagerType typeId="2904cb9c-44fa-41f3-a788-bef061397311" valueTypeId="071c68db-fdbc-4984-8e8a-d2128c85544c"/>
+    <recordSetType typeId="4d70b16f-372e-475b-b9ac-b8e141724841" valueTypeId="32cbfeb3-cc05-4cd1-8b2b-8895ecc73887"/>
+    <recordType typeId="3dfdc520-73e8-464a-ba82-ad4bb7624338" valueTypeId="e243eb06-1696-4423-9343-105ff85c1ffe"/>
+    <recordKeyType typeId="e5e8485b-6e8d-4d8d-a6a9-1eaa27633e03" valueTypeId="d14d3dac-35a8-457b-a109-08085aa39455"/>
+  </producedTypes>
+  <name>IDдокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>I dдокумента</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.SqlЗатраты</parentDataSource>
+  <nameInDataSource>dbo.IdDoc</nameInDataSource>
+  <keyFields>ExternalDataSource.SqlЗатраты.Table.IDдокумента.Field.ID</keyFields>
+  <presentationField>ExternalDataSource.SqlЗатраты.Table.IDдокумента.Field.НазначениеПлатежа</presentationField>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.SqlЗатраты.Table.IDдокумента.Field.ID</inputByString>
+  <inputByString>ExternalDataSource.SqlЗатраты.Table.IDдокумента.Field.НазначениеПлатежа</inputByString>
+  <readOnly>true</readOnly>
+  <editType>InDialog</editType>
+  <tableFields uuid="d2d89289-dc86-40f9-91c0-5eb35c3261fd">
+    <name>ID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>ID</nameInDataSource>
+    <readOnly>true</readOnly>
+  </tableFields>
+  <tableFields uuid="f3a1259c-2c2b-48a9-a80a-a3c0908572a9">
+    <name>IdDoc</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>IdDoc</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="40d077d7-b29d-46b6-ba07-10cfc72d5df7">
+    <name>НомерДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер документа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>DocNumber</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="cc1cd020-6f19-4962-aacf-decc5fc185f9">
+    <name>НазначениеПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение платежа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>NaznPlat</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="74064031-c9bd-41eb-b250-478e11fe668e">
+    <name>ИнициаторПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инициатор платежа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>InizPlat</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="f79dedd3-0916-4f90-be92-c56259b21556">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <comment>Номер договора</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>DogNumber</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="f2041943-09b1-4160-92fd-4860fbf288e9">
+    <name>СтатьяДДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья ДДС</value>
+    </synonym>
+    <comment>СтатьяДДС</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>StatDDS</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

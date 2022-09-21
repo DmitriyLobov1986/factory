@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3620e8e-f767-4302-8288-181daf217cda">
+  <producedTypes>
+    <refType typeId="be5dc684-bbf4-40e3-a613-973387f4dc8d" valueTypeId="c939f2a8-8f49-4bd5-a757-7ba08f8eaafc"/>
+    <listType typeId="18f4e4c6-05fc-4e94-870f-0a606d3680a4" valueTypeId="32455529-e3f5-4867-99ef-4748052bc03e"/>
+    <objectType typeId="efa40665-2a5b-46ec-92f3-8ca72a2d82a6" valueTypeId="4eb3b7fc-fbbc-4a50-8b67-24d30aa0f673"/>
+    <managerType typeId="dd08a947-a36a-4ad6-b2db-40c62aad3d38" valueTypeId="c8006bba-91a7-4cf9-a113-795e5f0ccebc"/>
+    <recordManagerType typeId="1d9c602e-3a22-41f8-ad0b-e945834f9a1a" valueTypeId="0cffafc0-ba24-493c-8eb6-eaa5c52f899e"/>
+    <recordSetType typeId="0fe8af87-09c5-4d03-b672-0bd162cac3c5" valueTypeId="f24c6ace-2e13-40fd-9d83-e50a7894f962"/>
+    <recordType typeId="474195cd-c3e4-43d6-a410-baeaecf4c964" valueTypeId="2a45d499-bca9-4666-a4cc-1c34b6d1be81"/>
+    <recordKeyType typeId="86c32a81-3798-44e8-8b67-89aba246a5d6" valueTypeId="5fababf0-0248-4d33-863c-cfbd0392747e"/>
+  </producedTypes>
+  <name>Дата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.SqlЗатраты</parentDataSource>
+  <nameInDataSource>dbo.Data</nameInDataSource>
+  <keyFields>ExternalDataSource.SqlЗатраты.Table.Дата.Field.ID</keyFields>
+  <presentationField>ExternalDataSource.SqlЗатраты.Table.Дата.Field.Дата</presentationField>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.SqlЗатраты.Table.Дата.Field.ID</inputByString>
+  <readOnly>true</readOnly>
+  <editType>InDialog</editType>
+  <tableFields uuid="5743702f-978e-4e05-93bd-1ce870388b8a">
+    <name>ID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>ID</nameInDataSource>
+    <readOnly>true</readOnly>
+  </tableFields>
+  <tableFields uuid="4cb49aaa-3e8d-4aa9-961a-9ee75461d949">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Data</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

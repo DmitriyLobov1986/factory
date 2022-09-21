@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d723c7b-d4b0-47ee-af3f-81574cb058c0">
+  <producedTypes>
+    <listType typeId="4a385693-0d14-49e0-baf4-76f24e16e386" valueTypeId="349ec7bb-11e8-48e7-9047-ed3f5add2ba5"/>
+    <managerType typeId="97bffee0-84d7-4675-ad56-7870489ddb77" valueTypeId="6a2dea77-b940-401e-a194-e9c1b757af8b"/>
+  </producedTypes>
+  <name>ВзаимодействияКонтакта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимодействия контакта</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.Встреча.TabularSection.Участники.Attribute.Контакт</content>
+  <content>Document.ЗапланированноеВзаимодействие.TabularSection.Участники.Attribute.Контакт</content>
+  <content>Document.ТелефонныйЗвонок.Attribute.АбонентКонтакт</content>
+  <content>Document.ЭлектронноеПисьмоВходящее.TabularSection.ПолучателиПисьма.Attribute.Контакт</content>
+  <content>Document.ЭлектронноеПисьмоВходящее.TabularSection.ПолучателиКопий.Attribute.Контакт</content>
+  <content>Document.ЭлектронноеПисьмоВходящее.TabularSection.ПолучателиОтвета.Attribute.Контакт</content>
+  <content>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПолучателиПисьма.Attribute.Контакт</content>
+  <content>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПолучателиКопий.Attribute.Контакт</content>
+  <content>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПолучателиОтвета.Attribute.Контакт</content>
+  <content>Document.ЭлектронноеПисьмоИсходящее.TabularSection.ПолучателиСкрытыхКопий.Attribute.Контакт</content>
+</mdclass:FilterCriterion>

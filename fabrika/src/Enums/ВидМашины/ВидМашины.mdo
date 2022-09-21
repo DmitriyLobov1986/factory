@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bffbc667-eef5-495d-8cfb-4b437bbc12cf">
+  <producedTypes>
+    <refType typeId="a62a9953-4c4e-4e78-90f1-d4da9134b421" valueTypeId="c2eb5a64-9480-48a5-82a7-312c3cbfe411"/>
+    <listType typeId="6cb9b64f-c110-4923-b349-b77f3933d3c3" valueTypeId="6db4fe1c-5102-4143-9bd1-b6ddd89cf871"/>
+    <managerType typeId="2a2b1ee7-e3ec-4916-878a-c81b2b03cd09" valueTypeId="257ffabb-6291-460c-a996-a8aed7a15f67"/>
+  </producedTypes>
+  <name>ВидМашины</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид машины</value>
+  </synonym>
+  <comment>Вид машины</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="92a7df5c-196b-4950-bdee-83b792ddd9b2">
+    <name>Машина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Машина</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce8a3ca5-545b-4dac-947f-ab452fabc007">
+    <name>Контейнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контейнер</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

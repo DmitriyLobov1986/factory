@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="eb54b6c6-542d-4e87-ad64-f2bead9e3dda">
+  <producedTypes>
+    <selectionType typeId="395b60b9-0661-49e2-9a4a-79e345c307f4" valueTypeId="5288f47a-da1f-4867-b15a-1e689ee864f6"/>
+    <listType typeId="85efb2ab-277b-4d95-b476-3fe13a3cbd94" valueTypeId="2db926c5-dcb2-45c3-88da-2a923eece4a4"/>
+    <managerType typeId="35a67f8c-e2ab-4edc-a1ac-96be338c8b1d" valueTypeId="faa1ad9b-b5bc-41d0-8e0e-2664b1bae421"/>
+    <recordSetType typeId="9d7aa4df-c82d-4cf5-82ed-b82524ddf0c8" valueTypeId="fa42ce0a-2e19-4d65-a1a8-8df48d1d266c"/>
+    <recordKeyType typeId="10fac029-51c8-4b5c-b9ec-18c3d6364e9c" valueTypeId="720a0a58-ed65-4a5b-a69e-1eee5ba32849"/>
+    <recordType typeId="3bc5d64b-6607-403e-8f28-6e94419ef040" valueTypeId="b73bc9b3-5663-4d41-9846-97f55280f14d"/>
+    <recordManagerType typeId="c82cc958-7712-4257-a013-2ca20a85596a" valueTypeId="92f14802-4035-40c2-9e3f-2b9d73681950"/>
+  </producedTypes>
+  <name>СоставыГруппПользователей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="3822e46b-949b-40e8-8cd0-221f77e8750b">
+    <name>Пользователь</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="7ff8f397-cc52-4e7d-b0a0-9e9c5164f190">
+    <name>ГруппаПользователей</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

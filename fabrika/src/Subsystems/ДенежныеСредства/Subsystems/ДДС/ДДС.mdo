@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcef556b-e397-483d-bae2-8ffe49b5015c">
+  <name>ДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>ДДС</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.НастройкаПолейОтправки</content>
+  <content>InformationRegister.ДДС</content>
+  <content>Enum.ТипДвиженияДДС</content>
+  <content>DataProcessor.ЗаполнениеРегистраДДС</content>
+  <content>Report.ДДС</content>
+  <content>Report.Задачи</content>
+  <content>InformationRegister.ЗапрещённыеСтраны</content>
+  <content>Constant.ХранилищеЗаявокУТ11</content>
+  <parentSubsystem>Subsystem.ДенежныеСредства</parentSubsystem>
+</mdclass:Subsystem>

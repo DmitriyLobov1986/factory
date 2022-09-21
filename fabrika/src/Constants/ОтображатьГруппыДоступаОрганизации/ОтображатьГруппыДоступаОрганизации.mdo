@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="419d315f-00ba-4d53-94a3-526fc1db557d">
+  <producedTypes>
+    <managerType typeId="ce1c38d7-b36e-4a22-b1d9-7d2a9752cb26" valueTypeId="07cd6242-4b0b-49fc-8e58-b5ed123bb0a6"/>
+    <valueManagerType typeId="654066f0-d522-4f88-b449-10e18fa3aae1" valueTypeId="71904081-f4e0-463d-85b0-31155928b858"/>
+    <valueKeyType typeId="70e17abb-f2cf-5187-8c67-bb00b625c055" valueTypeId="ed5055be-493b-55ab-9757-b237774ddef6"/>
+  </producedTypes>
+  <name>ОтображатьГруппыДоступаОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать группы доступа организации</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

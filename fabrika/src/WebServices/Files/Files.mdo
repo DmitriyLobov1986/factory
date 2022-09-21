@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dba0d5db-9499-42c0-b4e0-2dd9f7ec462b">
+  <name>Files</name>
+  <synonym>
+    <key>ru</key>
+    <value>Files</value>
+  </synonym>
+  <namespace>http://www.1c.ru/docmng</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.Files</value>
+  </xdtoPackages>
+  <descriptorFileName>files.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="8ecfdcbc-099e-4206-b3d8-541517117ac5">
+    <name>GetFileList</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get file list</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>FileList</name>
+      <nsUri>http://www.1c.ru/docmng</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ПолучитьСписокФайлов</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="9f845a0d-b0cb-40c3-9e70-04f4b473990c">
+      <name>Folder</name>
+      <synonym>
+        <key>ru</key>
+        <value>Folder</value>
+      </synonym>
+      <xdtoValueType>
+        <name>Folder</name>
+        <nsUri>http://www.1c.ru/docmng</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="30c0ab17-d8c7-46c3-82e2-b67572db0a83">
+    <name>AddFolder</name>
+    <synonym>
+      <key>ru</key>
+      <value>Add folder</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>Folder</name>
+      <nsUri>http://www.1c.ru/docmng</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ДобавитьПапку</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="e82dbb36-a077-47d9-a904-f01ce82b4c19">
+      <name>ParentFolder</name>
+      <synonym>
+        <key>ru</key>
+        <value>Parent folder</value>
+      </synonym>
+      <xdtoValueType>
+        <name>Folder</name>
+        <nsUri>http://www.1c.ru/docmng</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="f4afbbd8-c503-4715-b0f2-476e0dcbf14c">
+      <name>NewFolderName</name>
+      <synonym>
+        <key>ru</key>
+        <value>New folder name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="65625b4e-9ff9-4e15-b3f1-cc0003df25ea">
+      <name>NewFolderDescr</name>
+      <synonym>
+        <key>ru</key>
+        <value>New folder descr</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="5feb2e44-9d15-4bf8-9f7d-efea6b13e402">
+    <name>GetFile</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get file</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>File</name>
+      <nsUri>http://www.1c.ru/docmng</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ПолучитьФайл</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="619f64ea-78da-448b-86c7-fbb561500211">
+      <name>Code</name>
+      <synonym>
+        <key>ru</key>
+        <value>Code</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="820d02c2-2cdd-4b09-ab65-98048daef9a0">
+    <name>AddFile</name>
+    <synonym>
+      <key>ru</key>
+      <value>Add file</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ShortFileInfo</name>
+      <nsUri>http://www.1c.ru/docmng</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ДобавитьФайл</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="b0d36a9d-9ef9-4eff-9360-aeca38d7e967">
+      <name>Folder</name>
+      <synonym>
+        <key>ru</key>
+        <value>Folder</value>
+      </synonym>
+      <xdtoValueType>
+        <name>Folder</name>
+        <nsUri>http://www.1c.ru/docmng</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="7e283796-d8a9-442b-b646-92e85beec1e3">
+      <name>File</name>
+      <synonym>
+        <key>ru</key>
+        <value>File</value>
+      </synonym>
+      <xdtoValueType>
+        <name>File</name>
+        <nsUri>http://www.1c.ru/docmng</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="5c79771f-f98c-453d-9672-8aff65978e20">
+    <name>DeleteFile</name>
+    <synonym>
+      <key>ru</key>
+      <value>Delete file</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>УдалитьФайл</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="51656bbb-096b-4be7-95fb-801e84651d32">
+      <name>Code</name>
+      <synonym>
+        <key>ru</key>
+        <value>Code</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="f9b36fd7-095a-48ef-80a6-87415eac7225">
+    <name>FindFolder</name>
+    <synonym>
+      <key>ru</key>
+      <value>Find folder</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>Folder</name>
+      <nsUri>http://www.1c.ru/docmng</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>НайтиПапку</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="1dbecc5f-fe9c-4d8b-a96b-c4c49c06d088">
+      <name>ParentFolder</name>
+      <synonym>
+        <key>ru</key>
+        <value>Parent folder</value>
+      </synonym>
+      <xdtoValueType>
+        <name>Folder</name>
+        <nsUri>http://www.1c.ru/docmng</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="97414063-7575-4bb2-9246-a5565fccc1e1">
+      <name>Name</name>
+      <synonym>
+        <key>ru</key>
+        <value>Name</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

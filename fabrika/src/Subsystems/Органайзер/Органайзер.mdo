@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="115a29d3-56b4-463b-8313-b6b78cf0894f">
+  <name>Органайзер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Органайзер</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодистемаОрганайзер</picture>
+  </picture>
+  <content>DataProcessor.ПолнотекстовыйПоискВДанных</content>
+  <content>Task.ЗадачаИсполнителя</content>
+  <content>BusinessProcess.Задание</content>
+  <content>Report.Задачи</content>
+  <content>Report.ЗависшиеЗадачи</content>
+  <content>Report.ЗадачиИстекающиеНаДату</content>
+  <content>Report.ПросроченныеЗадачи</content>
+  <content>Report.СправкаОбИсполнительскойДисциплине</content>
+  <content>DocumentJournal.Взаимодействия</content>
+  <content>Document.Встреча</content>
+  <content>Document.ЗапланированноеВзаимодействие</content>
+  <content>Document.ТелефонныйЗвонок</content>
+  <content>Document.ЭлектронноеПисьмоВходящее</content>
+  <content>Document.ЭлектронноеПисьмоИсходящее</content>
+  <content>Catalog.Файлы</content>
+  <content>CommonModule.ВзаимодействияКлиентПереопределяемый</content>
+  <content>CommonCommand.ПанельОтчетовОрганайзер</content>
+</mdclass:Subsystem>

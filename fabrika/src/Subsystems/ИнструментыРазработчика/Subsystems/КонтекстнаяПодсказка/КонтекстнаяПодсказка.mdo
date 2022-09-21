@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5176d4a6-c7cb-42c9-820a-a039377969b6">
+  <name>КонтекстнаяПодсказка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контекстная подсказка</value>
+  </synonym>
+  <comment>1.51</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>CommonPicture.ирДеревоМетаданных</content>
+  <content>CommonPicture.ирРедакторСтроковогоЛитерала</content>
+  <content>CommonPicture.ирКотекстныйСинтаксПомощник</content>
+  <content>CommonPicture.ирВопрос</content>
+  <content>631d8fb3-c3cc-4303-9fb7-e7d28b2d12bd</content>
+  <content>CommonModule.ирОбщий</content>
+  <content>DataProcessor.ирКлсПолеТекстовогоДокументаСКонтекстнойПодсказкой</content>
+  <content>DataProcessor.ирПлатформа</content>
+  <content>StyleItem.ирЦветФонаРасширенногоПредставленияЗначения</content>
+  <content>Style.ирОсновной</content>
+  <content>CommonModule.ирСервер</content>
+  <content>CommonPicture.ирИсследовать</content>
+  <parentSubsystem>Subsystem.ИнструментыРазработчика</parentSubsystem>
+</mdclass:Subsystem>

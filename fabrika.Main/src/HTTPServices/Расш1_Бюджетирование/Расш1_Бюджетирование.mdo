@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32d0bf7c-dc9f-4e87-b898-d6dec08e982b">
+  <name>Расш1_Бюджетирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расш1 бюджетирование</value>
+  </synonym>
+  <rootURL>Budget</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="665434cb-a697-48d1-b3d3-5074ed43f1f8">
+    <name>ПолучениеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение данных</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="c3e7a6ac-636d-4a3f-b53f-7513f9c7beb8">
+      <name>Получить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучениеДанныхПолучить</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

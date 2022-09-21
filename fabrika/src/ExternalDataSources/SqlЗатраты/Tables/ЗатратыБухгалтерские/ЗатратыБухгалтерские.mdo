@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0722b4f5-df51-4b7f-86cf-fc2ff5dbbf75">
+  <producedTypes>
+    <refType typeId="8028e3d0-b230-43a9-92c0-f4c1ed4698ce" valueTypeId="d9cb04d9-d9bc-44c3-96a6-3a2149a74c3e"/>
+    <listType typeId="4b2e68a9-c2b0-45f8-8410-fe7493ba20e8" valueTypeId="964b64f5-b729-4694-8828-bf4d003e7a22"/>
+    <objectType typeId="d0146446-8d2a-4621-927b-5e4a5b7678c3" valueTypeId="179d397e-6332-4506-9f27-6900b2535485"/>
+    <managerType typeId="f541695c-d38b-4929-a972-454ea50c8893" valueTypeId="89b3a9f9-d596-469c-969f-524a7b276bfc"/>
+    <recordManagerType typeId="bbd8e9ee-0ea8-4065-9565-b8eb3bd8ce80" valueTypeId="b721dbd5-f3d2-4a36-8472-fea1abffdb68"/>
+    <recordSetType typeId="ea453ab9-7122-4572-8978-d3c44a263d90" valueTypeId="7b91ab0f-eda4-4a21-8a70-2704798f7082"/>
+    <recordType typeId="7474f0c9-eeb1-4634-a217-66a73928dac5" valueTypeId="b45d8f3a-c1fa-44ef-ab11-95f53c244957"/>
+    <recordKeyType typeId="526e126f-1587-42f0-844c-a6b1ffd23d3a" valueTypeId="8c8b280a-4733-4117-84f3-0cba236bd856"/>
+  </producedTypes>
+  <name>ЗатратыБухгалтерские</name>
+  <synonym>
+    <key>ru</key>
+    <value>Затраты бухгалтерские</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.SqlЗатраты</parentDataSource>
+  <nameInDataSource>dbo.Zatr2011</nameInDataSource>
+  <tableDataType>NonobjectData</tableDataType>
+  <keyFields>ExternalDataSource.SqlЗатраты.Table.ЗатратыБухгалтерские.Field.ID</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <tableFields uuid="99060e02-b6c4-486c-a2b5-ea34287abae5">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>ExternalDataSourceTableRef.SqlЗатраты.Организация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Org_1</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="49ef9553-9de7-42b6-8639-5effc76161cd">
+    <name>КонтрагентИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент ИНН</value>
+    </synonym>
+    <type>
+      <types>ExternalDataSourceTableRef.SqlЗатраты.КонтрагентИНН</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>KontrAgInn_1</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="997d6c8f-4ff4-41d8-a836-6fd99aba41ec">
+    <name>IDдокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>I dдокумента</value>
+    </synonym>
+    <type>
+      <types>ExternalDataSourceTableRef.SqlЗатраты.IDдокумента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>IdDoc_1</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="24a44799-f320-4548-9a63-22f216f8a139">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Rashod</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="561abc0b-55a3-4db4-ad56-a38ad61b0213">
+    <name>Поступление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление</value>
+    </synonym>
+    <comment>Поступление</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Prihod</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="c93b5d34-3a9c-47a7-83d7-f06546bcfc25">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>ExternalDataSourceTableRef.SqlЗатраты.Дата</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Data_1</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="86e7be00-a8b0-4300-8cdc-77bd4f3a44ba">
+    <name>СтатьяРасхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья расхода</value>
+    </synonym>
+    <type>
+      <types>ExternalDataSourceTableRef.SqlЗатраты.СтатьяРасхода</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>StatRash_1</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="b7533bce-0db9-4a08-8f4c-eff23a1991bb">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>ExternalDataSourceTableRef.SqlЗатраты.Подразделение</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Podr_1</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="534ad0ca-45a6-4d62-9820-048afba61741">
+    <name>ID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="0e3f49ed-d7ad-4089-8be5-a30ee1650b0b">
+    <name>ChangeLogID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ChangeLogID</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="503de395-e888-46c6-9e5a-f274f6edc3be">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>ExternalDataSourceTableRef.SqlЗатраты.Валюта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Currency_1</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa09a82b-196f-4534-8db1-72e6e33b7e42">
+  <producedTypes>
+    <listType typeId="33b9dba9-f275-4e2a-9757-30b9a6185150" valueTypeId="026c543b-8c2f-40bf-ba9c-9e85b58964fc"/>
+    <managerType typeId="a5e412df-04d1-4858-ae2a-034b9672456d" valueTypeId="323fbbdc-601f-4925-b1ca-949185b5b78b"/>
+  </producedTypes>
+  <name>ДоговорыКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры контрагентов</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ДоговорыКонтрагентов</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.ПриходМашины.Attribute.ДоговорыКонтрагентов</content>
+  <content>Document.ТаможняРассчёты.Attribute.ДоговорыКонтрагентов</content>
+</mdclass:FilterCriterion>

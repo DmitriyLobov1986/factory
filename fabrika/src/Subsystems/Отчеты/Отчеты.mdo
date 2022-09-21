@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc30d9f1-a0f5-4f32-bcc0-e118f32a36f9">
+  <name>Отчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Отчёты</picture>
+  </picture>
+  <content>Report.СправочникСкладов</content>
+  <content>Report.КонтрольПодгрузок</content>
+  <content>Report.ОстаткиПоОрганизация</content>
+  <content>Report.ОтчетТест</content>
+  <content>Report.ДолжникиБухгалтерии</content>
+  <content>Report.Счёт91</content>
+  <content>Report.ПодборТовара</content>
+  <content>DataProcessor.КонсольЗапросов</content>
+  <content>Report.ОстаткиЗвено</content>
+</mdclass:Subsystem>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="978734d7-af62-410d-89d6-6d8855e4c9cd">
+  <producedTypes>
+    <objectType typeId="87bbe5cd-fb32-4036-bfdb-d04eda6abb2e" valueTypeId="ecc925a5-9421-48c0-a394-d051e352af14"/>
+    <managerType typeId="6cc96b16-26a4-4a19-bfd1-d52981290f8d" valueTypeId="a46c70f8-2116-4a35-87f7-4451c88b9651"/>
+  </producedTypes>
+  <name>СправочникСкладов</name>
+  <synonym>
+    <key>ru</key>
+    <value>СправочникСкладов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СправочникСкладов.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.СправочникСкладов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="50984c81-238b-4fc9-964b-58d021fa0e42">
+    <name>Реквизит1</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="d0847f71-c7fb-4514-a63f-6c8043a3ae1c">
+    <producedTypes>
+      <objectType typeId="fdf604ab-2637-49d8-972c-6e1a2f28b0d7" valueTypeId="9e5c3258-0380-4141-891d-caba622c8b1e"/>
+      <rowType typeId="ac3132a0-92a4-48c0-9c33-93fa0951a2bf" valueTypeId="eac11322-9846-4eff-8a8f-e7310ce5643f"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть1</name>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </tabularSections>
+  <forms uuid="5e7efbd4-1cf3-4d4a-882d-6fffe112437c">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a3cc5d48-d803-463e-abbe-1d2983ab4b37">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

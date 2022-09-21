@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ccf5c88-7155-4401-9a6f-cb08ff354315">
+  <producedTypes>
+    <managerType typeId="c5c24874-61b5-4ee4-8b2f-fed9b615227d" valueTypeId="4ee8da97-7a62-41d9-b3cb-4be59354c9b2"/>
+    <valueManagerType typeId="3397c51e-ad13-45a8-87e2-fbd1e891c1c2" valueTypeId="ce8e3530-f588-4303-96bf-a7a33360d1b5"/>
+    <valueKeyType typeId="b17f0571-ecbe-55a4-abef-517f43168471" valueTypeId="df877659-292d-5906-aa32-c6aae26d700d"/>
+  </producedTypes>
+  <name>СмсРассылка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Смс рассылка</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ОбщаяФормаТабличныхКонстант</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7557290b-c2c0-4c57-9320-e765d1be1008">
+  <producedTypes>
+    <objectType typeId="01a5aaa1-04fb-46cb-b34b-c3d2d5004207" valueTypeId="fc16f824-b833-4946-af53-8d47d18622bc"/>
+    <managerType typeId="531ccf45-57da-4a3f-bd6a-a837ac17cbea" valueTypeId="2f08946b-bc17-4a16-a503-dc8ff7a38c97"/>
+  </producedTypes>
+  <name>УправлениеВнешимиИсточникамиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление внешими источниками данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УправлениеВнешимиИсточникамиДанных.Form.ОсновнаяФорма</defaultForm>
+  <auxiliaryForm>DataProcessor.УправлениеВнешимиИсточникамиДанных.Form.ОсновнаяФорма</auxiliaryForm>
+  <forms uuid="66ab478c-a578-4e44-bd91-3f203930f3a4">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="88c1a7d4-1920-4f64-b628-8f06d25687be">
+    <name>ПараметрыСоединения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры соединения</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="df0c0437-6568-49e0-a1c2-13be3c71c781">
+    <name>ПараметрыСоединенияПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры соединения пользователей</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4296519a-794e-4268-9355-49484c4f39c8">
+    <name>Подключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключение</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="3d1dd026-d86b-4d0c-9787-dab5e0d83df1">
+    <name>УправлениеВнешимиИсточникамиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление внешими источниками данных</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

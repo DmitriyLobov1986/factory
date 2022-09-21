@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8da1f64b-cef3-4610-aa06-3b55d6a6e3de">
+  <producedTypes>
+    <objectType typeId="41db4b0a-01a9-4704-98f2-0b3b3e9e70fe" valueTypeId="958b2bd5-f874-4e55-bdf8-c9bd4c27dc0a"/>
+    <refType typeId="722584c8-57b1-4bda-a2a1-4bbe59c16687" valueTypeId="0b0d853d-10e9-487e-a08e-97c0dc9f91b5"/>
+    <selectionType typeId="21fc605c-5bf5-4003-941d-5ab6b33ad739" valueTypeId="d3d0e990-e6ba-480f-bfb2-032c477e8610"/>
+    <listType typeId="eeb987d4-83ed-4461-b10e-6da433b3e955" valueTypeId="19a4d9c9-0b07-4529-bf54-c10da75e4069"/>
+    <managerType typeId="14293dad-5100-4f6a-8d36-da258b10965b" valueTypeId="40346713-c199-4998-b198-0fbb05c1b721"/>
+  </producedTypes>
+  <name>Таможни</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таможни</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Таможни.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Таможни.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

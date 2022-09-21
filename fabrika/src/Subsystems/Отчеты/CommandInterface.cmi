@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>ActionsPanelReports</group>
+      <commands>Report.СправочникСкладов.StandardCommand.Open</commands>
+      <commands>Report.КонтрольПодгрузок.StandardCommand.Open</commands>
+      <commands>Report.ДолжникиБухгалтерии.StandardCommand.Open</commands>
+      <commands>Report.ОстаткиЗвено.StandardCommand.Open</commands>
+      <commands>Report.ОстаткиПоОрганизация.StandardCommand.Open</commands>
+      <commands>Report.ОтчетТест.StandardCommand.Open</commands>
+      <commands>Report.ПодборТовара.StandardCommand.Open</commands>
+      <commands>Report.Счёт91.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

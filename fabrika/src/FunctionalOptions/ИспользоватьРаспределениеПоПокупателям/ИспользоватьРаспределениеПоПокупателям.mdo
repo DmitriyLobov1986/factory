@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e25b8f3e-46db-4c3d-a235-68980602099b">
+  <name>ИспользоватьРаспределениеПоПокупателям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать распределение по покупателям</value>
+  </synonym>
+  <comment>Использовать механизм распределения по покупателям</comment>
+  <location>Constant.ИспользоватьРаспределениеПоПокупателям</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

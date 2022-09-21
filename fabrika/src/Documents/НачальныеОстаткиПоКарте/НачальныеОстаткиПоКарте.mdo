@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbc8b91e-071f-4430-8522-a12687084734">
+  <producedTypes>
+    <objectType typeId="9daa388e-cfdc-4973-b623-3e2b7c05eb91" valueTypeId="e12e64f6-14c1-4c1b-83b9-5ec1f3b36ef8"/>
+    <refType typeId="b539c7b3-b5a2-4429-aeb5-e5d145e5fd00" valueTypeId="cc7da129-0290-43e5-8f04-ad69285c8a83"/>
+    <selectionType typeId="d2fdeaf4-915a-4aae-ada8-c461d0708d69" valueTypeId="7df224a2-3492-44a4-b7de-1d9db033534e"/>
+    <listType typeId="746f9410-8211-46e7-80a9-1321d0209f16" valueTypeId="b7892cc6-ca89-44a1-9ccb-6b0784137390"/>
+    <managerType typeId="244418c4-b14a-47f3-9b0a-4f7cbb51eae1" valueTypeId="9e89d445-4fd1-4f8f-b526-046912b52912"/>
+  </producedTypes>
+  <name>НачальныеОстаткиПоКарте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начальные остатки по карте</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.НачальныеОстаткиПоКарте.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.НачальныеОстаткиПоКарте.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.Таможня</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="97a1b601-6618-4c1c-84d3-b8dbd009e563">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ТипОрганизации</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипОрганизации.EnumValue.Опт</value>
+      </value>
+    </choiceParameters>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Организации.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="146bc03e-ee53-434b-9f91-07a5937bc231">
+    <name>ДатаОстатка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата остатка</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b8aba47d-a84a-482b-a06c-4f05d5cefd17">
+    <name>Остаток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остаток</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b9d80fdb-abe7-4a24-a68e-b30a7a7c1e3d">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

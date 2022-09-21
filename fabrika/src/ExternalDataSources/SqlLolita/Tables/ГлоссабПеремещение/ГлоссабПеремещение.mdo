@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d05dc29a-bae9-4270-acc0-b890ce062156">
+  <producedTypes>
+    <refType typeId="b4df4b9d-b532-4058-80e0-43fb256ae4ca" valueTypeId="10bea14a-2027-4cc3-ab7a-8662b5787ba0"/>
+    <listType typeId="ca7a30d4-ce77-4f81-ac6f-ccaba0f271cc" valueTypeId="a69a939b-22a9-4779-9e2a-c22735c84c66"/>
+    <objectType typeId="ad28bc07-91d6-4ba3-9f87-597aeddbdb20" valueTypeId="2ca1b92b-02d7-40ae-b80f-4247d8a39957"/>
+    <managerType typeId="8b333a21-9601-4638-aad7-d537b05896bf" valueTypeId="c41bce12-fd51-48f4-9f1b-0eacb42de650"/>
+    <recordManagerType typeId="a2293111-6290-4e45-bca8-b66785648e03" valueTypeId="3bcef34d-c420-404f-abc2-7f0f1f862f32"/>
+    <recordSetType typeId="b08fc57c-96bf-4f7a-887a-fcb7d96e03d5" valueTypeId="e8e2ee32-cc6d-4c8b-b955-32e9efa80384"/>
+    <recordType typeId="fb36edcf-6f2f-4366-8cbe-dbca836b6608" valueTypeId="43557e31-f94b-4dc1-ac50-00ece0ead193"/>
+    <recordKeyType typeId="fe9e49af-15dc-4f24-8e6b-d7600205940d" valueTypeId="8d0d18f3-5189-430d-b2b6-303bac4c9830"/>
+  </producedTypes>
+  <name>ГлоссабПеремещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Глоссаб.Перемещение</value>
+  </synonym>
+  <comment>Перемещение товара в Глоссаб</comment>
+  <parentDataSource>ExternalDataSource.SqlLolita</parentDataSource>
+  <nameInDataSource>dbo.GlossabPer</nameInDataSource>
+  <tableDataType>NonobjectData</tableDataType>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <tableFields uuid="cba21cea-c3d8-4aca-a66b-df0f839022af">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>Date</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="b2bf675a-0094-4260-91a9-94ecffa0a0a6">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>Sum</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="36508721-b690-4038-a535-74c7f6cc12bc">
+    <name>ПокупательНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупатель наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>PostName</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="d325adc0-43fc-419c-9add-4952b9ca8ac4">
+    <name>НомерМашины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер машины</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>CarNumber</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="00cf9159-1ebe-497c-b176-0a7a0c545f0c">
+    <name>ПокупательИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупатель ИНН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>PostInn</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="3c364fbc-b951-43e1-a8f5-9d3db7311809">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>DogNumber</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

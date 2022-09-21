@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="09ec59cf-0ff2-4da2-b9b2-8254af4d0164">
+  <producedTypes>
+    <selectionType typeId="9ab2db76-f2af-409d-82bc-faa449587f6c" valueTypeId="ef06b7e1-4558-4de6-944d-55cfc633c99e"/>
+    <listType typeId="8aaed051-e83c-4293-a525-07b20d579a2b" valueTypeId="81b0ce57-b862-4052-8203-c4b4a37fba9c"/>
+    <managerType typeId="700803a2-bd74-48b6-8ff4-12d2ee65e218" valueTypeId="8f57af66-6e7e-48a2-9060-9d667f56ea1a"/>
+    <recordSetType typeId="1dacb082-e041-48ae-90a2-acc5de8c3dc6" valueTypeId="cab09d0b-b04c-49df-807e-f85c25f80cae"/>
+    <recordKeyType typeId="f55612c7-0e36-4e43-ad77-60ae63329a3a" valueTypeId="c1b73bc1-d656-4499-aade-14e5071f005a"/>
+    <recordType typeId="3b795f1b-0a8c-4a55-96d1-f23ea32ed9f7" valueTypeId="0c044659-0825-448f-80ff-f711b6a0dd58"/>
+    <recordManagerType typeId="934c79a5-7408-4a56-8cfe-f51210cf046a" valueTypeId="058d8997-9432-4371-bcd3-7454fb5e1a25"/>
+  </producedTypes>
+  <name>ДДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <resources uuid="d866ae22-e6bc-4c37-97da-50eea599240e">
+    <name>Сумма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="76818d61-9eea-4f01-87a9-92c839b91097">
+    <name>ДеньВДень</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="5d639a14-c55c-4c00-ba55-8c7d5f6a052a">
+    <name>Курс</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>4</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="7d2cdd0d-60b3-49ec-922a-27a6465319f4">
+    <name>СконвертированнаяСумма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="63b489bb-a41b-4984-a737-9e7dc4c53408">
+    <name>СчетКонтрагента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.БанковскиеСчета</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="a530db94-1917-4228-be84-9abe3a61953d">
+    <name>Получатель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="32a56315-0bde-4ebc-99bf-e530711da28e">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="0b7e1cd5-0a52-4d8a-ba26-51d2862255a1">
+    <name>ТипДвижения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипДвиженияДДС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="8454043f-089d-4590-8a0f-1e1e9e39ad63">
+    <name>СчетОрганизации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.БанковскиеСчета</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="39f61f4b-082d-4b06-a355-5289f29f09db">
+    <name>ДоговорыКонтрагентов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ДоговорыКонтрагентов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <forms uuid="89c826c2-28c2-48af-a739-a7ca42fbe72b">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:InformationRegister>

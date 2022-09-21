@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28d4f17f-b806-48b1-8418-fd0477e58a10">
+  <name>ирОперироватьИсточник</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оперировать источник (ИР)</value>
+  </synonym>
+  <comment>Для любых ссылочных объектов</comment>
+  <group>CommandGroup.ирКоманднаяПанельФормы</group>
+  <commandParameterType>
+    <types>CatalogRef.ирКомандаРедактироватьОбъект</types>
+    <types>CatalogRef.ирОбъектыДляОтладки</types>
+    <types>CatalogRef.ирАлгоритмы</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Передать источник команды в консоль кода</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ирКонсольКода</picture>
+  </picture>
+</mdclass:CommonCommand>

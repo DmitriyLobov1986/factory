@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a7108aa-06c6-4295-9b98-4d8cdb2164d0">
+  <name>Основной2020</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной2020</value>
+  </synonym>
+  <comment>Основной 2020</comment>
+</mdclass:Style>

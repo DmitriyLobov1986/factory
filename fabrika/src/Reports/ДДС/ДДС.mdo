@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e1a24cc-53f0-4aae-9540-dbee8a8234b5">
+  <producedTypes>
+    <objectType typeId="f745e6f8-5bdd-4975-80e0-a88901dcc22e" valueTypeId="73c9e18b-f0bb-4e92-a091-28ff41d00574"/>
+    <managerType typeId="c36a8842-d922-4129-9b97-02f1a6c8a24a" valueTypeId="34f33e25-a846-41ef-8f26-660c23c16e88"/>
+  </producedTypes>
+  <name>ДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>ДДС</value>
+  </synonym>
+  <comment>Отражает ДДС холдинга</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ДДС.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ДДС.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="82a87826-c627-4703-b16d-b4aec1c0c8c6">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="8f1f25f0-4742-4783-bde8-b6ef4a6cec0f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="8860d820-2e97-457b-a79e-890bb4d4092f">
+    <name>ДляРедактирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для редактирования</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="37193db5-b86e-4b8e-b737-bd407dae9b7d">
+    <name>ДетализацияРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детализация расходов</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="cb1ac0eb-5596-4e27-8c50-276059b41b54">
+    <name>ОтчетДДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет ДДС</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

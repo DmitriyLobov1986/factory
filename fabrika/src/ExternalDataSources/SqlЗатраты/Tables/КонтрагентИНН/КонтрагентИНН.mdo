@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="727f1c38-ca28-44c3-94ee-56c08356f314">
+  <producedTypes>
+    <refType typeId="30ba41f8-f14f-44f4-9e32-49bc3bae7c33" valueTypeId="187d7d00-95c3-4c73-98d6-7f0c64838763"/>
+    <listType typeId="e02d897f-f048-48b6-8497-2e76b4822246" valueTypeId="fed06fdc-e242-4987-af54-648a01526458"/>
+    <objectType typeId="bc0a53f9-6d05-4462-9209-8cd8b106c187" valueTypeId="fda1f801-99ab-4508-b020-08a3d0ed8783"/>
+    <managerType typeId="02c6fcb1-8318-4995-8e2f-a15ff50301e9" valueTypeId="45f83d3e-a862-419a-9294-8bd24d549a65"/>
+    <recordManagerType typeId="3c21519b-717f-457d-8513-96574bdb27b9" valueTypeId="ade764c5-978b-48b4-a5c7-6eee21825dca"/>
+    <recordSetType typeId="78dc096d-d20b-4565-99c8-b3c24f078401" valueTypeId="d3bc061f-7c43-4998-9a32-dbdbd9ea6e01"/>
+    <recordType typeId="b0bebc7e-58bf-4d4c-888f-d6679620f2e7" valueTypeId="8467a449-2a98-4d17-92d7-4a2ae90779c1"/>
+    <recordKeyType typeId="4ac45b75-fafd-42cd-b211-7fdb969c8a67" valueTypeId="8be906a4-cae4-4087-a2bf-81986f0fae04"/>
+  </producedTypes>
+  <name>КонтрагентИНН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагент ИНН</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.SqlЗатраты</parentDataSource>
+  <nameInDataSource>dbo.KontrAgInn</nameInDataSource>
+  <keyFields>ExternalDataSource.SqlЗатраты.Table.КонтрагентИНН.Field.ID</keyFields>
+  <presentationField>ExternalDataSource.SqlЗатраты.Table.КонтрагентИНН.Field.Наименование</presentationField>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.SqlЗатраты.Table.КонтрагентИНН.Field.ID</inputByString>
+  <inputByString>ExternalDataSource.SqlЗатраты.Table.КонтрагентИНН.Field.Наименование</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="1f4f17ec-b1d9-4712-82bc-3e9790f43410">
+    <name>ID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>ID</nameInDataSource>
+    <readOnly>true</readOnly>
+  </tableFields>
+  <tableFields uuid="642f1af9-9fc5-4de3-b6bc-913f134c7df9">
+    <name>Инн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инн</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>KontrAgInn</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="2a5132f4-85a1-402f-b754-238f33c839fa">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>KontrAg_1</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="c20374de-a2b7-4916-a78d-4570b7eb3f27">
+    <name>СвойКонтрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свой контрагент</value>
+    </synonym>
+    <comment>Свой контрагент</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <nameInDataSource>OwnKontr</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12297628-2d0a-4775-affe-28854af78fff">
+  <name>ирТекстИнформационнойНадписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текст информационной надписи (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Ир текст информационной надписи</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>83</red>
+      <green>106</green>
+      <blue>194</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

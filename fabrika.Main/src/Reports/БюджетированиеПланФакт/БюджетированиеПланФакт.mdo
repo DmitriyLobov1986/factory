@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bec19843-66f3-49d6-ace4-067c9def8674">
+  <producedTypes>
+    <objectType typeId="784dccb7-9c1c-4aae-b950-650f4fafc76d" valueTypeId="d73e23aa-7123-4d2a-8c30-dabce15c5577"/>
+    <managerType typeId="5ab322f7-8d49-41ca-b7f8-77987cac441d" valueTypeId="8fa616ec-7bd7-4eea-b164-5ab3bbe71fcc"/>
+  </producedTypes>
+  <name>БюджетированиеПланФакт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджетирование план факт</value>
+  </synonym>
+  <comment>Бюджетирование план факт</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.БюджетированиеПланФакт.Form.ОсновнаяФормаОтчёта</defaultForm>
+  <mainDataCompositionSchema>Report.БюджетированиеПланФакт.Template.ОсновнаяСхемаОтчёта</mainDataCompositionSchema>
+  <attributes uuid="4134d988-2dc4-4fc6-bc8e-43bf53292b25">
+    <name>АдресРеестраПлатежей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес реестра платежей</value>
+    </synonym>
+    <comment>Адрес реестра платежей</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ade2ae37-0ade-4c4e-934f-1279a4a0cdc4">
+    <name>ОсновнаяФормаОтчёта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма отчёта</value>
+    </synonym>
+    <comment>ОсновнаяФормаОтчёта</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6632a927-a92e-4394-9345-dfdd0115a798">
+    <name>ОсновнаяСхемаОтчёта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема отчёта</value>
+    </synonym>
+    <comment>Основная схема отчёта</comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

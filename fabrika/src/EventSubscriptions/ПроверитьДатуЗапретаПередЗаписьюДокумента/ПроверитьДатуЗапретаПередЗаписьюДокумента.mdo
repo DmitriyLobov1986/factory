@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ed17d9b-e7dd-4b65-b42c-3cfde6a5189e">
+  <name>ПроверитьДатуЗапретаПередЗаписьюДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить дату запрета перед записью документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ЗаявкаНаМашину</types>
+    <types>DocumentObject.ТаможняРассчёты</types>
+    <types>DocumentObject.ПриходМашины</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ДатыЗапретаИзменения.ПроверитьДатуЗапретаИзмененияПередЗаписьюДокумента</handler>
+</mdclass:EventSubscription>

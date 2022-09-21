@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91c5ec98-330c-42a7-b089-4df77ad6fcf1">
+  <name>ДокументыВзаимозадолженностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы взаимозадолженностей</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПриходМашины</content>
+  <content>Document.ТаможняРассчёты</content>
+  <content>Document.НачальныеОстатки</content>
+  <content>Document.КорректировкаЗадолженностей</content>
+  <content>Document.КорректировкаОплатГТД</content>
+  <parentSubsystem>Subsystem.Таможня</parentSubsystem>
+</mdclass:Subsystem>

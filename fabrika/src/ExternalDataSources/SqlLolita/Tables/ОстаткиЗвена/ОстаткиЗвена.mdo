@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="434d733d-ca45-4a1c-8d9e-b01723a25a0d">
+  <producedTypes>
+    <refType typeId="de87c056-782d-4275-a473-d2650f46da11" valueTypeId="0a7ea566-ba13-442b-b0cf-62a7377b5c25"/>
+    <listType typeId="db710004-b127-4f70-b769-0b70b04065d9" valueTypeId="bf93c280-ae57-434e-be4b-54b69cd37a5f"/>
+    <objectType typeId="b0e4b575-fd64-47a2-b0bd-a0a34d3ac482" valueTypeId="6cd35336-e383-4425-a341-a882b2b7ad07"/>
+    <managerType typeId="d745ae5d-e14f-417b-9f1c-a2a3d90c6418" valueTypeId="e5877764-7988-4e7d-a85e-121592049742"/>
+    <recordManagerType typeId="eb971f3e-269d-4ef6-9f0f-9442c2c6c770" valueTypeId="1344854c-5e33-44f0-a290-d795358d3afa"/>
+    <recordSetType typeId="e6e410cf-ec67-47fb-839e-ad229f675cfe" valueTypeId="e96a9fcb-83af-4d51-98df-5dbd0318c441"/>
+    <recordType typeId="a4645259-7473-4918-8669-e73e8268bd36" valueTypeId="f15990cc-e3a2-4875-9990-7514febc509a"/>
+    <recordKeyType typeId="36c0da04-ecca-4dc0-bfcb-c685a061cbbd" valueTypeId="14e2bdd4-f351-47e2-b9a7-01671cd1f7fd"/>
+  </producedTypes>
+  <name>ОстаткиЗвена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки звена</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.SqlLolita</parentDataSource>
+  <nameInDataSource>dbo.OstatkiZveno</nameInDataSource>
+  <tableDataType>NonobjectData</tableDataType>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <tableFields uuid="162c1925-e306-4880-9cfb-2247b546437a">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Org</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="622e458e-ed56-49a8-8326-e890ad377cf7">
+    <name>Инн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инн</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Org_1Inn_j</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="10c47d0b-c822-487b-9d69-94b5e19400c8">
+    <name>БанковскийСчёт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банковский счёт</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>BankAccount</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="78f35e90-a347-444c-b9ac-3964b3d6b44c">
+    <name>ТипДвижения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип движения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>TypeDvig_j</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="e4c34a11-0f59-4152-9798-dd9d33a25600">
+    <name>Уровень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Level</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="f0c1320b-ed13-41cb-9915-6e32df4ef392">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Sum</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="0916b702-849c-4cb7-9b56-8d3d9e9b9990">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>ExternalDataSourceTableRef.SqlLolita.dbo_SpravOtvet</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Human</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="0bc4cfd0-2437-42bd-8e07-344b3d8cf7f3">
+    <name>ТипОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип организации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>TypeOrg</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c448d60-9b13-4551-9de3-db6da0c015e7">
+  <name>ТаможняСправочная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таможня справочная</value>
+  </synonym>
+</mdclass:CommonTemplate>

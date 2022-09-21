@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23dac7bb-a8da-46b3-aab2-94326b0bd80a">
+  <name>Общие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.РегламентныеЗадачиСервер</content>
+  <content>FunctionalOption.ОтображатьНаименованиеВТорговле</content>
+  <content>DataProcessor.ЗагрузкаСправочникаОрганизаций</content>
+  <content>Enum.ТипОрганизации</content>
+  <content>Constant.ИспользоватьВерсионированиеОбъектов</content>
+  <content>CommonModule.ОбщийМодульСервер</content>
+  <content>CommonCommand.ДополнительныеОтчетыИОбработкиОтчеты</content>
+  <content>ScheduledJob.ОбновлениеСправочникаОрганизаций</content>
+  <content>CommonModule.ОбщийМодульКлиент</content>
+  <content>FunctionalOption.ОтображатьГруппыДоступаОрганизации</content>
+  <content>Constant.ОтображатьГруппыДоступаОрганизации</content>
+  <content>CommonModule.ФоновыеЗадачиСервер</content>
+  <content>EventSubscription.ПроверитьДатуЗапретаПередЗаписьюДокумента</content>
+  <content>EventSubscription.ПроверитьДатуЗапретаИзмененияПередЗаписьюНабораЗаписей</content>
+  <content>CommonModule.ДДС_Сервер</content>
+  <content>EventSubscription.ПроверкаДублированияИНН</content>
+  <content>CommonPicture.РазрешитьРедактирование</content>
+  <content>Style.Основной</content>
+  <content>CommonPicture.ВыходИзПриложения</content>
+  <content>Constant.СмсРассылка</content>
+  <content>CommonForm.ОбщаяФормаТабличныхКонстант</content>
+  <subsystems>Справочники</subsystems>
+</mdclass:Subsystem>

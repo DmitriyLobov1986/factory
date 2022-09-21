@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="594ab59e-830e-4869-aca3-38524cdfc37b">
+  <name>ВалютныеПереводы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валютные переводы</value>
+  </synonym>
+  <comment>Скрывает реквизит &quot;Получено&quot; в зависимости от контрагента</comment>
+  <location>Catalog.Контрагенты.Attribute.ВалютныйРассчёт</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ТаможняРассчёты.Attribute.Получено</content>
+  <content>Document.ТаможняРассчёты.TabularSection.ПодборГТД</content>
+  <content>Catalog.ДоговорыКонтрагентов.Attribute.Валюта</content>
+  <content>Document.ТаможняРассчёты.Attribute.ДатаСрезаИнвойсов</content>
+  <content>Document.ТаможняРассчёты.TabularSection.Боркин</content>
+</mdclass:FunctionalOption>

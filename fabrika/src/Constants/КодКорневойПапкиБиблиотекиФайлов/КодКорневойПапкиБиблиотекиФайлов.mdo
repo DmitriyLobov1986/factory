@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8139d21-0380-43b5-8025-c986f8598c74">
+  <producedTypes>
+    <managerType typeId="c34f6004-17dd-4e96-aac3-fd7bb242ae00" valueTypeId="b183e125-30f1-42d5-9a5d-a3d1f8958f0c"/>
+    <valueManagerType typeId="85f12d1c-2ee8-438f-9535-3729c9ff9d3e" valueTypeId="f6b5efa5-9f3c-4a1f-a59d-57462133a4eb"/>
+    <valueKeyType typeId="c2779cdb-cc66-5967-a7b9-3eb293c227ce" valueTypeId="0ea02767-54e7-5143-a0fe-7b404c28af62"/>
+  </producedTypes>
+  <name>КодКорневойПапкиБиблиотекиФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Код корневой папки</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

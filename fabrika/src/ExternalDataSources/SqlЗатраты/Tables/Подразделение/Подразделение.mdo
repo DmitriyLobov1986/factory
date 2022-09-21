@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75d37ed1-0ac6-44f7-a1cf-3b5b0e022c8c">
+  <producedTypes>
+    <refType typeId="22fe0a3e-6bdb-4c99-8c90-e8dee0b13170" valueTypeId="5fb0eb6c-8a56-4691-81ba-e6f819c8fcdc"/>
+    <listType typeId="4bceac81-bceb-4064-86d7-7e802466b3a7" valueTypeId="7e091575-a332-4f73-a029-f6784546da32"/>
+    <objectType typeId="6a92b176-5c77-46e0-bfe9-e335904b8cd8" valueTypeId="2d7d2a46-93a7-423e-842e-7a2164c64895"/>
+    <managerType typeId="4bad4063-68fa-46b2-ac3a-a443a2dfa708" valueTypeId="d0568088-12ec-4353-8044-f9892a02450b"/>
+    <recordManagerType typeId="39824ff9-5352-4377-a177-363afe45ec52" valueTypeId="333d8024-9513-4aac-ab79-06366571c5f8"/>
+    <recordSetType typeId="b7ea6fa3-471a-4481-99c8-b4dd5ca0a5ce" valueTypeId="9df3a956-d7da-4053-87aa-056a09ba9825"/>
+    <recordType typeId="eb5430cc-e0dc-44ea-8654-3908c86cca28" valueTypeId="b56648aa-7876-429d-b2ac-16496c909d43"/>
+    <recordKeyType typeId="7d481e1f-7ac1-4188-a6c6-236325818287" valueTypeId="a6140212-1301-4a0b-86de-144e8d983dd0"/>
+  </producedTypes>
+  <name>Подразделение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделение</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.SqlЗатраты</parentDataSource>
+  <nameInDataSource>dbo.Podr</nameInDataSource>
+  <keyFields>ExternalDataSource.SqlЗатраты.Table.Подразделение.Field.ID</keyFields>
+  <presentationField>ExternalDataSource.SqlЗатраты.Table.Подразделение.Field.Наименование</presentationField>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.SqlЗатраты.Table.Подразделение.Field.ID</inputByString>
+  <inputByString>ExternalDataSource.SqlЗатраты.Table.Подразделение.Field.Наименование</inputByString>
+  <readOnly>true</readOnly>
+  <editType>InDialog</editType>
+  <tableFields uuid="4ddbf529-128b-4194-82b8-b02b997a46dd">
+    <name>ID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>ID</nameInDataSource>
+    <readOnly>true</readOnly>
+  </tableFields>
+  <tableFields uuid="efb16e59-2ac1-4758-bce4-44b73d0a05e0">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Podr</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

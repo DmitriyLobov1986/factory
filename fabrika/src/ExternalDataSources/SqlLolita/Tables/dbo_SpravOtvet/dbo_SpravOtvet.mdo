@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34ccd1fa-8bcb-48ec-a6d8-0204fb487d7a">
+  <producedTypes>
+    <refType typeId="e229b1f9-c181-49cb-bc7a-ba6def92fa19" valueTypeId="ff2895b8-3675-45e3-8fb2-a7d1154e435a"/>
+    <listType typeId="a4c0ff1f-0526-43fd-af5e-5db6e5dab064" valueTypeId="54fcc688-fc92-4958-ab15-26ae9f1e04ab"/>
+    <objectType typeId="ddc9b33a-bfdd-4409-bb4b-de15b953a80e" valueTypeId="9d87f32b-7ab9-45e5-afee-3e5aee3ea1e8"/>
+    <managerType typeId="62662aed-9e5d-4262-91b9-be5464153112" valueTypeId="f07ef36a-6366-4d4c-86b2-752108a47931"/>
+    <recordManagerType typeId="2fa9cb5a-5c1e-447e-8a44-9497458400fb" valueTypeId="f1118cf2-968b-4afd-8311-dce3e614b568"/>
+    <recordSetType typeId="f41faa48-d8a0-42cb-a9fe-5c95fa59a60f" valueTypeId="91a212e5-0d3e-4db8-919d-6e9ba6f0ba96"/>
+    <recordType typeId="1b418783-943b-47a5-b0ef-04646e4b44f6" valueTypeId="3ac0d97f-0b06-496d-8b14-c3750f0c2d25"/>
+    <recordKeyType typeId="13d01053-c923-4d4f-9d36-1fe90ba220a0" valueTypeId="be63a93c-4934-4315-b037-c857a0214ee0"/>
+  </producedTypes>
+  <name>dbo_SpravOtvet</name>
+  <parentDataSource>ExternalDataSource.SqlLolita</parentDataSource>
+  <nameInDataSource>dbo.SpravOtvet</nameInDataSource>
+  <keyFields>ExternalDataSource.SqlLolita.Table.dbo_SpravOtvet.Field.Headers</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.SqlLolita.Table.dbo_SpravOtvet.Field.Headers</inputByString>
+  <readOnly>true</readOnly>
+  <editType>InDialog</editType>
+  <tableFields uuid="a7ffb14a-95d8-40f8-abd4-5213f835bb60">
+    <name>Headers</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>5</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Headers</nameInDataSource>
+    <readOnly>true</readOnly>
+  </tableFields>
+</mdclass:Table>

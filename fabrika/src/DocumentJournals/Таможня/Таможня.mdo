@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68acac1a-74a6-431c-b885-317f2293f09a">
+  <producedTypes>
+    <selectionType typeId="a49b4d1e-6dd7-48d9-b098-570e420750b6" valueTypeId="578dd132-a800-41d8-9a8c-980051c33f9a"/>
+    <listType typeId="0d55d4a6-2f95-438a-a189-cfe2276ce36e" valueTypeId="be1ae2b6-c494-4154-bc99-96dd46591ca9"/>
+    <managerType typeId="b4d67678-9a8c-4cbd-ae88-5482bebc669c" valueTypeId="e2ecd944-c2db-43eb-a59d-71edd56ed070"/>
+  </producedTypes>
+  <name>Таможня</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таможня</value>
+  </synonym>
+  <comment>Документы, связанные с подсистемой &quot;Таможня&quot;</comment>
+  <defaultForm>DocumentJournal.Таможня.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ЗаявкаНаМашину</registeredDocuments>
+  <registeredDocuments>Document.ПриходМашины</registeredDocuments>
+  <listPresentation>
+    <key>ru</key>
+    <value>Журнал таможни</value>
+  </listPresentation>
+  <columns uuid="1e805b47-0eba-47ef-a5fd-015a20799fce">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment>Организация</comment>
+    <references>Document.ПриходМашины.Attribute.Организация</references>
+    <references>Document.ЗаявкаНаМашину.Attribute.Организация</references>
+  </columns>
+  <columns uuid="689a92c9-6ef9-434d-adfb-2bbfb75c1e8e">
+    <name>НомерМашины</name>
+    <synonym>
+      <key>ru</key>
+      <value>НомерМашины</value>
+    </synonym>
+    <comment>НомерМашины</comment>
+    <references>Document.ЗаявкаНаМашину.Attribute.НомерМашины</references>
+    <references>Document.ПриходМашины.Attribute.НомерМашины</references>
+  </columns>
+  <columns uuid="6369cdb2-4bb2-4b29-85c6-4b6777f76e16">
+    <name>ТаможенныйПлатёж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма ТП</value>
+    </synonym>
+    <references>Document.ЗаявкаНаМашину.Attribute.ТаможенныйПлатёж</references>
+    <references>Document.ПриходМашины.Attribute.ТаможенныйПлатёж</references>
+  </columns>
+  <forms uuid="5b98b8b9-b4bf-4efb-bde8-6ddcfd687159">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

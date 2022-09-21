@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8029aa5-0268-49d8-bd1e-bdaa9b7ce34c">
+  <name>ПолнотекстовыйПоискКлиентПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полнотекстовый поиск клиент переопределяемый</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

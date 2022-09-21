@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d48c7e9-fef4-459b-a91c-6aceb5e8b3c4">
+  <producedTypes>
+    <selectionType typeId="1bae88a2-044a-46ab-9fe9-dbb9d5130dbb" valueTypeId="908baa56-cb87-4db6-bb15-e9dd1bd15b68"/>
+    <listType typeId="ab1ec6ce-1d81-44eb-93bd-82a582e8e3c6" valueTypeId="c8e2d0c6-713c-4996-a851-e065a3819e1e"/>
+    <managerType typeId="6c0f7b02-a0b8-4bbf-9dc4-e7b1b5f313c8" valueTypeId="d5939ae2-449a-4734-be30-f44eabaf4eba"/>
+    <recordSetType typeId="6e030cc3-2ea3-422b-ae85-beaa96cf2338" valueTypeId="a9d4cfb0-9e8b-43c8-acdc-e3ce78b7e273"/>
+    <recordKeyType typeId="0da575ce-be8f-444d-a833-994acbad35d6" valueTypeId="ab4a71a4-cd19-4ce5-b98a-aa1f07d8f354"/>
+    <recordType typeId="a1153dd7-7248-4187-a36c-9d76364a0b98" valueTypeId="f9c98377-a7b5-46cd-8cb1-6b9ef866afa9"/>
+    <recordManagerType typeId="ca5291a3-0a35-4858-ab39-1cb6d2bc709f" valueTypeId="ba1ed1d5-28c9-45a6-9082-3093f93d58f0"/>
+  </producedTypes>
+  <name>ТаблицаАренда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таблица аренда</value>
+  </synonym>
+  <comment>Таблица с данными аренды</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="a6fff707-5b5b-406f-9fd1-ea8fd447ad1b">
+    <name>ТипКурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип курса</value>
+    </synonym>
+    <comment>Тип курса</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="7a276d7c-89fe-43a6-be54-20f9b383ed7f">
+    <name>ДоговорБУХкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор БУХкод</value>
+    </synonym>
+    <comment>Договор БУХкод</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="fb1a0ecb-5472-4a22-b1db-3f16df40d1b9">
+    <name>ОрганизацияИнн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация инн</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="82db1a8d-0f54-4dd8-b0bf-5247bf144310">
+    <name>КонтрагентИнн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент инн</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="19913432-9007-4dbd-85f5-e4471b6a48cd">
+    <name>СтатьяКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья код</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bd3b5c18-83fb-4680-a640-f85b844a379e">
+    <name>ПодразделениеЕДКОД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение ЕДКОД</value>
+    </synonym>
+    <comment>Подразделение ЕДКОД</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

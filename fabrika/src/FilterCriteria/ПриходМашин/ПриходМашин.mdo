@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14651861-8d48-418c-9eee-63cebe6ff9e7">
+  <producedTypes>
+    <listType typeId="9c60dcba-0f7e-4539-8a2a-838b04cfa5a4" valueTypeId="f7e09c25-1134-4a55-9c68-492630004b7a"/>
+    <managerType typeId="c701a536-2960-4f10-8070-bc42ddca0232" valueTypeId="2f1d51f3-420e-43f6-98bd-ced30003db5b"/>
+  </producedTypes>
+  <name>ПриходМашин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приход машин</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ЗаявкаНаМашину</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.ПриходМашины.Attribute.ДокументОснование</content>
+  <defaultForm>FilterCriterion.ПриходМашин.Form.ФормаСписка</defaultForm>
+  <forms uuid="4992df5e-a7c0-4b5c-a214-fc5a7ee48e2e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:FilterCriterion>

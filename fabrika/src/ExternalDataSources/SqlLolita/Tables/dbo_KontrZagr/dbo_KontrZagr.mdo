@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6b25de5-587b-4bc9-9c68-20080eb65a82">
+  <producedTypes>
+    <refType typeId="6a159b6b-cf6e-4e62-b3ac-59f5400b292b" valueTypeId="d5f0f790-01d7-45af-bcd3-b744eb73c56e"/>
+    <listType typeId="7671fa50-c7f7-47fc-8263-9363e3ba5e6b" valueTypeId="c17288b2-aaae-4d4c-871f-c26ea5001d8a"/>
+    <objectType typeId="798aa0f0-e57d-4139-977c-73e3eef0ff78" valueTypeId="24abfe3e-0bd7-4d9a-85a9-4c831805fa12"/>
+    <managerType typeId="eed0e933-4943-4c49-acb6-8c2a86835a51" valueTypeId="56a9d505-be66-43cb-9d36-f26cf129c4ab"/>
+    <recordManagerType typeId="3f7f6601-0e93-4987-bd23-52abfb205b8e" valueTypeId="da855af6-c0ed-49a5-b6bd-12fcc4624d0b"/>
+    <recordSetType typeId="66f086ed-4c53-4491-a202-0b3b93457ca2" valueTypeId="98fa22e9-3db8-4f71-b0a8-28ab053b9c03"/>
+    <recordType typeId="11b43027-68ae-4e58-8667-a0b86d484d75" valueTypeId="c5c5ebb4-4877-4b39-86e1-01f8015c50bc"/>
+    <recordKeyType typeId="8542a1da-9fe7-47e8-af33-75dd3f4cf531" valueTypeId="e8098d30-e266-43c1-9051-f49830bf7a83"/>
+  </producedTypes>
+  <name>dbo_KontrZagr</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль загрузок</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.SqlLolita</parentDataSource>
+  <nameInDataSource>dbo.KontrZagr</nameInDataSource>
+  <tableDataType>NonobjectData</tableDataType>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <readOnly>true</readOnly>
+  <editType>InDialog</editType>
+  <tableFields uuid="e8e1b086-48c4-41bf-bf3e-3617d9d94dc9">
+    <name>Otchet</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчёт</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Otchet</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="9e959d2a-08c0-445d-b124-c85ade5305f4">
+    <name>Status</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Status</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="6453c279-5cf1-4568-9e75-54c3e312420c">
+    <name>Moment</name>
+    <synonym>
+      <key>ru</key>
+      <value>Момент времени</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Moment</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

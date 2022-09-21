@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a9814ba-9458-4ada-be9c-99d22f3a2934">
+  <producedTypes>
+    <refType typeId="0291c093-92db-465f-8cad-93d04eda0330" valueTypeId="ae76fb5c-79e3-44b7-af3a-53897bebd1ec"/>
+    <listType typeId="dcb51fa9-9861-42cb-b9ce-39ab9bfd7ac1" valueTypeId="bda2a2a7-0591-45bf-bd03-ed5cacdf9677"/>
+    <objectType typeId="1dc9a826-93a7-4a4d-bbe8-30740e8973fa" valueTypeId="c70f0fd3-1f8f-47a3-ae35-9ffd9f867a1f"/>
+    <managerType typeId="d804705c-a0ea-41ff-850c-2c329e53a662" valueTypeId="e68d70bc-7266-45a9-918e-65e88a752a6b"/>
+    <recordManagerType typeId="d63c695a-e5ae-4662-92d1-3bbc6a82f9c6" valueTypeId="63c1a7e5-4e2e-4509-9fce-aa34ed23e682"/>
+    <recordSetType typeId="62ee5b9b-a382-45cf-9f03-6500f5ba865b" valueTypeId="12c00909-2cdc-4775-895c-01d9f5fb1129"/>
+    <recordType typeId="dff24e4e-5a40-4cdd-bbfd-d9521b0d6eda" valueTypeId="24ef8ffc-fd54-42b4-8885-3337feeb6860"/>
+    <recordKeyType typeId="9a0b4828-5430-4d47-a9cb-171ae59c508a" valueTypeId="90391788-e46b-4a69-a5ba-d6f0cbcfe575"/>
+  </producedTypes>
+  <name>dbo_SpravSkladov</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник складов</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.SqlLolita</parentDataSource>
+  <nameInDataSource>dbo.SpravSkladov</nameInDataSource>
+  <tableDataType>NonobjectData</tableDataType>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <readOnly>true</readOnly>
+  <editType>InDialog</editType>
+  <tableFields uuid="64946879-36cb-4b57-8bec-1ef520068ab4">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Sklad</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="efaeb114-6b2c-41c0-b7e3-95bc7ae4fa99">
+    <name>Organiz</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Organiz</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="69f1a083-5dc1-4a1e-b118-be75d1a94d58">
+    <name>TypeSkl</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип склада</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>TypeSkl</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="802b145d-cde1-4c90-b6e3-d6641a98b23a">
+    <name>Square</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадь</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>38</precision>
+        <scale>8</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Square</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="7b984588-72da-4cf8-a503-fc58763ecd97">
+    <name>Den</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Den</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

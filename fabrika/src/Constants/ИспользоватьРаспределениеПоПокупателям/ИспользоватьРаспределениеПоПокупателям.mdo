@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f17deb35-629a-4064-a899-8831852253eb">
+  <producedTypes>
+    <managerType typeId="cdff1004-ed09-4a9e-938d-31a4c04e7e25" valueTypeId="d2ab70db-94d7-4d9f-91a9-98ecafcfe50f"/>
+    <valueManagerType typeId="8a04885c-ffef-49c1-b66e-69dffa273637" valueTypeId="c2078cfa-0702-4d97-a06d-56ea0a9f1855"/>
+    <valueKeyType typeId="10cab653-84ea-5906-a316-c42b08ab9deb" valueTypeId="26b24caf-73eb-553d-b34b-1d17085f53b3"/>
+  </producedTypes>
+  <name>ИспользоватьРаспределениеПоПокупателям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать распределение по покупателям</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

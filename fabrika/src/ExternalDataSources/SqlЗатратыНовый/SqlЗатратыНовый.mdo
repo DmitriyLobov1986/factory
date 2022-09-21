@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48bab325-b5b2-4e30-bc2e-e9d68f36ec37">
+  <producedTypes>
+    <managerType typeId="5380995f-25bc-4eb9-b0a4-b61560a99993" valueTypeId="1cad0cf8-f29c-43bd-bcd4-c1a454c6b36e"/>
+    <tablesManagerType typeId="e2336ce3-8f85-4f45-8a7d-d94ff1c3b04f" valueTypeId="cae645d7-7778-4719-bcb1-d477e7f4524c"/>
+    <cubesManagerType typeId="4abf6ad1-17f7-4fbc-b4db-21f742d22500" valueTypeId="0273b023-5cf1-4a78-994d-0da630414e2e"/>
+  </producedTypes>
+  <name>SqlЗатратыНовый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Sql затраты новый</value>
+  </synonym>
+  <comment>Sql затраты новый</comment>
+  <tables>ExternalDataSource.SqlЗатратыНовый.Table.сп_СтатьяРасхода</tables>
+  <functions uuid="0cafc587-4fb4-43d4-82c4-8aee54560a58">
+    <name>ПересчитатьИндекс</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПересчитатьИндекс</value>
+    </synonym>
+    <comment>ПересчитатьИндекс</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <expressionInDataSource>dbo.PDDWNEXTID_1C(&amp;1, &amp;2)</expressionInDataSource>
+  </functions>
+</mdclass:ExternalDataSource>

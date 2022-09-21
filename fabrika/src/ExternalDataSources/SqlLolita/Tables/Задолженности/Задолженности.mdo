@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ffe42f9-864b-4415-853d-788a81fcb0d6">
+  <producedTypes>
+    <refType typeId="1fef9452-fc12-40ff-bdb2-2d78f4ae77f9" valueTypeId="f3eb8d32-64a0-4adf-a9d3-e6d3aa484684"/>
+    <listType typeId="26f19998-e6a9-4785-9578-93fa90e4f5a5" valueTypeId="ddb55385-6de7-4ff3-a50b-1f78fc4a195e"/>
+    <objectType typeId="2e964970-31bc-436d-ae23-4eb3e2c7633a" valueTypeId="f8201421-25f7-445a-a95c-82274aa2a4f7"/>
+    <managerType typeId="db5893eb-bcfc-4a0b-9738-b4b1efc41bef" valueTypeId="29269863-cabc-40c3-b6b9-924d23fb4b78"/>
+    <recordManagerType typeId="a0cbff60-c791-45b8-bfdb-daa2e098cbaf" valueTypeId="98d30b67-3fc1-45e8-a216-49b0c22dd67a"/>
+    <recordSetType typeId="8d2b5570-317c-41e2-9f6f-72d8b5461afd" valueTypeId="1bf379b7-8f9b-4f84-bfe8-9f8bd5c770dd"/>
+    <recordType typeId="c8cbcb0b-5ffb-483d-ad28-49d39244556d" valueTypeId="1424e9e8-b9d2-440d-b5a9-4591406dcc2c"/>
+    <recordKeyType typeId="665a622d-3af1-4fd3-a6b3-75b5febb72d0" valueTypeId="177786f9-4dc8-428c-b24f-4e79db2fba62"/>
+  </producedTypes>
+  <name>Задолженности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задолженности</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.SqlLolita</parentDataSource>
+  <nameInDataSource>dbo.Zadolzennosti</nameInDataSource>
+  <tableDataType>NonobjectData</tableDataType>
+  <keyFields>ExternalDataSource.SqlLolita.Table.Задолженности.Field.День</keyFields>
+  <keyFields>ExternalDataSource.SqlLolita.Table.Задолженности.Field.ОрганизацияИНН</keyFields>
+  <keyFields>ExternalDataSource.SqlLolita.Table.Задолженности.Field.КонтрагентИНН</keyFields>
+  <keyFields>ExternalDataSource.SqlLolita.Table.Задолженности.Field.ДоговорНомер</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <tableFields uuid="5ef43b52-5434-4715-98a0-e0336724bd23">
+    <name>КонтрагентИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент ИНН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>KontrINN</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="312b709d-2106-463c-b1e4-26a9ec602786">
+    <name>ОрганизацияИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация ИНН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>OrgINN</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="cef37346-bdde-41e2-90f1-e46af9ee2d2f">
+    <name>СуммаДолга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма долга</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>Dolg</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="6e58e798-1ea4-4c37-a7c2-977ea7f1fe68">
+    <name>Оплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>Oplata</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="d47867d4-6181-4861-ba29-03c3723b74c5">
+    <name>ТекущаяЗадолженность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущая задолженность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>DolgDay</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="86356662-47f7-4d40-8a2e-03f73255937a">
+    <name>ДоговорНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Dogovor</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="37aede53-d902-4072-9b4f-81690f486209">
+    <name>КонтрагентНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Kontr</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="84dfff16-0c06-44b9-b444-3daa6ba485fb">
+    <name>ОрганизацияНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Org</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="2860eecb-3b18-4f28-87e2-38e707fc1a44">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>Day</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="0c5305b5-6695-47f1-9c00-f39d240bd8a1">
+    <name>СуммаДолгаПлановая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма долга плановая</value>
+    </synonym>
+    <comment>Сумма долга плановая</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>DolgPlan</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="ec684c45-c20d-4004-ac48-4fcf7f3cc4b2">
+    <name>ТекущаяЗадолженностьПлановая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущая задолженность плановая</value>
+    </synonym>
+    <comment>Текущая задолженность плановая</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>DolgDayPlan</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e22ffc3c-9c35-4cd4-be4a-bd6bb73f705b">
+  <name>ЗаписьВалютногоРассчётаВДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запись валютного рассчёта ВДДС</value>
+  </synonym>
+  <comment>Запись оплат зарубежным контрагентам в подсистему ДДС</comment>
+  <source>
+    <types>DocumentObject.ТаможняРассчёты</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.ДДС_Сервер.ЗаписьВалютногоРассчётаВДДСПриПроведении</handler>
+</mdclass:EventSubscription>

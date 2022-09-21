@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eef3f09b-385d-4387-bde9-d24a1dd877a8">
+  <producedTypes>
+    <objectType typeId="13dcaf38-296a-4fb7-a71b-39a76db4d7b7" valueTypeId="167be5bc-da3f-43fb-9749-a9f7accf702b"/>
+    <refType typeId="12cc3840-cfdf-4abf-b8c0-764507fe7a9e" valueTypeId="6c5b94ad-a734-4a58-aedb-0e8bc3600a67"/>
+    <selectionType typeId="07f4ac9d-ac13-433e-94b6-84dbd5c20cae" valueTypeId="2ecf7d13-45d7-4a8b-a5a3-a2f34f23b971"/>
+    <listType typeId="9c33537d-19e4-495c-a1e3-e5e3eefbdef6" valueTypeId="235769a6-2790-40c8-89ff-00b1938ed199"/>
+    <managerType typeId="23a9e3a3-982e-4c6d-be99-dc659512c632" valueTypeId="a2e1b669-319f-4a0c-a467-560d8ed46c9d"/>
+  </producedTypes>
+  <name>ЗвеноОтветственные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Звено ответственные</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЗвеноОтветственные.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЗвеноОтветственные.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="46ac7377-6e39-4f37-a06e-de5a56970f08">
+    <producedTypes>
+      <objectType typeId="72cd9758-a68b-417f-9e74-1275f790b3df" valueTypeId="e786a299-dec4-4724-8c9b-7841958334da"/>
+      <rowType typeId="e4943ea1-c298-414d-ab1c-a4ab2b6eb6ee" valueTypeId="19d7846d-ba82-4e79-8006-8afe47ea445d"/>
+    </producedTypes>
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+  </tabularSections>
+</mdclass:Catalog>

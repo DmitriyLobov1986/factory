@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0b422f1-c491-4450-a1a2-940481e762ff">
+  <name>ПроверкаДублированияИНН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка дублирования ИНН</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.Контрагенты</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбщийМодульСервер.ПроверкаДублированияИННПередЗаписью</handler>
+</mdclass:EventSubscription>

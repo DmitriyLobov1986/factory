@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5edaafc0-37a1-4eb6-ac6f-aa6f614981dc">
+  <name>ФинансовыйОтдел</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансовый отдел</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60208d56-f778-4ff6-abdd-ea6622504ace">
+  <producedTypes>
+    <managerType typeId="b204ca31-5549-4a8d-931e-fca4863a1c15" valueTypeId="8516ee69-4fe8-4e2a-94c6-d789f910e5a2"/>
+    <valueManagerType typeId="b87a9c4a-49c0-49d5-a6cb-367054fd6f01" valueTypeId="72ba594d-ae3f-4260-b386-715595307d5a"/>
+    <valueKeyType typeId="9abaf906-b53f-5bae-8461-106b528d8ec9" valueTypeId="c99d5c88-6ee1-5727-b4d8-fc8c3a2b30d3"/>
+  </producedTypes>
+  <name>ИмяПользователяБиблиотекиФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имя пользователя</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

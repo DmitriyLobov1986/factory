@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="586a2730-88f9-4417-8cd6-eba3fde2bcfb">
+  <producedTypes>
+    <refType typeId="541dabac-1568-440a-97a6-2cb0f9707878" valueTypeId="cba4b6e5-f6b1-4266-a1fa-5f405410428d"/>
+    <listType typeId="05d61f8f-2198-4aaf-91b6-7ea367858ec3" valueTypeId="404f796d-956d-4b0f-9c53-c3ba29e2ba04"/>
+    <objectType typeId="2086e96c-82aa-4c74-bb4d-259f214778fe" valueTypeId="a74de48d-ec10-4d8c-af86-2e3b6baf9b4b"/>
+    <managerType typeId="196f4d8b-b0c7-48fc-a950-7ebcd5ae5912" valueTypeId="c641147c-caa3-4cea-a87c-7c909b9a515d"/>
+    <recordManagerType typeId="a471e039-77b8-4c43-aeb2-2b4c98ae11af" valueTypeId="100cd20c-5bf0-4fbd-b47b-83b23d3b9991"/>
+    <recordSetType typeId="9eef7e45-5c0e-4385-95f2-7c7070aa9781" valueTypeId="b5cba95e-02fa-4a44-990f-ff74ad10a8c8"/>
+    <recordType typeId="df1f4a4a-85b9-47d9-960d-c5cec9a06d9f" valueTypeId="bd68c4f1-b995-4c21-8e5b-01c9b1da2a45"/>
+    <recordKeyType typeId="9aa3cb09-4389-4836-bd10-0446394cfa4f" valueTypeId="64577c7c-7bf2-4fda-9261-0e62b2a95a99"/>
+  </producedTypes>
+  <name>сп_Организация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сп организация</value>
+  </synonym>
+  <comment>Сп организация</comment>
+  <parentDataSource>ExternalDataSource.Бюджетирование</parentDataSource>
+  <nameInDataSource>dbo.сп_Организации</nameInDataSource>
+  <keyFields>ExternalDataSource.Бюджетирование.Table.сп_Организация.Field.ID</keyFields>
+  <presentationField>ExternalDataSource.Бюджетирование.Table.сп_Организация.Field.Имя</presentationField>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Бюджетирование.Table.сп_Организация.Field.ID</inputByString>
+  <inputByString>ExternalDataSource.Бюджетирование.Table.сп_Организация.Field.Имя</inputByString>
+  <defaultObjectForm>ExternalDataSource.Бюджетирование.Table.сп_Организация.Form.ФормаОбъекта</defaultObjectForm>
+  <editType>InDialog</editType>
+  <tableFields uuid="0dc05f0f-8a7f-4435-8a7c-b2a717d1932b">
+    <name>ID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="9869e8d7-3174-465e-b70f-8f361ad9b795">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <comment>ИНН</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>spOrg</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="7c1b0b83-146a-4e41-846a-de76bfd55c91">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <comment>Имя</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>OrgName</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <forms uuid="8f7168a7-c333-4038-ab48-94514a88aaff">
+    <name>ФормаОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма объекта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Table>

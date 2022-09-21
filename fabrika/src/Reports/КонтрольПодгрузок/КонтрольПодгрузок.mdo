@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fd87828-a73d-4bb2-a418-011f3178795e">
+  <producedTypes>
+    <objectType typeId="52be4031-39a3-48d5-abbf-3ff576769015" valueTypeId="c3d25c55-ba40-481e-8993-5fd9ff973e39"/>
+    <managerType typeId="65c6fa21-72d2-4799-b7ab-eac40d93788b" valueTypeId="9ace1988-fa4f-49f3-9a12-8568ee5ee192"/>
+  </producedTypes>
+  <name>КонтрольПодгрузок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль подгрузок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.КонтрольПодгрузок.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.КонтрольПодгрузок.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <settingsStorage>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorage>
+  <forms uuid="b8e2699f-1a40-4068-bd6d-5512cab17729">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d2299899-31e5-4e1f-bffc-b6118876aa30">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

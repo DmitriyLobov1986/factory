@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ed37d06-d1cb-454f-9525-72f0c885cfc1">
+  <name>ОтображатьНаименованиеВТорговле</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать наименование в торговле</value>
+  </synonym>
+  <location>Constant.ОтображатьНаименованиеВТорговле</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Организации.Attribute.НаименованиеВТорговле</content>
+</mdclass:FunctionalOption>

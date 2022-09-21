@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfc1c30f-41d6-40e6-8988-bbf42d8d33e8">
+  <producedTypes>
+    <selectionType typeId="c1fc4bf0-badf-4055-b21c-531af0554ad4" valueTypeId="7b80ecd0-5155-4399-99d1-fe1829a333df"/>
+    <listType typeId="ffeec437-b69b-45ff-8ce5-8f23e6125b2c" valueTypeId="1feccfa2-bfea-42dc-802b-3f2357beb37b"/>
+    <managerType typeId="a4e83b22-1b26-4396-9056-1393ad461ef0" valueTypeId="34b07d7f-fdc9-4577-a468-c1bfd753deee"/>
+    <recordSetType typeId="4c77e15d-3ca2-49c1-ac0b-1070983b482a" valueTypeId="49044e41-6896-47e0-b475-8046b9945c56"/>
+    <recordKeyType typeId="4e659784-b1d8-4aad-b844-2eb46107a86a" valueTypeId="7ae2156f-c2f6-4d70-90d7-5fa8ceaef26e"/>
+    <recordType typeId="166363c5-651d-436e-a895-cc2b57cd050e" valueTypeId="af3337fb-dc8d-4c12-b207-0338b2ba8545"/>
+    <recordManagerType typeId="d969cdb7-7ccc-463e-8f57-9ec8ae09a48c" valueTypeId="741b450b-ba8a-4fa4-9ec2-0dfd91b594a1"/>
+  </producedTypes>
+  <name>НаценкиНаТовар</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наценки на товар</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="740a0fa1-65f2-4743-b149-e8095d20a532">
+    <name>Наценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наценка %</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧДЦ=2</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧДЦ=2</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="31bd9770-57d1-4222-aa1c-88eff39d1c27">
+    <name>КонтрагентЗвена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент звена</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="728bf6fc-fa02-45be-a9de-47976ae06293">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ecc95c10-d9c0-485e-969b-475ef4fea684">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="79a79f67-df96-4699-9c71-c37ec62e59c1">
+    <name>Покупатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f6a15d97-8703-4411-ae1f-a690ef1952b6">
+    <name>ТипМашины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип машины</value>
+    </synonym>
+    <comment>Тип содержимого машины</comment>
+    <type>
+      <types>EnumRef.ТипМашины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

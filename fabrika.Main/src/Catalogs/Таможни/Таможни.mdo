@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="70994823-de2b-4196-980b-2618a480c40d">
+  <producedTypes>
+    <objectType typeId="bc5417d0-a872-41f7-92b4-181f15f90a72" valueTypeId="fe0cdedd-ea0b-4f47-95a2-9f469578e5c3"/>
+    <refType typeId="fac9aa2b-6258-4b59-87fe-b8c387c81c9d" valueTypeId="ddf3f542-4494-4c6d-b11d-7f719eab727a"/>
+    <selectionType typeId="01b75c50-8729-4b30-a2dc-8bed61b21207" valueTypeId="ce5b97b6-8a93-4a00-9ce1-1e02fd8e048c"/>
+    <listType typeId="a15bf2e8-c670-48de-b354-2cda34db84d5" valueTypeId="ddb90611-e341-4ee0-a329-1b9814e9a59b"/>
+    <managerType typeId="19fbeb13-b879-4b44-b1fe-4924d913f782" valueTypeId="ea2a4c9d-ca15-453c-aebb-cfc326680160"/>
+  </producedTypes>
+  <name>Таможни</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

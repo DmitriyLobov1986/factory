@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98a0bc84-e866-4800-be9e-ce07d64efc6e">
+  <producedTypes>
+    <refType typeId="f9b69d20-f628-42f0-9a96-f8945f23de78" valueTypeId="1351d2f8-4e27-4087-b0a1-81e9f6608bfd"/>
+    <listType typeId="183bcb6c-ae02-4267-874d-cc5a7689fefc" valueTypeId="35c870aa-4a28-4143-a9e8-b85d25f02449"/>
+    <objectType typeId="fc9ee7a5-e770-4c2a-ba48-a92d125505c7" valueTypeId="70926925-1800-45ba-b052-ccaed52d13e4"/>
+    <managerType typeId="7ad90c21-6f5f-4a12-b965-a70479e91201" valueTypeId="431f8d40-d8f2-4ef8-9cd0-11c18ec01b0d"/>
+    <recordManagerType typeId="43eb4826-2185-4251-8aca-7f2845e72d13" valueTypeId="c2412a6e-b373-4715-9151-cfd380b74b0b"/>
+    <recordSetType typeId="11d0e056-e75e-41bd-be21-bf73b358396a" valueTypeId="153585c5-4abc-4e0c-8269-75dde8052699"/>
+    <recordType typeId="3589780c-6c08-4461-934a-c77bbdef15d2" valueTypeId="4000dcfd-de16-42c9-9dd9-de0f30fd83e1"/>
+    <recordKeyType typeId="56d2e5b5-205d-4de0-8545-474963bd7a4b" valueTypeId="7ce138ef-7a50-40c1-8f87-670906c5b404"/>
+  </producedTypes>
+  <name>ГлоссабМашины</name>
+  <synonym>
+    <key>ru</key>
+    <value>Глоссаб.Машины</value>
+  </synonym>
+  <comment>Приход машин в Глоссаб</comment>
+  <parentDataSource>ExternalDataSource.SqlLolita</parentDataSource>
+  <nameInDataSource>dbo.GlossabCars</nameInDataSource>
+  <tableDataType>NonobjectData</tableDataType>
+  <keyFields>ExternalDataSource.SqlLolita.Table.ГлоссабМашины.Field.НомерМашины</keyFields>
+  <keyFields>ExternalDataSource.SqlLolita.Table.ГлоссабМашины.Field.Дата</keyFields>
+  <keyFields>ExternalDataSource.SqlLolita.Table.ГлоссабМашины.Field.ВидМашины</keyFields>
+  <keyFields>ExternalDataSource.SqlLolita.Table.ГлоссабМашины.Field.РучнаяКорректировка</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultRecordForm>ExternalDataSource.SqlLolita.Table.ГлоссабМашины.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>ExternalDataSource.SqlLolita.Table.ГлоссабМашины.Form.ФормаСписка</defaultListForm>
+  <editType>InDialog</editType>
+  <tableFields uuid="9fb72ac5-e89a-4d5e-998e-9a4bc6501a04">
+    <name>НомерМашины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер машины</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>CarNumber</nameInDataSource>
+    <readOnly>true</readOnly>
+  </tableFields>
+  <tableFields uuid="dcd3ca07-c053-4c62-aff0-91dab2f0c1a4">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>Date</nameInDataSource>
+    <readOnly>true</readOnly>
+  </tableFields>
+  <tableFields uuid="dfc9ec62-2440-4e06-a214-e8d165fc39e2">
+    <name>ВалютнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валютная сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ValSum</nameInDataSource>
+    <readOnly>true</readOnly>
+  </tableFields>
+  <tableFields uuid="2a4ff96f-a780-406b-8e81-31ddffdddfc2">
+    <name>ТаможенныйПлатёж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таможенный платёж</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>TamPlatTotal</nameInDataSource>
+    <readOnly>true</readOnly>
+  </tableFields>
+  <tableFields uuid="97426fb3-931f-49f1-b756-634a0fbb65ef">
+    <name>Гтд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гтд</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Gtd</nameInDataSource>
+    <readOnly>true</readOnly>
+  </tableFields>
+  <tableFields uuid="e6b7f97b-cf18-4cf6-ba3d-fa0cff77e868">
+    <name>КурсГТД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс ГТД</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>Kurs</nameInDataSource>
+    <readOnly>true</readOnly>
+  </tableFields>
+  <tableFields uuid="50f3ea4b-6d13-4ae5-b335-96fa07d7969c">
+    <name>ДатаИнвойса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата инвойса</value>
+    </synonym>
+    <comment>Дата инвойса</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>DateInvoice</nameInDataSource>
+    <readOnly>true</readOnly>
+  </tableFields>
+  <tableFields uuid="8e64db42-abd8-4eb1-8f15-284924bfaa65">
+    <name>ВидМашины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид машины</value>
+    </synonym>
+    <comment>Вид машины</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>CarKind</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="86e98938-cbaf-43f2-85fc-ba19bf7e2019">
+    <name>Экспортёр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспортёр</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Exporter</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="9c58c88c-8b3e-46de-a839-12519c47a0d5">
+    <name>РучнаяКорректировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручная корректировка</value>
+    </synonym>
+    <comment>Ручная корректировка</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Manual</nameInDataSource>
+  </tableFields>
+  <forms uuid="617cd6f6-5436-4930-8b61-429eed214be2">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="74a6a6bb-2076-41ac-8939-e1ff945c33ce">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Table>

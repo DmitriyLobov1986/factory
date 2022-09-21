@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c1af0a6-bc62-4aa2-9214-d9e2e5149791">
+  <name>ВыполнитьДействияПередУдалениемПрисоединенногоФайла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнить действия перед удалением присоединенного файла</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ЗаявкаНаМашинуПрисоединенныеФайлы</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ПрисоединенныеФайлы.ВыполнитьДействияПередУдалениемПрисоединенногоФайла</handler>
+</mdclass:EventSubscription>

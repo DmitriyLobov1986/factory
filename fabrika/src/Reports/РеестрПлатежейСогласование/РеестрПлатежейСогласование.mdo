@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75dc8399-419d-4255-8258-557b35da290a">
+  <producedTypes>
+    <objectType typeId="3093b92d-b290-4e41-bba1-44cc792d26b4" valueTypeId="7d20012c-28bd-458e-83ef-e8d0ab10e4e9"/>
+    <managerType typeId="73046f21-8b1c-490d-be94-957a5c7ad10e" valueTypeId="0f250b21-04ad-4c22-88a0-7354425da4e2"/>
+  </producedTypes>
+  <name>РеестрПлатежейСогласование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр платежей согласование</value>
+  </synonym>
+  <comment>Реестр платежей для выгрузки</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.РеестрПлатежейСогласование.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.РеестрПлатежейСогласование.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="dd6659ad-c0e2-47c9-bb54-ca9307d141b6">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5318b7d4-bd1b-4008-b64d-266264e437d7">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

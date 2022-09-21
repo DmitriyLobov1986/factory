@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87e29938-c7a3-4525-b8e7-e3de81a970dc">
+  <name>ирОткрытьНастройкиАлгоритмов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки алгоритмов (ИР)</value>
+  </synonym>
+  <group>CommandGroup.ирНастройки</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Открыть настройки алгоритмов</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ирНастройкиАлгоритмов</picture>
+  </picture>
+</mdclass:CommonCommand>

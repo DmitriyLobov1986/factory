@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="531daba2-3672-4412-9332-6fc9813c6f4a">
+  <producedTypes>
+    <objectType typeId="964d9d9d-012a-4486-81a8-60aadc0c9868" valueTypeId="de7dbd1a-c9ea-4673-b02a-65b29da999ba"/>
+    <refType typeId="f1cdc49b-6369-4507-ae78-07f08e7c76d7" valueTypeId="1413aa38-bace-4724-8278-c2cc79a01dad"/>
+    <selectionType typeId="d730e271-b759-4d26-beb1-b1b09b5e94ef" valueTypeId="af82f435-c593-4ba6-bb5a-a74ed7117e65"/>
+    <listType typeId="2474ba2a-c5f0-4cc9-a38a-8b25ff53bcf6" valueTypeId="0bd0b60b-55e1-4847-a781-526863a87557"/>
+    <managerType typeId="03a60088-0b73-4052-afdc-7704a90ab844" valueTypeId="5db78ca7-2aa3-40ea-b06c-75d96f2fb3b0"/>
+  </producedTypes>
+  <name>ПолучателиДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получатели ДДС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПолучателиДДС.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПолучателиДДС.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="3229c8db-0359-4da4-af95-419f037ffda1">
+      <name>Глоссаб</name>
+      <description>Глоссаб</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="6f9225eb-3d05-457e-bd54-529b895bf1bf">
+        <name>БСБ</name>
+        <description>БСБ</description>
+        <code xsi:type="core:StringValue">
+          <value>000000010</value>
+        </code>
+      </content>
+      <content id="8f18f70b-bbdb-4018-ac5a-3101dc085a17">
+        <name>ПоставщикиВходящийОстаток</name>
+        <description>Поставщики входящий остат</description>
+        <code xsi:type="core:StringValue">
+          <value>PostVhOst</value>
+        </code>
+      </content>
+      <content id="a91e2c43-5416-49dc-811e-dfc259641210">
+        <name>ПоставщикиКорректировка</name>
+        <description>Поставщики корректировка</description>
+        <code xsi:type="core:StringValue">
+          <value>PostKorr</value>
+        </code>
+      </content>
+      <content id="f7d05562-109b-4639-8fc7-876909a30c9a">
+        <name>ПоставщикиОстаток</name>
+        <description>Поставщики остаток</description>
+        <code xsi:type="core:StringValue">
+          <value>000000009</value>
+        </code>
+      </content>
+      <content id="d665ed03-fb24-4e7b-ab49-db8d59981c3f">
+        <name>ПоставщикиПлан</name>
+        <description>Поставщики план</description>
+        <code xsi:type="core:StringValue">
+          <value>000000007</value>
+        </code>
+      </content>
+      <content id="c364e91a-0d59-458f-847e-f5f1ab25c802">
+        <name>ПоставщикиФакт</name>
+        <description>Поставщики факт</description>
+        <code xsi:type="core:StringValue">
+          <value>000000008</value>
+        </code>
+      </content>
+    </items>
+    <items id="d5fe6e3a-d8db-4ad6-89dd-b7365cb90ba9">
+      <name>Депозит</name>
+      <description>Депозит</description>
+      <code xsi:type="core:StringValue">
+        <value>Deposit</value>
+      </code>
+    </items>
+    <items id="becf7776-1e84-4d24-a41d-83dea1ec9164">
+      <name>Конвертация</name>
+      <description>Конвертация</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="40a6df08-a84a-4255-882b-e58e5e1d5ef6">
+      <name>Перевод</name>
+      <description>Перевод</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="bbd962a3-2e60-4e6e-86ec-f5eae40a600b">
+      <name>ПогашениеКредита</name>
+      <description>Погашение кредита</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="124a4663-1c00-41fb-b85e-3ecab409fbfe">
+      <name>ПогашениеПроцентов</name>
+      <description>Погашение процентов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="2fad0036-392d-420d-8a98-f3d4ff9a409c">
+      <name>Прочие</name>
+      <description>Прочие</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

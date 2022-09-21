@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aec52897-8b91-41a3-9fd9-74b59461b749">
+  <name>ВнешниеWebHttpСервисы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешние web и http сервисы</value>
+  </synonym>
+  <comment>Внешние web и http сервисы</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>WebService.DeductorWebService</content>
+</mdclass:Subsystem>

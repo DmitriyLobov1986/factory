@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a6f6c84-370c-4647-ae2b-dc43f761b4f9">
+  <name>ирЦветФонаВычисляемогоЗначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет фона вычисляемого значения (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Ир цвет фона вычисляемого значения</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorRef">
+      <color>Web.LavenderBlush</color>
+    </value>
+  </value>
+</mdclass:StyleItem>

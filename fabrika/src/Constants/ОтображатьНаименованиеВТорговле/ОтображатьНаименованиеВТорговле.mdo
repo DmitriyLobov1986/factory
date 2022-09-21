@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2ecead6-78cb-4bce-b676-e9ed1f55b6db">
+  <producedTypes>
+    <managerType typeId="c8aae737-205b-40b2-828f-d94a8dbb5fcd" valueTypeId="48d61cb2-749e-4be7-866b-b14fd7403550"/>
+    <valueManagerType typeId="bd780549-f0b4-43e3-8583-6354f98d420a" valueTypeId="d35dc62e-2c23-4394-847e-e9d486d6d3c3"/>
+    <valueKeyType typeId="0e7af35e-6788-50e3-81d1-736d9e3d2107" valueTypeId="cc0cc4c0-6530-5016-844d-95688520c94e"/>
+  </producedTypes>
+  <name>ОтображатьНаименованиеВТорговле</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать наименование в торговле</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

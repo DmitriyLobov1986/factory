@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b83cb315-3ffb-4351-a29f-5cdf583b3843">
+  <producedTypes>
+    <managerType typeId="587fc521-a86f-4561-9364-3de561347221" valueTypeId="7580b01c-740c-4899-8a85-fc3a65185c75"/>
+    <tablesManagerType typeId="054e4c5b-9c26-4ccc-bd29-a6aa47530d15" valueTypeId="eaadcadb-b26e-4715-b3c1-1897cb9f7c04"/>
+    <cubesManagerType typeId="9e48525b-3f25-4b65-ad9a-ee6609c33458" valueTypeId="190b004c-dba3-4650-a757-1472c8d0077b"/>
+  </producedTypes>
+  <name>SqlЗатраты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Sql затраты</value>
+  </synonym>
+  <tables>ExternalDataSource.SqlЗатраты.Table.IDдокумента</tables>
+  <tables>ExternalDataSource.SqlЗатраты.Table.КонтрагентИНН</tables>
+  <tables>ExternalDataSource.SqlЗатраты.Table.Организация</tables>
+  <tables>ExternalDataSource.SqlЗатраты.Table.Дата</tables>
+  <tables>ExternalDataSource.SqlЗатраты.Table.СтатьяРасхода</tables>
+  <tables>ExternalDataSource.SqlЗатраты.Table.Подразделение</tables>
+  <tables>ExternalDataSource.SqlЗатраты.Table.Валюта</tables>
+  <tables>ExternalDataSource.SqlЗатраты.Table.ЗатратыБухгалтерские</tables>
+</mdclass:ExternalDataSource>

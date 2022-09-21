@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e824497a-e3ba-4e09-91e5-81cc620cb907">
+  <producedTypes>
+    <selectionType typeId="0cde2add-f258-4102-8da0-2523736107e8" valueTypeId="1075b578-6222-4bf1-a6a9-b11e00a8c381"/>
+    <listType typeId="a0f05024-8563-46af-897f-0e8007d5a85a" valueTypeId="0ae2fb51-8a9a-430d-af0f-013e07a38b0e"/>
+    <managerType typeId="09ef40ad-5037-46f5-a454-78711c43b515" valueTypeId="5c512dc4-8a6e-4d51-92a6-8352f69c3eee"/>
+    <recordSetType typeId="7e47dea1-200d-4d8c-9a01-e43fd2a88c2c" valueTypeId="3c3234dd-19c6-4cfd-9fff-61dbfc9eb383"/>
+    <recordKeyType typeId="650d9053-525e-4365-8818-ffe6b5b7ee48" valueTypeId="3e2ef02d-d8cb-4663-bb82-2eae677a5c99"/>
+    <recordType typeId="1b634366-790e-4624-a06e-765332800a86" valueTypeId="8c747759-744b-417f-a826-ec4673664690"/>
+  </producedTypes>
+  <name>ТаможняВзаимозадолженности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таможня взаимозадолженности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="43f334e8-0b5b-4d92-9e96-86de76c5e500">
+    <name>СуммаДолга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма долга</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="dca0e990-249f-4aec-a2a0-5c6bb016fb03">
+    <name>ВалютнаяСуммаДолга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валютная сумма долга</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="974087f5-6be7-472c-b4b4-e3a1bde2e355">
+    <name>ТипДвижения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип движения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="607238c7-d5ac-42e4-846f-e0f0800edf92">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="c27266de-b5df-44b2-8bbd-5f376328b4e6">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="ff1476f2-5507-4cda-a159-9dcc724d2e70">
+    <name>ДоговорыКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договоры контрагентов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>0:b36ad2d8-12f9-4891-9b5c-903d64029479</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>Отбор.Организация</name>
+      <field>0:a87b8307-9006-4ac9-86ca-e8ba26c32413</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

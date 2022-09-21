@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d91354f9-0537-4744-9bab-e832aa69ef57">
+  <producedTypes>
+    <refType typeId="fafd1f72-171c-4adb-8ff7-e4deba8bc66f" valueTypeId="c1d4ba0c-39ca-4255-bd50-04e428523f51"/>
+    <listType typeId="871da661-133a-4782-9c6e-d9d34da21fdd" valueTypeId="ed1a354f-2005-4932-a5b0-dd036b5f91bc"/>
+    <objectType typeId="0dfb6d09-4536-4d36-a472-86c8e8fc413b" valueTypeId="2436f382-13b1-45c2-bf4c-2fe6e5dc4361"/>
+    <managerType typeId="c81c87ef-56ab-4eae-8f90-7bf65cce2520" valueTypeId="43cecfb9-b3f9-4705-8b36-06b780f611ba"/>
+    <recordManagerType typeId="ea8088fe-5304-4d10-940c-b88125b85b90" valueTypeId="12cbed76-f236-4b52-9b84-94b1a86bf989"/>
+    <recordSetType typeId="d62327f9-c9d3-44f0-b853-1d051104d541" valueTypeId="a730f1b0-7324-4896-b6d1-589b9b683796"/>
+    <recordType typeId="80c4ade6-cd54-4f2f-9285-524c3cbd49df" valueTypeId="4137315a-8ddc-4290-a952-310722f3b3c8"/>
+    <recordKeyType typeId="c427a4e6-7aff-490a-ab5a-6f0b76619f96" valueTypeId="b2a7f9b8-72f8-449c-ae62-464ec367ba4e"/>
+  </producedTypes>
+  <name>dbo_Schet91</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счёт 91</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.SqlLolita</parentDataSource>
+  <nameInDataSource>dbo.Schet91</nameInDataSource>
+  <tableDataType>NonobjectData</tableDataType>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <readOnly>true</readOnly>
+  <editType>InDialog</editType>
+  <tableFields uuid="a11bdc8e-4a3b-48b6-ad61-f03cf2fb5377">
+    <name>Kvartal</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартал</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Kvartal</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="61ae2376-bf37-4d20-a2b3-c399b1b675df">
+    <name>Schet</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счёт</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>5</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Schet</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="013b4d7b-bfab-4b2c-98a6-56ac4b603ee1">
+    <name>Org</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Org</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="d43a2056-ddf9-4ad8-92bf-85e9c8b3e53e">
+    <name>Statya</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>75</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Statya</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="120a6816-cacb-4531-ad6f-299bd62cdc9a">
+    <name>SumObr</name>
+    <synonym>
+      <key>ru</key>
+      <value>СуммаОборот</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>38</precision>
+        <scale>8</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>SumObr</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="cd2a7e26-e6de-4e85-a58d-8216df5f8e1f">
+    <name>TypeOrg</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип организации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>TypeOrg</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74f02185-54d7-4a9e-8ad5-f93fc6f0d12a">
+  <producedTypes>
+    <objectType typeId="1e295969-3c35-44f0-8e86-cf28aa0fb720" valueTypeId="bc1d8ba9-6a5a-4c90-9412-46eacdfea3a2"/>
+    <managerType typeId="78712484-42b8-4a39-8a23-5efc2e0d39ac" valueTypeId="7902acfc-e0b9-4a67-baeb-7969388c8adf"/>
+  </producedTypes>
+  <name>ирДинамическийСписок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Динамический список (ИР)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ирДинамическийСписок.Form.Форма</defaultForm>
+  <forms uuid="39af25eb-2c5d-4489-aa23-5cb4a62b9ff7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39d76d2d-d0f9-44ed-9330-21710c65af1a">
+  <producedTypes>
+    <objectType typeId="d8fbad98-0dbd-4c58-9e47-f65d2dbadc22" valueTypeId="fbb6bddd-c150-48e5-b8dd-fff2df16e391"/>
+    <refType typeId="455285b9-4a5d-470b-938e-2076cd49fe8b" valueTypeId="b38be6d8-99eb-48fb-b501-f9e77ca5e36f"/>
+    <selectionType typeId="4d87c359-0e76-4d07-82a8-44bbfd7c2b0d" valueTypeId="5be239ba-d7ba-4aca-9dd7-333f937b59c5"/>
+    <listType typeId="bc861faa-9eab-44e8-950e-b0bc92ecdc01" valueTypeId="4e37777d-1f87-4f5a-be0b-eae0fc08b0b0"/>
+    <managerType typeId="49c99c0b-91d4-48d8-be35-d64f2380feb6" valueTypeId="697b8380-f1a4-45ad-9d66-eebbd007b6c7"/>
+  </producedTypes>
+  <name>КорректировкаОплатГТД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корректировка оплат ГТД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КорректировкаОплатГТД.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.КорректировкаОплатГТД.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ТаможняОплатаГТД</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="f9558798-f83e-437e-bb0d-24a002aaaf61">
+    <name>ГТД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГТД</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПриходМашины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="198e925c-81c9-456a-90b5-abaf764b1ddc">
+    <name>ПодИнвойсНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПодИнвойс номер</value>
+    </synonym>
+    <comment>ПодИнвойс номер</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eda9677c-66b4-4da9-a2cd-1a6926d0a641">
+    <name>Остаток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остаток</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="288bf47b-24d8-45b5-a2f3-869de81ec1d1">
+    <name>СуммаКорректировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма корректировки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4e5a68e2-26ed-44c3-b2e0-6e9ce23b1537">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

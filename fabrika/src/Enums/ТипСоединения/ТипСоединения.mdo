@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47a7a8ef-fa75-45fe-b679-e0e38f29c7c4">
+  <producedTypes>
+    <refType typeId="90d7ace5-6385-4fb6-9835-df75a07d4442" valueTypeId="eea967c5-a4ba-4901-bb9e-ef9e3b2306ac"/>
+    <listType typeId="b6758b79-d056-49bc-bf5f-bfc36f70eb76" valueTypeId="61689764-b84f-4d20-a4d2-e1e7c5fd2329"/>
+    <managerType typeId="ca13975c-fe3e-4f37-9dea-6f06ce062a18" valueTypeId="0d0ef978-c2bc-4650-8dac-4f667e230ea1"/>
+  </producedTypes>
+  <name>ТипСоединения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип соединения</value>
+  </synonym>
+  <comment>Тип соединения</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="568a856f-a98b-47db-a01e-9b1f41593488">
+    <name>Com</name>
+    <synonym>
+      <key>ru</key>
+      <value>Com</value>
+    </synonym>
+    <comment>Com</comment>
+  </enumValues>
+  <enumValues uuid="c0874994-63a2-41d0-b52f-18b4971731b8">
+    <name>Http</name>
+    <synonym>
+      <key>ru</key>
+      <value>Http</value>
+    </synonym>
+    <comment>Http</comment>
+  </enumValues>
+</mdclass:Enum>

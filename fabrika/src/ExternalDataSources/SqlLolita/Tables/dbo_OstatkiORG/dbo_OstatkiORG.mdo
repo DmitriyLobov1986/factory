@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd7d8822-265e-476f-938d-5dff7c025ade">
+  <producedTypes>
+    <refType typeId="2feddbc8-360a-4ec3-8234-4cabb3810ebb" valueTypeId="48833a07-f9d4-4c89-8cfa-a2ff92c3708f"/>
+    <listType typeId="e557e621-e150-467f-8239-88c5ee53d7c1" valueTypeId="bdf8f313-5b57-4fda-82b5-369bfee1d5b8"/>
+    <objectType typeId="93225243-8c8d-4cbb-a003-27c41575d76d" valueTypeId="a4d64bc5-4ead-4d68-bc15-cbde4db063cd"/>
+    <managerType typeId="2d0b0d25-8e86-4bba-b484-d2ee519de7a6" valueTypeId="dbfbb446-d308-4d4c-bb58-fd9b787769e8"/>
+    <recordManagerType typeId="90618dc7-4c77-425d-b8f5-1dffb734685e" valueTypeId="a1be6ae8-fc52-43ac-a32c-65fe117d3ad2"/>
+    <recordSetType typeId="b6b3dcb3-cc54-4e6a-963c-a03820cce241" valueTypeId="0ba3e333-b48e-462a-bc04-90967d68563e"/>
+    <recordType typeId="b104dfe2-3dfc-4971-b1fb-7cbbe99c5223" valueTypeId="0a7dc902-8d2d-4b0a-9dae-3ecbe11fe8f8"/>
+    <recordKeyType typeId="c0bd197a-2bbb-45fd-b4c4-4e1488925abb" valueTypeId="55abce4b-3daf-405d-8101-5723bce49403"/>
+  </producedTypes>
+  <name>dbo_OstatkiORG</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОстаткиПоОрганизациям</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.SqlLolita</parentDataSource>
+  <nameInDataSource>dbo.OstatkiORG</nameInDataSource>
+  <tableDataType>NonobjectData</tableDataType>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <readOnly>true</readOnly>
+  <editType>InDialog</editType>
+  <tableFields uuid="13448a91-d614-4f9a-87d6-0a0589521c56">
+    <name>TypeOrg</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип организации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>TypeOrg</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="2c8e3020-1a41-48c4-9500-89e178ad330a">
+    <name>Org</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Org</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="9f0e01f1-57b2-4892-b6a2-5d606f486d22">
+    <name>Schet</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счёт</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Schet</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="cf83a0c1-ee9a-464c-80f9-33e8b82c842a">
+    <name>Valuta</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Valuta</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="8434d611-cf45-49a9-a2c2-d2a447292682">
+    <name>OstatokNaCh</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остаток</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>38</precision>
+        <scale>8</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>OstatokNaCh</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="40ab3676-4029-4020-b3b1-85e33d933e46">
+    <name>MomentZAGR</name>
+    <synonym>
+      <key>ru</key>
+      <value>МоментЗагрузки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>MomentZAGR</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="0e70fa06-c4df-4fde-bbfa-e5623d857719">
+    <name>Den</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Den</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

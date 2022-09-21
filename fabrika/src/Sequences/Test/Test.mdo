@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Sequence xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41edca6a-18f9-4f47-b89a-0ef18d961e95">
+  <producedTypes>
+    <recordType typeId="335519fc-a934-49ec-8a43-cf389d846d1b" valueTypeId="42deabc8-e0b0-40d5-9568-d1def59b9f89"/>
+    <managerType typeId="ce574d29-a143-44ad-938e-a2f87ed3b5f8" valueTypeId="69faccf3-7f0b-4f33-90eb-6590167df1c7"/>
+    <recordSetType typeId="d5870758-a702-4ceb-ac00-402db2c5f010" valueTypeId="87566a65-dced-48f6-bf25-530eff8022fb"/>
+  </producedTypes>
+  <name>Test</name>
+  <synonym>
+    <key>ru</key>
+    <value>Test</value>
+  </synonym>
+  <documents>Document.ЗаявкаНаМашину</documents>
+  <registerRecords>AccumulationRegister.ТаможняВзаимозадолженности</registerRecords>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Sequence>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="40e22f5c-bf67-4e88-b3c6-b26b2ba0c9ac">
+  <name>Основное</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основное</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="dff67265-741f-461d-9647-19d80376fcdb"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="88fa92c3-06de-4a84-8414-6f2326391676"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e0931a7e-537f-48ec-8f40-166fbf8b3f79"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="daf703f5-7bb9-4d67-9805-4b8468cbd0c7"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="477992a7-21a5-46c3-a2ca-c819275af683"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="149c1a70-27ce-4de5-9b61-30719822abce"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="b24ee173-0a23-432e-8230-632008bd2c3f"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Расш1_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
+  <languages uuid="08cf69c5-1aa1-423f-ac25-590733bed98d">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ДенежныеСредства</subsystems>
+  <subsystems>Subsystem.Таможня</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
+  <subsystems>Subsystem.Общие</subsystems>
+  <subsystems>Subsystem.ВнешниеИсточникиДанных</subsystems>
+  <subsystems>Subsystem.ВнешниеWebHttpСервисы</subsystems>
+  <styleItems>StyleItem.МоиВариантыОтчетовЦвет</styleItems>
+  <commonPictures>CommonPicture.КартинкаГТД</commonPictures>
+  <commonPictures>CommonPicture.ирСвертка</commonPictures>
+  <commonPictures>CommonPicture.ирНастройкаЖурналаРегистрации</commonPictures>
+  <commonPictures>CommonPicture.ирВыполнить2</commonPictures>
+  <commonPictures>CommonPicture.ирСумма</commonPictures>
+  <commonPictures>CommonPicture.ирСвернутьВсе</commonPictures>
+  <commonPictures>CommonPicture.СинхронизацияДанныхДанныеПолучены</commonPictures>
+  <commonPictures>CommonPicture.ирКонсольЗапросов</commonPictures>
+  <commonPictures>CommonPicture.ирВыходящий</commonPictures>
+  <commonPictures>CommonPicture.КартинкиПолейОтправки</commonPictures>
+  <commonPictures>CommonPicture.ирОткрыть</commonPictures>
+  <commonPictures>CommonPicture.ирДата</commonPictures>
+  <commonPictures>CommonPicture.Комментарий</commonPictures>
+  <commonPictures>CommonPicture.ВариантыОтчетовДоступныеВсемПользователям</commonPictures>
+  <commonPictures>CommonPicture.РазрешитьРедактирование</commonPictures>
+  <commonPictures>CommonPicture.ОтправитьEmail</commonPictures>
+  <commonPictures>CommonPicture.ОтправитьЭлектронноеПисьмо</commonPictures>
+  <commonPictures>CommonPicture.Детализация</commonPictures>
+  <commonPictures>CommonPicture.ОстаткиДенег</commonPictures>
+  <commonPictures>CommonPicture.ЗнакСтоп</commonPictures>
+  <commonPictures>CommonPicture.ЗнакСтопЧБ</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияВариантыВажности</commonPictures>
+  <commonPictures>CommonPicture.ВосклицательныйЗнакСерый</commonPictures>
+  <commonPictures>CommonPicture.ВыполнитьРегламентноеЗаданиеВручную</commonPictures>
+  <commonPictures>CommonPicture.СостоянияПользователей</commonPictures>
+  <commonPictures>CommonPicture.Расш1_Search</commonPictures>
+  <commonPictures>CommonPicture.Глоссаб</commonPictures>
+  <commonPictures>CommonPicture.ВторойРеестр</commonPictures>
+  <commonPictures>CommonPicture.Расш1_КартинкаДетальногоРедактирования</commonPictures>
+  <commonPictures>CommonPicture.Расш1_Кот</commonPictures>
+  <roles>Role.АдминистраторСистемы</roles>
+  <roles>Role.Бухгалтерия</roles>
+  <roles>Role.ФинансовыйОтдел</roles>
+  <commonModules>CommonModule.Расш1_Бюджетирование</commonModules>
+  <commonModules>CommonModule.ДДС_Сервер</commonModules>
+  <commonModules>CommonModule.ОбщийМодульСервер</commonModules>
+  <commonModules>CommonModule.РегламентныеЗадачиСервер</commonModules>
+  <xDTOPackages>XDTOPackage.Deductor</xDTOPackages>
+  <webServices>WebService.DeductorWebService</webServices>
+  <httpServices>HTTPService.Расш1_HTTPСервис_УТ11</httpServices>
+  <httpServices>HTTPService.Расш1_Бюджетирование</httpServices>
+  <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
+  <constants>Constant.ХранилищеЗаявокУТ11</constants>
+  <commonForms>CommonForm.Расш1_РедактированиеТаблицВХ</commonForms>
+  <commonForms>CommonForm.ДлительнаяОперацияДополнительныхОтчетовИОбработок</commonForms>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.БанковскиеСчета</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ВариантыОтчетов</catalogs>
+  <catalogs>Catalog.Таможни</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.РолиИсполнителей</catalogs>
+  <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
+  <catalogs>Catalog.ПредопределенныеВариантыОтчетов</catalogs>
+  <catalogs>Catalog.ПолучателиДДС</catalogs>
+  <catalogs>Catalog.ГруппыДоступаОрганизации</catalogs>
+  <catalogs>Catalog.ГруппыПользователей</catalogs>
+  <catalogs>Catalog.ВнешниеПользователи</catalogs>
+  <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>
+  <catalogs>Catalog.Инициаторы</catalogs>
+  <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
+  <documents>Document.ТаможняРассчёты</documents>
+  <documents>Document.ПриходМашины</documents>
+  <documents>Document.КорректировкаОплатГТД</documents>
+  <enums>Enum.ТипМашины</enums>
+  <enums>Enum.ТипДвиженияДДС</enums>
+  <enums>Enum.ВариантРаспределенияПлатежа</enums>
+  <enums>Enum.ТипыОтчетов</enums>
+  <enums>Enum.ВариантыВажностиЗадачи</enums>
+  <enums>Enum.СостоянияБизнесПроцессов</enums>
+  <reports>Report.ЗадолженностиПоТовару</reports>
+  <reports>Report.СправочникОрганизаций</reports>
+  <reports>Report.РеестрПлатежей</reports>
+  <reports>Report.РеестрПлатежейСогласование</reports>
+  <reports>Report.ДДС</reports>
+  <reports>Report.ОстаткиПоОрганизация</reports>
+  <reports>Report.Бюджетирование</reports>
+  <reports>Report.БюджетированиеПланФакт</reports>
+  <dataProcessors>DataProcessor.РаспределениеДС</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаполнениеРегистраДДС</dataProcessors>
+  <informationRegisters>InformationRegister.ДДС</informationRegisters>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.СоставыГруппПользователей</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТаможняОплатаГТД</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
+  <businessProcesses>BusinessProcess.СогласованиеРеестраПлатежей</businessProcesses>
+  <tasks>Task.ЗадачаИсполнителя</tasks>
+  <externalDataSources>ExternalDataSource.SqlLolita</externalDataSources>
+  <externalDataSources>ExternalDataSource.Бюджетирование</externalDataSources>
+  <externalDataSources>ExternalDataSource.SqlЗатраты</externalDataSources>
+</mdclass:Configuration>

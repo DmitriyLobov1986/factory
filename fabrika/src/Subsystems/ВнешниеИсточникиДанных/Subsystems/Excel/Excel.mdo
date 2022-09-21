@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e9c61f2-0cee-44f0-8495-70f0db97b5ad">
+  <name>Excel</name>
+  <synonym>
+    <key>ru</key>
+    <value>Excel</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ExternalDataSource.Excel.Table.Займ</content>
+  <parentSubsystem>Subsystem.ВнешниеИсточникиДанных</parentSubsystem>
+</mdclass:Subsystem>

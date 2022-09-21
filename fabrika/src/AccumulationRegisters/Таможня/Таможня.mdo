@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a15798b0-8316-42c2-b9dd-e69ff742b673">
+  <producedTypes>
+    <selectionType typeId="ded3f165-cd2f-4581-a5ec-a351e102d244" valueTypeId="9566254f-d72f-4373-b1c8-d3a5a8c38ddd"/>
+    <listType typeId="ff88c45f-7bb3-4019-9404-21fc1a11f2ed" valueTypeId="5ca8b85e-d4c2-4a5a-93cd-7723e722c90a"/>
+    <managerType typeId="f8192de2-766e-47c3-9955-200b5a83eeaf" valueTypeId="92d24151-1f02-4433-9b55-f2b3a4983ead"/>
+    <recordSetType typeId="545e1ae1-12e2-42e3-9065-fa8f3240aff8" valueTypeId="1c181457-fc44-4219-a08d-6a4c20208403"/>
+    <recordKeyType typeId="d59a8c6b-e36d-4430-9c14-52c97fc0653f" valueTypeId="37823ae6-02f7-48da-9dd7-7dca9582c129"/>
+    <recordType typeId="551f3a81-d784-4bcb-9c05-34c3f602349c" valueTypeId="eb836ac4-f423-43b3-99d0-25a1a1eb2214"/>
+  </producedTypes>
+  <name>Таможня</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таможня</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="aa270780-9dc9-4da9-8f2b-f6185b921429">
+    <name>СуммаUSD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма USD</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="09689b4b-8bf4-4ea3-abba-77764996e2f6">
+    <name>СуммаФакт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма факт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="3129cb3b-4eaa-4353-a46a-d0ece375d7cd">
+    <name>ТипДвижения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип движения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="ed683cc7-5dfe-494a-8ca5-f75399ea4969">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="80045c2d-cb90-4c9d-b5b8-f1ce69dc8bc7">
+    <name>СчётСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счёт списания</value>
+    </synonym>
+    <comment>Счёт списания таможенных платежей</comment>
+    <type>
+      <types>CatalogRef.БанковскиеСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

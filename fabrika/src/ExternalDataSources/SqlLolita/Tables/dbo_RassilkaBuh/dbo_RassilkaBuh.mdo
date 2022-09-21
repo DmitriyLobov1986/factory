@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04472e2d-6811-4596-8aa7-b0f170dd0d5a">
+  <producedTypes>
+    <refType typeId="d0fb735e-068e-46a2-b292-221a39dd00f3" valueTypeId="524ff1aa-d723-4823-8420-31d401cd0b13"/>
+    <listType typeId="91543b0a-4684-4ad2-9db2-7f0d75ee4118" valueTypeId="1c12306b-8006-48d1-8993-b0d411ef7889"/>
+    <objectType typeId="d6966433-cc3f-40ff-b996-70a753c68081" valueTypeId="2db8fce8-c0aa-45c4-b2eb-b37b22bd4db0"/>
+    <managerType typeId="e8f0c61a-ce45-4788-82f4-f29c3c049f98" valueTypeId="bfc32611-c2df-4860-9085-73a060936863"/>
+    <recordManagerType typeId="47e5e9cb-caf9-4119-8047-1dcc3582a03c" valueTypeId="6a9c11a1-e1cb-4c25-846c-f02c1423f219"/>
+    <recordSetType typeId="96aa6380-cba0-4653-8c94-aefe4e03ef7d" valueTypeId="ce7f4ad9-1fcf-4a1f-be2a-396b0b4cf22b"/>
+    <recordType typeId="bda8ba6d-df4d-46e8-97e7-5e24556feb1c" valueTypeId="07a11e33-492d-42b1-b386-561143454165"/>
+    <recordKeyType typeId="f8e77fa3-4f28-4535-8817-4d36f0bb4fc6" valueTypeId="ec32fe38-5aad-4965-8468-5e93b909d323"/>
+  </producedTypes>
+  <name>dbo_RassilkaBuh</name>
+  <parentDataSource>ExternalDataSource.SqlLolita</parentDataSource>
+  <nameInDataSource>dbo.RassilkaBuh</nameInDataSource>
+  <tableDataType>NonobjectData</tableDataType>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <readOnly>true</readOnly>
+  <editType>InDialog</editType>
+  <tableFields uuid="ee88eafe-a925-41bf-8b90-4973d78acbda">
+    <name>Org</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Org</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="7b4efdfa-d8fc-43e6-9a70-ef74c1e0df96">
+    <name>Kontr</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контагент</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Kontr</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="620db64e-1672-4eb0-9757-b8a8976ab174">
+    <name>Dog</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Dog</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="15b395e1-5854-42b8-9871-fd0072e4340a">
+    <name>Schet</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счёт</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Schet</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="fea9594b-2799-443c-890d-b1a4d7ef210c">
+    <name>Iniziator</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инициатор</value>
+    </synonym>
+    <type>
+      <types>ExternalDataSourceTableRef.SqlLolita.dbo_SpavFizLis</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Iniziator</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="4e3676cd-8cd9-4899-a837-1e59ef4a574b">
+    <name>Email</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Email</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="d609d8e4-8d5e-4540-b74a-21c72374f440">
+    <name>Sum</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>38</precision>
+        <scale>8</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Sum</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="edbe57fb-3bb1-43f3-89b8-aa0eb0bc7a75">
+    <name>MomentVR</name>
+    <synonym>
+      <key>ru</key>
+      <value>МоментВремени</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>MomentVR</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="d23f116d-8eaf-45bc-99a8-07aa9d0cbd9e">
+    <name>KontrInn</name>
+    <synonym>
+      <key>ru</key>
+      <value>КонтрагентИнн</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>KontrInn</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="bc9f6dea-7c37-429a-8523-51200b44c0b2">
+    <name>StatusOtp</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус загрузки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>StatusOtp</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

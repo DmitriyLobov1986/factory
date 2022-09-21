@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WSReference xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a29dd34-9de1-4f8d-a42d-e0afb51c2956">
+  <producedTypes>
+    <managerType typeId="91085c73-9803-414f-a30f-ccb503389cc5" valueTypeId="824df8c2-3a15-406e-972a-563ec22338a4"/>
+  </producedTypes>
+  <name>WSСсылка1</name>
+  <locationURL>http://smpp3.websms.ru:8183/soap?WSDL</locationURL>
+</mdclass:WSReference>

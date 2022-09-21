@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5111ea18-1867-4df3-a2d6-6ab4fc93d3be">
+  <name>ДДС_Сервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>ДДС Сервер</value>
+  </synonym>
+  <comment>Серверные процедуры подсистемы &quot;ДДС&quot;</comment>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

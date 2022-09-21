@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOptionsParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a18f52f-1621-45d0-95ed-bd9ce88ffb1e">
+  <name>ТипОбъектаКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип объекта конфигурации</value>
+  </synonym>
+  <use>InformationRegister.НастройкиВерсионированияОбъектов.Dimension.ТипОбъекта</use>
+</mdclass:FunctionalOptionsParameter>

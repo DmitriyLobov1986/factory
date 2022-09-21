@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c84195fe-0be9-4f89-9d94-29539a1de09a">
+  <name>ДанныеSQL</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension"/>
+  <content>ExternalDataSource.SqlЗатраты.Table.Валюта</content>
+  <content>ExternalDataSource.SqlЗатраты.Table.СтатьяРасхода</content>
+  <content>ExternalDataSource.SqlЗатраты.Table.IDдокумента</content>
+  <content>ExternalDataSource.SqlЗатраты.Table.КонтрагентИНН</content>
+  <content>ExternalDataSource.SqlЗатраты.Table.Организация</content>
+  <content>ExternalDataSource.SqlЗатраты.Table.Дата</content>
+  <content>ExternalDataSource.SqlЗатраты.Table.ЗатратыБухгалтерские</content>
+  <content>ExternalDataSource.SqlLolita.Table.Задолженности</content>
+  <parentSubsystem>Subsystem.ВнешниеИсточникиДанных</parentSubsystem>
+</mdclass:Subsystem>

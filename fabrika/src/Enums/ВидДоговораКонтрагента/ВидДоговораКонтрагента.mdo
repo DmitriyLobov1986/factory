@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a2bddd4-360c-41d8-b469-c5e71e1bc779">
+  <producedTypes>
+    <refType typeId="7f2a3fa3-9fb0-479b-9818-f39456371ec7" valueTypeId="44d5a29a-d0cd-456e-9a12-8e5a1078fafd"/>
+    <listType typeId="3fb4c29e-fa7d-4c91-8657-568f42b0bf98" valueTypeId="d41dadac-7b12-43ac-8bf2-b173b9fbf618"/>
+    <managerType typeId="f18a00cd-ac4d-46b7-a638-0cf3bc5c78e4" valueTypeId="79c443fe-dd04-416b-9d9e-3f2790cd4be0"/>
+  </producedTypes>
+  <name>ВидДоговораКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид договора контрагента</value>
+  </synonym>
+  <comment>Вид договора контрагента</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0735d42c-59ec-41e9-9f93-330ca3223aa4">
+    <name>Поставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставка</value>
+    </synonym>
+    <comment>Договор поставки</comment>
+  </enumValues>
+  <enumValues uuid="87575460-b7f2-4c50-881e-d713e31c6aff">
+    <name>Комиссия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комиссия</value>
+    </synonym>
+    <comment>Договор комиссии</comment>
+  </enumValues>
+  <enumValues uuid="d13d2551-3466-4a89-a476-8baf2cb27893">
+    <name>ВозвратЗайма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат займа</value>
+    </synonym>
+    <comment>ВозвратЗайма</comment>
+  </enumValues>
+</mdclass:Enum>

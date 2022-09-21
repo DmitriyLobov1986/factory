@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e596e4a1-2dfa-48c4-bcc3-d0dd9af28c25">
+  <name>РассылкаИнициаторам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылка инициаторам</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonForm.ФормаВыбораИнициаторов</content>
+  <content>Report.РассылкаИнициаторам</content>
+  <content>CommonModule.СКДнастройки</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Регистры</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f3eda32-9315-4142-b7f6-3621ce73c944">
+  <producedTypes>
+    <objectType typeId="c3e20428-4839-41c7-9090-b8775098508d" valueTypeId="0d17858e-632b-458f-b4cc-f473b50cd5e3"/>
+    <refType typeId="6ae3ac89-9e80-4f2a-a957-832f231f81b9" valueTypeId="db8652f5-5e89-43a5-a9e8-1d713956c81c"/>
+    <selectionType typeId="228b1903-dec5-4e25-93b9-7ee3c5f033c4" valueTypeId="c60c4781-cd09-4724-9d59-9e5fea25ed75"/>
+    <listType typeId="2b265b8b-7b12-44b5-9eef-95ece9d60133" valueTypeId="f9e45371-4069-4ece-9f51-f72ca1b4d2c9"/>
+    <managerType typeId="24a31090-b529-4072-84f2-62601e9243b5" valueTypeId="0a3975d0-6f85-48e0-95da-b23e743151f2"/>
+  </producedTypes>
+  <name>ИнициаторыПлатежа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инициаторы платежа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИнициаторыПлатежа.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИнициаторыПлатежа.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c5b53989-d853-4000-90da-7676e8c09bc4">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

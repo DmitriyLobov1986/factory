@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae149146-f804-4cf3-9bd8-13dcc298e49a">
+  <name>ДенежныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Денежные средства</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОстаткиДенег</picture>
+  </picture>
+  <content>Report.ОстаткиПоОрганизация</content>
+  <content>Report.ОстаткиЗвено</content>
+  <content>CommonPicture.ОстаткиДенег</content>
+  <content>Role.ДДС</content>
+  <content>DataProcessor.ЗагрузкаПлатежей</content>
+  <content>CommonForm.ФормаВыбораПолучателя</content>
+  <content>ScheduledJob.ОчищениеКэшаНастроекФорм</content>
+  <content>CommonCommand.ДополнительныеОбработкиДенежныеСредства</content>
+  <content>EventSubscription.УдалениеВалютногоРассчётаИзДДС</content>
+  <content>EventSubscription.ЗаписьВалютногоРассчётаВДДС</content>
+  <content>Role.Бухгалтерия</content>
+  <content>CommonPicture.Детализация</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>ДДС</subsystems>
+  <subsystems>БизнесПроцессы</subsystems>
+  <subsystems>Бюджетирование</subsystems>
+</mdclass:Subsystem>

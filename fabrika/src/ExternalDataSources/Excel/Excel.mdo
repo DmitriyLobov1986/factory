@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8816764-08ed-4a50-8ccf-eb3f8e828a1b">
+  <producedTypes>
+    <managerType typeId="b906a408-0219-43bb-92f8-b516868374fe" valueTypeId="b807d4a6-7e82-4e34-8da0-5b5323bddb5d"/>
+    <tablesManagerType typeId="873baa8b-9d10-4df5-85bc-a43ec5c5adab" valueTypeId="bc7b286e-b425-45b7-af04-62442a1cfc88"/>
+    <cubesManagerType typeId="1f5280c3-a40c-49b1-b567-fe722b685b69" valueTypeId="9f8303d5-6e02-483c-a09c-1dba9a671efc"/>
+  </producedTypes>
+  <name>Excel</name>
+  <synonym>
+    <key>ru</key>
+    <value>Excel</value>
+  </synonym>
+  <comment>Движение займов для Армении</comment>
+  <tables>ExternalDataSource.Excel.Table.Займ</tables>
+</mdclass:ExternalDataSource>

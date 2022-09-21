@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19ac940e-34e2-4277-987a-53b28dde5910">
+  <producedTypes>
+    <objectType typeId="cd5447e2-3a33-417e-9a2d-c6b84be410f0" valueTypeId="c3873384-3ff2-40b1-afa7-131a8a3b2008"/>
+    <managerType typeId="9ce53b88-fe2c-44fe-be38-e1fa19d71b67" valueTypeId="ed0d77ae-2891-4c3e-a4e7-eeb42e2031d9"/>
+  </producedTypes>
+  <name>СправкаОбИсполнительскойДисциплине</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справка об исполнительской дисциплине</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СправкаОбИсполнительскойДисциплине.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="3c84b9ac-e67a-4d3e-ad98-b25fada7229e">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="85cb64b1-ddee-4da6-a14c-7f5fa1a726ff">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

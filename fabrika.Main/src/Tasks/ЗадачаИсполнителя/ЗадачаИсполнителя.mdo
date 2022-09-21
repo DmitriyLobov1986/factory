@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5dabf7a9-64ff-4e44-8822-a7da0b8be48c">
+  <producedTypes>
+    <objectType typeId="9ac9d988-b783-4fe3-ac61-b4be1db4f197" valueTypeId="f1b6a281-7f0f-4d88-af67-c343e199e006"/>
+    <refType typeId="2b0af5be-55ab-40e1-bd6c-d74e659f84eb" valueTypeId="72247f00-e62b-48c3-8ab4-178616d881c8"/>
+    <selectionType typeId="5901574e-3c5b-4b24-b867-d9c4f5dab407" valueTypeId="bc27f6cc-3e21-4ec6-9033-ecfd0f5b141e"/>
+    <listType typeId="6f340f19-0f27-47ae-bb55-75d94b3ac60f" valueTypeId="67307e6b-4d23-4b0d-9d67-75ff18903492"/>
+    <managerType typeId="76b5ec16-0638-471a-a198-6c2c24acf416" valueTypeId="ec5ddd28-68e5-4cc0-9c86-62ecdd164795"/>
+  </producedTypes>
+  <name>ЗадачаИсполнителя</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:TaskExtension"/>
+</mdclass:Task>

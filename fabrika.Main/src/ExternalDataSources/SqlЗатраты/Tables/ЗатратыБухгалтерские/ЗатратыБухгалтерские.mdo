@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0fe73db3-da22-407e-bb81-841ac1c6bafd">
+  <producedTypes>
+    <refType typeId="0d60dd63-15a8-405f-80dd-0dc2c6869af3" valueTypeId="60bd9b64-8c3f-4a4e-90e1-600efb933307"/>
+    <listType typeId="922d60c9-43ba-41c8-b065-bc8b372d98f8" valueTypeId="078bfe72-9589-4858-9399-d94680578988"/>
+    <objectType typeId="48042e79-8ad0-498c-819a-e643ba2ededa" valueTypeId="f69c41ef-802b-473e-babc-50a3caab5647"/>
+    <managerType typeId="53a77e9a-d605-42ef-996a-b5cab9874230" valueTypeId="d4d57a41-c808-477e-a800-6e38d8e6375f"/>
+    <recordManagerType typeId="6fc24981-726c-40bb-8e09-edfc06405883" valueTypeId="2eca8aee-8164-4545-ad65-e0a8376fddf0"/>
+    <recordSetType typeId="4c9eacd8-9bf0-42fe-83b9-2b9e4f4499b3" valueTypeId="4dad034b-dcd2-42e8-bc6f-8f9976dfc220"/>
+    <recordType typeId="b3d5f50b-fd12-45c2-95d8-b2901e3876ee" valueTypeId="d0c051ff-a76b-470b-8a94-c51cf7ccf6d4"/>
+    <recordKeyType typeId="149755bb-1d1f-4e65-95eb-89d9115af32d" valueTypeId="b2090562-7b72-45e8-a5dd-cfaf6e22e223"/>
+  </producedTypes>
+  <name>ЗатратыБухгалтерские</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:TableExtension"/>
+  <parentDataSource>ExternalDataSource.SqlЗатраты</parentDataSource>
+</mdclass:Table>

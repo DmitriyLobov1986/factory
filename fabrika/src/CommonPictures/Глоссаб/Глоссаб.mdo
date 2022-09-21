@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc6e3da6-817d-4087-afc8-bd7c5bb03ff6">
+  <name>Глоссаб</name>
+  <synonym>
+    <key>ru</key>
+    <value>Глоссаб</value>
+  </synonym>
+</mdclass:CommonPicture>

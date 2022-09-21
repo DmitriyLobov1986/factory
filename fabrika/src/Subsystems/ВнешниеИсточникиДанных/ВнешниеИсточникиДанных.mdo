@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5de5daa8-dda5-43c2-a2e1-19a3ff36c2a5">
+  <name>ВнешниеИсточникиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешние источники данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Enum.ТипПлатформы1С</content>
+  <content>CommonModule.ПодключениеКВнешнимИБ</content>
+  <content>Enum.ТипСоединения</content>
+  <content>SessionParameter.АдресПодключенияВнешнихБаз</content>
+  <content>Constant.ЗагрузкаИзБухгалтерии</content>
+  <subsystems>РегистрыСведений</subsystems>
+  <subsystems>ДанныеSQL</subsystems>
+  <subsystems>Excel</subsystems>
+</mdclass:Subsystem>

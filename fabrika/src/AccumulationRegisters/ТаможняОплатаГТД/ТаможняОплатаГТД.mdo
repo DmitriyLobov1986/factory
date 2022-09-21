@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa6cfa22-dd22-431b-bd77-51f3af5db7a8">
+  <producedTypes>
+    <selectionType typeId="ac518704-697f-46d7-b13b-5b935558c2d8" valueTypeId="f72e2b17-b7ed-4e04-b707-5132e2fb677a"/>
+    <listType typeId="e6512d03-de32-456e-812e-8c635705d80e" valueTypeId="d0f2c47b-7c55-4496-ba66-6ad5515339ab"/>
+    <managerType typeId="25d2336c-4656-4f7d-ab7a-6fc40dcb1b43" valueTypeId="d10cadfa-d43d-4eff-828d-6229d6a5b2c2"/>
+    <recordSetType typeId="bbfe0d10-a72a-485f-a0ce-a3ddc3c4bae1" valueTypeId="675566bc-e9d9-492d-80fd-642c131adbb0"/>
+    <recordKeyType typeId="9b2104c0-5d8e-467b-b4e7-847bddaee060" valueTypeId="e2a28dd2-7cb2-4edd-982a-4fe309eb17cb"/>
+    <recordType typeId="ca9526eb-197c-4ddc-8aed-20e64d8785d0" valueTypeId="3de39925-60e1-4a2d-acb5-38f2c49aa886"/>
+  </producedTypes>
+  <name>ТаможняОплатаГТД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таможня оплата ГТД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="d243faad-65bd-4114-a3d4-9c2b6bb587ca">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="fce04a17-5b4b-47ca-bfd2-040efd65bb99">
+    <name>ТипДвижения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип движения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="327ae848-b253-4b00-abb3-1d5eb7d3fc26">
+    <name>ГТД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГТД</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПриходМашины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="1c3d951c-be07-4e02-b929-4842cdddff5b">
+    <name>ПодИнвойсНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПодИнвойс номер</value>
+    </synonym>
+    <comment>ПодИнвойс номер</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

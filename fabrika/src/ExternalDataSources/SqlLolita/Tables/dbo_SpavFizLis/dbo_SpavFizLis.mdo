@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39ba2d8f-97ff-4d39-be34-4fa8e28f217e">
+  <producedTypes>
+    <refType typeId="545d9e17-7e8a-4704-93f8-9ef4fb7a6a2b" valueTypeId="1bcd45ab-f31d-46a4-bf17-0ab0f8038c74"/>
+    <listType typeId="ed00b180-5ac1-4bc5-84b3-c251e6c2f899" valueTypeId="513732c6-3fec-4eb4-8fef-645fe68e0b40"/>
+    <objectType typeId="2fe0c713-bb8a-4783-9c7d-dbbacbf4e62b" valueTypeId="f6697ccd-15e3-4b3a-846f-4debb834123f"/>
+    <managerType typeId="54868a9f-5ef3-41f6-a750-15c2ed6450be" valueTypeId="15ddf238-80a0-48c6-98e1-7ea47c3be34b"/>
+    <recordManagerType typeId="a5be9300-d215-4f26-868b-ec5eff0b45b6" valueTypeId="cce2cb76-41f8-45f4-a30a-9ced277770d6"/>
+    <recordSetType typeId="3ec16458-1805-4b97-a8e0-c016b88a610c" valueTypeId="e1ed68b9-881f-432b-b4bc-1ea94e65a0b0"/>
+    <recordType typeId="c9674e74-f96a-4528-b60a-56daeaafaaf2" valueTypeId="f7886898-1bc7-4080-a612-063c422a65f8"/>
+    <recordKeyType typeId="c8cf07bb-7b5f-4cd2-9688-58b69adda619" valueTypeId="6dced715-f24c-464a-b307-b146ff39683b"/>
+  </producedTypes>
+  <name>dbo_SpavFizLis</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник физ. лиц</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.SqlLolita</parentDataSource>
+  <nameInDataSource>dbo.SpavFizLis</nameInDataSource>
+  <keyFields>ExternalDataSource.SqlLolita.Table.dbo_SpavFizLis.Field.Name</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.SqlLolita.Table.dbo_SpavFizLis.Field.Name</inputByString>
+  <readOnly>true</readOnly>
+  <editType>InDialog</editType>
+  <tableFields uuid="b0ef631e-8180-4957-80e7-d75a50b07188">
+    <name>Name</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя инициатора</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Name</nameInDataSource>
+    <readOnly>true</readOnly>
+  </tableFields>
+</mdclass:Table>

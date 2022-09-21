@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ddd13f3-ca99-439f-bcb2-d6c1fa60dcfb">
+  <producedTypes>
+    <selectionType typeId="3854299e-8f54-4a1d-86da-5bc0f9639d11" valueTypeId="579a6a08-e780-4a49-bc7a-09290651a59b"/>
+    <listType typeId="5df3250b-6a50-46ec-b381-eb01757ca227" valueTypeId="615a27ff-d4b1-4cbf-b854-84761f05fc26"/>
+    <managerType typeId="697651fd-a80d-4cba-b9a3-a47bf16c72ca" valueTypeId="c192cf63-410b-4f5f-9215-c2296470292f"/>
+    <recordSetType typeId="e49931a3-47c0-4da4-85c3-f5f18b333060" valueTypeId="88382219-c199-4240-ab54-319576247ce9"/>
+    <recordKeyType typeId="f5c6f845-818f-4c91-a882-e209703f9273" valueTypeId="eb491475-ad4c-46dc-8e0c-4e9393663730"/>
+    <recordType typeId="7a12a09b-4dee-429e-be0b-982070e7dec0" valueTypeId="134bab60-e991-4f91-93b9-167e2474eb1a"/>
+    <recordManagerType typeId="d267372f-e87e-4ed7-81fb-8ed80d480e09" valueTypeId="f3080b0c-b6fb-4d3f-8e43-289d650a2986"/>
+  </producedTypes>
+  <name>КомандыПользователейTelegram</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команды пользователей telegram</value>
+  </synonym>
+  <comment>Служит для хранения команд, отпраляемых пользователями мессенжера Telegram</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.КомандыПользователейTelegram.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="57e27479-4519-45f9-a4a2-1db407667ee0">
+    <name>Очищено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очищено</value>
+    </synonym>
+    <comment>Очищено</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1e64850c-961c-4479-a528-7b747b7507c0">
+    <name>Id_message</name>
+    <synonym>
+      <key>ru</key>
+      <value>Id_message</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3fa7f78e-4189-4f8e-b235-2a8658598e68">
+    <name>chat_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Chat id</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>25</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6b4e65e3-7f2a-4e9b-ba90-a245ae471191">
+    <name>date</name>
+    <synonym>
+      <key>ru</key>
+      <value>Date</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>25</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="967c9af7-8855-4409-b915-73300d6d4108">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fb2bcc7c-3f6a-45a1-8b5d-77904673c6a2">
+    <name>Команда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="9cfc3709-ce30-4599-be1d-9ecaae70e3e3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

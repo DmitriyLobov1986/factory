@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="afa3cf5a-18be-4c8b-a93d-40c56602e016">
+  <producedTypes>
+    <refType typeId="73cfa33a-32a3-4f90-8adb-a81eadb6af4a" valueTypeId="a0d73417-e1ff-44b1-b4aa-fb038ed901d9"/>
+    <listType typeId="4b3f9b84-1f74-44ed-9b09-ca79d57d934a" valueTypeId="f7b3bbea-7804-4a1c-8afa-c67cc1984bfb"/>
+    <objectType typeId="4d6f4151-c958-4026-b3ff-decdc723e812" valueTypeId="3467e9c2-df17-446b-8174-bc7a6af755ab"/>
+    <managerType typeId="8c2d8ec7-567f-40f4-9b87-68d637cda3ee" valueTypeId="17f3644f-d060-4141-b171-25bc0123719c"/>
+    <recordManagerType typeId="f831f8c5-0746-4792-b2c5-9d492b878225" valueTypeId="34daac2f-88f3-4006-a8db-8251557bdfb8"/>
+    <recordSetType typeId="be1b8830-8d2c-4ddf-95e7-c576f627051d" valueTypeId="84e2f172-8a37-479c-a9dd-1d510e58a964"/>
+    <recordType typeId="be650667-09bf-4360-adcd-b0af49c33d54" valueTypeId="eaed3251-22a0-46b9-94b9-86858a663b03"/>
+    <recordKeyType typeId="eec717e4-e829-47f8-b5c4-d2b5db3f2320" valueTypeId="f9ac5b9d-fa30-4692-8fc4-2972f65bcc09"/>
+  </producedTypes>
+  <name>Валюта</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:TableExtension"/>
+  <parentDataSource>ExternalDataSource.SqlЗатраты</parentDataSource>
+</mdclass:Table>

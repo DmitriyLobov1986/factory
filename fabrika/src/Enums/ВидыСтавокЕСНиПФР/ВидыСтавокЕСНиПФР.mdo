@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c37a825-746e-48c8-81f8-d06dda629e40">
+  <producedTypes>
+    <refType typeId="40d6c2ce-0d50-4d57-a231-c74bdf0157cc" valueTypeId="f54cff55-0008-4cfd-a23d-d39653142a54"/>
+    <listType typeId="2da48f6b-5c86-47c2-8b0b-7b1e4d15e975" valueTypeId="ce41d991-73cc-45dc-95ec-b2987c7d8407"/>
+    <managerType typeId="6edd9753-430b-4354-8fd8-30079ea79980" valueTypeId="61d809fe-733e-4e8d-b4a5-37e8bc3ec460"/>
+  </producedTypes>
+  <name>ВидыСтавокЕСНиПФР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды ставок ЕСН и ПФР</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="71cff166-7162-4584-8bb2-f9cc059d3759">
+    <name>ДляСельскохозяйственныхПроизводителей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для сельскохозяйственных производителей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f4dca602-20b8-4354-bd9a-a92852667bc2">
+    <name>ДляНеСельскохозяйственныхПроизводителей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для не сельскохозяйственных производителей</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

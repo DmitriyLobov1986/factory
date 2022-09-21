@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfa08ac5-4aaf-4154-8bb7-4772835dbedf">
+  <producedTypes>
+    <refType typeId="df74bc44-f7b2-41b8-93cc-fc8d47748053" valueTypeId="f93ca264-1721-4488-bc16-7ac67f0c1293"/>
+    <listType typeId="102e6a15-3f8c-4d11-a558-0f295781ae67" valueTypeId="4b7ea88f-20be-4af9-b2de-74be126f0fdf"/>
+    <objectType typeId="b011c00c-9ddd-4c8b-ae62-7aa7eec30102" valueTypeId="5ce8bdb2-7cc0-4f77-99b2-b1324655a7db"/>
+    <managerType typeId="070a10cf-1767-47ca-b78c-80557d0823f5" valueTypeId="8b1de839-2c81-44a8-be3f-7867a7aea298"/>
+    <recordManagerType typeId="019a73c0-ec05-4ef2-841a-adab481933d2" valueTypeId="9875bfc5-9181-474a-b6c0-1f20437e3ac8"/>
+    <recordSetType typeId="41022106-9504-4d87-88de-efa335011ffe" valueTypeId="b17a1f31-7ebc-47b5-aec4-75d145383a92"/>
+    <recordType typeId="5c9539be-a17b-4b60-9539-22945683ff5b" valueTypeId="8b83feb9-d8d0-406c-a604-db29d0db62c0"/>
+    <recordKeyType typeId="8f1e9f8b-316a-417f-a83f-8976ec5331f7" valueTypeId="8b24526c-0ad9-44f4-a1ca-1304ef2f16b7"/>
+  </producedTypes>
+  <name>сп_СтатьяРасхода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сп статья расхода</value>
+  </synonym>
+  <comment>Сп статья расхода</comment>
+  <parentDataSource>ExternalDataSource.Бюджетирование</parentDataSource>
+  <nameInDataSource>dbo.сп_СтатьиРасхода</nameInDataSource>
+  <keyFields>ExternalDataSource.Бюджетирование.Table.сп_СтатьяРасхода.Field.ID</keyFields>
+  <presentationField>ExternalDataSource.Бюджетирование.Table.сп_СтатьяРасхода.Field.Статья</presentationField>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Бюджетирование.Table.сп_СтатьяРасхода.Field.ID</inputByString>
+  <inputByString>ExternalDataSource.Бюджетирование.Table.сп_СтатьяРасхода.Field.Статья</inputByString>
+  <defaultObjectForm>ExternalDataSource.Бюджетирование.Table.сп_СтатьяРасхода.Form.ФормаОбъекта</defaultObjectForm>
+  <editType>InDialog</editType>
+  <tableFields uuid="4ea48ee5-774c-4f16-981c-61e9cfa7051b">
+    <name>ID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="fc0a489a-1b6d-4253-96d6-482f9de3dff3">
+    <name>Код</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <comment>Код</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>CostItem</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="a4ea31b9-cadc-41bd-a3d3-23f9399915a8">
+    <name>Статья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья</value>
+    </synonym>
+    <comment>Статья</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>CostName</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="89c57c5d-6364-4a84-9212-c43c991394fa">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <comment>Группа</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>CostGroup</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="5efb6159-3d4d-4be5-a72c-4091b4631ed4">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <comment>Вид</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>CostKind</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <forms uuid="4ea438c6-da21-41a9-9bc6-d02fbce032b2">
+    <name>ФормаОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма объекта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Table>

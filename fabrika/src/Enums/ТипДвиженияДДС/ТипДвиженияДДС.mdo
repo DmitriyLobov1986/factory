@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="626bcee7-28a9-4c4f-8227-59d5f4680941">
+  <producedTypes>
+    <refType typeId="d217e5bb-0fb2-4edb-bdaf-e7cfc2a38604" valueTypeId="8cdd8eac-01fc-4c34-815a-bb42cb38a279"/>
+    <listType typeId="88be0937-e9d9-4cbd-87fc-715c438abfc8" valueTypeId="c1f55e71-7646-4cb8-a911-110d659b0400"/>
+    <managerType typeId="b997adcb-49d0-4a05-9a04-24b6c534d9a3" valueTypeId="26bd04cc-de0a-4dfe-915e-a528bf4b8d20"/>
+  </producedTypes>
+  <name>ТипДвиженияДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип движения ДДС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Enum.ТипДвиженияДДС.Form.ФормаСписка</defaultListForm>
+  <enumValues uuid="ba55e899-9e57-4348-895f-9c68896b54af">
+    <name>ОстатокНаНачало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остаток на начало</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7fd2c36f-4c75-4261-b49f-14996719f13b">
+    <name>Поступление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df3b8444-d83b-432d-8685-2ddbf41a52d2">
+    <name>Списание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac2d6088-fefe-4178-bfdc-2a4e46b680b4">
+    <name>ОстатокНаКонец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остаток на конец</value>
+    </synonym>
+  </enumValues>
+  <forms uuid="81fa9017-28a3-48e3-8908-06b29d556d80">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Enum>

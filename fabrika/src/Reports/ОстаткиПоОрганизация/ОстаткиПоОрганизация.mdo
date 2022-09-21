@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ef24433-41bd-47b0-b190-8cf82b209767">
+  <producedTypes>
+    <objectType typeId="5d8549fb-c6a2-4f6f-aad2-8cd81f2465b5" valueTypeId="d7cd68ba-a50b-4294-8ffe-8f4f43a3499f"/>
+    <managerType typeId="6e15384a-b1b4-47f0-826b-b6fe33b176ec" valueTypeId="5a8cf0b7-1544-48ad-9497-59f741941513"/>
+  </producedTypes>
+  <name>ОстаткиПоОрганизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки ДС по орагнизациям</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОстаткиПоОрганизация.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОстаткиПоОрганизация.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <tabularSections uuid="097230fd-a645-4ffb-a68a-6a46f3ed7814">
+    <producedTypes>
+      <objectType typeId="9e381f3a-7cd3-4989-b0bb-06c38e58643b" valueTypeId="95c8e725-0b24-4e21-83cb-a00644cf2227"/>
+      <rowType typeId="b9420d35-b13f-407a-bf3d-97f433ccd453" valueTypeId="3df739d1-d21d-46a1-86f2-d904a2df12bd"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть1</name>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </tabularSections>
+  <forms uuid="a1c1606f-7b59-48c8-8683-070604810533">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d9bb433f-ec2f-48e3-ad56-504e3ee0aee9">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="363e190a-a152-4f0b-b298-031737f58db9">
+    <name>СКД2</name>
+    <synonym>
+      <key>ru</key>
+      <value>СКД2</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

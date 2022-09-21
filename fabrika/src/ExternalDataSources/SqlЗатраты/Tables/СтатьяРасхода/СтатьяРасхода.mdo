@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37597d41-d728-42f9-9471-4d6ed1604440">
+  <producedTypes>
+    <refType typeId="ac712a79-db7f-4da2-acfe-75677e9cab1e" valueTypeId="63988302-d0c6-4285-8363-d2aa85b6beff"/>
+    <listType typeId="be0b26f2-83eb-4200-bd47-4318c6f5a5ce" valueTypeId="b8307b33-6ce2-4bf9-a2b9-60c5c0929ac5"/>
+    <objectType typeId="eaf57450-7a71-4272-9df5-99054e17cdc7" valueTypeId="e8e2b3ed-faaa-4eb2-b175-672d16ed6941"/>
+    <managerType typeId="2fd675cf-1736-4c0d-8c87-2564d4d15df3" valueTypeId="dfc4b2a8-f2e6-4694-994d-840aab19ec4c"/>
+    <recordManagerType typeId="8ce1aabf-372d-4808-88f0-66f04427b3b3" valueTypeId="eb9c2076-4f18-46ae-b184-d747d06e145c"/>
+    <recordSetType typeId="9d526e0a-0838-4e5d-8445-78a873060f92" valueTypeId="c33d3d52-18c5-48c1-b5e3-6811045f081e"/>
+    <recordType typeId="af7102cf-b2ed-41c4-944c-d349ae772c81" valueTypeId="30b186cd-7984-4fa4-bd48-84487fc17b51"/>
+    <recordKeyType typeId="a0d389d5-93be-4331-87f9-7a8b12567cb2" valueTypeId="7b50eab9-6385-473f-9d54-02a00568249e"/>
+  </producedTypes>
+  <name>СтатьяРасхода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статья расхода</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.SqlЗатраты</parentDataSource>
+  <nameInDataSource>dbo.StatRash</nameInDataSource>
+  <keyFields>ExternalDataSource.SqlЗатраты.Table.СтатьяРасхода.Field.ID</keyFields>
+  <presentationField>ExternalDataSource.SqlЗатраты.Table.СтатьяРасхода.Field.Наименование</presentationField>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.SqlЗатраты.Table.СтатьяРасхода.Field.ID</inputByString>
+  <defaultChoiceForm>ExternalDataSource.SqlЗатраты.Table.СтатьяРасхода.Form.ФормаВыбора</defaultChoiceForm>
+  <readOnly>true</readOnly>
+  <editType>InDialog</editType>
+  <tableFields uuid="21a225be-66e6-4eb2-bf2b-10a826826d36">
+    <name>ID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>ID</nameInDataSource>
+    <readOnly>true</readOnly>
+  </tableFields>
+  <tableFields uuid="d1d5d48e-cb04-4eeb-a507-2dad874e2d53">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>StatRash</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="6b3db7a4-43af-45f5-adfb-b4f5a057dae8">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>StatGrup</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <forms uuid="a16d6ab0-c91d-464a-99cd-683e7cd97aeb">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Table>

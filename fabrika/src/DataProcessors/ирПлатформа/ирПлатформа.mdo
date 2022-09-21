@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f92e2207-3be1-4bc8-ad45-59c16eba1c63">
+  <producedTypes>
+    <objectType typeId="ec392817-5523-4193-87fa-2bbe16fe5c5d" valueTypeId="aac92c90-e870-4c1e-89b1-0ae0056396aa"/>
+    <managerType typeId="ad46e4d9-9dea-4a3e-87f3-672d9a530ace" valueTypeId="f8b61435-e02d-47af-bf6f-232437746cd2"/>
+  </producedTypes>
+  <name>ирПлатформа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платформа (ИР)</value>
+  </synonym>
+  <explanation>
+    <key>ru</key>
+    <value>Описание платформы 8.3.9</value>
+  </explanation>
+  <tabularSections uuid="4fd7637f-beeb-41de-a2a2-efab4e5b4116">
+    <producedTypes>
+      <objectType typeId="2e6515e5-6ef5-4b07-9897-8a4807a7f1b1" valueTypeId="92b2f20e-a968-498b-aefb-438889f633ed"/>
+      <rowType typeId="96a210c3-53ab-438b-b4d8-aafefab563d8" valueTypeId="353cedea-3b80-41c6-bf78-b66ddc115fd0"/>
+    </producedTypes>
+    <name>ТаблицаТипов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица типов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3c676e72-c6d8-4bd2-9a51-a2675eae67cd">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>128</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="35ca6d49-fc9f-4d3b-a350-9ee1aee840f4">
+      <name>Пометка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4e8c0524-947b-4ef7-b761-3d00b9f127da">
+      <name>ИндексКартинки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Индекс картинки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="555154c4-68d1-4b5a-90b8-32ba2da875b1">
+    <producedTypes>
+      <objectType typeId="215ea139-c596-403f-ab4f-37ef22b4fc68" valueTypeId="6f9dbc02-f9ee-41e1-8fec-7223e0456f4c"/>
+      <rowType typeId="39fe6216-b516-41dd-906b-3c5838439bda" valueTypeId="f554a51e-359c-4b9c-b0ad-e76c651925b0"/>
+    </producedTypes>
+    <name>ТаблицаРедактируемыхТипов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица редактируемых типов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="b2820ab7-3f53-4746-b701-25343dd85218">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <comment>Имя XML</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>128</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="dd13b157-e133-47b8-82a9-5b8f47c3be27">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="6e776def-cb52-4f40-8cd3-0ff716c01cc2">
+      <name>Пометка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="662d3384-e644-4a85-9fc3-bab7e0735e5c">
+      <name>ИндексКартинки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Индекс картинки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1bcaec88-3e0b-4c42-b8fd-ff30b91a8b1a">
+      <name>Порядок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядок</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f48020de-f8c0-4ea8-94de-8e6d25eace11">
+      <name>URIПространстваИмен</name>
+      <synonym>
+        <key>ru</key>
+        <value>URIПространства имен</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="1bb97b81-832d-4f9e-be78-48cb9bbe7bea">
+    <name>_ЗагрузкаТабличногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка табличного документа</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cca18326-7316-4b80-9dbb-58faccc31d46">
+    <name>_УниверсальныеКоманды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальные команды</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7e46d10a-c82e-4229-92be-f7654242e34e">
+    <name>АдминистративнаяРегистрацияCOM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Административная регистрация COM (ИР)</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b862d2b4-1f55-473a-b17f-c38360b64842">
+    <name>ВыборОбъектаМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор объекта метаданных</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1752fbc1-2f18-4fdd-a744-25c98e70a03e">
+    <name>ВыборПодсистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор подсистемы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dcf7e6ff-aa62-4585-bb95-56f3634ac454">
+    <name>ВыборПользователяWindows</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор пользователя windows</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="573eeff7-3e5a-4e71-84a4-772cb6debbee">
+    <name>ВыборРедактируемыхТипов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор редактируемых типов</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9d524480-6a7d-4ce2-acb2-eb7eaac1ab60">
+    <name>Граница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Граница</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="55a53119-1120-4c7f-bdc2-2182aede38c4">
+    <name>Массив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Массив</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="eef143de-6c17-4a67-8962-9b3f711f9fef">
+    <name>МенеджерТабличногоПоля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер табличного поля</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a34a2655-be71-437d-adbe-f6f554388918">
+    <name>МоментВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Момент времени</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="deab2be0-f98d-4cf1-8633-0769174f8bb3">
+    <name>НастройкаОсторожностиВыборкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка осторожности выборки данных</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="686f3513-2422-4746-a581-9a53e4a88b98">
+    <name>НастройкиАлгоритмов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки алгоритмов (ИР)</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a32d05dc-74a9-4c52-b401-0ea662a96bac">
+    <name>ОПодсистеме</name>
+    <synonym>
+      <key>ru</key>
+      <value>О подсистеме (ИР)</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1e7297b3-6386-489e-9112-d2b07b7bd5f4">
+    <name>ПараметрыСоединенияСУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры соединения СУБД</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ee3e9c63-45e2-46a8-a1e0-1653c76af8ad">
+    <name>Пустышка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пустышка (ИР)</value>
+    </synonym>
+    <comment>Предназначена для вызова событий</comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b6e520a7-905b-4e45-b839-9b6011c4f57e">
+    <name>РедакторДопустимыхТипов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор допустимых типов</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b535f533-8498-40b9-9517-13ce23e3823f">
+    <name>Служебная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебная</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2f65dbb8-571c-42f1-8631-95053972e143">
+    <name>СписокЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список значений</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6e58193b-5f70-4d90-a49e-c1bedae69096">
+    <name>СтруктураФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура формы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6da2aaf6-cb86-4e55-a084-883147594592">
+    <name>ТаблицаЗначений</name>
+    <synonym>
+      <key>ru_RU</key>
+      <value>Таблица значений</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица значений</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a2224706-4553-4329-88dc-fb124cdbdb48">
+    <name>ТабличныйДокумент</name>
+    <synonym>
+      <key>ru_RU</key>
+      <value>Табличный документ</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Табличный документ</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="afe6f377-4d61-425a-b8db-2fbd3c9e11fe">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c0d19aa5-a129-4dca-83a7-b6f8af8b4420">
+    <name>УникальныйИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b5552406-21d6-43e7-a388-62752c357cb8">
+    <name>ФиксированныйСписокЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксированный список значений</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d3a036c7-ec21-43c7-85d8-c4bd31ed1232">
+    <name>ФормаВыбораСправкиПоСлову</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора справки по слову</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d75f9bdd-66a7-42b4-b4e5-f7fc47fb299d">
+    <name>_1CDLib</name>
+    <synonym>
+      <key>ru</key>
+      <value>1CDLib</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="6388159f-7eff-4944-9bf3-328482d79b20">
+    <name>_1CDLib_readme</name>
+    <synonym>
+      <key>ru</key>
+      <value>1 CDLib readme</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="cadb2040-23bf-4b8b-b6ae-da70d0666b61">
+    <name>DynamicWrapperX32</name>
+    <synonym>
+      <key>ru</key>
+      <value>Dynamic wrapper x32</value>
+    </synonym>
+    <comment>Библиотека функций для работы с WinAPI http://www.script-coding.com/dynwrapx.html, http://yuripopov.ucoz.net/index/dynwrapx/0-11, http://infostart.ru/public/267819</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="6a95a5be-4118-48ea-9a9b-21225940825f">
+    <name>DynamicWrapperX64</name>
+    <synonym>
+      <key>ru</key>
+      <value>Dynamic wrapper x64</value>
+    </synonym>
+    <comment>Библиотека функций для работы с WinAPI http://www.script-coding.com/dynwrapx.html, http://yuripopov.ucoz.net/index/dynwrapx/0-11, http://infostart.ru/public/267819</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="df87613a-9f74-4b9e-93c6-cd3bd6f5ab43">
+    <name>FM20</name>
+    <synonym>
+      <key>ru</key>
+      <value>Fm20</value>
+    </synonym>
+    <comment>Библиотека элементов управления Microsoft Forms 2.0 пробная версия. Она входит в состав MS Office 97-2007, который необходимо установить для легального использования. Необходима для работы контекстной подсказки.</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="ad642f87-ff99-471e-9fa3-8b9d23749bb3">
+    <name>FM20ENU</name>
+    <synonym>
+      <key>ru</key>
+      <value>Fm20ENU</value>
+    </synonym>
+    <comment>Библиотека вспомогательная для FM20 пробная версия. Она входит в состав MS Office 97-2007, который необходимо установить для легального использования. Необходима для работы контекстной подсказки.</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="79ccac2e-6707-4f4c-8fc8-5e335b950060">
+    <name>GameWithFire</name>
+    <synonym>
+      <key>ru</key>
+      <value>Game with fire</value>
+    </synonym>
+    <comment>Внешняя компонента для 1С v8 для работы с ADO. А также имеет набор объектов для работы с внутренними контейнерными форматами данных 1С v8. http://main.1c-ei.ru/Articles/gamewithfire</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="c027b78b-84e6-40d3-91a8-92c9079adc26">
+    <name>GameWithFire_Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Game with fire описание</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="7828e345-635f-4e82-95df-4bc4a3c3badd">
+    <name>GoldParser</name>
+    <synonym>
+      <key>ru</key>
+      <value>Gold Parser</value>
+    </synonym>
+    <comment>Библиотека функций парсера GoldParser http://www.goldparser.org . Используется в консоли запросов для дерева запроса и контекстной подсказке для шаблонов текста. Требует Net Framework 4.5 https://www.microsoft.com/en-us/download/details.aspx?id=30653</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="44b8daff-194d-4789-91ef-4332ba0ae458">
+    <name>HiddenStart</name>
+    <synonym>
+      <key>ru</key>
+      <value>Hidden start</value>
+    </synonym>
+    <comment>Приложение для скрытого выполнения консольных приложений в ОС Windows http://www.ntwind.com/software/utilities/hstart.html</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="df4294af-7e71-4013-88dc-acbd86d826ab">
+    <name>OpenIn1Cv8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Open in1cv8</value>
+    </synonym>
+    <comment>Приложение для управления окнами приложений платформы 1с8</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="d8c5710c-21f5-4f26-9ed6-dd8e6ecc2fc4">
+    <name>Regasm32</name>
+    <synonym>
+      <key>ru</key>
+      <value>Regasm 32</value>
+    </synonym>
+    <comment>https://msdn.microsoft.com/ru-ru/library/tzat5yw6(v=vs.110).aspx</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="701135ac-bdb2-4902-95ee-570b068ea957">
+    <name>Regasm64</name>
+    <synonym>
+      <key>ru</key>
+      <value>Regasm 64</value>
+    </synonym>
+    <comment>https://msdn.microsoft.com/ru-ru/library/tzat5yw6(v=vs.110).aspx</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="4d4bd85b-6364-48a7-91cb-da73b2675558">
+    <name>Regsvrex</name>
+    <synonym>
+      <key>ru</key>
+      <value>Regsvrex</value>
+    </synonym>
+    <comment>доработанная версия утилиты regsvr32 для регистрации COM серверов в HKEY_CURRENT_USER http://www.mlin.net/other.shtml</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="d3f6e4a0-0916-4b3f-8e54-7c7e78f1fd64">
+    <name>RegsvrPower</name>
+    <synonym>
+      <key>ru</key>
+      <value>Regsvr power</value>
+    </synonym>
+    <comment>доработанная версия утилиты regsvr32 для регистрации COM серверов в HKEY_CURRENT_USER http://infostart.ru/public/199775/</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="8507f9f4-a15f-4b49-ac7e-5e377dd3bc20">
+    <name>StrMatchExtension</name>
+    <synonym>
+      <key>ru</key>
+      <value>Fuzzy str comp</value>
+    </synonym>
+    <comment>Нечеткое сравнение строк http://infostart.ru/public/237186/ . Для регистрации требуются библиотеки mfc71.dll и msvcr71.dll</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="568401ea-a377-47e2-bf24-8948b29aaf1f">
+    <name>TLBINF32</name>
+    <synonym>
+      <key>ru</key>
+      <value>TLBINF32</value>
+    </synonym>
+    <comment>Библиотека функций для извлечения информации из библиотек типов http://support.microsoft.com/kb/224331. Используется в контекстной подсказке при обработке COM типов</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="f2bce9d4-5561-474e-9eec-c140552312f1">
+    <name>Unzip</name>
+    <synonym>
+      <key>ru</key>
+      <value>Unzip</value>
+    </synonym>
+    <comment>консольный распаковщик файлов формата ZIP</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="bb40fe73-fd37-4667-99a5-14cdb42828cf">
+    <name>V8unpack</name>
+    <synonym>
+      <key>ru</key>
+      <value>V8unpack</value>
+    </synonym>
+    <comment>Приложение для распаковки и запаковки файлов метаданных (CF и EPF) http://infostart.ru/public/15695/</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="2991489d-02f2-4e87-94f5-db8149abd51b">
+    <name>Zlib1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Zlib1</value>
+    </synonym>
+    <comment>библиотека функций необходимая для работы приложения Unzip</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="5b69c10e-1930-49f2-a92c-f53eb0f684bd">
+    <name>ГрамматикаФайлаШаблоновТекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грамматика файла шаблонов текста</value>
+    </synonym>
+    <comment>Таблица парсинга файла шаблонов (ST) платформы 1С8 в формате GoldParser</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="5fdc2555-3741-4ed8-b122-72cab8e6c66d">
+    <name>ГрамматикаЯзыкаЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грамматика языка запросов</value>
+    </synonym>
+    <comment>Таблица парсинга по грамматике языка запросов 1С8 в формате GoldParser (EGT). </comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="234e81f3-06bb-4c71-83d9-5425380ad1ca">
+    <name>КартинкиТипов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинки типов</value>
+    </synonym>
+  </templates>
+  <templates uuid="0e2424f4-bd5e-41d5-882c-d7bac1257951">
+    <name>СписокИнструментов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список инструментов</value>
+    </synonym>
+  </templates>
+  <templates uuid="7580439f-2c9a-4166-aa8c-f70ce23945cc">
+    <name>СтилиСинтаксПомощника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стили синтакс помощника</value>
+    </synonym>
+    <comment>Таблица каскадных стилей (CSS) для отображения страниц синтакс-помощника</comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="b9e322b9-4a31-428c-9a9f-c86bfcc77933">
+    <name>ТаблицаИменЭлементовКоллекций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица имен элементов коллекций</value>
+    </synonym>
+    <comment>Описание объектной модели платформы 1С 8</comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="c76f7e73-27f2-4198-8b47-5afe2295f6a4">
+    <name>ТаблицаМетодовИСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица методов и свойств</value>
+    </synonym>
+    <comment>Описание объектной модели платформы 1С 8.3.9</comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4f296ffd-d7a9-4fd5-881e-37e826dfb8d1">
+    <name>ТаблицаПараметровИТипов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица параметров и типов</value>
+    </synonym>
+    <comment>Описание объектной модели платформы 1С 8</comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="fa8b9bb8-bcd6-4d66-b13f-2d8a33a969b1">
+    <name>ТерминалыЯзыкаЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Терминалы языка запросов</value>
+    </synonym>
+  </templates>
+  <templates uuid="9b0e4cdd-38cb-4cb3-90d0-6bcbe848367b">
+    <name>ШаблонВнешнейОбработкиСервиса81</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон внешней обработки сервиса81</value>
+    </synonym>
+    <comment>Для 1С 8.1</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="99fa6104-7969-484e-ae1c-ae9aecc3f279">
+    <name>ШаблонВнешнейОбработкиСервиса82</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон внешней обработки сервиса82</value>
+    </synonym>
+    <comment>Для 1С 8.2</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="2d7630ae-d072-4d9d-a6bc-c77db3387c1d">
+    <name>ШаблонВнешнейОбработкиСМакетом81</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон внешней обработки с макетом81</value>
+    </synonym>
+    <comment>Для 1С 8.1</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="a3ba778f-97f5-42c9-b863-735ac087ef97">
+    <name>ШаблонВнешнейОбработкиСМакетом82</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон внешней обработки с макетом82</value>
+    </synonym>
+    <comment>Для 1С 8.2</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

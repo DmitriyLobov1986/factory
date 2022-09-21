@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80083542-cc26-4bcc-943f-ccb97172bc67">
+  <producedTypes>
+    <managerType typeId="95f556ac-8d00-4613-8256-2b881c3c94c8" valueTypeId="0880594d-66c0-418c-bb54-cdae25f796ff"/>
+    <tablesManagerType typeId="a8f3c6de-9d31-4968-9b7c-1a26abaf740c" valueTypeId="a0782c9e-bc96-44e0-a0fc-7c9573a50402"/>
+    <cubesManagerType typeId="7777fd9b-6d64-4fab-a041-151fd9d82293" valueTypeId="0ab58816-265e-4b17-a6aa-4412a11a7b18"/>
+  </producedTypes>
+  <name>Бюджетирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджетирование</value>
+  </synonym>
+  <tables>ExternalDataSource.Бюджетирование.Table.ПланДДС</tables>
+  <tables>ExternalDataSource.Бюджетирование.Table.сп_СтатьяРасхода</tables>
+  <tables>ExternalDataSource.Бюджетирование.Table.сп_Организация</tables>
+</mdclass:ExternalDataSource>

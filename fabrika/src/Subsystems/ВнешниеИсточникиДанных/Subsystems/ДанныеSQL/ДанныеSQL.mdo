@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ff26c34-3208-444a-873b-c975a1604c6c">
+  <name>ДанныеSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные SQL</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ExternalDataSource.SqlLolita.Table.ОстаткиЗвена</content>
+  <content>ExternalDataSource.SqlЗатраты.Table.СтатьяРасхода</content>
+  <content>ExternalDataSource.SqlЗатраты.Table.ЗатратыБухгалтерские</content>
+  <content>ExternalDataSource.SqlLolita.Table.ГлоссабМашины</content>
+  <content>ExternalDataSource.SqlLolita.Table.ГлоссабПеремещение</content>
+  <content>ExternalDataSource.SqlLolita.Table.Задолженности</content>
+  <parentSubsystem>Subsystem.ВнешниеИсточникиДанных</parentSubsystem>
+</mdclass:Subsystem>

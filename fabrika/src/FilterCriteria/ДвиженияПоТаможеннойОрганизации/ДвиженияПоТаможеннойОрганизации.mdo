@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67e966fe-3b98-4a83-9034-3562f4524089">
+  <producedTypes>
+    <listType typeId="95523115-bdce-4473-bd58-5b6a537b5ee0" valueTypeId="299804fa-c946-4698-990a-a55648982104"/>
+    <managerType typeId="72ffa2ac-8b4e-4a4a-a51a-5ec3a0173c45" valueTypeId="e0f5e7f9-f914-44cc-9482-8bcb076f4fea"/>
+  </producedTypes>
+  <name>ДвиженияПоТаможеннойОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения по таможенной организации</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Организации</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.ЗаявкаНаМашину.Attribute.Организация</content>
+  <content>Document.ПополнениеКарт.Attribute.Организация</content>
+</mdclass:FilterCriterion>

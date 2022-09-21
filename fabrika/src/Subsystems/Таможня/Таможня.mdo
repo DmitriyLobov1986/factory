@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4c21b30-4d07-4cea-b68a-16649d946cf8">
+  <name>Таможня</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таможня</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Таможня</picture>
+  </picture>
+  <content>FilterCriterion.ДвиженияПоТаможеннойОрганизации</content>
+  <content>DataProcessor.ЗагрузкаПлатежей</content>
+  <content>Report.ОстаткиНаТаможеннойКарте</content>
+  <content>CommonTemplate.ТаможняСправочная</content>
+  <content>FilterCriterion.ПриходМашин</content>
+  <content>CommonTemplate.МакетПисем</content>
+  <content>ScheduledJob.ЗагрузкаДвиженийПоТаможне</content>
+  <content>CommonModule.ТаможняСервер</content>
+  <content>CommonCommand.ДополнительныеОтчетыТаможня</content>
+  <content>Enum.ТипМашины</content>
+  <content>FunctionalOption.ВалютныеПереводы</content>
+  <content>FunctionalOptionsParameter.ВалютныйРассчёт</content>
+  <content>FunctionalOption.ИспользоватьРаспределениеПоПокупателям</content>
+  <content>Constant.ОтображатьНаименованиеВТорговле</content>
+  <content>Constant.ИспользоватьРаспределениеПоПокупателям</content>
+  <content>Enum.ВариантРаспределенияПлатежа</content>
+  <content>Enum.ВидМашины</content>
+  <content>CommonAttribute.ВидМашины</content>
+  <content>CommonAttribute.СчётСписания</content>
+  <subsystems>Документы</subsystems>
+  <subsystems>ДокументыВзаимозадолженностей</subsystems>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Регистры</subsystems>
+</mdclass:Subsystem>

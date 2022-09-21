@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d26e23a-f00b-4628-8558-2c2474e59ad5">
+  <producedTypes>
+    <refType typeId="ab23f488-dfc3-43e4-aee9-aa102ab5a58c" valueTypeId="463df206-1571-4c51-ba26-788af9bc73be"/>
+    <listType typeId="c284e177-10f8-4700-903b-ed8e16554e99" valueTypeId="7495988e-7edc-48ad-b045-da0d811da981"/>
+    <managerType typeId="c7f02f0b-e2e5-42cf-88ce-f7519297cf44" valueTypeId="c0b510b4-a4b4-4715-a33c-7f5d9ac39273"/>
+  </producedTypes>
+  <name>ТипОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип организации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bf5c0560-a1c7-48b0-af2c-b5d71c7d4858">
+    <name>Розница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Розница</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="997a9b27-c33c-465c-ab89-f8f7fe670f4e">
+    <name>РозницаУСН</name>
+    <synonym>
+      <key>ru</key>
+      <value>РозницаУСН</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a6afa079-13a3-4368-90b2-3b5a57306397">
+    <name>Опт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71c699f4-04b6-400e-9ee6-ac9be63f39b4">
+    <name>Управление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e56f3ebe-df3c-40ff-a13a-f06a4b2bcf24">
+    <name>ИП_Марушкин</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИП_Марушкин</value>
+    </synonym>
+    <comment>ИП_Марушкин</comment>
+  </enumValues>
+  <enumValues uuid="e4598271-b367-46c8-b319-bd5c16d669eb">
+    <name>ИП_Тараканов</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИП_Тараканов</value>
+    </synonym>
+    <comment>ИП_Тараканов</comment>
+  </enumValues>
+  <enumValues uuid="3a50dba0-0977-4895-ae4d-74efd560e355">
+    <name>ИП_Бабурин</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИП_Бабурин</value>
+    </synonym>
+    <comment>ИП_Бабурин</comment>
+  </enumValues>
+  <enumValues uuid="5c8a8dea-95c3-4713-ad82-6bc847571824">
+    <name>ИП_Сукачёва</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИП_Сукачёва</value>
+    </synonym>
+    <comment>ИП_Сукачёва</comment>
+  </enumValues>
+  <enumValues uuid="33865ba9-dd27-41f4-967c-e47241131778">
+    <name>Таможня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таможня</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8b5d4888-ced7-41ca-a3d9-11d33e92a9a0">
+    <name>Глоссаб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Глоссаб</value>
+    </synonym>
+    <comment>Глоссаб</comment>
+  </enumValues>
+  <enumValues uuid="bff58a6a-e034-49e0-9839-68ebe4714f21">
+    <name>Торговля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Торговля</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad67eb3d-a019-424c-9df5-5b91f0d00d69">
+    <name>Архив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архив</value>
+    </synonym>
+    <comment>Архив</comment>
+  </enumValues>
+  <enumValues uuid="37bbe9c8-7345-45de-b1d4-c704042cf1f7">
+    <name>Звено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Звено</value>
+    </synonym>
+    <comment>Звено</comment>
+  </enumValues>
+  <enumValues uuid="e6459427-a288-4cc9-a694-4b71eb49b827">
+    <name>Упп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упп</value>
+    </synonym>
+    <comment>Упп</comment>
+  </enumValues>
+</mdclass:Enum>

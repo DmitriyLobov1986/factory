@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db998385-60c1-4276-a329-b9f27b622dc8">
+  <name>ТёмнаяТема</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТёмнаяТема</value>
+  </synonym>
+  <comment>ТёмнаяТема</comment>
+</mdclass:Style>

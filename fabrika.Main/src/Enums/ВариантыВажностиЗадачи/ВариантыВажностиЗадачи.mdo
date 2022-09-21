@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="502311ab-3245-4cba-b8c6-a18c0f4f3e87">
+  <producedTypes>
+    <refType typeId="ab45f0f8-3de0-460e-97f2-31d18dd6e551" valueTypeId="3a3ef052-14ba-426b-8bb4-d4a22501c2dc"/>
+    <listType typeId="d52e453f-8736-4cd0-b8e9-bdb40264c3bc" valueTypeId="c5e9c065-a769-4aef-8c9b-a94e60c5f885"/>
+    <managerType typeId="0425bbc9-b0e5-4bb6-8af5-f08b6427380b" valueTypeId="fe3a0d6c-a815-44a9-a9df-0922e631e4a2"/>
+  </producedTypes>
+  <name>ВариантыВажностиЗадачи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="4b0f7c4a-04ff-4f6b-9144-ab3b9f20f6bc">
+    <name>Высокая</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="bef02bb2-a4ce-4292-b93d-051a33f6c2f2">
+    <name>Низкая</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

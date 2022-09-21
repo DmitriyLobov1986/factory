@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b26e1455-f0ed-458f-b4ac-caf5a556f804">
+  <name>ВерсионированиеОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версионирование объектов</value>
+  </synonym>
+</mdclass:Role>

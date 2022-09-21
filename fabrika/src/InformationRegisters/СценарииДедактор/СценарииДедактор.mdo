@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1d50acd-711f-40a1-8342-6679c5c215b2">
+  <producedTypes>
+    <selectionType typeId="b2e2d725-8d64-4725-a032-c775c9a6db03" valueTypeId="f5b5ee30-413a-4451-afec-f9db3f556788"/>
+    <listType typeId="7a51acfa-bac1-44b3-8bb2-f1d6e1854b98" valueTypeId="096f3c56-abc9-42a4-8531-e409d0d01914"/>
+    <managerType typeId="855ceed3-c711-4590-9fcb-cf15fd7b98f8" valueTypeId="5defcfb6-f27d-408d-aaed-574d284bef19"/>
+    <recordSetType typeId="ed7d241b-9685-4918-ba49-fa125789366d" valueTypeId="5a428e54-42a9-4c2b-bd80-f4cb9f27de6a"/>
+    <recordKeyType typeId="eb5c2c9f-7848-4e1b-9b62-ecbd73690587" valueTypeId="323ec255-a4c5-453d-bec8-9663bbeb2d2c"/>
+    <recordType typeId="56e65398-2271-41de-b78b-1281e60f352e" valueTypeId="f7ca3675-d74f-4f15-8bf7-5443f56218cf"/>
+    <recordManagerType typeId="4ab5ad90-311f-4b05-b4e1-8d3864cf7d67" valueTypeId="b1c507df-8a37-47a0-ba89-dbc0933b69f4"/>
+  </producedTypes>
+  <name>СценарииДедактор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сценарии дедактор</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СценарииДедактор.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6092aa29-33fe-47d8-aa08-321e59d77451">
+    <name>Путь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="e257d9a3-6c50-4643-8ed8-cb4607ff7606">
+    <name>Лог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лог</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="428c58e4-ba0a-425e-9da1-76eeb536688e">
+    <name>Сценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a471321b-d444-4ebd-8db3-209a46031487">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

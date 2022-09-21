@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d4cbc25-16c8-481f-8faf-f1d90ec7b73c">
+  <producedTypes>
+    <selectionType typeId="81befc0f-17e5-45bf-9a7e-60284bc7b12f" valueTypeId="da25555b-34fe-4528-bc5b-9797cd485ef7"/>
+    <listType typeId="e42b398a-b4ff-429f-825a-b20cc4533440" valueTypeId="194b541e-0997-464f-a654-1cefaf79626c"/>
+    <managerType typeId="c85ee64d-8371-424a-b67e-ff594aa08b51" valueTypeId="56c55da8-3ef6-4829-b252-4f44f3e66d1e"/>
+    <recordSetType typeId="52719850-7abc-42b5-aeb1-8d643c9553d3" valueTypeId="7a2971ed-14d5-42b7-bf91-0db98b159a8c"/>
+    <recordKeyType typeId="d891fd38-3cac-48c1-b863-7e10659bb641" valueTypeId="2ef0e8ef-3ef6-4b25-9861-966e577708be"/>
+    <recordType typeId="807a1338-05e8-417c-af43-20053ba30802" valueTypeId="e3596287-490a-40d5-b7e8-fb5fc1575dbd"/>
+    <recordManagerType typeId="3bd50f3b-af25-42d1-a5dc-cf3a78a85c79" valueTypeId="852286b5-9fc1-4c65-8e30-ecb92366d91f"/>
+  </producedTypes>
+  <name>ПоступлениеДСЗарубеж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление ДСЗарубеж</value>
+  </synonym>
+  <comment>Поступление ДСЗарубеж</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ebf4953d-b18d-45f2-b992-8777bf90b26e">
+    <name>СуммаПрихода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма прихода</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7572d611-74c5-44b1-ae3b-fc43dac07da9">
+    <name>ДокументОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ оплаты</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ТаможняРассчёты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+  </dimensions>
+  <dimensions uuid="510a79f0-3a71-421c-a5a8-a3b719c59a12">
+    <name>IDстроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>I dстроки</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="46a084c2-dfb9-4a8b-9518-ab4e4531e406">
+    <name>ДатаПрихода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата прихода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

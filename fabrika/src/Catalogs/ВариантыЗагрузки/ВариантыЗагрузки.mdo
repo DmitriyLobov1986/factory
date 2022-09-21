@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71f0663a-b07a-4976-9735-145394d77b6b">
+  <producedTypes>
+    <objectType typeId="58590b44-b81c-4bb0-aea3-3d9869b66fc6" valueTypeId="74913528-2b00-4cfe-8f7a-6fb5f5c97ba7"/>
+    <refType typeId="743c4237-17fc-4e2e-ba89-473eec2be038" valueTypeId="f0584acc-d29a-4919-8296-00b50a5e1afd"/>
+    <selectionType typeId="7c6e13c2-bb43-4b5d-9274-9ef1aa3bed8a" valueTypeId="bf4e7f1d-ae68-4acb-9504-9e448eff8901"/>
+    <listType typeId="e5eda010-0c9f-4308-9ba8-d022e778e7ea" valueTypeId="c718abf7-0a4d-4685-91f5-ece8eefdc1c4"/>
+    <managerType typeId="f1b4bb54-552b-4a36-8f74-bc9c00b15967" valueTypeId="82a94362-f1db-4fbf-ae76-2f5f94b6ca59"/>
+  </producedTypes>
+  <name>ВариантыЗагрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты загрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВариантыЗагрузки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВариантыЗагрузки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap12bind="http://schemas.xmlsoap.org/wsdl/soap12/"
+		xmlns:soapbind="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:tns="http://ws.com/"
+		xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+		xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		name="WebsmsSoapServService"
+		targetNamespace="http://ws.com/">
+	<message name="sendSMS">
+		<part name="login"
+				type="xsd:string"/>
+		<part name="pass"
+				type="xsd:string"/>
+		<part name="fromPhone"
+				type="xsd:string"/>
+		<part name="messText"
+				type="xsd:string"/>
+		<part name="toPhone"
+				type="xsd:string"/>
+		<part name="userMessId"
+				type="xsd:int"/>
+		<part name="packageId"
+				type="xsd:int"/>
+		<part name="sendDate"
+				type="xsd:string"/>
+		<part name="GMT"
+				type="xsd:int"/>
+		<part name="test"
+				type="xsd:int"/>
+	</message>
+	<message name="sendSMSResponse">
+		<part name="return"
+				type="xsd:string"/>
+	</message>
+	<message name="sendSMS2">
+		<part name="login"
+				type="xsd:string"/>
+		<part name="pass"
+				type="xsd:string"/>
+		<part name="fromPhone"
+				type="xsd:string"/>
+		<part name="messText"
+				type="xsd:string"/>
+		<part name="toPhone"
+				type="xsd:string"/>
+		<part name="userMessId"
+				type="xsd:int"/>
+		<part name="packageId"
+				type="xsd:int"/>
+		<part name="sendDate"
+				type="xsd:string"/>
+		<part name="GMT"
+				type="xsd:int"/>
+		<part name="test"
+				type="xsd:int"/>
+		<part name="validPeriod"
+				type="xsd:int"/>
+	</message>
+	<message name="sendSMS2Response">
+		<part name="return"
+				type="xsd:string"/>
+	</message>
+	<message name="getBalance">
+		<part name="login"
+				type="xsd:string"/>
+		<part name="pass"
+				type="xsd:string"/>
+	</message>
+	<message name="getBalanceResponse">
+		<part name="return"
+				type="xsd:string"/>
+	</message>
+	<message name="getFromList">
+		<part name="login"
+				type="xsd:string"/>
+		<part name="pass"
+				type="xsd:string"/>
+	</message>
+	<message name="getFromListResponse">
+		<part name="return"
+				type="xsd:string"/>
+	</message>
+	<message name="getStatusMsg">
+		<part name="login"
+				type="xsd:string"/>
+		<part name="pass"
+				type="xsd:string"/>
+		<part name="systemId"
+				type="xsd:int"/>
+		<part name="packageId"
+				type="xsd:int"/>
+		<part name="userPackageId"
+				type="xsd:int"/>
+		<part name="userMessId"
+				type="xsd:int"/>
+	</message>
+	<message name="getStatusMsgResponse">
+		<part name="return"
+				type="xsd:string"/>
+	</message>
+	<message name="AddSendingName">
+		<part name="login"
+				type="xsd:string"/>
+		<part name="pass"
+				type="xsd:string"/>
+		<part name="senderName"
+				type="xsd:string"/>
+		<part name="code"
+				type="xsd:int"/>
+	</message>
+	<message name="AddSendingNameResponse">
+		<part name="return"
+				type="xsd:string"/>
+	</message>
+	<message name="getStatus">
+		<part name="login"
+				type="xsd:string"/>
+		<part name="pass"
+				type="xsd:string"/>
+		<part name="systemId"
+				type="xsd:int"/>
+		<part name="packageId"
+				type="xsd:int"/>
+		<part name="userPackageId"
+				type="xsd:int"/>
+		<part name="userMessId"
+				type="xsd:int"/>
+	</message>
+	<message name="getStatusResponse">
+		<part name="return"
+				type="xsd:string"/>
+	</message>
+	<portType name="WebsmsSoapServ">
+		<operation name="sendSMS"
+				parameterOrder="login pass fromPhone messText toPhone userMessId packageId sendDate GMT test">
+			<input name="sendSMSRequest"
+					message="tns:sendSMS"/>
+			<output name="sendSMSResponse"
+					message="tns:sendSMSResponse"/>
+		</operation>
+		<operation name="sendSMS2"
+				parameterOrder="login pass fromPhone messText toPhone userMessId packageId sendDate GMT test validPeriod">
+			<input name="sendSMS2Request"
+					message="tns:sendSMS2"/>
+			<output name="sendSMS2Response"
+					message="tns:sendSMS2Response"/>
+		</operation>
+		<operation name="getBalance"
+				parameterOrder="login pass">
+			<input name="getBalanceRequest"
+					message="tns:getBalance"/>
+			<output name="getBalanceResponse"
+					message="tns:getBalanceResponse"/>
+		</operation>
+		<operation name="getFromList"
+				parameterOrder="login pass">
+			<input name="getFromListRequest"
+					message="tns:getFromList"/>
+			<output name="getFromListResponse"
+					message="tns:getFromListResponse"/>
+		</operation>
+		<operation name="getStatusMsg"
+				parameterOrder="login pass systemId packageId userPackageId userMessId">
+			<input name="getStatusMsgRequest"
+					message="tns:getStatusMsg"/>
+			<output name="getStatusMsgResponse"
+					message="tns:getStatusMsgResponse"/>
+		</operation>
+		<operation name="AddSendingName"
+				parameterOrder="login pass senderName code">
+			<input name="AddSendingNameRequest"
+					message="tns:AddSendingName"/>
+			<output name="AddSendingNameResponse"
+					message="tns:AddSendingNameResponse"/>
+		</operation>
+		<operation name="getStatus"
+				parameterOrder="login pass systemId packageId userPackageId userMessId">
+			<input name="getStatusRequest"
+					message="tns:getStatus"/>
+			<output name="getStatusResponse"
+					message="tns:getStatusResponse"/>
+		</operation>
+	</portType>
+	<binding name="WebsmsSoapServPortBinding"
+			type="tns:WebsmsSoapServ">
+		<soapbind:binding style="rpc"
+				transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="sendSMS">
+			<soapbind:operation style="rpc"/>
+			<input>
+				<soapbind:body use="literal"
+						namespace="http://ws.com/"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"
+						namespace="http://ws.com/"/>
+			</output>
+		</operation>
+		<operation name="sendSMS2">
+			<soapbind:operation style="rpc"/>
+			<input>
+				<soapbind:body use="literal"
+						namespace="http://ws.com/"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"
+						namespace="http://ws.com/"/>
+			</output>
+		</operation>
+		<operation name="getBalance">
+			<soapbind:operation style="rpc"/>
+			<input>
+				<soapbind:body use="literal"
+						namespace="http://ws.com/"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"
+						namespace="http://ws.com/"/>
+			</output>
+		</operation>
+		<operation name="getFromList">
+			<soapbind:operation style="rpc"/>
+			<input>
+				<soapbind:body use="literal"
+						namespace="http://ws.com/"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"
+						namespace="http://ws.com/"/>
+			</output>
+		</operation>
+		<operation name="getStatusMsg">
+			<soapbind:operation style="rpc"/>
+			<input>
+				<soapbind:body use="literal"
+						namespace="http://ws.com/"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"
+						namespace="http://ws.com/"/>
+			</output>
+		</operation>
+		<operation name="AddSendingName">
+			<soapbind:operation style="rpc"/>
+			<input>
+				<soapbind:body use="literal"
+						namespace="http://ws.com/"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"
+						namespace="http://ws.com/"/>
+			</output>
+		</operation>
+		<operation name="getStatus">
+			<soapbind:operation style="rpc"/>
+			<input>
+				<soapbind:body use="literal"
+						namespace="http://ws.com/"/>
+			</input>
+			<output>
+				<soapbind:body use="literal"
+						namespace="http://ws.com/"/>
+			</output>
+		</operation>
+	</binding>
+	<service name="WebsmsSoapServService">
+		<port name="WebsmsSoapServPort"
+				binding="tns:WebsmsSoapServPortBinding">
+			<soapbind:address location="http://smpp3.websms.ru:8183/soap"/>
+		</port>
+	</service>
+</definitions>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a62eb526-172d-4b80-a64e-8038eaade508">
+  <producedTypes>
+    <refType typeId="cbd183fc-fbd4-490a-b05b-2c2e108d5599" valueTypeId="3aee95ab-5f85-41ae-8cf2-e4b690abb115"/>
+    <listType typeId="5e0d483d-3e77-42e4-b06e-fd66955e9011" valueTypeId="18b7c31a-d44f-42ae-81e5-0072de25bba9"/>
+    <managerType typeId="15d0a1c9-a99b-4be9-8722-02be2a68659c" valueTypeId="33544b18-fbb6-4677-a458-83025520b915"/>
+  </producedTypes>
+  <name>ТипМашины</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

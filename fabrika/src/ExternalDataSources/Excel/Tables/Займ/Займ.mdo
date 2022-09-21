@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a300129f-7375-48eb-827a-45ee20d76cf1">
+  <producedTypes>
+    <refType typeId="55579558-0743-4757-a3ee-4ab02c0e1064" valueTypeId="fadbdaa5-6bf2-4fe1-9c95-2da2c1a333b3"/>
+    <listType typeId="30e1b4d9-0f5c-4d4b-8b4c-0b5baa59e590" valueTypeId="f0b97b79-1aad-476c-94b7-fe0272ecaa46"/>
+    <objectType typeId="308847a1-047f-4b31-b6fb-43e24d02999c" valueTypeId="32f4a9de-2567-43bb-91a8-96ae08856a76"/>
+    <managerType typeId="1ca3b24a-3a13-44e1-93c7-31bcbcf6d21d" valueTypeId="f73c129f-879d-4dfc-94b7-a293f58acfd8"/>
+    <recordManagerType typeId="c9530487-12a7-4f83-9614-eac5d914b7d9" valueTypeId="28d7cae1-8cd2-4c0c-a9ac-c7653da58b31"/>
+    <recordSetType typeId="797f768b-3ebf-4e85-9791-93eb403b0158" valueTypeId="81c864c7-5351-4b4f-8474-c2f4bf3abc32"/>
+    <recordType typeId="80543424-1345-43e0-9a78-2d7e1d670175" valueTypeId="49a6ae2d-3680-4323-bba0-7069cbf8971e"/>
+    <recordKeyType typeId="3443d798-5456-4456-b5a5-be4464c399fe" valueTypeId="9959939a-ca08-4b6f-a0e1-c471bbb3210f"/>
+  </producedTypes>
+  <name>Займ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Займ</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.Excel</parentDataSource>
+  <nameInDataSource>Данные$</nameInDataSource>
+  <tableDataType>NonobjectData</tableDataType>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <tableFields uuid="aa654ff7-98fc-42a4-8484-c559a0922f53">
+    <name>ДатаОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отправки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Дата отправки</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="53189b36-b253-4a39-98ba-025afc0cafbe">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Сумма РУБ</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="306ddf5f-297f-4429-9f55-8729d04d1077">
+    <name>ДатаПрихода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата прихода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>Дата прихода</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

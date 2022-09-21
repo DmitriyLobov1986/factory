@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b94523c0-33fe-452a-ada5-071cd78fc47b">
+  <name>БиблиотекаФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Библиотека файлов</value>
+  </synonym>
+  <group>FormNavigationPanelGoTo</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

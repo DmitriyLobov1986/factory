@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="befc5d0d-dfd7-4dd4-98de-866467b2ebfe">
+  <producedTypes>
+    <refType typeId="bf20f1c2-c849-4c2b-87e6-a4f9cb8b55cc" valueTypeId="c2627576-2c65-4970-b733-3f9e4ce65591"/>
+    <listType typeId="a0346412-db37-448f-8a89-c5313f10e538" valueTypeId="35b57588-5375-4c22-8383-4f24837aedc8"/>
+    <objectType typeId="d9c4a2ad-4e09-4d45-93f7-a8c59f15920e" valueTypeId="e55b27c8-06ff-4056-9f8b-6f85f5c582bb"/>
+    <managerType typeId="a9a31f1c-fe18-44f1-a59d-dc3d5e0df9ae" valueTypeId="072504f1-d793-4050-b86e-0e0c2d2d0abf"/>
+    <recordManagerType typeId="ad50955c-6673-4b84-9c51-5f7d07ce6149" valueTypeId="c2f22040-8016-4d0c-a5fe-ebec658e3a36"/>
+    <recordSetType typeId="b99b30d7-fe86-4214-b8fc-c082b7343a2f" valueTypeId="e579af05-8658-425d-99b3-820d5fa50e01"/>
+    <recordType typeId="03592ccb-4012-4d0f-bdad-ba92bbd5dc39" valueTypeId="2d605beb-3e6b-46a1-b522-db5d1ca54394"/>
+    <recordKeyType typeId="b3989aae-bcf8-4ae5-ae33-47c2b4e22bd3" valueTypeId="9ff00e26-d1b9-44ff-9953-5c0c8a0b45c8"/>
+  </producedTypes>
+  <name>Организация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организация</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.SqlЗатраты</parentDataSource>
+  <nameInDataSource>dbo.Org</nameInDataSource>
+  <keyFields>ExternalDataSource.SqlЗатраты.Table.Организация.Field.ID</keyFields>
+  <presentationField>ExternalDataSource.SqlЗатраты.Table.Организация.Field.Организация</presentationField>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.SqlЗатраты.Table.Организация.Field.ID</inputByString>
+  <inputByString>ExternalDataSource.SqlЗатраты.Table.Организация.Field.Организация</inputByString>
+  <readOnly>true</readOnly>
+  <editType>InDialog</editType>
+  <tableFields uuid="be0bc1d3-6234-461d-8052-0938d46f599e">
+    <name>ID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>ID</nameInDataSource>
+    <readOnly>true</readOnly>
+  </tableFields>
+  <tableFields uuid="7a2520b6-9fdb-48a0-9558-7986a1e91cbf">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Org</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="ea269630-6641-495a-965a-051c61358804">
+    <name>Инн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инн</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Inn</nameInDataSource>
+    <readOnly>true</readOnly>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

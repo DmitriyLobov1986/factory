@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2432b63e-bf1a-4255-b42b-7cee3912852a">
+  <name>ОтображатьГруппыДоступаОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать группы доступа организации</value>
+  </synonym>
+  <location>Constant.ОтображатьГруппыДоступаОрганизации</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Организации.Attribute.ГруппаДоступа</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4137c3cc-ba33-4868-9b44-1911997a3cfa">
+  <producedTypes>
+    <refType typeId="7619fbb7-46d3-4a1c-830c-c6058eccf80b" valueTypeId="20eaf43d-6e35-464f-b5ec-9ec929446bc6"/>
+    <listType typeId="9abf26ba-d6f8-4716-bf58-c10c8e03b585" valueTypeId="5a86f2d3-f317-408e-9bc3-7e69f1e44d95"/>
+    <managerType typeId="ce7126f5-e5e3-4a8c-a676-bfab17c84856" valueTypeId="e988f581-7d4e-4279-bc66-16d3c7906cb8"/>
+  </producedTypes>
+  <name>ТипМашины</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип машины</value>
+  </synonym>
+  <comment>Тип содержимого машины</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8efee91f-f957-4201-a50e-892a206957a4">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dcb5c883-6fd6-4d3a-a1dc-76501b52da76">
+    <name>Мебель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мебель</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

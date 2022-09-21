@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>_Document9003_IDRRef_Fld9008RRef</dataPath>
+			<field>_Document9003_IDRRef_Fld9008RRef</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>_Document9003_IDRRef_Number</dataPath>
+			<field>_Document9003_IDRRef_Number</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>_Document9003_IDRRef_Posted</dataPath>
+			<field>_Document9003_IDRRef_Posted</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>_Fld9014RRef</dataPath>
+			<field>_Fld9014RRef</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>_Fld9015</dataPath>
+			<field>_Fld9015</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>_Fld9016RRef</dataPath>
+			<field>_Fld9016RRef</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>_Fld9298</dataPath>
+			<field>_Fld9298</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>_Fld9299RRef</dataPath>
+			<field>_Fld9299RRef</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>_Fld9300</dataPath>
+			<field>_Fld9300</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>_KeyField</dataPath>
+			<field>_KeyField</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>_LineNo9013</dataPath>
+			<field>_LineNo9013</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ ПЕРВЫЕ 100
+	dbo__Document9003_VT9012._KeyField,
+	dbo__Document9003_VT9012._LineNo9013,
+	dbo__Document9003_VT9012._Fld9014RRef,
+	dbo__Document9003_VT9012._Fld9015,
+	dbo__Document9003_VT9012._Fld9016RRef,
+	dbo__Document9003_VT9012._Fld9298,
+	dbo__Document9003_VT9012._Fld9299RRef,
+	dbo__Document9003_VT9012._Fld9300,
+	dbo__Document9003_VT9012._Document9003_IDRRef._Number,
+	dbo__Document9003_VT9012._Document9003_IDRRef._Posted,
+	dbo__Document9003_VT9012._Document9003_IDRRef._Fld9008RRef
+ИЗ
+	ВнешнийИсточникДанных.torg81.Таблица.dbo__Document9003_VT9012 КАК dbo__Document9003_VT9012</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>_Document9003_IDRRef_Fld9008RRef</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>_Document9003_IDRRef_Number</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>_Document9003_IDRRef_Posted</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>_Fld9014RRef</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>_Fld9015</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>_Fld9016RRef</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>_Fld9298</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>_Fld9299RRef</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>_Fld9300</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>_KeyField</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>_LineNo9013</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

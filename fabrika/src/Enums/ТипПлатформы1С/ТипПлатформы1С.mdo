@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cec39036-8f3d-4cbe-bd0e-04c1cef28a77">
+  <producedTypes>
+    <refType typeId="c14335b1-3688-4b89-8a73-ff7d14ce87e6" valueTypeId="18222ce4-53d8-4f8d-bc68-70c39b90c4ac"/>
+    <listType typeId="663a7efb-fbe5-4511-9059-6d9e8535cc68" valueTypeId="d7118762-618d-4378-a7ae-13a75d3bc079"/>
+    <managerType typeId="61e3c2d0-8dea-4a19-9954-2259d3d9d86f" valueTypeId="e8be479b-78d0-4322-9c38-3958754c01b6"/>
+  </producedTypes>
+  <name>ТипПлатформы1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип платформы1 С</value>
+  </synonym>
+  <comment>Тип платформы1 С</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f7728387-3936-4c0c-bf30-122ad8ade678">
+    <name>v82</name>
+    <synonym>
+      <key>ru</key>
+      <value>v82</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3997ba0d-db5d-4674-b9d1-7e062da2f3f0">
+    <name>v83</name>
+    <synonym>
+      <key>ru</key>
+      <value>v83</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

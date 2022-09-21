@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a04bf9b-14f7-4b51-bfd9-367e62bb984c">
+  <producedTypes>
+    <refType typeId="fb6c1add-48bc-454f-b806-25f354e6fb7b" valueTypeId="79f26cd3-077e-4dd1-a481-38c0855b4c51"/>
+    <listType typeId="ced8bb85-fd23-479a-8d52-422ed8c5e0a3" valueTypeId="f97e5399-4472-4eb2-a1cb-9a7a503ec3c8"/>
+    <objectType typeId="f6673f0e-b639-40a9-b73a-08caed8500e0" valueTypeId="51e6e927-3e1c-4c61-a462-a4ce86efdbb3"/>
+    <managerType typeId="1c8d61e2-98c9-47a7-8280-4a277937bb8d" valueTypeId="d6c40134-6c91-4543-98f1-9ccef030c05b"/>
+    <recordManagerType typeId="3c694933-990c-4e29-ae48-3854db74dcb0" valueTypeId="6c89bb37-ab4e-4d05-abcd-ccd1679ab19e"/>
+    <recordSetType typeId="1e1ffb66-3c4f-4795-9730-ce9388e9caf6" valueTypeId="8436773c-c81c-478d-a08a-c941bef521b4"/>
+    <recordType typeId="d88cc8cc-47f8-4b6f-b533-3e448eedebf4" valueTypeId="1da36a3f-8bf7-4068-9bed-8d674f7e362d"/>
+    <recordKeyType typeId="3e047a20-51d1-4fa1-9cc7-12fd21db6cf9" valueTypeId="bc0ec627-4b49-4b14-beb0-278af455adc1"/>
+  </producedTypes>
+  <name>Валюта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюта</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.SqlЗатраты</parentDataSource>
+  <nameInDataSource>dbo.Currency</nameInDataSource>
+  <keyFields>ExternalDataSource.SqlЗатраты.Table.Валюта.Field.ID</keyFields>
+  <presentationField>ExternalDataSource.SqlЗатраты.Table.Валюта.Field.Currency</presentationField>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.SqlЗатраты.Table.Валюта.Field.ID</inputByString>
+  <inputByString>ExternalDataSource.SqlЗатраты.Table.Валюта.Field.Currency</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="d71824ed-54b9-4cbf-a00f-4f2f13239f7a">
+    <name>ID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="d7128766-040c-4d8b-965b-4ceb61e7752a">
+    <name>CHANGELOGID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>CHANGELOGID</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="7a5ac6b5-b7d7-4de5-a0b2-b2a042fb02d8">
+    <name>Currency</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>Currency</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

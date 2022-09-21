@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="547a8894-23ae-47ff-a3a4-b2db0356eaa4">
+  <name>ирЛоготипБольшой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инструменты разработчика (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

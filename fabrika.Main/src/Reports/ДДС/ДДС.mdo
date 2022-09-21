@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="30c1c483-626d-44b8-ae73-f0dfe699e4ee">
+  <producedTypes>
+    <objectType typeId="6d204a0a-0fb0-45d0-9317-42f4558b65bc" valueTypeId="dce57b0f-ec68-4d65-8225-b8de399ef6cd"/>
+    <managerType typeId="befec2af-016b-4daf-a1a1-b9553fdec615" valueTypeId="136181c7-8c49-4e34-b0d5-bf2cdad2d540"/>
+  </producedTypes>
+  <name>ДДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <forms uuid="20066bc1-f493-498a-af48-de84b5995db9">
+    <name>ФормаОтчета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Report>

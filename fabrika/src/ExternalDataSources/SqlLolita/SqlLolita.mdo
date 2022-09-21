@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65a36a30-458c-41e7-ac3c-d7fa37fc7db2">
+  <producedTypes>
+    <managerType typeId="3fcb9b64-6401-4455-bb34-1d74c307534d" valueTypeId="1a6aeee9-a40e-4155-842f-ece8501e7a65"/>
+    <tablesManagerType typeId="03d8f2d0-936d-411c-887b-ec895974d676" valueTypeId="595b37e4-388c-42e0-b31e-5d02d2188eee"/>
+    <cubesManagerType typeId="ad98121f-0a8f-4744-8495-44c31732ad56" valueTypeId="940b5315-efb2-466a-b592-8e757105e139"/>
+  </producedTypes>
+  <name>SqlLolita</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дедактор</value>
+  </synonym>
+  <tables>ExternalDataSource.SqlLolita.Table.dbo_SpravSkladov</tables>
+  <tables>ExternalDataSource.SqlLolita.Table.dbo_OstatkiORG</tables>
+  <tables>ExternalDataSource.SqlLolita.Table.dbo_KontrZagr</tables>
+  <tables>ExternalDataSource.SqlLolita.Table.dbo_RassilkaBuh</tables>
+  <tables>ExternalDataSource.SqlLolita.Table.dbo_SpavFizLis</tables>
+  <tables>ExternalDataSource.SqlLolita.Table.dbo_Schet91</tables>
+  <tables>ExternalDataSource.SqlLolita.Table.ОстаткиЗвена</tables>
+  <tables>ExternalDataSource.SqlLolita.Table.dbo_SpravOtvet</tables>
+  <tables>ExternalDataSource.SqlLolita.Table.ГлоссабМашины</tables>
+  <tables>ExternalDataSource.SqlLolita.Table.ГлоссабПеремещение</tables>
+  <tables>ExternalDataSource.SqlLolita.Table.Задолженности</tables>
+</mdclass:ExternalDataSource>

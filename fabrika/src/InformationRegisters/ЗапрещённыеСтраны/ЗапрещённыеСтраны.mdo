@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2831abe7-657a-47d9-8523-f66880bc81c6">
+  <producedTypes>
+    <selectionType typeId="9b3e347c-03a0-4bde-8621-1271a8280fcc" valueTypeId="c1e7331e-895e-44a6-a5aa-99152a328c66"/>
+    <listType typeId="a2c01d2f-3174-482f-8698-e1b9b95e16ab" valueTypeId="e8959aea-0cf2-4e50-8553-e4083b4ec364"/>
+    <managerType typeId="f9a9c78b-3ce3-4b39-a6ad-28a6b46ce943" valueTypeId="2ac0c4da-ab9c-4d1d-a8cd-30b33d4f8909"/>
+    <recordSetType typeId="4f0961b5-9d51-4a6e-aa71-b54b32a3f13a" valueTypeId="23c41b70-9c37-4ebc-8ab9-8eb5554ee88a"/>
+    <recordKeyType typeId="d75ecf76-8114-45c7-80d0-7d61ff57a49f" valueTypeId="aac05fa3-f47d-46aa-af63-51b170de6000"/>
+    <recordType typeId="a58ab65b-8c52-4f31-bac7-06c3643db1ea" valueTypeId="01f01ce7-e79e-4bdf-986a-576b22772ff1"/>
+    <recordManagerType typeId="93eabc78-22ff-413a-b54d-4c207aa06ae8" valueTypeId="5e6ea232-62ba-49c0-9108-b90a609b2632"/>
+  </producedTypes>
+  <name>ЗапрещённыеСтраны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрещённые страны</value>
+  </synonym>
+  <comment>Перечень банков и стран, в которые с этих банков нельзя платить</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="f2391779-06bb-4447-a518-4b6d2e5de136">
+    <name>Банк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк</value>
+    </synonym>
+    <comment>ID банка отправителя</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0c655fd8-9449-42f3-a24d-c266b0202ddb">
+    <name>ЗапрещённаяСтрана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрещённая страна</value>
+    </synonym>
+    <comment>Запрещённая страна </comment>
+    <type>
+      <types>CatalogRef.СтраныМира</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

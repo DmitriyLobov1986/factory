@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7104c007-8702-4eda-8b54-c320fd32b57e">
+  <producedTypes>
+    <selectionType typeId="37faab5e-8d25-450d-8bf9-912b66da3467" valueTypeId="21d8a8f3-b229-4fd2-afbb-f9902a31b95f"/>
+    <listType typeId="b3aa667b-1f2e-4517-8079-2d8995ae4e4a" valueTypeId="a74fbcea-d8b5-40f2-8421-d0f1d1153660"/>
+    <managerType typeId="dee9ba7c-15d2-4c6d-bb97-8a7c95ec0c25" valueTypeId="4e729626-f2f0-42ea-b4d2-aa7efd3be658"/>
+    <recordSetType typeId="a4505dec-52de-4ed9-928e-3b465a6634f0" valueTypeId="701b5167-1d60-4b27-a73e-2f2df5380b1d"/>
+    <recordKeyType typeId="bd748b47-e361-4010-a1e8-40c570b07410" valueTypeId="c8b39674-2eb6-4f28-97a2-d93e6f698145"/>
+    <recordType typeId="3f07553b-2547-4ecb-80e4-3b6a817f6eeb" valueTypeId="e2482386-f04a-46da-8cb5-f68ba9b8517d"/>
+    <recordManagerType typeId="0c630d93-a3b8-478b-9262-1c131eca2265" valueTypeId="1ab8b4f5-d25c-4211-a7c5-d9afbc9aae67"/>
+  </producedTypes>
+  <name>НастройкаПодключенийКБазам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка подключений к базам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НастройкаПодключенийКБазам.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="39ceba71-d303-4b3b-afa6-5d6ae941933d">
+    <name>СтрокаПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка подключения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="e4482d9f-c924-4d46-aa24-879426f1a3f3">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="2d9a62c0-b19f-4e42-9795-a75f726867cd">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="617c23a7-c9b8-46b9-8f16-dd8508eca075">
+    <name>СерверCOMОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер COMОбъекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="eaeb011f-83e3-4b9f-8fef-e48181f6f0c0">
+    <name>ТипПлатформы1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип платформы1 С</value>
+    </synonym>
+    <comment>Тип платформы1 С</comment>
+    <type>
+      <types>EnumRef.ТипПлатформы1С</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c3f71607-5625-4cb1-ab31-36074459e347">
+    <name>ТипОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип организации</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипОрганизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="28bf19b5-5451-4690-bee2-a55e9a1fca1e">
+    <name>ТипСоединения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип соединения</value>
+    </synonym>
+    <comment>Тип соединения</comment>
+    <type>
+      <types>EnumRef.ТипСоединения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="30b21a7c-d931-4b03-8b4d-8388fa58cfab">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

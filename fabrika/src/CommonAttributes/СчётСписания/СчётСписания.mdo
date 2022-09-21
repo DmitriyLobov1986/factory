@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5b7236b-22b8-497c-867b-7d5db49b90ef">
+  <name>СчётСписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счёт списания</value>
+  </synonym>
+  <comment>Счёт списания таможенных платежей</comment>
+  <type>
+    <types>CatalogRef.БанковскиеСчета</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataHistory>Use</dataHistory>
+  <fillValue xsi:type="core:UndefinedValue"/>
+  <content>
+    <metadata>Document.ПополнениеКарт</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Document.ЗаявкаНаМашину</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Document.КорректировкаОстатковПоКарте</metadata>
+    <use>Use</use>
+  </content>
+  <autoUse>DontUse</autoUse>
+  <dataSeparation>DontUse</dataSeparation>
+  <usersSeparation>DontUse</usersSeparation>
+  <authenticationSeparation>DontUse</authenticationSeparation>
+  <fullTextSearch>Use</fullTextSearch>
+</mdclass:CommonAttribute>

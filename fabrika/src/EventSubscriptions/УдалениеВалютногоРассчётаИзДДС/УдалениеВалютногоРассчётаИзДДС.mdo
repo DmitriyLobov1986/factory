@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6388570-5b89-432f-b56a-37ec68b32b6d">
+  <name>УдалениеВалютногоРассчётаИзДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаление валютного рассчёта из ДДС</value>
+  </synonym>
+  <comment>Удаление оплат зарубежным контрагентам в подсистему ДДС</comment>
+  <source>
+    <types>DocumentObject.ТаможняРассчёты</types>
+  </source>
+  <event>UndoPosting</event>
+  <handler>CommonModule.ДДС_Сервер.УдалениеВалютногоРассчётаИзДДСПередУдалением</handler>
+</mdclass:EventSubscription>

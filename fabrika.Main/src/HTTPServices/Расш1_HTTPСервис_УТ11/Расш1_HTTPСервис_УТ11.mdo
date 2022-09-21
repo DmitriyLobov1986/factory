@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75e274a1-eec6-44fb-b5a7-704677d5bd4d">
+  <name>Расш1_HTTPСервис_УТ11</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расш1 HTTPСервис УТ11</value>
+  </synonym>
+  <comment>Сервис для загрузки данных их УТ 11</comment>
+  <rootURL>UT11</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="62682b47-6f00-4dfa-92a7-4e2e72b1833c">
+    <name>ЗагрузитьЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЗагрузитьЗаявки</value>
+    </synonym>
+    <comment>ЗагрузитьЗаявки</comment>
+    <template>/RequestsLoad</template>
+    <methods uuid="fd99fb6c-e41c-4751-b1c8-3e462b72e592">
+      <name>Загрузить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Загрузить</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ЗагрузитьЗаявкиЗагрузить</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a53881ea-1a8b-499d-9318-0a84f3ab299b">
+  <producedTypes>
+    <objectType typeId="7a66ec9d-b9a7-494c-b22c-2e5442586fe8" valueTypeId="d415a226-803c-418e-9130-6223621ae352"/>
+    <managerType typeId="f29414ee-8386-4b2d-b95f-7045bc18e267" valueTypeId="ae13ef3e-68eb-4e78-bd1e-416d8fd6f097"/>
+  </producedTypes>
+  <name>ЗагрузкаСправочникаОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка справочника организаций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаСправочникаОрганизаций.Form.Форма</defaultForm>
+  <tabularSections uuid="97c58036-75d4-4155-9852-5b9f41b3d503">
+    <producedTypes>
+      <objectType typeId="cf43a0f6-a4f6-4173-8af1-d6a827cd0986" valueTypeId="adccbe9b-987c-47a9-ae28-a534e1f5d12b"/>
+      <rowType typeId="fe69dd31-c744-449d-828f-643a958971a6" valueTypeId="2c1d8ede-cf74-464c-9f77-793bc591611c"/>
+    </producedTypes>
+    <name>СписокОрганизаций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список организаций</value>
+    </synonym>
+    <attributes uuid="a6ae8e5d-7b04-41f8-86b1-b290f948a048">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Организации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ec8b3fc6-dd4d-4e8f-9f9f-ed3f8ca2d3fc">
+      <name>Инн</name>
+      <synonym>
+        <key>ru</key>
+        <value>Инн</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="19efd83d-6e53-4f8d-b5e6-0ffc4839ea91">
+      <name>ТипОрганизации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип организации</value>
+      </synonym>
+      <type>
+        <types>EnumRef</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5bc86e4b-5f81-449e-9474-9314c5745368">
+      <name>Статус</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="9f75b19a-36f8-4cc1-9a9a-60b8368f0066">
+    <producedTypes>
+      <objectType typeId="47bf3a65-5760-4016-b259-5be67f5d06a5" valueTypeId="8770cbc9-2000-463f-9952-5d9ba4aacee8"/>
+      <rowType typeId="61de2c52-a3ac-4325-a528-6f136ab4247a" valueTypeId="341e4774-e7fd-443f-a263-f6e13144523c"/>
+    </producedTypes>
+    <name>ПодключаемыеБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключаемые базы</value>
+    </synonym>
+    <comment>Подключаемые базы</comment>
+    <attributes uuid="b445acb7-0525-4fa2-9e57-ef1cda1ab236">
+      <name>ТипОрганизации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип организации</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТипОрганизации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5295bd86-88ec-44d9-9b0a-ca165f956f97">
+      <name>Отметка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отметка</value>
+      </synonym>
+      <comment>Отметка</comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="2646020a-7ab7-4ab7-8605-5ac47fc7dbb6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

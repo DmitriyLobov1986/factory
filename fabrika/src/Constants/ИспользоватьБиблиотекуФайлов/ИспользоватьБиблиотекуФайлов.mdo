@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a979568-6bc7-4f75-b585-ebdcaafc119a">
+  <producedTypes>
+    <managerType typeId="570aaf25-5d41-49c0-aaea-b97eafd47c00" valueTypeId="4ad3d3ea-8d7c-442c-ac79-b8c0302f9aec"/>
+    <valueManagerType typeId="7ecfe684-9c30-4fbc-8983-c56a8ceab7ab" valueTypeId="6e260ff4-01ec-4cfc-8ab9-3cec3ba1a44a"/>
+    <valueKeyType typeId="7e9365a0-0f92-5e9f-bd41-379a8edbcf02" valueTypeId="597e7583-6a64-5982-b1bd-c133ba3b80b3"/>
+  </producedTypes>
+  <name>ИспользоватьБиблиотекуФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать библиотеку файлов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

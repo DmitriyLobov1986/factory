@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="011b60b7-78d7-4163-845a-792409b25001">
+  <name>РегистрыСведений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистры сведений</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.НастройкаПодключенийКБазам</content>
+  <content>InformationRegister.СценарииДедактор</content>
+  <parentSubsystem>Subsystem.ВнешниеИсточникиДанных</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f90f34f9-12c6-4108-a151-b0db28a643fe">
+  <producedTypes>
+    <refType typeId="dac2269e-9d69-4e41-8c2c-e0578260a209" valueTypeId="96c328dc-a2c8-4367-9947-a54b2ede905a"/>
+    <listType typeId="e42d4041-773b-41a2-9a8b-1820d618db6d" valueTypeId="a12b9142-eefd-445c-aed6-91b11130ccb3"/>
+    <managerType typeId="ba9063e4-4a59-4543-a9a4-1f79e5c16b51" valueTypeId="ed936efe-2c0b-40f7-9467-9d4fba13ccfe"/>
+  </producedTypes>
+  <name>ВариантРаспределенияПлатежа</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="f87dddf8-689a-4e9a-8940-aca6b8ab44ff">
+    <name>ПоИнвойсу</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="11e9cacd-1ab3-4b33-b6dd-6b81918f0153">
+    <name>ПоДатеПлатежа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="baf6c524-1948-4f94-b0eb-492f875acac0">
+    <name>Аванс</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

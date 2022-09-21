@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ae2fb51-6593-4b4e-ae00-90f77dd8938a">
+  <producedTypes>
+    <refType typeId="7aafd967-52b3-4695-94ed-4a007691f4f4" valueTypeId="b2b67b28-f55d-4c18-90d6-d9edcab61d8e"/>
+    <listType typeId="8c9aa952-6688-46d9-9092-8ab716b90940" valueTypeId="765e21e1-ef99-4dcd-a91b-2916f0ab52db"/>
+    <managerType typeId="733f36c7-51d2-4fa3-87a0-715f14f5db3a" valueTypeId="f784aafc-b18e-48cd-b1ad-7dd724be6806"/>
+  </producedTypes>
+  <name>ВариантРаспределенияПлатежа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вариант распределения платежа</value>
+  </synonym>
+  <comment>Вариант распределения платежа</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c4229db3-14c4-452f-9c40-e282e94f8bb2">
+    <name>Аванс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аванс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="51efbca3-a01e-461f-b507-b16cb671a5fb">
+    <name>ПоИнвойсу</name>
+    <synonym>
+      <key>ru</key>
+      <value>По инвойсу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d5117013-a31c-4b58-90ec-9b0b4eca33f8">
+    <name>ПоДатеПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>По дате платежа</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

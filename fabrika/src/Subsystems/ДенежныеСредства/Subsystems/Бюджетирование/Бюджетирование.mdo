@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5375ff05-b7c7-440c-a5c9-da68f2101ed6">
+  <name>Бюджетирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджетирование</value>
+  </synonym>
+  <comment>Для управления бюджетированием и движением денег</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ExternalDataSource.Бюджетирование.Table.ПланДДС</content>
+  <content>ExternalDataSource.Бюджетирование.Table.сп_СтатьяРасхода</content>
+  <content>ExternalDataSource.Бюджетирование.Table.сп_Организация</content>
+  <parentSubsystem>Subsystem.ДенежныеСредства</parentSubsystem>
+</mdclass:Subsystem>

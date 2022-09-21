@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbce6e63-2ef6-41c6-9f39-20bbc3841db5">
+  <name>Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.ОткрытьТаможенныеОрганизации</content>
+  <content>Catalog.Таможни</content>
+  <content>CommonCommand.ВывестиСправочнуюПоКартам</content>
+  <content>92febcac-bb0d-4d31-8cb7-b08df131e71c</content>
+  <parentSubsystem>Subsystem.Таможня</parentSubsystem>
+</mdclass:Subsystem>
