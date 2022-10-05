@@ -118,4 +118,12 @@
     </synonym>
     <comment>Упп</comment>
   </enumValues>
+  <enumValues uuid="5bb1ef85-066c-4763-8e25-d792c24afe8d">
+    <name>Оптима</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оптима</value>
+    </synonym>
+    <comment>бух. база Оптима-Плюс</comment>
+  </enumValues>
 </mdclass:Enum>

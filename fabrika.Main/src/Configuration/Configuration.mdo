@@ -108,8 +108,8 @@
   <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>
   <catalogs>Catalog.Инициаторы</catalogs>
   <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
-  <documents>Document.ТаможняРассчёты</documents>
   <documents>Document.ПриходМашины</documents>
+  <documents>Document.ТаможняРассчёты</documents>
   <documents>Document.КорректировкаОплатГТД</documents>
   <enums>Enum.ТипМашины</enums>
   <enums>Enum.ТипДвиженияДДС</enums>
