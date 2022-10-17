@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3694ecad-a3da-4dba-bd3a-30b57be8042e">
+  <producedTypes>
+    <managerType typeId="5643030e-9d0e-4995-b080-96e36d972960" valueTypeId="83b72810-184c-4692-a001-e07001d81ece"/>
+    <tablesManagerType typeId="ccf5d30d-08d3-4d42-999e-ec96a82ae660" valueTypeId="297a84a1-c0c2-44a7-92f3-3ae881caf2ad"/>
+    <cubesManagerType typeId="13e50f78-a1fd-4858-8d7c-059cec7e568c" valueTypeId="04fe8d1f-b97f-4ed0-a408-6e9a52c4e541"/>
+  </producedTypes>
+  <name>sql_Exchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Sql exchange</value>
+  </synonym>
+  <tables>ExternalDataSource.sql_Exchange.Table.ut</tables>
+</mdclass:ExternalDataSource>

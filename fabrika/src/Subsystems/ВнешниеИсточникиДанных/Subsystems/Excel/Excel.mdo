@@ -7,6 +7,5 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>ExternalDataSource.Excel.Table.Займ</content>
   <parentSubsystem>Subsystem.ВнешниеИсточникиДанных</parentSubsystem>
 </mdclass:Subsystem>

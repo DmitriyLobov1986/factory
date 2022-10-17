@@ -1948,7 +1948,7 @@
   <tasks>Task.ЗадачаИсполнителя</tasks>
   <externalDataSources>ExternalDataSource.SqlLolita</externalDataSources>
   <externalDataSources>ExternalDataSource.SqlЗатраты</externalDataSources>
-  <externalDataSources>ExternalDataSource.Excel</externalDataSources>
   <externalDataSources>ExternalDataSource.Бюджетирование</externalDataSources>
   <externalDataSources>ExternalDataSource.SqlЗатратыНовый</externalDataSources>
+  <externalDataSources>ExternalDataSource.sql_Exchange</externalDataSources>
 </mdclass:Configuration>
