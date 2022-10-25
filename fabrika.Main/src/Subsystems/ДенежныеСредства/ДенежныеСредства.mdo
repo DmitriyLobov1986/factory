@@ -7,7 +7,6 @@
   <content>DataProcessor.РаспределениеДС</content>
   <content>Report.ДДС</content>
   <content>Report.РеестрПлатежейСогласование</content>
-  <content>HTTPService.Расш1_HTTPСервис_УТ11</content>
   <content>Report.РеестрПлатежей</content>
   <content>Report.ОстаткиПоОрганизация</content>
   <content>DataProcessor.ЗаполнениеРегистраДДС</content>

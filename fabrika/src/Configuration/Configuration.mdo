@@ -1461,7 +1461,6 @@
   <constants>Constant.ЭтоАвтономноеРабочееМесто</constants>
   <constants>Constant.ОтображатьГруппыДоступаОрганизации</constants>
   <constants>Constant.ИспользоватьРаспределениеПоПокупателям</constants>
-  <constants>Constant.ХранилищеЗаявокУТ11</constants>
   <constants>Constant.ЗагрузкаИзБухгалтерии</constants>
   <commonForms>CommonForm.АвтономнаяРабота</commonForms>
   <commonForms>CommonForm.БиблиотекаФайлов</commonForms>

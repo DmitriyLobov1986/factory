@@ -130,7 +130,7 @@
     <name>ИП_Тучков</name>
     <synonym>
       <key>ru</key>
-      <value>И п тучков</value>
+      <value>ИП_Тучков</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>
