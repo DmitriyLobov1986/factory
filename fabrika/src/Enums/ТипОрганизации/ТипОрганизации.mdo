@@ -126,4 +126,11 @@
     </synonym>
     <comment>бух. база Оптима-Плюс</comment>
   </enumValues>
+  <enumValues uuid="f08a4c1a-6bc7-4e06-9c4c-7706daf4f298">
+    <name>ИП_Тучков</name>
+    <synonym>
+      <key>ru</key>
+      <value>И п тучков</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
