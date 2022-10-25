@@ -204,7 +204,7 @@
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
-    <nameInDataSource>tranfID</nameInDataSource>
+    <nameInDataSource>docNum</nameInDataSource>
   </tableFields>
   <tableFields uuid="928e2ec8-b188-4ab5-a2ca-fc8785e2b430">
     <name>Сумма</name>
@@ -251,5 +251,23 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:BooleanValue"/>
     <nameInDataSource>sent</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="151c3266-ada8-41d3-90ce-69e81464a9ec">
+    <name>База</name>
+    <synonym>
+      <key>ru</key>
+      <value>База</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>base</nameInDataSource>
+    <allowNull>true</allowNull>
   </tableFields>
 </mdclass:Table>
