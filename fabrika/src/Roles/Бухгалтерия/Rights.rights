@@ -8296,17 +8296,6 @@
 		</right>
 	</object>
 	<object>
-		<name>ExternalDataSource.Excel.Table.Займ.Field.ДатаПрихода</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы.Attribute.Размер</name>
 		<right>
 			<name>View</name>
@@ -14321,17 +14310,6 @@
 	</object>
 	<object>
 		<name>Catalog.Файлы.Attribute.Описание</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>ExternalDataSource.Excel.Table.Займ.Field.Сумма</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -29990,17 +29968,6 @@
 	</object>
 	<object>
 		<name>DataProcessor.ПомощникНастройкиСинхронизацииДанныхМеждуПриложениямиВИнтернете.TabularSection.ИнформацияСтатистики.Attribute.СинхронизироватьПоИдентификатору</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>ExternalDataSource.Excel.Table.Займ.Field.ДатаОтправки</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

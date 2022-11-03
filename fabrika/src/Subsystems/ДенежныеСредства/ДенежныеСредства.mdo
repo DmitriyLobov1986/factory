@@ -26,4 +26,5 @@
   <subsystems>ДДС</subsystems>
   <subsystems>БизнесПроцессы</subsystems>
   <subsystems>Бюджетирование</subsystems>
+  <subsystems>Exchange</subsystems>
 </mdclass:Subsystem>

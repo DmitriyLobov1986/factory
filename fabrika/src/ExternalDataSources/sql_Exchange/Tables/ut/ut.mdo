@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8fce1dc-9798-4a5c-abc9-28d6d8d01330">
+  <producedTypes>
+    <refType typeId="9732d89f-96b8-43c9-a68a-800764ea69af" valueTypeId="c0bc4e0b-ac0b-4f9b-ac97-e75b31013be2"/>
+    <listType typeId="77730384-44f6-4154-b754-d5e53b5af0df" valueTypeId="3d406e4d-44d3-49d0-a30a-e983ce1e58f9"/>
+    <objectType typeId="24be50e1-e8c5-480d-bd0c-ecdbcdbf11ab" valueTypeId="5fe1ee18-4899-49dd-a9bb-d19b54743225"/>
+    <managerType typeId="a757e385-8fff-40f7-889b-bb44813bc165" valueTypeId="070e88ab-041b-4fa1-aa1b-268ae924ad14"/>
+    <recordManagerType typeId="0921ff7d-47e2-4cf5-9505-93bff1de779e" valueTypeId="fce4721d-82ab-4348-953c-d52df9a994db"/>
+    <recordSetType typeId="384d6d94-2809-4d28-bc06-1467ead4c18f" valueTypeId="53276700-60b8-403b-890c-b12936264c70"/>
+    <recordType typeId="cba7bd13-25b6-4b89-8196-d84fd84e2c5c" valueTypeId="e0302fcc-a622-4709-966d-290fd8dac296"/>
+    <recordKeyType typeId="94acf8b0-90de-4c45-bfb8-95876e3d16a7" valueTypeId="0499710f-615e-4540-9bc2-51817c80e1dd"/>
+  </producedTypes>
+  <name>ut</name>
+  <synonym>
+    <key>ru</key>
+    <value>УТ</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.sql_Exchange</parentDataSource>
+  <nameInDataSource>dbo.ut_exch</nameInDataSource>
+  <tableDataType>NonobjectData</tableDataType>
+  <keyFields>ExternalDataSource.sql_Exchange.Table.ut.Field.НомерВБухгалтерии</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.sql_Exchange.Table.ut.Field.НомерВБухгалтерии</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="3574e98d-3841-4900-96f7-02f250ebd648">
+    <name>ОргИнн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>orgInn</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="c774b582-82cb-4792-b785-217e26dc83d4">
+    <name>НомерСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет организации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>acc</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="a8c34643-ed20-48f4-bb40-46f01d821a26">
+    <name>БИК</name>
+    <synonym>
+      <key>ru</key>
+      <value>БИК организации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>bic</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="e9519d87-72a2-4e61-8703-c04e5506a3bf">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта перевода</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>currency</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="8015cd37-55d5-4e1c-9ca0-d8ebfc75f7a3">
+    <name>КонтрагентНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>ben</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="4e805d96-88ac-47f7-a623-e4c67efcf04b">
+    <name>КонтрИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент ИНН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>benInn</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="f7d7e2c0-0f3e-4bc1-836b-aa0dd3950c34">
+    <name>НомерСчета_Контрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет получателя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>benAcc</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="9ac0a47d-3b64-4742-8259-fb92222db473">
+    <name>БИК_Контрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>БИК получателя</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>benBic</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="95034a85-1d72-4c11-8e23-2ea1273506fe">
+    <name>Назначение</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>payPurp</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="7b25458a-db83-49e2-839a-48c3f324af06">
+    <name>НомерВБухгалтерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>docNum</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="928e2ec8-b188-4ab5-a2ca-fc8785e2b430">
+    <name>Сумма</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>amount</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="716b7079-e09b-46d7-9df8-2d805fe0df30">
+    <name>ОплатитьДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплатить До</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>deadline</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="48994320-2d87-420c-a567-f26545fb13e8">
+    <name>Отправлено</name>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <nameInDataSource>sent</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="151c3266-ada8-41d3-90ce-69e81464a9ec">
+    <name>База</name>
+    <synonym>
+      <key>ru</key>
+      <value>База</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>base</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

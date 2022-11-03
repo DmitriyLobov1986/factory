@@ -1461,7 +1461,6 @@
   <constants>Constant.ЭтоАвтономноеРабочееМесто</constants>
   <constants>Constant.ОтображатьГруппыДоступаОрганизации</constants>
   <constants>Constant.ИспользоватьРаспределениеПоПокупателям</constants>
-  <constants>Constant.ХранилищеЗаявокУТ11</constants>
   <constants>Constant.ЗагрузкаИзБухгалтерии</constants>
   <commonForms>CommonForm.АвтономнаяРабота</commonForms>
   <commonForms>CommonForm.БиблиотекаФайлов</commonForms>
@@ -1948,7 +1947,7 @@
   <tasks>Task.ЗадачаИсполнителя</tasks>
   <externalDataSources>ExternalDataSource.SqlLolita</externalDataSources>
   <externalDataSources>ExternalDataSource.SqlЗатраты</externalDataSources>
-  <externalDataSources>ExternalDataSource.Excel</externalDataSources>
   <externalDataSources>ExternalDataSource.Бюджетирование</externalDataSources>
   <externalDataSources>ExternalDataSource.SqlЗатратыНовый</externalDataSources>
+  <externalDataSources>ExternalDataSource.sql_Exchange</externalDataSources>
 </mdclass:Configuration>

@@ -85,10 +85,8 @@
   <commonModules>CommonModule.РегламентныеЗадачиСервер</commonModules>
   <xDTOPackages>XDTOPackage.Deductor</xDTOPackages>
   <webServices>WebService.DeductorWebService</webServices>
-  <httpServices>HTTPService.Расш1_HTTPСервис_УТ11</httpServices>
   <httpServices>HTTPService.Расш1_Бюджетирование</httpServices>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
-  <constants>Constant.ХранилищеЗаявокУТ11</constants>
   <commonForms>CommonForm.Расш1_РедактированиеТаблицВХ</commonForms>
   <commonForms>CommonForm.ДлительнаяОперацияДополнительныхОтчетовИОбработок</commonForms>
   <catalogs>Catalog.Организации</catalogs>
