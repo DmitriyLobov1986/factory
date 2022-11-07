@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b26e8e86-4e14-4969-a550-378146f3bc2d" extendedConfigurationObject="5de5daa8-dda5-43c2-a2e1-19a3ff36c2a5">
+  <name>ВнешниеИсточникиДанных</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <content>CommonModule.API</content>
+  <content>CommonModule.БОНД_Коннектор</content>
+</mdclass:Subsystem>
