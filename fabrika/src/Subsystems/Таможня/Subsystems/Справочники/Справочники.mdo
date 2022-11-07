@@ -10,6 +10,5 @@
   <content>CommonCommand.ОткрытьТаможенныеОрганизации</content>
   <content>Catalog.Таможни</content>
   <content>CommonCommand.ВывестиСправочнуюПоКартам</content>
-  <content>92febcac-bb0d-4d31-8cb7-b08df131e71c</content>
   <parentSubsystem>Subsystem.Таможня</parentSubsystem>
 </mdclass:Subsystem>

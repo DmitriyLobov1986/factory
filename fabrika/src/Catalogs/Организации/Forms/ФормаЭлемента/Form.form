@@ -649,13 +649,13 @@
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
-        <command>3</command>
+        <command>0</command>
         <group>FormNavigationPanelGoTo</group>
         <index>0</index>
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>4</command>
+        <command>0</command>
         <group>FormNavigationPanelGoTo</group>
         <index>1</index>
         <userVisible/>

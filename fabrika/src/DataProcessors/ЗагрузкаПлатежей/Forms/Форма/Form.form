@@ -1462,9 +1462,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>1/0:71a32bd6-a045-4988-8f9a-e6f1449e4959/0:25d4a873-390d-43b4-80f2-e7add3e8a1fb</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ПлатежиИзБухгалтерии1ДокументСозданРасширеннаяПодсказка</name>
             <id>102</id>

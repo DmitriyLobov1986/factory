@@ -623,10 +623,6 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>047d4d09-961c-4bdc-8519-eef10674c35b</event>
-    <name>ПослеЗаписи</name>
-  </handlers>
-  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
@@ -637,10 +633,6 @@
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
-    <event>bf0ac0e1-bcbb-4dfe-8fc4-0b1923b461a6</event>
-    <name>ПередЗаписьюНаСервере</name>
   </handlers>
   <handlers>
     <event>OnClose</event>

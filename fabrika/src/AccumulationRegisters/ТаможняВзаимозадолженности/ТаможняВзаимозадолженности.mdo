@@ -107,14 +107,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <choiceParameterLinks>
-      <name>Отбор.Владелец</name>
-      <field>0:b36ad2d8-12f9-4891-9b5c-903d64029479</field>
-    </choiceParameterLinks>
-    <choiceParameterLinks>
-      <name>Отбор.Организация</name>
-      <field>0:a87b8307-9006-4ac9-86ca-e8ba26c32413</field>
-    </choiceParameterLinks>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>

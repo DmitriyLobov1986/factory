@@ -2555,6 +2555,7 @@
           </period>
           <topLevelParent xsi:type="core:UndefinedValue"/>
           <showRoot>true</showRoot>
+          <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -2750,7 +2751,7 @@
         </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>0:2c3bb244-5ad6-4f1f-9d33-7c0c8035454b</command>
+        <command>0</command>
         <userVisible>
           <common>true</common>
         </userVisible>

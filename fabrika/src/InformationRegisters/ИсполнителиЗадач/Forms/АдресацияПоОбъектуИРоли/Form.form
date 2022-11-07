@@ -10,7 +10,6 @@
     <items xsi:type="form:FormField">
       <name>ОсновнойОбъектАдресации</name>
       <id>18</id>
-      <titleFont xsi:type="core:AutoFont"/>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -53,7 +52,6 @@
       <extInfo xsi:type="form:LabelFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <font xsi:type="core:AutoFont"/>
       </extInfo>
     </items>
     <visible>true</visible>

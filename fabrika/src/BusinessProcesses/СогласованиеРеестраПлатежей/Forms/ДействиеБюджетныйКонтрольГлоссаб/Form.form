@@ -1302,7 +1302,6 @@
       <key>ru</key>
       <value>Комментарий</value>
     </title>
-    <titleFont xsi:type="core:AutoFont"/>
     <extendedTooltip>
       <name>ГруппаРезультатExtendedTooltip</name>
       <id>192</id>

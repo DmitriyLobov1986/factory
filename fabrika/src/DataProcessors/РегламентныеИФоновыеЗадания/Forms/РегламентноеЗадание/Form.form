@@ -915,7 +915,6 @@
     <items xsi:type="form:FormField">
       <name>СообщенияИОписаниеИнформацииОбОшибке</name>
       <id>27</id>
-      <titleFont xsi:type="core:AutoFont"/>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

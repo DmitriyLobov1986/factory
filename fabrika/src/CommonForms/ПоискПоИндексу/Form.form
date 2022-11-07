@@ -7,7 +7,6 @@
   <items xsi:type="form:FormField">
     <name>НадписьОРегионеИРайоне</name>
     <id>13</id>
-    <titleFont xsi:type="core:AutoFont"/>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>

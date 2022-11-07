@@ -2228,7 +2228,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>0:198ea630-fda2-4cda-8a23-f999f4c67ee6</commandName>
+      <commandName>0</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -2923,17 +2923,17 @@
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>3</command>
+        <command>0</command>
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>3</command>
+        <command>0</command>
         <group>FormCommandBarCreateBasedOn</group>
         <index>2</index>
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>3</command>
+        <command>0</command>
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
@@ -2941,31 +2941,31 @@
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>3:33e0072d-7d5b-4298-ae77-31a7cb358f5d</command>
+        <command>0</command>
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>0:bb013ded-0797-4a7d-b3cc-51ac7db1d766</command>
+        <command>0</command>
         <group>CommandGroup.Взаимодействия</group>
         <index>2</index>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>0:fe21aaf0-7c7a-4db2-87d9-050921cfe22e</command>
+        <command>0</command>
         <group>CommandGroup.Взаимодействия</group>
         <index>3</index>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>0:77f82a5e-964a-4c33-b178-5d815e98c69d</command>
+        <command>0</command>
         <group>CommandGroup.Взаимодействия</group>
         <index>4</index>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>0:2e9087c5-74ca-46da-9a85-da34f23cd088</command>
+        <command>0</command>
         <group>CommandGroup.Взаимодействия</group>
         <index>5</index>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>0:bb4022f3-c430-4439-ae86-606c6e01711f</command>
+        <command>0</command>
         <group>CommandGroup.Взаимодействия</group>
         <index>6</index>
       </cmiFragmentRecord>

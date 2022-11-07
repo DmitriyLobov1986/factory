@@ -56,7 +56,6 @@
       <key>ru</key>
       <value>Сеанс выполнения регламентных заданий</value>
     </title>
-    <titleFont xsi:type="core:AutoFont"/>
     <extendedTooltip>
       <name>СеансВыполненияРегламентныхЗаданийExtendedTooltip</name>
       <id>31</id>

@@ -168,10 +168,6 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Report.АнализЖурналаРегистрации.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
@@ -260,10 +256,6 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>DataProcessor.ЗагрузкаКурсовВалют.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
@@ -305,14 +297,6 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>CommonCommand.ЗагрузитьДанныеИзСервиса</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>100</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>100</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -429,12 +413,10 @@
     <orderFragments>
       <group>ActionsPanelReports</group>
       <commands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commands>
-      <commands>0</commands>
       <commands>Report.АнализЖурналаРегистрации.StandardCommand.Open</commands>
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelTools</group>
-      <commands>100</commands>
       <commands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commands>
       <commands>CommonForm.ВходВОбластьДанных.StandardCommand.Open</commands>
       <commands>DataProcessor.АктивныеПользователи.StandardCommand.Open</commands>
@@ -459,7 +441,6 @@
       <commands>CommonForm.НастройкиЭЦП.StandardCommand.Open</commands>
       <commands>CommonForm.ПараметрыАдминистрированияСервернойИБ.StandardCommand.Open</commands>
       <commands>CommonForm.ПараметрыПроксиСервера.StandardCommand.Open</commands>
-      <commands>0</commands>
       <commands>DataProcessor.ЗагрузкаКурсовВалют.StandardCommand.Open</commands>
       <commands>Catalog.КлассификаторБанковРФ.Command.КлассификаторБанковРФ</commands>
       <commands>CommonForm.НастройкиАгентаСервиса.StandardCommand.Open</commands>
@@ -471,8 +452,6 @@
       <commands>CommonCommand.ВыгрузитьДанныеДляПереходаВСервис</commands>
       <commands>CommonCommand.ЗагрузитьДанныеВОбласть</commands>
       <commands>CommonCommand.ЗагрузитьДанныеИзСервиса</commands>
-      <commands>100</commands>
-      <commands>100</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

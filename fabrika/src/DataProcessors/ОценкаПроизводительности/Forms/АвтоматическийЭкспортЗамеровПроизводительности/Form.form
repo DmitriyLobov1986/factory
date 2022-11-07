@@ -465,15 +465,10 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <handlers>
-    <event>bf0ac0e1-bcbb-4dfe-8fc4-0b1923b461a6</event>
-    <name>ПередЗаписьюНаСервере</name>
-  </handlers>
-  <handlers>
     <event>FillCheckProcessingAtServer</event>
     <name>ОбработкаПроверкиЗаполненияНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
-  <settingsStorage>3062c54f-92ed-42c5-b62f-1c0e685cfe75</settingsStorage>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

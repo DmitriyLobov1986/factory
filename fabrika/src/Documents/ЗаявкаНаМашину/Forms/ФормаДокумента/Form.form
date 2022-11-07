@@ -790,9 +790,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>1/0:0018b9bd-e78c-4037-99d7-653c4cb415fe</segments>
-            </dataPath>
             <extendedTooltip>
               <name>КурсГТДРасширеннаяПодсказка</name>
               <id>56</id>
@@ -1042,9 +1039,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>1/0:4a0de7ad-8ae0-40b9-abab-e5bd5af8c653</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ПоставщикРасширеннаяПодсказка</name>
           <id>47</id>
@@ -1092,9 +1086,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>1/0:5882aeff-53b1-4689-b5a7-a36875b3e3cd</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ПокупательРасширеннаяПодсказка</name>
           <id>50</id>
@@ -1150,9 +1141,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>1/0:79e42f8d-5838-43af-a809-54af6d246517</segments>
-        </dataPath>
         <extendedTooltip>
           <name>НаценкаРасширеннаяПодсказка</name>
           <id>53</id>

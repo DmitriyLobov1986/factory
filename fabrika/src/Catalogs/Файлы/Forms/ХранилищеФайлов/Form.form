@@ -517,6 +517,7 @@
             </period>
             <topLevelParent xsi:type="core:UndefinedValue"/>
             <showRoot>true</showRoot>
+            <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
           </extInfo>
         </items>
         <items xsi:type="form:Table">
@@ -2325,6 +2326,7 @@
               <endDate>0001-01-01T00:00:00</endDate>
             </period>
             <topLevelParent xsi:type="core:UndefinedValue"/>
+            <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -4131,7 +4133,7 @@
     <navigationPanel/>
     <commandBar>
       <cmiFragmentRecord>
-        <command>0:fc40e2dd-5d79-4fd4-8e33-17a0a1d385a3</command>
+        <command>0</command>
         <group>FormCommandBarImportant</group>
         <index>0</index>
       </cmiFragmentRecord>

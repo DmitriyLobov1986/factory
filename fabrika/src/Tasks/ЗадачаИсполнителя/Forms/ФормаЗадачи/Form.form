@@ -695,7 +695,6 @@
           <key>ru</key>
           <value>Реквизиты шапки</value>
         </title>
-        <titleFont xsi:type="core:AutoFont"/>
         <extendedTooltip>
           <name>ГруппаРеквизитыШапкиExtendedTooltip</name>
           <id>146</id>
@@ -1333,7 +1332,6 @@
       <key>ru</key>
       <value>Результат выполнения</value>
     </title>
-    <titleFont xsi:type="core:AutoFont"/>
     <extendedTooltip>
       <name>ГруппаРезультатExtendedTooltip</name>
       <id>160</id>

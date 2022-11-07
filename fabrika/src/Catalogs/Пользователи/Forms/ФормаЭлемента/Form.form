@@ -2791,7 +2791,7 @@
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
-        <command>4:440d115d-a769-427e-891a-88d65fba2057</command>
+        <command>0</command>
         <userVisible/>
       </cmiFragmentRecord>
     </navigationPanel>

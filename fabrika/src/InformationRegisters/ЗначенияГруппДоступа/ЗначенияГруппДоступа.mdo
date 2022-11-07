@@ -134,9 +134,6 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <linkByType>
-      <field>0:9fd16d51-91bb-4973-a7c4-cf4db87da8bf/0:ee0a8d23-660a-492b-a813-b57394acee05</field>
-    </linkByType>
     <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:ReferenceValue"/>

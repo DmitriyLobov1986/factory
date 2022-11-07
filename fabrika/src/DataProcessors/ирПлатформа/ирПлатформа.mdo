@@ -398,11 +398,11 @@
   <forms uuid="6da2aaf6-cb86-4e55-a084-883147594592">
     <name>ТаблицаЗначений</name>
     <synonym>
-      <key>ru_RU</key>
+      <key>ru</key>
       <value>Таблица значений</value>
     </synonym>
     <synonym>
-      <key>ru</key>
+      <key>ru_RU</key>
       <value>Таблица значений</value>
     </synonym>
     <formType>Ordinary</formType>
@@ -412,11 +412,11 @@
   <forms uuid="a2224706-4553-4329-88dc-fb124cdbdb48">
     <name>ТабличныйДокумент</name>
     <synonym>
-      <key>ru_RU</key>
+      <key>ru</key>
       <value>Табличный документ</value>
     </synonym>
     <synonym>
-      <key>ru</key>
+      <key>ru_RU</key>
       <value>Табличный документ</value>
     </synonym>
     <formType>Ordinary</formType>

@@ -932,7 +932,6 @@
       <key>ru</key>
       <value>Содержание</value>
     </title>
-    <titleFont xsi:type="core:AutoFont"/>
     <horizontalStretch>true</horizontalStretch>
     <extendedTooltip>
       <name>ГруппаСодержаниеExtendedTooltip</name>
@@ -1321,7 +1320,6 @@
       <key>ru</key>
       <value>Результат проверки задания:</value>
     </title>
-    <titleFont xsi:type="core:AutoFont"/>
     <horizontalStretch>true</horizontalStretch>
     <extendedTooltip>
       <name>ГруппаРезультатExtendedTooltip</name>

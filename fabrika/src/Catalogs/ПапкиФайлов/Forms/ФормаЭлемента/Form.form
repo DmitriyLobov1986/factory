@@ -605,7 +605,7 @@
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
-        <command>0:114c80b3-473b-4d93-a4f9-3a16744a1d34</command>
+        <command>0</command>
         <userVisible>
           <common>true</common>
         </userVisible>

@@ -2728,6 +2728,7 @@
               </period>
               <topLevelParent xsi:type="core:UndefinedValue"/>
               <showRoot>true</showRoot>
+              <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -3596,6 +3597,7 @@
               <restoreCurrentRow>true</restoreCurrentRow>
               <topLevelParent xsi:type="core:UndefinedValue"/>
               <showRoot>true</showRoot>
+              <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -4383,6 +4385,7 @@
               <restoreCurrentRow>true</restoreCurrentRow>
               <topLevelParent xsi:type="core:UndefinedValue"/>
               <showRoot>true</showRoot>
+              <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
             </extInfo>
           </items>
           <visible>true</visible>

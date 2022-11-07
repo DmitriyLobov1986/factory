@@ -293,10 +293,6 @@
     <use>DontUse</use>
   </content>
   <content>
-    <metadata>DocumentJournal.Взаимодействия</metadata>
-    <use>DontUse</use>
-  </content>
-  <content>
     <metadata>Constant.МаксимальноеКоличествоИсполняющихФоновыхЗаданий</metadata>
     <use>DontUse</use>
   </content>

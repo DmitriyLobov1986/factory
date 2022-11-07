@@ -159,6 +159,5 @@
   <extInfo xsi:type="form:ReportFormExtInfo">
     <showState>ShowOnComposition</showState>
     <reportResult>ТаблицаОтчета</reportResult>
-    <detailsInformation>3</detailsInformation>
   </extInfo>
 </form:Form>

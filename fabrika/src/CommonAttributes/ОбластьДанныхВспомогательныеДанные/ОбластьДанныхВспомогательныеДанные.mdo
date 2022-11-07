@@ -57,10 +57,6 @@
     <use>DontUse</use>
   </content>
   <content>
-    <metadata>DocumentJournal.Взаимодействия</metadata>
-    <use>DontUse</use>
-  </content>
-  <content>
     <metadata>ScheduledJob.ЭкспортОценкиПроизводительности</metadata>
     <use>DontUse</use>
   </content>

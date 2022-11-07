@@ -649,7 +649,6 @@
         <key>ru</key>
         <value>Вложения</value>
       </title>
-      <titleFont xsi:type="core:AutoFont"/>
       <extendedTooltip>
         <name>ГруппаВложенияExtendedTooltip</name>
         <id>55</id>
