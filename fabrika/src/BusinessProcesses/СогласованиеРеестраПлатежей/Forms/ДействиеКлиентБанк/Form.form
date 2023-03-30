@@ -1534,12 +1534,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>Activate</excludedCommands>
-  <excludedCommands>Copy</excludedCommands>
-  <excludedCommands>Delete</excludedCommands>
-  <excludedCommands>Execute</excludedCommands>
   <excludedCommands>ExecuteAndClose</excludedCommands>
-  <excludedCommands>SetDeletionMark</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
