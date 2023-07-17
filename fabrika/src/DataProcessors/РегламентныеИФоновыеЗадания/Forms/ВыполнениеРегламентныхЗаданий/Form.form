@@ -918,16 +918,7 @@
     <event>OnClose</event>
     <name>ПриЗакрытии</name>
   </handlers>
-  <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>Cancel</excludedCommands>
   <excludedCommands>Close</excludedCommands>
-  <excludedCommands>Ignore</excludedCommands>
-  <excludedCommands>No</excludedCommands>
-  <excludedCommands>OK</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
-  <excludedCommands>Yes</excludedCommands>
   <width>75</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>

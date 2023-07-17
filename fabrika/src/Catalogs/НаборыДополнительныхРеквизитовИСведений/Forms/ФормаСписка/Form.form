@@ -888,11 +888,7 @@
         <segments>Свойства</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
-      <excludedCommands>CancelSearch</excludedCommands>
       <excludedCommands>EndEdit</excludedCommands>
-      <excludedCommands>Find</excludedCommands>
-      <excludedCommands>SortListAsc</excludedCommands>
-      <excludedCommands>SortListDesc</excludedCommands>
       <items xsi:type="form:FormField">
         <name>СвойстваЗаголовок</name>
         <id>41</id>

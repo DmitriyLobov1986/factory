@@ -773,15 +773,7 @@
         <segments>НастройкиПечатныхФорм</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
-      <excludedCommands>CancelSearch</excludedCommands>
-      <excludedCommands>Change</excludedCommands>
       <excludedCommands>Copy</excludedCommands>
-      <excludedCommands>EndEdit</excludedCommands>
-      <excludedCommands>Find</excludedCommands>
-      <excludedCommands>OutputList</excludedCommands>
-      <excludedCommands>SelectAll</excludedCommands>
-      <excludedCommands>SortListAsc</excludedCommands>
-      <excludedCommands>SortListDesc</excludedCommands>
       <items xsi:type="form:FormField">
         <name>НастройкиПечатныхФормПечатать</name>
         <id>93</id>

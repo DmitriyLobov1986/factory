@@ -3458,14 +3458,6 @@
         <skipOnInput>false</skipOnInput>
         <titleLocation>None</titleLocation>
         <excludedCommands>Add</excludedCommands>
-        <excludedCommands>Change</excludedCommands>
-        <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>Delete</excludedCommands>
-        <excludedCommands>EndEdit</excludedCommands>
-        <excludedCommands>MoveDown</excludedCommands>
-        <excludedCommands>MoveUp</excludedCommands>
-        <excludedCommands>SortListAsc</excludedCommands>
-        <excludedCommands>SortListDesc</excludedCommands>
         <items xsi:type="form:FormField">
           <name>СписокСостоянияУзловРасписаниеНастроено</name>
           <id>318</id>

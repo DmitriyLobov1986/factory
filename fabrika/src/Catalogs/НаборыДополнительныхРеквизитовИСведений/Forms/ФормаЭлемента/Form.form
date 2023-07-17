@@ -683,7 +683,6 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <excludedCommands>Copy</excludedCommands>
-  <excludedCommands>Delete</excludedCommands>
   <width>80</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoUrl>true</autoUrl>

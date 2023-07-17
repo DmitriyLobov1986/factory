@@ -17,14 +17,6 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <excludedCommands>Add</excludedCommands>
-    <excludedCommands>Change</excludedCommands>
-    <excludedCommands>Copy</excludedCommands>
-    <excludedCommands>Delete</excludedCommands>
-    <excludedCommands>EndEdit</excludedCommands>
-    <excludedCommands>MoveDown</excludedCommands>
-    <excludedCommands>MoveUp</excludedCommands>
-    <excludedCommands>SortListAsc</excludedCommands>
-    <excludedCommands>SortListDesc</excludedCommands>
     <items xsi:type="form:FormField">
       <name>УзлыПлановОбменаПланОбменаПредставление</name>
       <id>23</id>
@@ -384,16 +376,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>Cancel</excludedCommands>
   <excludedCommands>Close</excludedCommands>
-  <excludedCommands>Ignore</excludedCommands>
-  <excludedCommands>No</excludedCommands>
-  <excludedCommands>OK</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
-  <excludedCommands>Yes</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoUrl>true</autoUrl>
   <autoFillCheck>true</autoFillCheck>

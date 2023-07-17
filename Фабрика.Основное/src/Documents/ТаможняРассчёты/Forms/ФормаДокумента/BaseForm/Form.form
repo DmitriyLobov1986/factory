@@ -762,6 +762,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Получено</segments>
+            </dataPath>
             <extendedTooltip>
               <name>ПолученоРасширеннаяПодсказка</name>
               <id>170</id>
@@ -1321,7 +1324,7 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0</commandName>
+                <commandName>Form.Command.ПодборГТД</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1351,7 +1354,7 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0</commandName>
+                <commandName>Form.Command.РаспределитьПлатеж</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -2104,6 +2107,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Боркин.Валюта</segments>
+          </dataPath>
           <extendedTooltip>
             <name>БоркинВалютаРасширеннаяПодсказка</name>
             <id>185</id>
@@ -2205,6 +2211,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Боркин.Получено1</segments>
+          </dataPath>
           <extendedTooltip>
             <name>БоркинПолученоРасширеннаяПодсказка</name>
             <id>173</id>
@@ -2509,7 +2518,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>0</commandName>
+      <commandName>Form.Command.ЗаписьДДС</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>

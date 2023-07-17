@@ -983,19 +983,7 @@
         </dataPath>
         <skipOnInput>false</skipOnInput>
         <titleLocation>None</titleLocation>
-        <excludedCommands>Change</excludedCommands>
-        <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>CopyToClipboard</excludedCommands>
-        <excludedCommands>Create</excludedCommands>
-        <excludedCommands>Delete</excludedCommands>
-        <excludedCommands>HierarchicalList</excludedCommands>
-        <excludedCommands>List</excludedCommands>
         <excludedCommands>ListSettings</excludedCommands>
-        <excludedCommands>MoveItem</excludedCommands>
-        <excludedCommands>OutputList</excludedCommands>
-        <excludedCommands>Refresh</excludedCommands>
-        <excludedCommands>SetDeletionMark</excludedCommands>
-        <excludedCommands>Tree</excludedCommands>
         <items xsi:type="form:FormField">
           <name>НаименованиеГруппы</name>
           <id>103</id>
@@ -1252,11 +1240,7 @@
         </dataPath>
         <skipOnInput>false</skipOnInput>
         <titleLocation>None</titleLocation>
-        <excludedCommands>Change</excludedCommands>
-        <excludedCommands>Copy</excludedCommands>
         <excludedCommands>Create</excludedCommands>
-        <excludedCommands>Delete</excludedCommands>
-        <excludedCommands>SetDeletionMark</excludedCommands>
         <items xsi:type="form:FormField">
           <name>Пользователь</name>
           <id>87</id>

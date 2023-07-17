@@ -16,7 +16,6 @@
       <segments>Список</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
-    <excludedCommands>Delete</excludedCommands>
     <excludedCommands>SetDeletionMark</excludedCommands>
     <items xsi:type="form:FormField">
       <name>СписокПодписанЭЦП</name>
@@ -2307,8 +2306,6 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>Change</excludedCommands>
-  <excludedCommands>Delete</excludedCommands>
   <excludedCommands>SetDeletionMark</excludedCommands>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

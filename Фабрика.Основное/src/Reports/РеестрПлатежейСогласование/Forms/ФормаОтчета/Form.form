@@ -133,13 +133,13 @@
       <id>64</id>
       <items xsi:type="form:Button">
         <name>ИзменитьВБухгалтерии</name>
-        <id>32</id>
+        <id>44</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible/>
         <extendedTooltip>
           <name>ИзменитьВБухгалтерииРасширеннаяПодсказка</name>
-          <id>33</id>
+          <id>45</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -433,7 +433,7 @@
         </userVisible>
         <extendedTooltip>
           <name>РезультатКонтекстноеМенюВариантГлоссабРасширеннаяПодсказка</name>
-          <id>73</id>
+          <id>47</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -455,7 +455,7 @@
       </items>
       <items xsi:type="form:Button">
         <name>РезультатКонтекстноеМенюВыбратьВариантОбработкиРеестра</name>
-        <id>72</id>
+        <id>48</id>
         <title>
           <key>ru</key>
           <value>Операции с реестром</value>
@@ -497,7 +497,7 @@
         </userVisible>
         <extendedTooltip>
           <name>РезультатКонтекстноеМенюЗапуститьПроцессСогласованияРасширеннаяПодсказка</name>
-          <id>85</id>
+          <id>51</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -530,11 +530,6 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:SpreadSheetDocFieldExtInfo">
-      <handlers xsi:type="form:EventHandlerExtension">
-        <event>OnActivate</event>
-        <name>Расш1_РезультатПриАктивизацииОбластиПосле</name>
-        <callType>After</callType>
-      </handlers>
       <width>100</width>
       <autoMaxWidth>true</autoMaxWidth>
       <height>10</height>
@@ -589,10 +584,10 @@
   </items>
   <items xsi:type="form:FormGroup">
     <name>НижнийКолонтитул</name>
-    <id>81</id>
+    <id>55</id>
     <items xsi:type="form:FormGroup">
       <name>Группа1</name>
-      <id>55</id>
+      <id>34</id>
       <items xsi:type="form:FormGroup">
         <name>ВертикальнаяГруппа</name>
         <id>79</id>
@@ -601,7 +596,7 @@
           <id>38</id>
           <items xsi:type="form:FormGroup">
             <name>ДополнительныеКоманды</name>
-            <id>60</id>
+            <id>38</id>
             <items xsi:type="form:Button">
               <name>ЗаписатьКомментарий</name>
               <id>36</id>
@@ -749,7 +744,7 @@
             <horizontalStretch>false</horizontalStretch>
             <extendedTooltip>
               <name>ДополнительныеКомандыРасширеннаяПодсказка</name>
-              <id>61</id>
+              <id>39</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1037,7 +1032,7 @@
       <horizontalStretch>true</horizontalStretch>
       <extendedTooltip>
         <name>Группа1РасширеннаяПодсказка</name>
-        <id>56</id>
+        <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1075,7 +1070,7 @@
     </toolTip>
     <extendedTooltip>
       <name>НижнийКолонтитулРасширеннаяПодсказка</name>
-      <id>84</id>
+      <id>56</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

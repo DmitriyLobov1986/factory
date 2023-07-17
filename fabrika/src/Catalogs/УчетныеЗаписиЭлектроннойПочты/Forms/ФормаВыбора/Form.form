@@ -13,10 +13,7 @@
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
-    <excludedCommands>CopyToClipboard</excludedCommands>
     <excludedCommands>ListSettings</excludedCommands>
-    <excludedCommands>OutputList</excludedCommands>
-    <excludedCommands>Refresh</excludedCommands>
     <items xsi:type="form:FormField">
       <name>Наименование</name>
       <id>4</id>

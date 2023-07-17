@@ -13,15 +13,6 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <excludedCommands>Add</excludedCommands>
-    <excludedCommands>Change</excludedCommands>
-    <excludedCommands>Copy</excludedCommands>
-    <excludedCommands>Delete</excludedCommands>
-    <excludedCommands>EndEdit</excludedCommands>
-    <excludedCommands>MoveDown</excludedCommands>
-    <excludedCommands>MoveUp</excludedCommands>
-    <excludedCommands>SelectAll</excludedCommands>
-    <excludedCommands>SortListAsc</excludedCommands>
-    <excludedCommands>SortListDesc</excludedCommands>
     <items xsi:type="form:FormGroup">
       <name>СписокСостоянияУзловГруппаОсновная</name>
       <id>44</id>

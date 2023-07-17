@@ -309,11 +309,7 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <excludedCommands>Copy</excludedCommands>
   <excludedCommands>Create</excludedCommands>
-  <excludedCommands>CreateFolder</excludedCommands>
-  <excludedCommands>Delete</excludedCommands>
-  <excludedCommands>SetDeletionMark</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>

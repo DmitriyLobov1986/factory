@@ -1822,15 +1822,6 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <excludedCommands>Add</excludedCommands>
-        <excludedCommands>EndEdit</excludedCommands>
-        <excludedCommands>HierarchicalList</excludedCommands>
-        <excludedCommands>List</excludedCommands>
-        <excludedCommands>MoveDown</excludedCommands>
-        <excludedCommands>MoveUp</excludedCommands>
-        <excludedCommands>OutputList</excludedCommands>
-        <excludedCommands>SortListAsc</excludedCommands>
-        <excludedCommands>SortListDesc</excludedCommands>
-        <excludedCommands>Tree</excludedCommands>
         <items xsi:type="form:FormGroup">
           <name>ДатаКартинка</name>
           <id>115</id>

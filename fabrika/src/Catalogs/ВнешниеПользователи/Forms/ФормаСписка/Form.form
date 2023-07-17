@@ -22,8 +22,6 @@
           </dataPath>
           <skipOnInput>false</skipOnInput>
           <titleLocation>None</titleLocation>
-          <excludedCommands>CopyToClipboard</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
           <excludedCommands>OutputList</excludedCommands>
           <items xsi:type="form:FormField">
             <name>НаименованиеГруппы</name>
@@ -502,8 +500,6 @@
           </dataPath>
           <skipOnInput>false</skipOnInput>
           <titleLocation>None</titleLocation>
-          <excludedCommands>CopyToClipboard</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
           <excludedCommands>OutputList</excludedCommands>
           <items xsi:type="form:FormField">
             <name>Наименование</name>
@@ -1040,13 +1036,6 @@
         </dataPath>
         <titleLocation>Top</titleLocation>
         <excludedCommands>Add</excludedCommands>
-        <excludedCommands>Change</excludedCommands>
-        <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>EndEdit</excludedCommands>
-        <excludedCommands>MoveDown</excludedCommands>
-        <excludedCommands>MoveUp</excludedCommands>
-        <excludedCommands>SortListAsc</excludedCommands>
-        <excludedCommands>SortListDesc</excludedCommands>
         <items xsi:type="form:FormField">
           <name>ПользователиИГруппы</name>
           <id>82</id>

@@ -21,14 +21,6 @@
       <skipOnInput>false</skipOnInput>
       <titleLocation>Top</titleLocation>
       <excludedCommands>Add</excludedCommands>
-      <excludedCommands>Change</excludedCommands>
-      <excludedCommands>Copy</excludedCommands>
-      <excludedCommands>Delete</excludedCommands>
-      <excludedCommands>EndEdit</excludedCommands>
-      <excludedCommands>MoveDown</excludedCommands>
-      <excludedCommands>MoveUp</excludedCommands>
-      <excludedCommands>SortListAsc</excludedCommands>
-      <excludedCommands>SortListDesc</excludedCommands>
       <items xsi:type="form:FormField">
         <name>ПользователиСсылка</name>
         <id>4</id>
@@ -544,14 +536,6 @@
       <skipOnInput>false</skipOnInput>
       <titleLocation>Top</titleLocation>
       <excludedCommands>Add</excludedCommands>
-      <excludedCommands>Change</excludedCommands>
-      <excludedCommands>Copy</excludedCommands>
-      <excludedCommands>Delete</excludedCommands>
-      <excludedCommands>EndEdit</excludedCommands>
-      <excludedCommands>MoveDown</excludedCommands>
-      <excludedCommands>MoveUp</excludedCommands>
-      <excludedCommands>SortListAsc</excludedCommands>
-      <excludedCommands>SortListDesc</excludedCommands>
       <items xsi:type="form:FormField">
         <name>ПользователиКороткогоСпискаПользователь</name>
         <id>16</id>

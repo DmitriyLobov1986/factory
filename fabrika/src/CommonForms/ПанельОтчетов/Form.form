@@ -1647,16 +1647,7 @@
     <event>OnClose</event>
     <name>ПриЗакрытии</name>
   </handlers>
-  <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>Cancel</excludedCommands>
   <excludedCommands>Close</excludedCommands>
-  <excludedCommands>Ignore</excludedCommands>
-  <excludedCommands>No</excludedCommands>
-  <excludedCommands>OK</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
-  <excludedCommands>Yes</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

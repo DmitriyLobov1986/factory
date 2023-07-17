@@ -267,7 +267,6 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <excludedCommands>Copy</excludedCommands>
-  <excludedCommands>List</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>

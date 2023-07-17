@@ -943,7 +943,6 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <excludedCommands>CancelSearch</excludedCommands>
-  <excludedCommands>Find</excludedCommands>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

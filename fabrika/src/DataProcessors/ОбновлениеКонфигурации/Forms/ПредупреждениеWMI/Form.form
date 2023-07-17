@@ -295,17 +295,7 @@
     <horizontalAlign>Right</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>Cancel</excludedCommands>
-  <excludedCommands>CustomizeForm</excludedCommands>
   <excludedCommands>Help</excludedCommands>
-  <excludedCommands>Ignore</excludedCommands>
-  <excludedCommands>No</excludedCommands>
-  <excludedCommands>OK</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
-  <excludedCommands>Yes</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>

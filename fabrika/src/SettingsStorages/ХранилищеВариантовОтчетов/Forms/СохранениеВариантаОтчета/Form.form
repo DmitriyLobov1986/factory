@@ -19,16 +19,6 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <excludedCommands>Add</excludedCommands>
-        <excludedCommands>CancelSearch</excludedCommands>
-        <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>CopyToClipboard</excludedCommands>
-        <excludedCommands>EndEdit</excludedCommands>
-        <excludedCommands>Find</excludedCommands>
-        <excludedCommands>MoveDown</excludedCommands>
-        <excludedCommands>MoveUp</excludedCommands>
-        <excludedCommands>OutputList</excludedCommands>
-        <excludedCommands>SortListAsc</excludedCommands>
-        <excludedCommands>SortListDesc</excludedCommands>
         <items xsi:type="form:FormField">
           <name>ВариантыОтчетаНаименование</name>
           <id>4</id>
@@ -1005,15 +995,6 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <excludedCommands>Add</excludedCommands>
-        <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>Delete</excludedCommands>
-        <excludedCommands>HierarchicalList</excludedCommands>
-        <excludedCommands>List</excludedCommands>
-        <excludedCommands>MoveDown</excludedCommands>
-        <excludedCommands>MoveUp</excludedCommands>
-        <excludedCommands>SortListAsc</excludedCommands>
-        <excludedCommands>SortListDesc</excludedCommands>
-        <excludedCommands>Tree</excludedCommands>
         <items xsi:type="form:FormGroup">
           <name>ГруппаКолонок</name>
           <id>77</id>
@@ -1667,16 +1648,7 @@
     <event>FillCheckProcessingAtServer</event>
     <name>ОбработкаПроверкиЗаполненияНаСервере</name>
   </handlers>
-  <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>Close</excludedCommands>
   <excludedCommands>CustomizeForm</excludedCommands>
-  <excludedCommands>Ignore</excludedCommands>
-  <excludedCommands>No</excludedCommands>
-  <excludedCommands>OK</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
-  <excludedCommands>Yes</excludedCommands>
   <width>60</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>

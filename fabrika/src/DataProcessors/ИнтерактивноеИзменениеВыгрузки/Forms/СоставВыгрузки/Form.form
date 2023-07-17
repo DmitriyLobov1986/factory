@@ -15,9 +15,7 @@
       <segments>КомпоновщикНастроек.UserSettings</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
-    <excludedCommands>HierarchicalList</excludedCommands>
     <excludedCommands>List</excludedCommands>
-    <excludedCommands>Tree</excludedCommands>
     <autoCommandBar>
       <name>КомпоновщикНастроекПользовательскиеНастройкиКоманднаяПанель</name>
       <id>17</id>

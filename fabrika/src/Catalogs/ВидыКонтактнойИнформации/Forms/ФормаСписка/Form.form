@@ -15,7 +15,6 @@
     <skipOnInput>false</skipOnInput>
     <titleLocation>None</titleLocation>
     <excludedCommands>CreateFolder</excludedCommands>
-    <excludedCommands>MoveItem</excludedCommands>
     <items xsi:type="form:FormField">
       <name>НомерКартинки</name>
       <id>28</id>

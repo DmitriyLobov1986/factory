@@ -698,17 +698,6 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <excludedCommands>Add</excludedCommands>
-            <excludedCommands>Change</excludedCommands>
-            <excludedCommands>Copy</excludedCommands>
-            <excludedCommands>Delete</excludedCommands>
-            <excludedCommands>EndEdit</excludedCommands>
-            <excludedCommands>HierarchicalList</excludedCommands>
-            <excludedCommands>List</excludedCommands>
-            <excludedCommands>MoveDown</excludedCommands>
-            <excludedCommands>MoveUp</excludedCommands>
-            <excludedCommands>SortListAsc</excludedCommands>
-            <excludedCommands>SortListDesc</excludedCommands>
-            <excludedCommands>Tree</excludedCommands>
             <items xsi:type="form:FormGroup">
               <name>КонтактыГруппа</name>
               <id>36</id>
@@ -1433,17 +1422,6 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <excludedCommands>Add</excludedCommands>
-            <excludedCommands>Change</excludedCommands>
-            <excludedCommands>Copy</excludedCommands>
-            <excludedCommands>Delete</excludedCommands>
-            <excludedCommands>EndEdit</excludedCommands>
-            <excludedCommands>HierarchicalList</excludedCommands>
-            <excludedCommands>List</excludedCommands>
-            <excludedCommands>MoveDown</excludedCommands>
-            <excludedCommands>MoveUp</excludedCommands>
-            <excludedCommands>SortListAsc</excludedCommands>
-            <excludedCommands>SortListDesc</excludedCommands>
-            <excludedCommands>Tree</excludedCommands>
             <items xsi:type="form:FormGroup">
               <name>ПредметыГруппаКолонок</name>
               <id>83</id>
@@ -2222,10 +2200,7 @@
               <segments>Закладки</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
-            <excludedCommands>HierarchicalList</excludedCommands>
-            <excludedCommands>List</excludedCommands>
             <excludedCommands>ListSettings</excludedCommands>
-            <excludedCommands>Tree</excludedCommands>
             <items xsi:type="form:FormField">
               <name>ЗакладкиНаименование</name>
               <id>122</id>
@@ -2731,17 +2706,6 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <excludedCommands>Add</excludedCommands>
-            <excludedCommands>Change</excludedCommands>
-            <excludedCommands>Copy</excludedCommands>
-            <excludedCommands>Delete</excludedCommands>
-            <excludedCommands>EndEdit</excludedCommands>
-            <excludedCommands>HierarchicalList</excludedCommands>
-            <excludedCommands>List</excludedCommands>
-            <excludedCommands>MoveDown</excludedCommands>
-            <excludedCommands>MoveUp</excludedCommands>
-            <excludedCommands>SortListAsc</excludedCommands>
-            <excludedCommands>SortListDesc</excludedCommands>
-            <excludedCommands>Tree</excludedCommands>
             <items xsi:type="form:FormGroup">
               <name>СвойстваГруппаКолонок</name>
               <id>135</id>
@@ -3426,17 +3390,6 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <excludedCommands>Add</excludedCommands>
-            <excludedCommands>Change</excludedCommands>
-            <excludedCommands>Copy</excludedCommands>
-            <excludedCommands>Delete</excludedCommands>
-            <excludedCommands>EndEdit</excludedCommands>
-            <excludedCommands>HierarchicalList</excludedCommands>
-            <excludedCommands>List</excludedCommands>
-            <excludedCommands>MoveDown</excludedCommands>
-            <excludedCommands>MoveUp</excludedCommands>
-            <excludedCommands>SortListAsc</excludedCommands>
-            <excludedCommands>SortListDesc</excludedCommands>
-            <excludedCommands>Tree</excludedCommands>
             <items xsi:type="form:FormGroup">
               <name>РеквизитыПредметаГруппаКолонок</name>
               <id>168</id>
@@ -4215,16 +4168,7 @@
               <segments>Папки</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
-            <excludedCommands>Change</excludedCommands>
             <excludedCommands>Copy</excludedCommands>
-            <excludedCommands>EndEdit</excludedCommands>
-            <excludedCommands>HierarchicalList</excludedCommands>
-            <excludedCommands>List</excludedCommands>
-            <excludedCommands>MoveDown</excludedCommands>
-            <excludedCommands>MoveUp</excludedCommands>
-            <excludedCommands>SortListAsc</excludedCommands>
-            <excludedCommands>SortListDesc</excludedCommands>
-            <excludedCommands>Tree</excludedCommands>
             <items xsi:type="form:FormGroup">
               <name>ПапкиГруппаКолонок</name>
               <id>181</id>
@@ -5092,16 +5036,6 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <excludedCommands>Add</excludedCommands>
-            <excludedCommands>CancelSearch</excludedCommands>
-            <excludedCommands>Change</excludedCommands>
-            <excludedCommands>Copy</excludedCommands>
-            <excludedCommands>Delete</excludedCommands>
-            <excludedCommands>EndEdit</excludedCommands>
-            <excludedCommands>Find</excludedCommands>
-            <excludedCommands>MoveDown</excludedCommands>
-            <excludedCommands>MoveUp</excludedCommands>
-            <excludedCommands>SortListAsc</excludedCommands>
-            <excludedCommands>SortListDesc</excludedCommands>
             <items xsi:type="form:FormGroup">
               <name>КатегорииГруппаКолонок</name>
               <id>311</id>
@@ -7650,7 +7584,6 @@
               <segments>Список</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
-            <excludedCommands>Copy</excludedCommands>
             <excludedCommands>Refresh</excludedCommands>
             <items xsi:type="form:FormField">
               <name>ВажностьНомерКартинкиВходящие</name>
@@ -9476,7 +9409,6 @@
               <segments>Список</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
-            <excludedCommands>Copy</excludedCommands>
             <excludedCommands>Refresh</excludedCommands>
             <items xsi:type="form:FormField">
               <name>ВажностьНомерКартинкиИсходящие</name>

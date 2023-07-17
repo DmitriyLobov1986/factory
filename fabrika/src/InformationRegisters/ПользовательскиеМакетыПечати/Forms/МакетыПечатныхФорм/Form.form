@@ -226,12 +226,6 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <excludedCommands>Add</excludedCommands>
-    <excludedCommands>Change</excludedCommands>
-    <excludedCommands>Copy</excludedCommands>
-    <excludedCommands>Delete</excludedCommands>
-    <excludedCommands>EndEdit</excludedCommands>
-    <excludedCommands>MoveDown</excludedCommands>
-    <excludedCommands>MoveUp</excludedCommands>
     <items xsi:type="form:FormField">
       <name>МакетыПечатныхФормИспользование</name>
       <id>63</id>

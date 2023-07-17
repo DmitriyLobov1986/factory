@@ -10,10 +10,10 @@
   <name>Организации</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:CatalogExtension">
-    <codeLength>Checked</codeLength>
-    <descriptionLength>Checked</descriptionLength>
-    <codeType>Checked</codeType>
+    <codeLength>Extended</codeLength>
     <codeAllowedLength>Checked</codeAllowedLength>
+    <descriptionLength>Extended</descriptionLength>
+    <codeType>Extended</codeType>
   </extension>
   <codeLength>9</codeLength>
   <descriptionLength>150</descriptionLength>

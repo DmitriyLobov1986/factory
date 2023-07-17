@@ -13,7 +13,6 @@
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
-    <excludedCommands>Copy</excludedCommands>
     <excludedCommands>Create</excludedCommands>
     <items xsi:type="form:FormField">
       <name>Пользователь</name>
@@ -631,7 +630,6 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>Copy</excludedCommands>
   <excludedCommands>Create</excludedCommands>
   <width>110</width>
   <autoTitle>true</autoTitle>

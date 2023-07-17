@@ -24,17 +24,6 @@
         <skipOnInput>false</skipOnInput>
         <titleLocation>None</titleLocation>
         <excludedCommands>Add</excludedCommands>
-        <excludedCommands>Change</excludedCommands>
-        <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>CopyToClipboard</excludedCommands>
-        <excludedCommands>Delete</excludedCommands>
-        <excludedCommands>EndEdit</excludedCommands>
-        <excludedCommands>MoveDown</excludedCommands>
-        <excludedCommands>MoveUp</excludedCommands>
-        <excludedCommands>OutputList</excludedCommands>
-        <excludedCommands>SelectAll</excludedCommands>
-        <excludedCommands>SortListAsc</excludedCommands>
-        <excludedCommands>SortListDesc</excludedCommands>
         <items xsi:type="form:FormField">
           <name>НомерВерсии</name>
           <id>13</id>
@@ -857,16 +846,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>Cancel</excludedCommands>
   <excludedCommands>Close</excludedCommands>
-  <excludedCommands>Ignore</excludedCommands>
-  <excludedCommands>No</excludedCommands>
-  <excludedCommands>OK</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
-  <excludedCommands>Yes</excludedCommands>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

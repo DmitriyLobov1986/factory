@@ -67,18 +67,6 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <excludedCommands>Add</excludedCommands>
-    <excludedCommands>CheckAll</excludedCommands>
-    <excludedCommands>Copy</excludedCommands>
-    <excludedCommands>CopyToClipboard</excludedCommands>
-    <excludedCommands>Delete</excludedCommands>
-    <excludedCommands>EndEdit</excludedCommands>
-    <excludedCommands>MoveDown</excludedCommands>
-    <excludedCommands>MoveUp</excludedCommands>
-    <excludedCommands>Pickup</excludedCommands>
-    <excludedCommands>SelectAll</excludedCommands>
-    <excludedCommands>SortListAsc</excludedCommands>
-    <excludedCommands>SortListDesc</excludedCommands>
-    <excludedCommands>UncheckAll</excludedCommands>
     <items xsi:type="form:FormField">
       <name>ПользователиЗначение</name>
       <id>4</id>

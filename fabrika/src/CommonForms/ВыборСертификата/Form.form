@@ -12,9 +12,7 @@
       <segments>СертификатыЭЦП</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
-    <excludedCommands>Change</excludedCommands>
     <excludedCommands>Copy</excludedCommands>
-    <excludedCommands>CopyToClipboard</excludedCommands>
     <items xsi:type="form:FormField">
       <name>СертификатыЭЦПКомуВыдан</name>
       <id>6</id>

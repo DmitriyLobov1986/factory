@@ -285,17 +285,6 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <excludedCommands>Add</excludedCommands>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>HierarchicalList</excludedCommands>
-          <excludedCommands>List</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>SortListAsc</excludedCommands>
-          <excludedCommands>SortListDesc</excludedCommands>
-          <excludedCommands>Tree</excludedCommands>
           <items xsi:type="form:FormGroup">
             <name>ВнешнийВидКартинкаНастройкаПометка</name>
             <id>38</id>
@@ -828,17 +817,6 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <excludedCommands>Add</excludedCommands>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>HierarchicalList</excludedCommands>
-          <excludedCommands>List</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>SortListAsc</excludedCommands>
-          <excludedCommands>SortListDesc</excludedCommands>
-          <excludedCommands>Tree</excludedCommands>
           <items xsi:type="form:FormGroup">
             <name>НастройкиОтчетовКартинкаНастройкаПометка</name>
             <id>28</id>
@@ -1371,17 +1349,6 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <excludedCommands>Add</excludedCommands>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>HierarchicalList</excludedCommands>
-          <excludedCommands>List</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>SortListAsc</excludedCommands>
-          <excludedCommands>SortListDesc</excludedCommands>
-          <excludedCommands>Tree</excludedCommands>
           <items xsi:type="form:FormGroup">
             <name>ПрочиеНастройкиКартинкаНастройкаПометка</name>
             <id>97</id>

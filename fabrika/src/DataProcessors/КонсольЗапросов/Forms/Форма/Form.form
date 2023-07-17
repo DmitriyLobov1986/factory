@@ -677,19 +677,7 @@
     <dataPath xsi:type="form:DataPath">
       <segments>РезультатЗапроса</segments>
     </dataPath>
-    <excludedCommands>CollapseAllGroups</excludedCommands>
-    <excludedCommands>CopyToClipboard</excludedCommands>
-    <excludedCommands>ExpandAllGroups</excludedCommands>
-    <excludedCommands>Find</excludedCommands>
-    <excludedCommands>FindNext</excludedCommands>
-    <excludedCommands>FindPrevious</excludedCommands>
     <excludedCommands>FixTable</excludedCommands>
-    <excludedCommands>PageSetup</excludedCommands>
-    <excludedCommands>Preview</excludedCommands>
-    <excludedCommands>PrintImmediately</excludedCommands>
-    <excludedCommands>SaveAs</excludedCommands>
-    <excludedCommands>SelectAll</excludedCommands>
-    <excludedCommands>ShowGroups</excludedCommands>
     <handlers>
       <event>OnChange</event>
       <name>РезультатЗапросаПриИзменении</name>

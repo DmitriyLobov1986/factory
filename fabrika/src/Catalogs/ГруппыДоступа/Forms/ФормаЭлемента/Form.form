@@ -375,9 +375,6 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>HierarchicalList</excludedCommands>
-        <excludedCommands>List</excludedCommands>
-        <excludedCommands>Tree</excludedCommands>
         <items xsi:type="form:FormField">
           <name>Пользователь</name>
           <id>301</id>
@@ -1210,14 +1207,6 @@
         <skipOnInput>false</skipOnInput>
         <titleLocation>None</titleLocation>
         <excludedCommands>Add</excludedCommands>
-        <excludedCommands>CancelSearch</excludedCommands>
-        <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>Delete</excludedCommands>
-        <excludedCommands>Find</excludedCommands>
-        <excludedCommands>MoveDown</excludedCommands>
-        <excludedCommands>MoveUp</excludedCommands>
-        <excludedCommands>SortListAsc</excludedCommands>
-        <excludedCommands>SortListDesc</excludedCommands>
         <items xsi:type="form:FormField">
           <name>ВидыДоступаВидДоступа</name>
           <id>191</id>
@@ -1956,7 +1945,6 @@
               <skipOnInput>false</skipOnInput>
               <titleLocation>None</titleLocation>
               <excludedCommands>Copy</excludedCommands>
-              <excludedCommands>EndEdit</excludedCommands>
               <items xsi:type="form:FormField">
                 <name>НомерСтрокиПоВиду</name>
                 <id>308</id>

@@ -16,21 +16,7 @@
       <segments>Список</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
-    <excludedCommands>CancelSearch</excludedCommands>
-    <excludedCommands>Copy</excludedCommands>
-    <excludedCommands>CopyToClipboard</excludedCommands>
-    <excludedCommands>CreateFolder</excludedCommands>
-    <excludedCommands>Delete</excludedCommands>
     <excludedCommands>Find</excludedCommands>
-    <excludedCommands>HierarchicalList</excludedCommands>
-    <excludedCommands>LevelDown</excludedCommands>
-    <excludedCommands>LevelUp</excludedCommands>
-    <excludedCommands>List</excludedCommands>
-    <excludedCommands>ListSettings</excludedCommands>
-    <excludedCommands>MoveItem</excludedCommands>
-    <excludedCommands>OutputList</excludedCommands>
-    <excludedCommands>Refresh</excludedCommands>
-    <excludedCommands>Tree</excludedCommands>
     <items xsi:type="form:FormGroup">
       <name>Содержание</name>
       <id>8</id>
@@ -373,32 +359,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>Cancel</excludedCommands>
-  <excludedCommands>CancelSearch</excludedCommands>
-  <excludedCommands>Close</excludedCommands>
   <excludedCommands>Copy</excludedCommands>
-  <excludedCommands>CreateFolder</excludedCommands>
-  <excludedCommands>CustomizeForm</excludedCommands>
-  <excludedCommands>Delete</excludedCommands>
-  <excludedCommands>Find</excludedCommands>
-  <excludedCommands>Help</excludedCommands>
-  <excludedCommands>HierarchicalList</excludedCommands>
-  <excludedCommands>Ignore</excludedCommands>
-  <excludedCommands>LevelDown</excludedCommands>
-  <excludedCommands>LevelUp</excludedCommands>
-  <excludedCommands>List</excludedCommands>
-  <excludedCommands>ListSettings</excludedCommands>
-  <excludedCommands>MoveItem</excludedCommands>
-  <excludedCommands>No</excludedCommands>
-  <excludedCommands>OK</excludedCommands>
-  <excludedCommands>OutputList</excludedCommands>
-  <excludedCommands>Refresh</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
-  <excludedCommands>Tree</excludedCommands>
-  <excludedCommands>Yes</excludedCommands>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

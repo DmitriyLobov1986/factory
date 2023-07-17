@@ -560,8 +560,6 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <excludedCommands>Add</excludedCommands>
-        <excludedCommands>Change</excludedCommands>
-        <excludedCommands>Copy</excludedCommands>
         <items xsi:type="form:FormField">
           <name>Представление</name>
           <id>223</id>
@@ -1034,19 +1032,6 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <excludedCommands>Add</excludedCommands>
-            <excludedCommands>CancelSearch</excludedCommands>
-            <excludedCommands>Change</excludedCommands>
-            <excludedCommands>Copy</excludedCommands>
-            <excludedCommands>CopyToClipboard</excludedCommands>
-            <excludedCommands>Delete</excludedCommands>
-            <excludedCommands>EndEdit</excludedCommands>
-            <excludedCommands>Find</excludedCommands>
-            <excludedCommands>MoveDown</excludedCommands>
-            <excludedCommands>MoveUp</excludedCommands>
-            <excludedCommands>OutputList</excludedCommands>
-            <excludedCommands>SelectAll</excludedCommands>
-            <excludedCommands>SortListAsc</excludedCommands>
-            <excludedCommands>SortListDesc</excludedCommands>
             <items xsi:type="form:FormField">
               <name>НастройкиТекущегоОтчетаИспользование1</name>
               <id>660</id>
@@ -1432,9 +1417,7 @@
               <segments>КомпоновщикНастроекКД.UserSettings</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
-            <excludedCommands>HierarchicalList</excludedCommands>
             <excludedCommands>List</excludedCommands>
-            <excludedCommands>Tree</excludedCommands>
             <items xsi:type="form:FormField">
               <name>КомпоновщикНастроекПользовательскиеНастройкиИспользование</name>
               <id>581</id>
@@ -2054,19 +2037,6 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <excludedCommands>Add</excludedCommands>
-            <excludedCommands>CancelSearch</excludedCommands>
-            <excludedCommands>Change</excludedCommands>
-            <excludedCommands>Copy</excludedCommands>
-            <excludedCommands>CopyToClipboard</excludedCommands>
-            <excludedCommands>Delete</excludedCommands>
-            <excludedCommands>EndEdit</excludedCommands>
-            <excludedCommands>Find</excludedCommands>
-            <excludedCommands>MoveDown</excludedCommands>
-            <excludedCommands>MoveUp</excludedCommands>
-            <excludedCommands>OutputList</excludedCommands>
-            <excludedCommands>SelectAll</excludedCommands>
-            <excludedCommands>SortListAsc</excludedCommands>
-            <excludedCommands>SortListDesc</excludedCommands>
             <items xsi:type="form:FormField">
               <name>НастройкиТекущегоОтчетаИспользование</name>
               <id>245</id>
@@ -8796,11 +8766,7 @@
                 <segments>Объект.Получатели</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
-              <excludedCommands>CancelSearch</excludedCommands>
               <excludedCommands>Copy</excludedCommands>
-              <excludedCommands>CopyToClipboard</excludedCommands>
-              <excludedCommands>EndEdit</excludedCommands>
-              <excludedCommands>Find</excludedCommands>
               <items xsi:type="form:FormField">
                 <name>ПолучателиПолучатель</name>
                 <id>44</id>
@@ -9491,18 +9457,6 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <excludedCommands>Add</excludedCommands>
-          <excludedCommands>CancelSearch</excludedCommands>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>CopyToClipboard</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>Find</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>OutputList</excludedCommands>
-          <excludedCommands>SortListAsc</excludedCommands>
-          <excludedCommands>SortListDesc</excludedCommands>
           <items xsi:type="form:FormField">
             <name>ФорматыОтчетовОтчет</name>
             <id>230</id>

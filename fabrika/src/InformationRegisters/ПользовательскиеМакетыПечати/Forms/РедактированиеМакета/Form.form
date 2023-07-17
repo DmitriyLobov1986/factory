@@ -1077,16 +1077,7 @@
     <event>OnClose</event>
     <name>ПриЗакрытии</name>
   </handlers>
-  <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>Cancel</excludedCommands>
   <excludedCommands>CustomizeForm</excludedCommands>
-  <excludedCommands>Ignore</excludedCommands>
-  <excludedCommands>No</excludedCommands>
-  <excludedCommands>OK</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
-  <excludedCommands>Yes</excludedCommands>
   <width>60</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoUrl>true</autoUrl>

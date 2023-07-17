@@ -235,14 +235,7 @@
     </userVisible>
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
-  <excludedCommands>Cancel</excludedCommands>
-  <excludedCommands>Close</excludedCommands>
   <excludedCommands>Help</excludedCommands>
-  <excludedCommands>No</excludedCommands>
-  <excludedCommands>OK</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
-  <excludedCommands>Yes</excludedCommands>
   <enterKeyBehavior>DefaultButton</enterKeyBehavior>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>

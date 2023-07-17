@@ -21,15 +21,6 @@
       <skipOnInput>false</skipOnInput>
       <titleLocation>Top</titleLocation>
       <excludedCommands>Add</excludedCommands>
-      <excludedCommands>Change</excludedCommands>
-      <excludedCommands>Copy</excludedCommands>
-      <excludedCommands>CopyToClipboard</excludedCommands>
-      <excludedCommands>Delete</excludedCommands>
-      <excludedCommands>EndEdit</excludedCommands>
-      <excludedCommands>MoveDown</excludedCommands>
-      <excludedCommands>MoveUp</excludedCommands>
-      <excludedCommands>SortListAsc</excludedCommands>
-      <excludedCommands>SortListDesc</excludedCommands>
       <items xsi:type="form:FormField">
         <name>Домены</name>
         <id>11</id>
@@ -374,15 +365,6 @@
       <skipOnInput>false</skipOnInput>
       <titleLocation>Top</titleLocation>
       <excludedCommands>Add</excludedCommands>
-      <excludedCommands>Change</excludedCommands>
-      <excludedCommands>Copy</excludedCommands>
-      <excludedCommands>CopyToClipboard</excludedCommands>
-      <excludedCommands>Delete</excludedCommands>
-      <excludedCommands>EndEdit</excludedCommands>
-      <excludedCommands>MoveDown</excludedCommands>
-      <excludedCommands>MoveUp</excludedCommands>
-      <excludedCommands>SortListAsc</excludedCommands>
-      <excludedCommands>SortListDesc</excludedCommands>
       <items xsi:type="form:FormField">
         <name>Пользователи</name>
         <id>13</id>
@@ -838,17 +820,7 @@
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
-  <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>Cancel</excludedCommands>
-  <excludedCommands>Close</excludedCommands>
   <excludedCommands>CustomizeForm</excludedCommands>
-  <excludedCommands>Ignore</excludedCommands>
-  <excludedCommands>No</excludedCommands>
-  <excludedCommands>OK</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
-  <excludedCommands>Yes</excludedCommands>
   <width>54</width>
   <height>20</height>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>

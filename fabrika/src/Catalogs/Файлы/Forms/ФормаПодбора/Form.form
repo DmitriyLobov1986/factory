@@ -1030,17 +1030,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>CancelSearch</excludedCommands>
-  <excludedCommands>Change</excludedCommands>
-  <excludedCommands>Copy</excludedCommands>
   <excludedCommands>Create</excludedCommands>
-  <excludedCommands>CustomizeForm</excludedCommands>
-  <excludedCommands>Delete</excludedCommands>
-  <excludedCommands>Find</excludedCommands>
-  <excludedCommands>ListSettings</excludedCommands>
-  <excludedCommands>OutputList</excludedCommands>
-  <excludedCommands>Refresh</excludedCommands>
-  <excludedCommands>SetDeletionMark</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

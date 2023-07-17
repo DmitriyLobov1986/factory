@@ -16,9 +16,7 @@
       <segments>ТаблицаСертификатов</segments>
     </dataPath>
     <titleLocation>Top</titleLocation>
-    <excludedCommands>Change</excludedCommands>
     <excludedCommands>Copy</excludedCommands>
-    <excludedCommands>CopyToClipboard</excludedCommands>
     <items xsi:type="form:FormField">
       <name>ТаблицаСертификатовПометка</name>
       <id>21</id>

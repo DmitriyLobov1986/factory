@@ -15,14 +15,6 @@
     <skipOnInput>false</skipOnInput>
     <titleLocation>None</titleLocation>
     <excludedCommands>Add</excludedCommands>
-    <excludedCommands>Copy</excludedCommands>
-    <excludedCommands>HierarchicalList</excludedCommands>
-    <excludedCommands>List</excludedCommands>
-    <excludedCommands>MoveDown</excludedCommands>
-    <excludedCommands>MoveUp</excludedCommands>
-    <excludedCommands>SortListAsc</excludedCommands>
-    <excludedCommands>SortListDesc</excludedCommands>
-    <excludedCommands>Tree</excludedCommands>
     <items xsi:type="form:FormGroup">
       <name>КартинкаИНаименование</name>
       <id>67</id>

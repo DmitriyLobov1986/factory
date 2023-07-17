@@ -477,7 +477,6 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>CustomizeForm</excludedCommands>
   <excludedCommands>Help</excludedCommands>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

@@ -21,7 +21,7 @@
       <titleLocation>None</titleLocation>
       <items xsi:type="form:FormGroup">
         <name>РаспределениеПоСчетамГруппа1</name>
-        <id>115</id>
+        <id>110</id>
         <items xsi:type="form:FormField">
           <name>РаспределениеПоСчетамСчетКонтрагента</name>
           <id>5</id>
@@ -77,7 +77,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>РаспределениеПоСчетамСчетКонтрагентаВалюта</name>
-          <id>118</id>
+          <id>107</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -455,7 +455,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>РаспределениеПоСчетамСконвертированнаяСумма</name>
-        <id>107</id>
+        <id>17</id>
         <title>
           <key>ru</key>
           <value>Сконвертированная сумма</value>
@@ -470,7 +470,7 @@
         </dataPath>
         <extendedTooltip>
           <name>РаспределениеПоСчетамСконвертированнаяСуммаРасширеннаяПодсказка</name>
-          <id>113</id>
+          <id>19</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -556,7 +556,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>РаспределениеПоСчетамДатаПоступления</name>
-          <id>129</id>
+          <id>114</id>
           <title>
             <key>ru</key>
             <value>Дата прихода</value>
@@ -571,7 +571,7 @@
           </dataPath>
           <extendedTooltip>
             <name>РаспределениеПоСчетамДатаПоступленияРасширеннаяПодсказка</name>
-            <id>126</id>
+            <id>116</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -628,7 +628,7 @@
         </toolTip>
         <extendedTooltip>
           <name>ПоступлениеРасширеннаяПодсказка</name>
-          <id>124</id>
+          <id>118</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -823,14 +823,14 @@
         </items>
         <items xsi:type="form:Button">
           <name>РаспределениеПоСчетамСуммаКонтекстноеМенюРедактироватьСумму</name>
-          <id>116</id>
+          <id>112</id>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
             <name>РаспределениеПоСчетамСуммаКонтекстноеМенюРедактироватьСуммуРасширеннаяПодсказка</name>
-            <id>130</id>
+            <id>113</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1348,7 +1348,7 @@
     </items>
     <items xsi:type="form:Decoration">
       <name>ФормулаКонвертации</name>
-      <id>110</id>
+      <id>104</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

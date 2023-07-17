@@ -1045,10 +1045,7 @@
         </dataPath>
         <skipOnInput>false</skipOnInput>
         <titleLocation>None</titleLocation>
-        <excludedCommands>Change</excludedCommands>
         <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>EndEdit</excludedCommands>
-        <excludedCommands>SelectAll</excludedCommands>
         <items xsi:type="form:FormField">
           <name>АдресатыПредставлениеКонтакта</name>
           <id>59</id>

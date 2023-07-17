@@ -76,6 +76,7 @@
   <commonPictures>CommonPicture.Расш1_КартинкаДетальногоРедактирования</commonPictures>
   <commonPictures>CommonPicture.Расш1_Кот</commonPictures>
   <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
+  <commonPictures>CommonPicture.ЗнакСтоп</commonPictures>
   <roles>Role.АдминистраторСистемы</roles>
   <roles>Role.Бухгалтерия</roles>
   <roles>Role.ФинансовыйОтдел</roles>

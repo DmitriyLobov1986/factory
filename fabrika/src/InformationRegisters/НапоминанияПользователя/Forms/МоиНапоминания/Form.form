@@ -580,10 +580,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>Change</excludedCommands>
-  <excludedCommands>Copy</excludedCommands>
   <excludedCommands>Create</excludedCommands>
-  <excludedCommands>Delete</excludedCommands>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

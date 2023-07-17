@@ -749,10 +749,7 @@
     </title>
     <id>1</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers>
-        <length>25</length>
-      </stringQualifiers>
+      <types>TextDocument</types>
     </valueType>
     <view>
       <common>true</common>
@@ -1014,6 +1011,19 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ОбновитьДанныеВоВременномХранилище</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>Команда1</name>
+    <id>4</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Команда1</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

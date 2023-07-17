@@ -607,13 +607,6 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <excludedCommands>Add</excludedCommands>
-        <excludedCommands>Change</excludedCommands>
-        <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>Delete</excludedCommands>
-        <excludedCommands>EndEdit</excludedCommands>
-        <excludedCommands>List</excludedCommands>
-        <excludedCommands>MoveDown</excludedCommands>
-        <excludedCommands>MoveUp</excludedCommands>
         <items xsi:type="form:FormField">
           <name>ДеревоПодсистемПредставление</name>
           <id>68</id>
@@ -957,7 +950,6 @@
         <segments>Список</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
-      <excludedCommands>Copy</excludedCommands>
       <excludedCommands>Create</excludedCommands>
       <items xsi:type="form:FormField">
         <name>Наименование</name>
@@ -1755,7 +1747,6 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>Copy</excludedCommands>
   <excludedCommands>Create</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>

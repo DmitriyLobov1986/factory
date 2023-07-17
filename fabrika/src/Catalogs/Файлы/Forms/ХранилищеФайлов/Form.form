@@ -27,7 +27,6 @@
           <skipOnInput>false</skipOnInput>
           <titleLocation>None</titleLocation>
           <excludedCommands>ListSettings</excludedCommands>
-          <excludedCommands>OutputList</excludedCommands>
           <items xsi:type="form:FormField">
             <name>Папка</name>
             <id>27</id>
@@ -534,10 +533,7 @@
           <defaultItem>true</defaultItem>
           <skipOnInput>false</skipOnInput>
           <titleLocation>None</titleLocation>
-          <excludedCommands>Delete</excludedCommands>
           <excludedCommands>ListSettings</excludedCommands>
-          <excludedCommands>OutputList</excludedCommands>
-          <excludedCommands>Refresh</excludedCommands>
           <items xsi:type="form:FormField">
             <name>ПодписанЭЦП</name>
             <id>117</id>
@@ -3369,7 +3365,6 @@
     <name>ПриЗагрузкеДанныхИзНастроекНаСервере</name>
   </handlers>
   <excludedCommands>Create</excludedCommands>
-  <excludedCommands>Refresh</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

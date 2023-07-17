@@ -14,10 +14,7 @@
     <defaultItem>true</defaultItem>
     <skipOnInput>false</skipOnInput>
     <titleLocation>None</titleLocation>
-    <excludedCommands>Change</excludedCommands>
-    <excludedCommands>Copy</excludedCommands>
     <excludedCommands>Create</excludedCommands>
-    <excludedCommands>Delete</excludedCommands>
     <items xsi:type="form:FormField">
       <name>Объект</name>
       <id>4</id>
@@ -486,10 +483,7 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <excludedCommands>Change</excludedCommands>
-  <excludedCommands>Copy</excludedCommands>
   <excludedCommands>Create</excludedCommands>
-  <excludedCommands>Delete</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

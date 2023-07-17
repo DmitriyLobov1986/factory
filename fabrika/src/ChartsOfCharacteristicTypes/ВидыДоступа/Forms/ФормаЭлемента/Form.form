@@ -119,10 +119,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <excludedCommands>Copy</excludedCommands>
-  <excludedCommands>Delete</excludedCommands>
-  <excludedCommands>SetDeletionMark</excludedCommands>
-  <excludedCommands>Write</excludedCommands>
   <excludedCommands>WriteAndClose</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>

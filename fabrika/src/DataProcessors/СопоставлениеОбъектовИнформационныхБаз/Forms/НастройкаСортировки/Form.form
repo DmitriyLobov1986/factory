@@ -14,17 +14,6 @@
     <skipOnInput>false</skipOnInput>
     <titleLocation>None</titleLocation>
     <excludedCommands>Add</excludedCommands>
-    <excludedCommands>CancelSearch</excludedCommands>
-    <excludedCommands>Change</excludedCommands>
-    <excludedCommands>Copy</excludedCommands>
-    <excludedCommands>CopyToClipboard</excludedCommands>
-    <excludedCommands>Delete</excludedCommands>
-    <excludedCommands>EndEdit</excludedCommands>
-    <excludedCommands>Find</excludedCommands>
-    <excludedCommands>OutputList</excludedCommands>
-    <excludedCommands>SelectAll</excludedCommands>
-    <excludedCommands>SortListAsc</excludedCommands>
-    <excludedCommands>SortListDesc</excludedCommands>
     <items xsi:type="form:FormField">
       <name>ТаблицаСортировкиИспользование</name>
       <id>6</id>

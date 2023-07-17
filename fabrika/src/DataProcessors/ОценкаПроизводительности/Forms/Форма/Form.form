@@ -985,7 +985,6 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>RestoreValues</excludedCommands>
   <excludedCommands>SaveValues</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveDataInSettings>UseList</saveDataInSettings>

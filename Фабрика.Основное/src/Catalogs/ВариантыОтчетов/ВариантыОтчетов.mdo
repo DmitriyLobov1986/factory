@@ -10,7 +10,7 @@
   <name>ВариантыОтчетов</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:CatalogExtension">
-    <descriptionLength>Checked</descriptionLength>
+    <descriptionLength>Extended</descriptionLength>
   </extension>
   <descriptionLength>150</descriptionLength>
   <attributes uuid="f856f8cd-b68b-40bf-b190-69d289ed4f5f">

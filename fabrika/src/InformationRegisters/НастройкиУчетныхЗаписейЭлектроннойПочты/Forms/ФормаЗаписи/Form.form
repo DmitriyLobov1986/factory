@@ -1870,9 +1870,6 @@
     <event>FillCheckProcessingAtServer</event>
     <name>ОбработкаПроверкиЗаполненияНаСервере</name>
   </handlers>
-  <excludedCommands>Copy</excludedCommands>
-  <excludedCommands>Delete</excludedCommands>
-  <excludedCommands>Reread</excludedCommands>
   <excludedCommands>WriteAndClose</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoUrl>true</autoUrl>

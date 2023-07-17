@@ -61,11 +61,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <excludedCommands>Copy</excludedCommands>
-  <excludedCommands>Delete</excludedCommands>
-  <excludedCommands>Reread</excludedCommands>
-  <excludedCommands>SetDeletionMark</excludedCommands>
-  <excludedCommands>Write</excludedCommands>
   <excludedCommands>WriteAndClose</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>

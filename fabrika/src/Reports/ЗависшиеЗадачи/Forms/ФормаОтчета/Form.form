@@ -507,9 +507,7 @@
     </dataPath>
     <skipOnInput>false</skipOnInput>
     <titleLocation>None</titleLocation>
-    <excludedCommands>HierarchicalList</excludedCommands>
     <excludedCommands>List</excludedCommands>
-    <excludedCommands>Tree</excludedCommands>
     <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
       <name>ПользовательскиеНастройкиКоманднаяПанель</name>

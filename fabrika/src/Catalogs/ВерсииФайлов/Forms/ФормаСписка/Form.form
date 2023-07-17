@@ -13,9 +13,7 @@
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
-    <excludedCommands>Copy</excludedCommands>
     <excludedCommands>Create</excludedCommands>
-    <excludedCommands>Delete</excludedCommands>
     <items xsi:type="form:FormField">
       <name>ПолноеНаименование</name>
       <id>8</id>
@@ -841,9 +839,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>Copy</excludedCommands>
   <excludedCommands>Create</excludedCommands>
-  <excludedCommands>Delete</excludedCommands>
   <width>70</width>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>

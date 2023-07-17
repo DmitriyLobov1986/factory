@@ -137,17 +137,6 @@
         <skipOnInput>false</skipOnInput>
         <titleLocation>Top</titleLocation>
         <excludedCommands>Add</excludedCommands>
-        <excludedCommands>Change</excludedCommands>
-        <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>Delete</excludedCommands>
-        <excludedCommands>EndEdit</excludedCommands>
-        <excludedCommands>HierarchicalList</excludedCommands>
-        <excludedCommands>List</excludedCommands>
-        <excludedCommands>MoveDown</excludedCommands>
-        <excludedCommands>MoveUp</excludedCommands>
-        <excludedCommands>SortListAsc</excludedCommands>
-        <excludedCommands>SortListDesc</excludedCommands>
-        <excludedCommands>Tree</excludedCommands>
         <items xsi:type="form:FormGroup">
           <name>СтрокаСпискаПомеченных</name>
           <id>29</id>
@@ -891,17 +880,6 @@
         <skipOnInput>false</skipOnInput>
         <titleLocation>Top</titleLocation>
         <excludedCommands>Add</excludedCommands>
-        <excludedCommands>Change</excludedCommands>
-        <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>Delete</excludedCommands>
-        <excludedCommands>EndEdit</excludedCommands>
-        <excludedCommands>HierarchicalList</excludedCommands>
-        <excludedCommands>List</excludedCommands>
-        <excludedCommands>MoveDown</excludedCommands>
-        <excludedCommands>MoveUp</excludedCommands>
-        <excludedCommands>SortListAsc</excludedCommands>
-        <excludedCommands>SortListDesc</excludedCommands>
-        <excludedCommands>Tree</excludedCommands>
         <items xsi:type="form:FormField">
           <name>ПредставлениеОставшегося</name>
           <id>43</id>
@@ -1806,14 +1784,6 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>Cancel</excludedCommands>
-  <excludedCommands>Ignore</excludedCommands>
-  <excludedCommands>No</excludedCommands>
-  <excludedCommands>OK</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <width>60</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>

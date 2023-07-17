@@ -20,7 +20,7 @@
     <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений</characteristicTypes>
     <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.StandardAttribute.Ref</keyField>
     <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.StandardAttribute.Ref</typesFilterField>
-    <typesFilterValue xsi:type="core:ReferenceValue"/>
+    <typesFilterValue xsi:type="core:UndefinedValue"/>
     <dataPathField>-1</dataPathField>
     <multipleValuesUseField>-1</multipleValuesUseField>
     <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>

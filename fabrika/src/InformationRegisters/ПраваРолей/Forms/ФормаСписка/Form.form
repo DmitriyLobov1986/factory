@@ -13,7 +13,6 @@
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
-    <excludedCommands>Copy</excludedCommands>
     <excludedCommands>Create</excludedCommands>
     <items xsi:type="form:FormField">
       <name>ОбъектМетаданных</name>

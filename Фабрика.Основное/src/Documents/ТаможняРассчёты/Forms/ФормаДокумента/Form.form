@@ -110,7 +110,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>РучнаяКорректировка</name>
-      <id>192</id>
+      <id>151</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -137,7 +137,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>РучнаяКорректировкаКонтекстноеМеню</name>
-        <id>193</id>
+        <id>152</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -602,7 +602,7 @@
               <id>149</id>
               <items xsi:type="form:Button">
                 <name>ДоговорыКонтрагентовКонтекстноеМенюПоказатьЗадолженности</name>
-                <id>151</id>
+                <id>194</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -786,15 +786,18 @@
           </items>
           <items xsi:type="form:FormField">
             <name>Получено</name>
-            <id>27</id>
+            <id>168</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Получено</segments>
+            </dataPath>
             <extendedTooltip>
               <name>ПолученоРасширеннаяПодсказка</name>
-              <id>29</id>
+              <id>170</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -809,7 +812,7 @@
             </extendedTooltip>
             <contextMenu>
               <name>ПолученоКонтекстноеМеню</name>
-              <id>28</id>
+              <id>169</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1351,7 +1354,7 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0</commandName>
+                <commandName>Form.Command.ПодборГТД</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1381,7 +1384,7 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0</commandName>
+                <commandName>Form.Command.РаспределитьПлатеж</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -2134,6 +2137,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Боркин.Валюта</segments>
+          </dataPath>
           <extendedTooltip>
             <name>БоркинВалютаРасширеннаяПодсказка</name>
             <id>185</id>
@@ -2225,7 +2231,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>БоркинПолучено</name>
-          <id>139</id>
+          <id>171</id>
           <title>
             <key>ru</key>
             <value>Получено</value>
@@ -2235,9 +2241,12 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Боркин.Получено1</segments>
+          </dataPath>
           <extendedTooltip>
             <name>БоркинПолученоРасширеннаяПодсказка</name>
-            <id>141</id>
+            <id>173</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2252,7 +2261,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>БоркинПолученоКонтекстноеМеню</name>
-            <id>140</id>
+            <id>172</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2539,7 +2548,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>0</commandName>
+      <commandName>Form.Command.ЗаписьДДС</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>

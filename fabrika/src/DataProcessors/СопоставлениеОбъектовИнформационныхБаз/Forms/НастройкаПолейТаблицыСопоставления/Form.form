@@ -14,15 +14,6 @@
     <skipOnInput>false</skipOnInput>
     <titleLocation>None</titleLocation>
     <excludedCommands>Add</excludedCommands>
-    <excludedCommands>Change</excludedCommands>
-    <excludedCommands>Copy</excludedCommands>
-    <excludedCommands>CopyToClipboard</excludedCommands>
-    <excludedCommands>Delete</excludedCommands>
-    <excludedCommands>EndEdit</excludedCommands>
-    <excludedCommands>Pickup</excludedCommands>
-    <excludedCommands>SelectAll</excludedCommands>
-    <excludedCommands>SortListAsc</excludedCommands>
-    <excludedCommands>SortListDesc</excludedCommands>
     <items xsi:type="form:FormField">
       <name>СписокПолейПометка</name>
       <id>6</id>

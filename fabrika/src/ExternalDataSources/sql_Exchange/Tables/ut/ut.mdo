@@ -270,4 +270,23 @@
     <nameInDataSource>base</nameInDataSource>
     <allowNull>true</allowNull>
   </tableFields>
+  <tableFields uuid="c5ea3845-773b-4b20-ae29-072966baae32">
+    <name>СтатьяРасходаКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>СтатьяРасходаКод</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>article</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
 </mdclass:Table>

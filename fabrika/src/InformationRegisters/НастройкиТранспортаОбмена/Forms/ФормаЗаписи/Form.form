@@ -2590,7 +2590,6 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <excludedCommands>Copy</excludedCommands>
-  <excludedCommands>Delete</excludedCommands>
   <width>85</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>

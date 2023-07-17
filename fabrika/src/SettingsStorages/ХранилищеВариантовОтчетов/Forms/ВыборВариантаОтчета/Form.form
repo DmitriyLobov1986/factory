@@ -350,13 +350,6 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <excludedCommands>Add</excludedCommands>
-    <excludedCommands>Copy</excludedCommands>
-    <excludedCommands>EndEdit</excludedCommands>
-    <excludedCommands>HierarchicalList</excludedCommands>
-    <excludedCommands>List</excludedCommands>
-    <excludedCommands>MoveDown</excludedCommands>
-    <excludedCommands>MoveUp</excludedCommands>
-    <excludedCommands>Tree</excludedCommands>
     <items xsi:type="form:FormField">
       <name>ДеревоВариантовОтчетаПредставление</name>
       <id>4</id>
@@ -872,16 +865,7 @@
     <event>BeforeLoadDataFromSettingsAtServer</event>
     <name>ПередЗагрузкойДанныхИзНастроекНаСервере</name>
   </handlers>
-  <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>Cancel</excludedCommands>
   <excludedCommands>Close</excludedCommands>
-  <excludedCommands>Ignore</excludedCommands>
-  <excludedCommands>No</excludedCommands>
-  <excludedCommands>OK</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
-  <excludedCommands>Yes</excludedCommands>
   <width>80</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>

@@ -268,16 +268,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <excludedCommands>CancelEdit</excludedCommands>
-  <excludedCommands>ChangeSettingsStructure</excludedCommands>
-  <excludedCommands>ChangeVariant</excludedCommands>
-  <excludedCommands>EndEdit</excludedCommands>
   <excludedCommands>Generate</excludedCommands>
-  <excludedCommands>LoadReportSettings</excludedCommands>
-  <excludedCommands>LoadVariant</excludedCommands>
-  <excludedCommands>ReportSettings</excludedCommands>
-  <excludedCommands>SaveReportSettings</excludedCommands>
-  <excludedCommands>SaveVariant</excludedCommands>
-  <excludedCommands>StandardSettings</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

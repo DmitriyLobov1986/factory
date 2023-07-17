@@ -20,16 +20,6 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <excludedCommands>Add</excludedCommands>
-      <excludedCommands>CancelSearch</excludedCommands>
-      <excludedCommands>Change</excludedCommands>
-      <excludedCommands>Copy</excludedCommands>
-      <excludedCommands>EndEdit</excludedCommands>
-      <excludedCommands>Find</excludedCommands>
-      <excludedCommands>MoveDown</excludedCommands>
-      <excludedCommands>MoveUp</excludedCommands>
-      <excludedCommands>OutputList</excludedCommands>
-      <excludedCommands>SortListAsc</excludedCommands>
-      <excludedCommands>SortListDesc</excludedCommands>
       <items xsi:type="form:FormField">
         <name>ТаблицаФайловПредставление</name>
         <id>12</id>

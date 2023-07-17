@@ -18,12 +18,6 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <excludedCommands>CreateFolder</excludedCommands>
-    <excludedCommands>HierarchicalList</excludedCommands>
-    <excludedCommands>LevelDown</excludedCommands>
-    <excludedCommands>LevelUp</excludedCommands>
-    <excludedCommands>List</excludedCommands>
-    <excludedCommands>MoveItem</excludedCommands>
-    <excludedCommands>Tree</excludedCommands>
     <items xsi:type="form:FormField">
       <name>Ссылка</name>
       <id>20</id>
@@ -621,13 +615,6 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <excludedCommands>Create</excludedCommands>
-  <excludedCommands>CreateFolder</excludedCommands>
-  <excludedCommands>HierarchicalList</excludedCommands>
-  <excludedCommands>LevelDown</excludedCommands>
-  <excludedCommands>LevelUp</excludedCommands>
-  <excludedCommands>List</excludedCommands>
-  <excludedCommands>MoveItem</excludedCommands>
-  <excludedCommands>Tree</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

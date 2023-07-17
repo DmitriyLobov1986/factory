@@ -689,16 +689,6 @@
             </dataPath>
             <titleLocation>Top</titleLocation>
             <excludedCommands>Add</excludedCommands>
-            <excludedCommands>CancelSearch</excludedCommands>
-            <excludedCommands>Change</excludedCommands>
-            <excludedCommands>Copy</excludedCommands>
-            <excludedCommands>Delete</excludedCommands>
-            <excludedCommands>EndEdit</excludedCommands>
-            <excludedCommands>Find</excludedCommands>
-            <excludedCommands>MoveDown</excludedCommands>
-            <excludedCommands>MoveUp</excludedCommands>
-            <excludedCommands>SortListAsc</excludedCommands>
-            <excludedCommands>SortListDesc</excludedCommands>
             <commandBarLocation>None</commandBarLocation>
             <autoCommandBar>
               <name>ТаблицаДанныхДоступаКоманднаяПанель</name>
@@ -1219,16 +1209,6 @@
             </dataPath>
             <titleLocation>Top</titleLocation>
             <excludedCommands>Add</excludedCommands>
-            <excludedCommands>CancelSearch</excludedCommands>
-            <excludedCommands>Change</excludedCommands>
-            <excludedCommands>Copy</excludedCommands>
-            <excludedCommands>Delete</excludedCommands>
-            <excludedCommands>EndEdit</excludedCommands>
-            <excludedCommands>Find</excludedCommands>
-            <excludedCommands>MoveDown</excludedCommands>
-            <excludedCommands>MoveUp</excludedCommands>
-            <excludedCommands>SortListAsc</excludedCommands>
-            <excludedCommands>SortListDesc</excludedCommands>
             <commandBarLocation>None</commandBarLocation>
             <autoCommandBar>
               <name>ТаблицаДанныхОтказаДействияДоступаКоманднаяПанель</name>
@@ -1685,16 +1665,6 @@
               </dataPath>
               <titleLocation>Top</titleLocation>
               <excludedCommands>Add</excludedCommands>
-              <excludedCommands>CancelSearch</excludedCommands>
-              <excludedCommands>Change</excludedCommands>
-              <excludedCommands>Copy</excludedCommands>
-              <excludedCommands>Delete</excludedCommands>
-              <excludedCommands>EndEdit</excludedCommands>
-              <excludedCommands>Find</excludedCommands>
-              <excludedCommands>MoveDown</excludedCommands>
-              <excludedCommands>MoveUp</excludedCommands>
-              <excludedCommands>SortListAsc</excludedCommands>
-              <excludedCommands>SortListDesc</excludedCommands>
               <commandBarLocation>None</commandBarLocation>
               <autoCommandBar>
                 <name>ТаблицаСвойствПользователяИБКоманднаяПанель</name>
@@ -1924,16 +1894,6 @@
               </dataPath>
               <titleLocation>Top</titleLocation>
               <excludedCommands>Add</excludedCommands>
-              <excludedCommands>CancelSearch</excludedCommands>
-              <excludedCommands>Change</excludedCommands>
-              <excludedCommands>Copy</excludedCommands>
-              <excludedCommands>Delete</excludedCommands>
-              <excludedCommands>EndEdit</excludedCommands>
-              <excludedCommands>Find</excludedCommands>
-              <excludedCommands>MoveDown</excludedCommands>
-              <excludedCommands>MoveUp</excludedCommands>
-              <excludedCommands>SortListAsc</excludedCommands>
-              <excludedCommands>SortListDesc</excludedCommands>
               <commandBarLocation>None</commandBarLocation>
               <autoCommandBar>
                 <name>ТаблицаРолейПользователяИБКоманднаяПанель</name>
@@ -3063,14 +3023,6 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>Cancel</excludedCommands>
-  <excludedCommands>Ignore</excludedCommands>
-  <excludedCommands>No</excludedCommands>
-  <excludedCommands>OK</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <width>100</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>

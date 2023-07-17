@@ -1140,17 +1140,7 @@
     <event>OnClose</event>
     <name>ПриЗакрытии</name>
   </handlers>
-  <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>Cancel</excludedCommands>
-  <excludedCommands>Ignore</excludedCommands>
-  <excludedCommands>No</excludedCommands>
-  <excludedCommands>OK</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
-  <excludedCommands>Write</excludedCommands>
   <excludedCommands>WriteAndClose</excludedCommands>
-  <excludedCommands>Yes</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <autoFillCheck>true</autoFillCheck>

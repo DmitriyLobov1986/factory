@@ -70,8 +70,6 @@
       <segments>ФайлыВТомах</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
-    <excludedCommands>CancelSearch</excludedCommands>
-    <excludedCommands>CopyToClipboard</excludedCommands>
     <excludedCommands>Find</excludedCommands>
     <items xsi:type="form:FormField">
       <name>ПутьКФайлу</name>

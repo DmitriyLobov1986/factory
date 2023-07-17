@@ -586,18 +586,6 @@
         <skipOnInput>false</skipOnInput>
         <titleLocation>None</titleLocation>
         <excludedCommands>Add</excludedCommands>
-        <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>Delete</excludedCommands>
-        <excludedCommands>EndEdit</excludedCommands>
-        <excludedCommands>HierarchicalList</excludedCommands>
-        <excludedCommands>List</excludedCommands>
-        <excludedCommands>MoveDown</excludedCommands>
-        <excludedCommands>MoveUp</excludedCommands>
-        <excludedCommands>OutputList</excludedCommands>
-        <excludedCommands>SelectAll</excludedCommands>
-        <excludedCommands>SortListAsc</excludedCommands>
-        <excludedCommands>SortListDesc</excludedCommands>
-        <excludedCommands>Tree</excludedCommands>
         <items xsi:type="form:FormGroup">
           <name>ГруппаПолныйКодНаименование</name>
           <id>76</id>

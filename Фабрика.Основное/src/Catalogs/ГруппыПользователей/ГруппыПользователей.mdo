@@ -11,7 +11,7 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:CatalogExtension">
     <hierarchical>Checked</hierarchical>
-    <descriptionLength>Checked</descriptionLength>
+    <descriptionLength>Extended</descriptionLength>
   </extension>
   <hierarchical>true</hierarchical>
   <descriptionLength>150</descriptionLength>

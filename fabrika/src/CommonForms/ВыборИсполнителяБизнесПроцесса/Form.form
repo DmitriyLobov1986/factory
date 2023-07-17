@@ -56,12 +56,7 @@
         </dataPath>
         <skipOnInput>false</skipOnInput>
         <titleLocation>None</titleLocation>
-        <excludedCommands>Change</excludedCommands>
         <excludedCommands>Choose</excludedCommands>
-        <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>Create</excludedCommands>
-        <excludedCommands>Delete</excludedCommands>
-        <excludedCommands>SetDeletionMark</excludedCommands>
         <items xsi:type="form:FormField">
           <name>Наименование</name>
           <id>4</id>
@@ -354,12 +349,7 @@
         </dataPath>
         <skipOnInput>false</skipOnInput>
         <titleLocation>None</titleLocation>
-        <excludedCommands>Change</excludedCommands>
         <excludedCommands>Choose</excludedCommands>
-        <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>Create</excludedCommands>
-        <excludedCommands>Delete</excludedCommands>
-        <excludedCommands>SetDeletionMark</excludedCommands>
         <items xsi:type="form:FormField">
           <name>НаименованиеРоли</name>
           <id>29</id>

@@ -93,7 +93,6 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <excludedCommands>Copy</excludedCommands>
-  <excludedCommands>Delete</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>

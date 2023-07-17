@@ -21,17 +21,6 @@
       <skipOnInput>false</skipOnInput>
       <titleLocation>Top</titleLocation>
       <excludedCommands>Add</excludedCommands>
-      <excludedCommands>Change</excludedCommands>
-      <excludedCommands>Copy</excludedCommands>
-      <excludedCommands>Delete</excludedCommands>
-      <excludedCommands>EndEdit</excludedCommands>
-      <excludedCommands>HierarchicalList</excludedCommands>
-      <excludedCommands>List</excludedCommands>
-      <excludedCommands>MoveDown</excludedCommands>
-      <excludedCommands>MoveUp</excludedCommands>
-      <excludedCommands>SortListAsc</excludedCommands>
-      <excludedCommands>SortListDesc</excludedCommands>
-      <excludedCommands>Tree</excludedCommands>
       <items xsi:type="form:FormField">
         <name>ВсеКомандыНаименование</name>
         <id>10</id>
@@ -441,17 +430,6 @@
       <skipOnInput>false</skipOnInput>
       <titleLocation>Top</titleLocation>
       <excludedCommands>Add</excludedCommands>
-      <excludedCommands>Change</excludedCommands>
-      <excludedCommands>Copy</excludedCommands>
-      <excludedCommands>Delete</excludedCommands>
-      <excludedCommands>EndEdit</excludedCommands>
-      <excludedCommands>HierarchicalList</excludedCommands>
-      <excludedCommands>List</excludedCommands>
-      <excludedCommands>MoveDown</excludedCommands>
-      <excludedCommands>MoveUp</excludedCommands>
-      <excludedCommands>SortListAsc</excludedCommands>
-      <excludedCommands>SortListDesc</excludedCommands>
-      <excludedCommands>Tree</excludedCommands>
       <items xsi:type="form:FormField">
         <name>МоиКомандыНаименование</name>
         <id>4</id>

@@ -21,18 +21,6 @@
     </dataPath>
     <titleLocation>Top</titleLocation>
     <excludedCommands>Add</excludedCommands>
-    <excludedCommands>Change</excludedCommands>
-    <excludedCommands>CheckAll</excludedCommands>
-    <excludedCommands>Copy</excludedCommands>
-    <excludedCommands>CopyToClipboard</excludedCommands>
-    <excludedCommands>EndEdit</excludedCommands>
-    <excludedCommands>MoveDown</excludedCommands>
-    <excludedCommands>MoveUp</excludedCommands>
-    <excludedCommands>Pickup</excludedCommands>
-    <excludedCommands>SelectAll</excludedCommands>
-    <excludedCommands>SortListAsc</excludedCommands>
-    <excludedCommands>SortListDesc</excludedCommands>
-    <excludedCommands>UncheckAll</excludedCommands>
     <items xsi:type="form:FormField">
       <name>ВариантыНастроекЗначение</name>
       <id>8</id>

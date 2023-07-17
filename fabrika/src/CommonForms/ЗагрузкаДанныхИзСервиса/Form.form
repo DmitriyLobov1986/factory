@@ -481,16 +481,7 @@
     <horizontalAlign>Right</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>Cancel</excludedCommands>
-  <excludedCommands>Close</excludedCommands>
-  <excludedCommands>CustomizeForm</excludedCommands>
   <excludedCommands>Help</excludedCommands>
-  <excludedCommands>Ignore</excludedCommands>
-  <excludedCommands>OK</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
   <width>55</width>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

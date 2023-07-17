@@ -266,7 +266,7 @@
       </userVisible>
       <extendedTooltip>
         <name>ФормаСвернутьГруппировкиРасширеннаяПодсказка</name>
-        <id>177</id>
+        <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1101,7 +1101,7 @@
           </userVisible>
           <extendedTooltip>
             <name>ВидДетализацииКонтекстноеМенюОбновитьДетализациюРасширеннаяПодсказка</name>
-            <id>160</id>
+            <id>127</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1158,10 +1158,10 @@
       </items>
       <items xsi:type="form:FormGroup">
         <name>ВариантыНастроек</name>
-        <id>127</id>
+        <id>160</id>
         <items xsi:type="form:FormField">
           <name>ВидДетализации</name>
-          <id>148</id>
+          <id>85</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1173,7 +1173,7 @@
           <titleLocation>None</titleLocation>
           <extendedTooltip>
             <name>ВидДетализацииРасширеннаяПодсказка</name>
-            <id>151</id>
+            <id>87</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1234,7 +1234,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>Депозит</name>
-          <id>149</id>
+          <id>161</id>
           <title>
             <key>ru</key>
             <value>Вложенные</value>
@@ -1249,7 +1249,7 @@
           </dataPath>
           <extendedTooltip>
             <name>ДепозитРасширеннаяПодсказка</name>
-            <id>153</id>
+            <id>163</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1301,7 +1301,7 @@
         <groupHorizontalAlign>Center</groupHorizontalAlign>
         <extendedTooltip>
           <name>ВариантыНастроекРасширеннаяПодсказка</name>
-          <id>147</id>
+          <id>123</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>

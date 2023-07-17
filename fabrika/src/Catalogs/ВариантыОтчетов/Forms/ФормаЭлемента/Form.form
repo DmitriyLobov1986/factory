@@ -415,15 +415,6 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <excludedCommands>Add</excludedCommands>
-    <excludedCommands>Copy</excludedCommands>
-    <excludedCommands>Delete</excludedCommands>
-    <excludedCommands>HierarchicalList</excludedCommands>
-    <excludedCommands>List</excludedCommands>
-    <excludedCommands>MoveDown</excludedCommands>
-    <excludedCommands>MoveUp</excludedCommands>
-    <excludedCommands>SortListAsc</excludedCommands>
-    <excludedCommands>SortListDesc</excludedCommands>
-    <excludedCommands>Tree</excludedCommands>
     <items xsi:type="form:FormGroup">
       <name>ГруппаКолонок</name>
       <id>83</id>
@@ -915,19 +906,6 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <excludedCommands>Add</excludedCommands>
-      <excludedCommands>CancelSearch</excludedCommands>
-      <excludedCommands>Change</excludedCommands>
-      <excludedCommands>Copy</excludedCommands>
-      <excludedCommands>CopyToClipboard</excludedCommands>
-      <excludedCommands>Delete</excludedCommands>
-      <excludedCommands>EndEdit</excludedCommands>
-      <excludedCommands>Find</excludedCommands>
-      <excludedCommands>MoveDown</excludedCommands>
-      <excludedCommands>MoveUp</excludedCommands>
-      <excludedCommands>OutputList</excludedCommands>
-      <excludedCommands>SelectAll</excludedCommands>
-      <excludedCommands>SortListAsc</excludedCommands>
-      <excludedCommands>SortListDesc</excludedCommands>
       <items xsi:type="form:FormField">
         <name>РазмещениеИспользование</name>
         <id>127</id>
@@ -1695,7 +1673,6 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <excludedCommands>Copy</excludedCommands>
-  <excludedCommands>Delete</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

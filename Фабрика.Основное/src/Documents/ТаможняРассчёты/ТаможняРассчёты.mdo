@@ -9,14 +9,7 @@
   </producedTypes>
   <name>ТаможняРассчёты</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:DocumentExtension">
-    <numberType>Checked</numberType>
-    <numberLength>Checked</numberLength>
-    <numberAllowedLength>Checked</numberAllowedLength>
-  </extension>
-  <numberType>String</numberType>
-  <numberLength>9</numberLength>
-  <numberAllowedLength>Variable</numberAllowedLength>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
   <attributes uuid="184d846a-5780-4c6f-a721-3e6818f21ed6">
     <name>НомерВБухгалтерии</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -31,7 +24,6 @@
         </stringQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="234dd8c3-c5f4-43f0-afad-1534fbba0e00">
     <name>НазначениеПлатежа</name>
@@ -45,7 +37,6 @@
         <stringQualifiers/>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="8b125b06-6652-4962-bab4-b1dea3788f50">
     <name>Контрагент</name>
@@ -58,7 +49,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="a1f7e50e-9873-41ba-ac8f-9529edf62b27">
     <name>Сумма</name>
@@ -75,7 +65,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="cd516ebe-f7f7-4773-93f1-42b8b935aa6c">
     <name>ВалютаОплаты</name>
@@ -88,7 +77,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="a3418fb3-4861-428f-9268-896077615647">
     <name>Получено</name>
@@ -101,7 +89,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="b51fa8df-96a7-4496-a973-cc7bae659efd">
     <name>СчетКонтрагента</name>
@@ -114,7 +101,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="b17d3279-6721-4efb-869d-22acb7922472">
     <name>Организация</name>
@@ -127,7 +113,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="87228d6c-ee57-43ec-88c4-2b1403b36ee6">
     <name>СчетОрганизации</name>
@@ -140,7 +125,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="d0748cf7-fa05-4860-918e-1860952d1e21">
     <name>ДоговорыКонтрагентов</name>
@@ -153,7 +137,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="798261dc-3614-4ea7-b241-86ed5dc9382b">
     <name>РучнаяКорректировка</name>
@@ -166,7 +149,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="c0981fb9-b508-4209-8ed5-3acd6497409f">
     <name>ДатаСрезаИнвойсов</name>
@@ -180,7 +162,6 @@
         <dateQualifiers/>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <forms uuid="b76d0d33-f32a-4af8-9637-f3993845847a">
     <name>ФормаДокумента</name>
@@ -212,7 +193,6 @@
           </numberQualifiers>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="c71408df-d7ff-416e-ae20-fc67aa72a44e">
       <name>КурсВалютыОплаты</name>
@@ -229,7 +209,6 @@
           </numberQualifiers>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="4d23059f-d742-4a2c-b906-56bb68646d62">
       <name>ДатаИнвойса</name>
@@ -245,7 +224,6 @@
           </dateQualifiers>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="03c43c96-5995-4093-956f-4c61dec23115">
       <name>СуммаВалютаОплаты</name>
@@ -262,7 +240,6 @@
           </numberQualifiers>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="d0cd340c-3397-4b27-b38d-c61997466670">
       <name>ГТД</name>
@@ -275,7 +252,6 @@
           </types>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="60a16f16-58ef-40f2-bf4d-51c168bc99bc">
       <name>Сумма</name>
@@ -292,7 +268,6 @@
           </numberQualifiers>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="56ae16b3-8a62-4d8b-94dc-9989a69f337a">
       <name>ПодИнвойсНомер</name>
@@ -309,7 +284,6 @@
           </numberQualifiers>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
   </tabularSections>
   <tabularSections uuid="759068a9-9ba4-4571-a6ac-f78279925e42">
@@ -331,7 +305,6 @@
           </types>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="b8ec50e9-8c14-46f4-b6a9-d1ce82f3adc4">
       <name>Сумма</name>
@@ -348,7 +321,6 @@
           </numberQualifiers>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="8feb1e1b-dc4e-456d-a540-e0490a51bd3f">
       <name>Организация</name>
@@ -361,7 +333,6 @@
           </types>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="44b41b04-9d87-4336-afc5-445226ac873b">
       <name>СчетОрганизации</name>
@@ -374,7 +345,6 @@
           </types>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="1728db4f-4392-4710-8284-262ee36f0a6c">
       <name>Контрагент</name>
@@ -387,7 +357,6 @@
           </types>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="64d26e0c-0d62-4880-8391-6b2bd9b21979">
       <name>ДатаПрихода</name>
@@ -403,7 +372,6 @@
           </dateQualifiers>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
   </tabularSections>
 </mdclass:Document>

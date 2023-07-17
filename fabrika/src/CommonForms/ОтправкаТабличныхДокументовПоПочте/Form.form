@@ -13,16 +13,6 @@
     </dataPath>
     <titleLocation>Top</titleLocation>
     <excludedCommands>Add</excludedCommands>
-    <excludedCommands>Change</excludedCommands>
-    <excludedCommands>Copy</excludedCommands>
-    <excludedCommands>Delete</excludedCommands>
-    <excludedCommands>EndEdit</excludedCommands>
-    <excludedCommands>MoveDown</excludedCommands>
-    <excludedCommands>MoveUp</excludedCommands>
-    <excludedCommands>Pickup</excludedCommands>
-    <excludedCommands>SelectAll</excludedCommands>
-    <excludedCommands>SortListAsc</excludedCommands>
-    <excludedCommands>SortListDesc</excludedCommands>
     <items xsi:type="form:FormField">
       <name>ФорматыСохраненияПометка</name>
       <id>37</id>
@@ -417,16 +407,7 @@
     <event>BeforeLoadDataFromSettingsAtServer</event>
     <name>ПередЗагрузкойДанныхИзНастроекНаСервере</name>
   </handlers>
-  <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>Close</excludedCommands>
   <excludedCommands>CustomizeForm</excludedCommands>
-  <excludedCommands>Ignore</excludedCommands>
-  <excludedCommands>No</excludedCommands>
-  <excludedCommands>OK</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
-  <excludedCommands>Yes</excludedCommands>
   <width>38</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>

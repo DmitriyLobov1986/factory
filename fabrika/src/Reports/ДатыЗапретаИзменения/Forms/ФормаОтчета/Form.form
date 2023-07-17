@@ -325,9 +325,7 @@
       <segments>Отчет.SettingsComposer.UserSettings</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
-    <excludedCommands>HierarchicalList</excludedCommands>
     <excludedCommands>List</excludedCommands>
-    <excludedCommands>Tree</excludedCommands>
     <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
       <name>КомпоновщикНастроекПользовательскиеНастройкиКоманднаяПанель</name>
@@ -577,10 +575,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>ChangeVariant</excludedCommands>
-  <excludedCommands>LoadVariant</excludedCommands>
   <excludedCommands>NewWindow</excludedCommands>
-  <excludedCommands>SaveVariant</excludedCommands>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

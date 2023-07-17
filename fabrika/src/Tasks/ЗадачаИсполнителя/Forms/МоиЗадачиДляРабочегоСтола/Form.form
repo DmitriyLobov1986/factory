@@ -428,9 +428,6 @@
     </dataPath>
     <skipOnInput>false</skipOnInput>
     <titleLocation>None</titleLocation>
-    <excludedCommands>CancelSearch</excludedCommands>
-    <excludedCommands>Find</excludedCommands>
-    <excludedCommands>Refresh</excludedCommands>
     <excludedCommands>SetDateInterval</excludedCommands>
     <items xsi:type="form:FormField">
       <name>Важность</name>

@@ -586,7 +586,7 @@
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>true</verticalStretch>
         <valuesPicture xsi:type="core:PictureRef">
-          <picture>0</picture>
+          <picture>CommonPicture.ЗнакСтоп</picture>
         </valuesPicture>
       </extInfo>
     </items>

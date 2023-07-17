@@ -196,14 +196,7 @@
           </dataPath>
           <skipOnInput>false</skipOnInput>
           <titleLocation>None</titleLocation>
-          <excludedCommands>CancelSearch</excludedCommands>
-          <excludedCommands>Change</excludedCommands>
           <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>Find</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
           <items xsi:type="form:FormField">
             <name>НаименованиеКонтакта</name>
             <id>28</id>
@@ -1102,19 +1095,7 @@
           </dataPath>
           <skipOnInput>false</skipOnInput>
           <titleLocation>None</titleLocation>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>CopyToClipboard</excludedCommands>
-          <excludedCommands>Create</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>HierarchicalList</excludedCommands>
-          <excludedCommands>List</excludedCommands>
           <excludedCommands>ListSettings</excludedCommands>
-          <excludedCommands>MoveItem</excludedCommands>
-          <excludedCommands>OutputList</excludedCommands>
-          <excludedCommands>Refresh</excludedCommands>
-          <excludedCommands>SetDeletionMark</excludedCommands>
-          <excludedCommands>Tree</excludedCommands>
           <items xsi:type="form:FormField">
             <name>НаименованиеГруппы</name>
             <id>179</id>
@@ -1371,10 +1352,7 @@
           </dataPath>
           <skipOnInput>false</skipOnInput>
           <titleLocation>None</titleLocation>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
           <excludedCommands>Create</excludedCommands>
-          <excludedCommands>SetDeletionMark</excludedCommands>
           <items xsi:type="form:FormField">
             <name>Пользователь</name>
             <id>98</id>

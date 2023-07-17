@@ -2848,14 +2848,6 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <excludedCommands>Add</excludedCommands>
-            <excludedCommands>Change</excludedCommands>
-            <excludedCommands>Copy</excludedCommands>
-            <excludedCommands>Delete</excludedCommands>
-            <excludedCommands>EndEdit</excludedCommands>
-            <excludedCommands>MoveDown</excludedCommands>
-            <excludedCommands>MoveUp</excludedCommands>
-            <excludedCommands>SortListAsc</excludedCommands>
-            <excludedCommands>SortListDesc</excludedCommands>
             <items xsi:type="form:FormGroup">
               <name>ДеревоИнформацииСтатистикиГруппа</name>
               <id>1668</id>
@@ -19231,16 +19223,7 @@
     <event>OnClose</event>
     <name>ПриЗакрытии</name>
   </handlers>
-  <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>Cancel</excludedCommands>
   <excludedCommands>Close</excludedCommands>
-  <excludedCommands>Ignore</excludedCommands>
-  <excludedCommands>No</excludedCommands>
-  <excludedCommands>OK</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
-  <excludedCommands>Yes</excludedCommands>
   <width>85</width>
   <height>28</height>
   <autoUrl>true</autoUrl>

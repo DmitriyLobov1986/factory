@@ -10,7 +10,7 @@
   <name>Пользователи</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:CatalogExtension">
-    <descriptionLength>Checked</descriptionLength>
+    <descriptionLength>Extended</descriptionLength>
   </extension>
   <descriptionLength>100</descriptionLength>
   <attributes uuid="24fef244-c45a-49c3-815e-d776aa1db1d6">

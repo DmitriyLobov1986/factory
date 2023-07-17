@@ -288,17 +288,6 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <excludedCommands>Add</excludedCommands>
-      <excludedCommands>Change</excludedCommands>
-      <excludedCommands>Copy</excludedCommands>
-      <excludedCommands>Delete</excludedCommands>
-      <excludedCommands>EndEdit</excludedCommands>
-      <excludedCommands>HierarchicalList</excludedCommands>
-      <excludedCommands>List</excludedCommands>
-      <excludedCommands>MoveDown</excludedCommands>
-      <excludedCommands>MoveUp</excludedCommands>
-      <excludedCommands>SortListAsc</excludedCommands>
-      <excludedCommands>SortListDesc</excludedCommands>
-      <excludedCommands>Tree</excludedCommands>
       <items xsi:type="form:FormGroup">
         <name>ГруппаИКартинка</name>
         <id>20</id>
@@ -730,14 +719,6 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <excludedCommands>Add</excludedCommands>
-      <excludedCommands>Change</excludedCommands>
-      <excludedCommands>Copy</excludedCommands>
-      <excludedCommands>Delete</excludedCommands>
-      <excludedCommands>EndEdit</excludedCommands>
-      <excludedCommands>MoveDown</excludedCommands>
-      <excludedCommands>MoveUp</excludedCommands>
-      <excludedCommands>SortListAsc</excludedCommands>
-      <excludedCommands>SortListDesc</excludedCommands>
       <items xsi:type="form:FormGroup">
         <name>ГруппаПользователи</name>
         <id>8</id>
@@ -1329,16 +1310,7 @@
     <event>BeforeLoadDataFromSettingsAtServer</event>
     <name>ПередЗагрузкойДанныхИзНастроекНаСервере</name>
   </handlers>
-  <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>Cancel</excludedCommands>
   <excludedCommands>Close</excludedCommands>
-  <excludedCommands>Ignore</excludedCommands>
-  <excludedCommands>No</excludedCommands>
-  <excludedCommands>OK</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
-  <excludedCommands>Yes</excludedCommands>
   <width>70</width>
   <height>20</height>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>

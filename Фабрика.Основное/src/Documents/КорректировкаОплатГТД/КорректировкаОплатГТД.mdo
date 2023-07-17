@@ -33,7 +33,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="aa2371ac-bc37-44fa-a61e-c7c227e3f034">
     <name>ГТД</name>
@@ -46,7 +45,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="d97e2a86-0ffc-4466-941c-01b7952cd643">
     <name>Остаток</name>
@@ -63,7 +61,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="6f954a30-f467-45e4-83ea-8d5713d316ed">
     <name>ПодИнвойсНомер</name>
@@ -80,7 +77,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <forms uuid="476e14c6-ebeb-4732-b4fb-d2a0c6406a3b">
     <name>ФормаДокумента</name>

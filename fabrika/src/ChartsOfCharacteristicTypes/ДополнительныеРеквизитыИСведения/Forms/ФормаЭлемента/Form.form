@@ -838,7 +838,6 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <excludedCommands>Copy</excludedCommands>
-      <excludedCommands>Delete</excludedCommands>
       <items xsi:type="form:FormField">
         <name>ЗначенияНаименование</name>
         <id>60</id>

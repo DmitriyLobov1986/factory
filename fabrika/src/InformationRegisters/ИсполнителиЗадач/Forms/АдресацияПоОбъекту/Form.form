@@ -63,7 +63,6 @@
     </dataPath>
     <skipOnInput>false</skipOnInput>
     <titleLocation>None</titleLocation>
-    <excludedCommands>MoveDown</excludedCommands>
     <excludedCommands>MoveUp</excludedCommands>
     <items xsi:type="form:FormField">
       <name>Роль</name>

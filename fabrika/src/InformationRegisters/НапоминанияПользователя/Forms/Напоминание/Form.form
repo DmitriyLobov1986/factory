@@ -1030,10 +1030,6 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>Copy</excludedCommands>
-  <excludedCommands>CustomizeForm</excludedCommands>
-  <excludedCommands>Delete</excludedCommands>
-  <excludedCommands>Reread</excludedCommands>
   <excludedCommands>Write</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
