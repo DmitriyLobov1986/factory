@@ -10,6 +10,7 @@
         <key>ru</key>
         <value>Длительная операция</value>
       </title>
+      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -43,7 +44,11 @@
       <autoMaxWidth>true</autoMaxWidth>
       <height>3</height>
       <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.ДлительнаяОперация48</picture>
+        </picture>
+      </extInfo>
     </items>
     <items xsi:type="form:Decoration">
       <name>Кот</name>
@@ -94,6 +99,7 @@
     <items xsi:type="form:FormField">
       <name>СопровождающийТекст</name>
       <id>7</id>
+      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -128,6 +134,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
+      <verticalAlign>Center</verticalAlign>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -201,7 +208,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <horizontalStretch>true</horizontalStretch>
     <extendedTooltip>
       <name>Группа1ExtendedTooltip</name>
       <id>12</id>
@@ -252,7 +258,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>0</commandName>
+      <commandName>Form.Command.ОтменитьОперациюИЗакрытьФорму</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -284,7 +290,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>0</commandName>
+      <commandName>Form.StandardCommand.Help</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -299,11 +305,12 @@
     <horizontalAlign>Right</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <width>40</width>
+  <excludedCommands>CustomizeForm</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
   <verticalScroll>UseIfNecessary</verticalScroll>
   <showTitle>true</showTitle>
