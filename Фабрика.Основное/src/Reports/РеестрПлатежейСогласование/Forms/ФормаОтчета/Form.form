@@ -26,7 +26,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>0</commandName>
+      <commandName>Form.Command.Сформировать</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -56,7 +56,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>0</commandName>
+      <commandName>Form.Command.ЗакрытьРеестр</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -100,7 +100,7 @@
     </items>
     <items xsi:type="form:Button">
       <name>ВыгрузитьРеестр</name>
-      <id>34</id>
+      <id>81</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -108,7 +108,7 @@
       </userVisible>
       <extendedTooltip>
         <name>ВыгрузитьРеестрРасширеннаяПодсказка</name>
-        <id>35</id>
+        <id>82</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -152,7 +152,7 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>0</commandName>
+        <commandName>Form.Command.ИзменитьВБухгалтерии</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -227,7 +227,7 @@
       <id>53</id>
       <items xsi:type="form:Button">
         <name>ЗаполнитьДатыИзБуфера</name>
-        <id>51</id>
+        <id>83</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -322,13 +322,6 @@
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
-      <for>
-        <value>true</value>
-        <role>Role.АдминистраторСистемы</role>
-      </for>
-      <for>
-        <role>Role.Бухгалтерия</role>
-      </for>
     </userVisible>
     <title>
       <key>ru</key>
@@ -446,7 +439,7 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>0</commandName>
+        <commandName>Form.Command.ВариантГлоссаб</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -480,7 +473,7 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>0</commandName>
+        <commandName>Form.Command.ВыбратьВариантОбработкиРеестра</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -510,7 +503,7 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>0</commandName>
+        <commandName>Form.Command.ЗапуститьПроцессСогласования</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -530,6 +523,11 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:SpreadSheetDocFieldExtInfo">
+      <handlers xsi:type="form:EventHandlerExtension">
+        <event>OnActivate</event>
+        <name>Расш1_РезультатПриАктивизацииОбластиПосле</name>
+        <callType>After</callType>
+      </handlers>
       <width>100</width>
       <autoMaxWidth>true</autoMaxWidth>
       <height>10</height>
@@ -593,7 +591,7 @@
         <id>79</id>
         <items xsi:type="form:FormGroup">
           <name>Группа1КоманднаяПанель</name>
-          <id>38</id>
+          <id>85</id>
           <items xsi:type="form:FormGroup">
             <name>ДополнительныеКоманды</name>
             <id>38</id>
@@ -620,7 +618,7 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <commandName>0</commandName>
+              <commandName>Form.Command.ЗаписатьКомментарий</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -650,7 +648,7 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <commandName>0</commandName>
+              <commandName>Form.Command.ИзменитьДатуПлатежа</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -680,7 +678,7 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <commandName>0</commandName>
+              <commandName>Form.Command.ИзменитьСтатьюРасхода</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -779,7 +777,7 @@
           <horizontalStretch>true</horizontalStretch>
           <extendedTooltip>
             <name>Группа1КоманднаяПанельРасширеннаяПодсказка</name>
-            <id>39</id>
+            <id>87</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -986,7 +984,7 @@
       </items>
       <items xsi:type="form:Button">
         <name>ОтправитьПисьмо</name>
-        <id>47</id>
+        <id>84</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -994,7 +992,7 @@
         </userVisible>
         <extendedTooltip>
           <name>ОтправитьПисьмоРасширеннаяПодсказка</name>
-          <id>48</id>
+          <id>86</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
