@@ -484,14 +484,6 @@
 							<dcscor:parameter>Шрифт</dcscor:parameter>
 							<dcscor:value xsi:type="v8ui:Font" faceName="Arial" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 						</dcscor:item>
-						<dcscor:item>
-							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">40</dcscor:value>
-						</dcscor:item>
-						<dcscor:item>
-							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">40</dcscor:value>
-						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
 				<dcsat:tableCell>
@@ -507,14 +499,6 @@
 						<dcscor:item>
 							<dcscor:parameter>Шрифт</dcscor:parameter>
 							<dcscor:value xsi:type="v8ui:Font" faceName="Arial" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
-						</dcscor:item>
-						<dcscor:item>
-							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">65</dcscor:value>
-						</dcscor:item>
-						<dcscor:item>
-							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">65</dcscor:value>
 						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
@@ -565,14 +549,6 @@
 							<dcscor:value xsi:type="v8ui:HorizontalAlign">Justify</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
-							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
-						</dcscor:item>
-						<dcscor:item>
-							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">35</dcscor:value>
-						</dcscor:item>
-						<dcscor:item>
 							<dcscor:parameter>Расшифровка</dcscor:parameter>
 							<dcscor:value xsi:type="dcscor:Parameter">СтатьяРасходаРасшифровка</dcscor:value>
 						</dcscor:item>
@@ -586,14 +562,6 @@
 						<dcscor:item>
 							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
 							<dcscor:value xsi:type="v8ui:HorizontalAlign">Justify</dcscor:value>
-						</dcscor:item>
-						<dcscor:item>
-							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">59</dcscor:value>
-						</dcscor:item>
-						<dcscor:item>
-							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">59</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>Расшифровка</dcscor:parameter>
@@ -619,14 +587,6 @@
 			<dcsat:name>Контрагент</dcsat:name>
 			<dcsat:expression>Контрагент</dcsat:expression>
 		</parameter>
-		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
-			<dcsat:name>СтатьяРасхода</dcsat:name>
-			<dcsat:expression>Представление(сп_СтатьяРасхода)</dcsat:expression>
-		</parameter>
-		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
-			<dcsat:name>Назначение</dcsat:name>
-			<dcsat:expression>ВЫБОР КОГДА ДатаОплаты &lt;&gt; ДАТАВРЕМЯ(1, 1, 1) ТОГДА  Формат(ДатаОплаты, "ДФ=""дд.ММ.гггг""") + "_" ИНАЧЕ "" КОНЕЦ + Назначение </dcsat:expression>
-		</parameter>
 		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:DetailsAreaTemplateParameter">
 			<dcsat:name>КонтрагентРасшифровка</dcsat:name>
 			<dcsat:fieldExpression>
@@ -634,12 +594,9 @@
 				<dcsat:expression>СсылкаБухгалтерия</dcsat:expression>
 			</dcsat:fieldExpression>
 		</parameter>
-		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:DetailsAreaTemplateParameter">
-			<dcsat:name>НазначениеРасшифровка</dcsat:name>
-			<dcsat:fieldExpression>
-				<dcsat:field>СсылкаБухгалтерия</dcsat:field>
-				<dcsat:expression>СсылкаБухгалтерия</dcsat:expression>
-			</dcsat:fieldExpression>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
+			<dcsat:name>СтатьяРасхода</dcsat:name>
+			<dcsat:expression>Представление(сп_СтатьяРасхода)</dcsat:expression>
 		</parameter>
 		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:DetailsAreaTemplateParameter">
 			<dcsat:name>СтатьяРасходаРасшифровка</dcsat:name>
@@ -648,6 +605,17 @@
 				<dcsat:expression>сп_СтатьяРасхода</dcsat:expression>
 			</dcsat:fieldExpression>
 			<dcsat:mainAction>OpenValue</dcsat:mainAction>
+		</parameter>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
+			<dcsat:name>Назначение</dcsat:name>
+			<dcsat:expression>ВЫБОР КОГДА ДатаОплаты &lt;&gt; ДАТАВРЕМЯ(1, 1, 1) ТОГДА  Формат(ДатаОплаты, "ДФ=""дд.ММ.гггг""") + "_" ИНАЧЕ "" КОНЕЦ + Назначение </dcsat:expression>
+		</parameter>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:DetailsAreaTemplateParameter">
+			<dcsat:name>НазначениеРасшифровка</dcsat:name>
+			<dcsat:fieldExpression>
+				<dcsat:field>СсылкаБухгалтерия</dcsat:field>
+				<dcsat:expression>СсылкаБухгалтерия</dcsat:expression>
+			</dcsat:fieldExpression>
 		</parameter>
 	</template>
 	<template>
@@ -665,14 +633,6 @@
 							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
 							<dcscor:value xsi:type="v8ui:HorizontalAlign">Justify</dcscor:value>
 						</dcscor:item>
-						<dcscor:item>
-							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">40</dcscor:value>
-						</dcscor:item>
-						<dcscor:item>
-							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">40</dcscor:value>
-						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
 				<dcsat:tableCell>
@@ -686,11 +646,11 @@
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">65</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">13.875</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">65</dcscor:value>
+							<dcscor:value xsi:type="xs:decimal">13.875</dcscor:value>
 						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
@@ -698,12 +658,12 @@
 			</dcsat:item>
 		</template>
 		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
-			<dcsat:name>Комментарий</dcsat:name>
-			<dcsat:expression>Комментарий</dcsat:expression>
-		</parameter>
-		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
 			<dcsat:name>СтатьяРасходаМод</dcsat:name>
 			<dcsat:expression>СтатьяРасходаМод</dcsat:expression>
+		</parameter>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
+			<dcsat:name>Комментарий</dcsat:name>
+			<dcsat:expression>Комментарий</dcsat:expression>
 		</parameter>
 	</template>
 	<template>
@@ -724,6 +684,14 @@
 						<dcscor:item>
 							<dcscor:parameter>Шрифт</dcscor:parameter>
 							<dcscor:value xsi:type="v8ui:Font" faceName="Arial" height="10" bold="true" italic="true" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">11.375</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">11.375</dcscor:value>
 						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
@@ -751,15 +719,23 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#47FF95</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#00FF00</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>Шрифт</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Font" faceName="Times New Roman" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+							<dcscor:value xsi:type="v8ui:Font" faceName="Times New Roman" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
 							<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">11.375</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">11.375</dcscor:value>
 						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
@@ -772,15 +748,23 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#47FF95</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#00FF00</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>Шрифт</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Font" faceName="Times New Roman" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+							<dcscor:value xsi:type="v8ui:Font" faceName="Times New Roman" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
 							<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">11.375</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">11.375</dcscor:value>
 						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
@@ -792,21 +776,14 @@
 		</parameter>
 		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
 			<dcsat:name>Валюта</dcsat:name>
-			<dcsat:expression>Представление(ЕСТЬNULL(СсылкаБухгалтерия.Валюта, "RUB"))</dcsat:expression>
+			<dcsat:expression>СсылкаБухгалтерия.Валюта</dcsat:expression>
 		</parameter>
 	</template>
 	<template>
 		<name>Макет7</name>
 		<template xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:AreaTemplate">
 			<dcsat:item xsi:type="dcsat:TableRow">
-				<dcsat:tableCell>
-					<dcsat:appearance>
-						<dcscor:item>
-							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:FieldSelectionBackColor</dcscor:value>
-						</dcscor:item>
-					</dcsat:appearance>
-				</dcsat:tableCell>
+				<dcsat:tableCell/>
 			</dcsat:item>
 		</template>
 	</template>
@@ -828,6 +805,14 @@
 							<dcscor:value xsi:type="v8ui:HorizontalAlign">Right</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
+							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">11.375</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">11.375</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
 							<dcscor:parameter>Расшифровка</dcscor:parameter>
 							<dcscor:value xsi:type="dcscor:Parameter">Расшифровка</dcscor:value>
 						</dcscor:item>
@@ -842,6 +827,48 @@
 		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:DetailsAreaTemplateParameter">
 			<dcsat:name>Расшифровка</dcsat:name>
 		</parameter>
+	</template>
+	<template>
+		<name>Макет1</name>
+		<template xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:AreaTemplate">
+			<dcsat:item xsi:type="dcsat:TableRow">
+				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="dcscor:Parameter">Комментарий</dcsat:value>
+					</dcsat:item>
+					<dcsat:appearance>
+						<dcscor:item>
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#CCFFFF</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:HorizontalAlign">Right</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">11.375</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">11.375</dcscor:value>
+						</dcscor:item>
+					</dcsat:appearance>
+				</dcsat:tableCell>
+			</dcsat:item>
+		</template>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
+			<dcsat:name>Комментарий</dcsat:name>
+			<dcsat:expression>Комментарий</dcsat:expression>
+		</parameter>
+	</template>
+	<template>
+		<name>Макет1</name>
+		<template xsi:nil="true"/>
+	</template>
+	<template>
+		<name>Макет7</name>
+		<template xsi:nil="true"/>
 	</template>
 	<groupTemplate>
 		<groupName>Шапка</groupName>
@@ -862,6 +889,12 @@
 		<groupName>Валюта</groupName>
 		<templateType>Header</templateType>
 		<template>Макет6</template>
+	</groupTemplate>
+	<groupTemplate>
+		<groupField>Комментарий</groupField>
+		<groupName>comment</groupName>
+		<templateType>Header</templateType>
+		<template>Макет1</template>
 	</groupTemplate>
 	<groupHeaderTemplate>
 		<groupName>Шапка</groupName>
@@ -897,14 +930,7 @@
 			</dcsset:order>
 			<dcsset:conditionalAppearance>
 				<dcsset:item>
-					<dcsset:selection>
-						<dcsset:item>
-							<dcsset:field>Организация</dcsset:field>
-						</dcsset:item>
-						<dcsset:item>
-							<dcsset:field>Контрагент</dcsset:field>
-						</dcsset:item>
-					</dcsset:selection>
+					<dcsset:selection/>
 					<dcsset:filter/>
 					<dcsset:appearance>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
@@ -939,7 +965,7 @@
 			<dcsset:outputParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>МакетОформления</dcscor:parameter>
-					<dcscor:value xsi:type="xs:string">Море</dcscor:value>
+					<dcscor:value xsi:type="xs:string">Яркий</dcscor:value>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
@@ -1565,29 +1591,11 @@
 			</dcsset:filter>
 			<dcsset:order>
 				<dcsset:item xsi:type="dcsset:OrderItemField">
-					<dcsset:use>false</dcsset:use>
-					<dcsset:field>Сумма</dcsset:field>
+					<dcsset:field>ДатаОплаты</dcsset:field>
 					<dcsset:orderType>Desc</dcsset:orderType>
 				</dcsset:item>
 			</dcsset:order>
 			<dcsset:conditionalAppearance>
-				<dcsset:item>
-					<dcsset:selection>
-						<dcsset:item>
-							<dcsset:field>Организация</dcsset:field>
-						</dcsset:item>
-						<dcsset:item>
-							<dcsset:field>Контрагент</dcsset:field>
-						</dcsset:item>
-					</dcsset:selection>
-					<dcsset:filter/>
-					<dcsset:appearance>
-						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
-							<dcscor:value xsi:type="xs:decimal">25</dcscor:value>
-						</dcscor:item>
-					</dcsset:appearance>
-				</dcsset:item>
 				<dcsset:item>
 					<dcsset:selection>
 						<dcsset:item>
@@ -1612,6 +1620,16 @@
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>ОриентацияТекста</dcscor:parameter>
 							<dcscor:value xsi:type="xs:decimal">0</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection/>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">25</dcscor:value>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -1707,13 +1725,7 @@
 						</dcsset:item>
 					</dcsset:groupItems>
 					<dcsset:order>
-						<dcsset:item xsi:type="dcsset:OrderItemAuto">
-							<dcsset:use>false</dcsset:use>
-						</dcsset:item>
-						<dcsset:item xsi:type="dcsset:OrderItemField">
-							<dcsset:field>Сумма</dcsset:field>
-							<dcsset:orderType>Desc</dcsset:orderType>
-						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 					</dcsset:order>
 					<dcsset:selection>
 						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
@@ -1722,13 +1734,6 @@
 						<dcsset:groupItems>
 							<dcsset:item xsi:type="dcsset:GroupItemField">
 								<dcsset:field>Контрагент</dcsset:field>
-								<dcsset:groupType>Items</dcsset:groupType>
-								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
-								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
-								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
-							</dcsset:item>
-							<dcsset:item xsi:type="dcsset:GroupItemField">
-								<dcsset:field>Комментарий</dcsset:field>
 								<dcsset:groupType>Items</dcsset:groupType>
 								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
@@ -1757,20 +1762,11 @@
 							</dcsset:item>
 						</dcsset:groupItems>
 						<dcsset:order>
-							<dcsset:item xsi:type="dcsset:OrderItemAuto">
-								<dcsset:use>false</dcsset:use>
-							</dcsset:item>
-							<dcsset:item xsi:type="dcsset:OrderItemField">
-								<dcsset:field>Сумма</dcsset:field>
-								<dcsset:orderType>Desc</dcsset:orderType>
-							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 						</dcsset:order>
 						<dcsset:selection>
 							<dcsset:item xsi:type="dcsset:SelectedItemField">
 								<dcsset:field>Контрагент</dcsset:field>
-							</dcsset:item>
-							<dcsset:item xsi:type="dcsset:SelectedItemField">
-								<dcsset:field>Комментарий</dcsset:field>
 							</dcsset:item>
 							<dcsset:item xsi:type="dcsset:SelectedItemField">
 								<dcsset:field>Назначение</dcsset:field>
@@ -1832,6 +1828,42 @@
 								</dcsset:appearance>
 							</dcsset:item>
 						</dcsset:conditionalAppearance>
+						<dcsset:item>
+							<dcsset:name>comment</dcsset:name>
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>Комментарий</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">Комментарий</dcsset:left>
+									<dcsset:comparisonType>Filled</dcsset:comparisonType>
+									<dcsset:right xsi:type="xs:string"/>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:use>false</dcsset:use>
+									<dcsset:field>Комментарий</dcsset:field>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>Сумма</dcsset:field>
+									<dcsset:title>...</dcsset:title>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:outputParameters>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+									<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+								</dcscor:item>
+							</dcsset:outputParameters>
+						</dcsset:item>
 					</dcsset:item>
 				</dcsset:row>
 			</dcsset:item>
