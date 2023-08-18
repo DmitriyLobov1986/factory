@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>data</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОргИнн</dataPath>
+			<field>ОргИнн</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ОрганизацияИНН</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерСчета</dataPath>
+			<field>НомерСчета</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>БИК</dataPath>
+			<field>БИК</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонтрагентНаименование</dataPath>
+			<field>КонтрагентНаименование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонтрИНН</dataPath>
+			<field>КонтрИНН</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерСчета_Контрагента</dataPath>
+			<field>НомерСчета_Контрагента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>БИК_Контрагента</dataPath>
+			<field>БИК_Контрагента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Назначение</dataPath>
+			<field>Назначение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерВБухгалтерии</dataPath>
+			<field>НомерВБухгалтерии</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сумма</dataPath>
+			<field>Сумма</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОплатитьДо</dataPath>
+			<field>ОплатитьДо</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Отправлено</dataPath>
+			<field>Отправлено</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>База</dataPath>
+			<field>База</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатьяРасходаКод</dataPath>
+			<field>СтатьяРасходаКод</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УИД</dataPath>
+			<field>УИД</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВалютаКод</dataPath>
+			<field>ВалютаКод</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Валюта код</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запись</dataPath>
+			<field>Запись</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запись</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+    sql_ExchangeТаблицаut.ОргИнн,
+    sql_ExchangeТаблицаut.НомерСчета,
+    sql_ExchangeТаблицаut.БИК,
+    sql_ExchangeТаблицаut.Валюта КАК ВалютаКод,
+    sql_ExchangeТаблицаut.КонтрагентНаименование,
+    sql_ExchangeТаблицаut.КонтрИНН,
+    sql_ExchangeТаблицаut.НомерСчета_Контрагента,
+    sql_ExchangeТаблицаut.БИК_Контрагента,
+    sql_ExchangeТаблицаut.Назначение,
+    sql_ExchangeТаблицаut.НомерВБухгалтерии,
+    sql_ExchangeТаблицаut.Сумма,
+    sql_ExchangeТаблицаut.ОплатитьДо,
+    sql_ExchangeТаблицаut.Отправлено,
+    sql_ExchangeТаблицаut.База,
+    sql_ExchangeТаблицаut.СтатьяРасходаКод,
+    sql_ExchangeТаблицаut.УИД,
+    sql_ExchangeТаблицаut.Ссылка КАК Запись
+ИЗ
+    ВнешнийИсточникДанных.sql_Exchange.Таблица.ut КАК sql_ExchangeТаблицаut</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Организации</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИНН</dataPath>
+			<field>ИНН</field>
+			<useRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</useRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+    Организации.ИНН,
+    Организации.Ссылка КАК Организация
+ИЗ
+    Справочник.Организации КАК Организации</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Валюты</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Код</dataPath>
+			<field>Код</field>
+			<useRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+			</useRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Валюта</dataPath>
+			<field>Валюта</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Валюта</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+    Валюты.Код,
+    Валюты.Ссылка КАК Валюта
+ИЗ
+    Справочник.Валюты КАК Валюты</query>
+	</dataSet>
+	<dataSetLink>
+		<sourceDataSet>data</sourceDataSet>
+		<destinationDataSet>Организации</destinationDataSet>
+		<sourceExpression>ОргИнн</sourceExpression>
+		<destinationExpression>ИНН</destinationExpression>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>data</sourceDataSet>
+		<destinationDataSet>Валюты</destinationDataSet>
+		<sourceExpression>ВалютаКод</sourceExpression>
+		<destinationExpression>Код</destinationExpression>
+	</dataSetLink>
+	<totalField>
+		<dataPath>Сумма</dataPath>
+		<expression>Сумма(Сумма)</expression>
+	</totalField>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Сумма</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Яркий</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Организация</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Валюта</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>НомерСчета</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>КонтрагентНаименование</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+								<dcsset:item xsi:type="dcsset:SelectedItemField">
+									<dcsset:field>Запись</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:userSettingID>257c576d-32de-4260-b5d0-084ffdcbc91c</dcsset:userSettingID>
+							<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Записи</v8:content>
+								</v8:item>
+							</dcsset:userSettingPresentation>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

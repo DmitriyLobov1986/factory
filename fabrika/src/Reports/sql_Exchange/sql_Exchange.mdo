@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a6f16b7-e047-4e44-9b29-9031f7864c3c">
+  <producedTypes>
+    <objectType typeId="914f18fc-a57a-4acb-a226-2f8dc1eab710" valueTypeId="4e7a69a7-a6f5-4578-84cb-b343083b9aa9"/>
+    <managerType typeId="952307f7-4c2d-4b97-bb9e-1695a50ce635" valueTypeId="7b9ac984-2c1a-49f3-88a2-b60e03390db6"/>
+  </producedTypes>
+  <name>sql_Exchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>exchange</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.sql_Exchange.Template.sql_Exchange</mainDataCompositionSchema>
+  <templates uuid="80a3fbb8-afc6-4c81-ac15-b0b81599ff78">
+    <name>sql_Exchange</name>
+    <synonym>
+      <key>ru</key>
+      <value>Sql exchange</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
