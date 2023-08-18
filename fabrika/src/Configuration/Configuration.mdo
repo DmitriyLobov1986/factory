@@ -1751,6 +1751,7 @@
   <reports>Report.РассылкаИнициаторам</reports>
   <reports>Report.ДДС</reports>
   <reports>Report.РеестрПлатежейСогласование</reports>
+  <reports>Report.sql_Exchange</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстовДляВсехОбластейДанных</dataProcessors>
   <dataProcessors>DataProcessor.АктивныеПользователи</dataProcessors>

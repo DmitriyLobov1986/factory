@@ -8,5 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>ExternalDataSource.sql_Exchange.Table.ut</content>
+  <content>Report.sql_Exchange</content>
   <parentSubsystem>Subsystem.ДенежныеСредства</parentSubsystem>
 </mdclass:Subsystem>

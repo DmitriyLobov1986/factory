@@ -22,6 +22,7 @@
   <content>EventSubscription.ЗаписьВалютногоРассчётаВДДС</content>
   <content>Role.Бухгалтерия</content>
   <content>CommonPicture.Детализация</content>
+  <content>Report.sql_Exchange</content>
   <subsystems>Справочники</subsystems>
   <subsystems>ДДС</subsystems>
   <subsystems>БизнесПроцессы</subsystems>

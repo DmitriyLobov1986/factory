@@ -17,11 +17,12 @@
   </synonym>
   <parentDataSource>ExternalDataSource.sql_Exchange</parentDataSource>
   <nameInDataSource>dbo.ut_exch</nameInDataSource>
-  <tableDataType>NonobjectData</tableDataType>
-  <keyFields>ExternalDataSource.sql_Exchange.Table.ut.Field.НомерВБухгалтерии</keyFields>
+  <keyFields>ExternalDataSource.sql_Exchange.Table.ut.Field.УИД</keyFields>
+  <presentationField>ExternalDataSource.sql_Exchange.Table.ut.Field.УИД</presentationField>
   <unfilledParentValue xsi:type="core:UndefinedValue"/>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>ExternalDataSource.sql_Exchange.Table.ut.Field.НомерВБухгалтерии</inputByString>
+  <inputByString>ExternalDataSource.sql_Exchange.Table.ut.Field.УИД</inputByString>
+  <defaultListForm>ExternalDataSource.sql_Exchange.Table.ut.Form.ФормаСписка</defaultListForm>
   <editType>InDialog</editType>
   <tableFields uuid="3574e98d-3841-4900-96f7-02f250ebd648">
     <name>ОргИнн</name>
@@ -289,4 +290,31 @@
     <nameInDataSource>article</nameInDataSource>
     <allowNull>true</allowNull>
   </tableFields>
+  <tableFields uuid="96ec1826-573f-4525-aead-bd3a21cfe0be">
+    <name>УИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>УИД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>ID</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <forms uuid="378e2df6-d44b-410e-96d7-6cc09136a57e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Table>
