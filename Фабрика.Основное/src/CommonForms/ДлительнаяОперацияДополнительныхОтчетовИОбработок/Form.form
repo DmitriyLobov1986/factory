@@ -99,7 +99,6 @@
     <items xsi:type="form:FormField">
       <name>СопровождающийТекст</name>
       <id>7</id>
-      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>

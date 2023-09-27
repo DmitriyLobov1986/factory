@@ -133,4 +133,11 @@
       <value>ИП_Тучков</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="562d4135-67e6-47cc-ade1-b65a2a53ac52">
+    <name>ИП_Прохоров</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИП_Прохоров</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
