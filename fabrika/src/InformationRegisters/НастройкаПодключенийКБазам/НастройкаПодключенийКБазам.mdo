@@ -69,7 +69,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>10</length>
+        <length>20</length>
       </stringQualifiers>
     </type>
     <passwordMode>true</passwordMode>
@@ -78,9 +78,7 @@
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="617c23a7-c9b8-46b9-8f16-dd8508eca075">
     <name>СерверCOMОбъекта</name>
