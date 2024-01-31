@@ -523,6 +523,11 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:SpreadSheetDocFieldExtInfo">
+      <handlers xsi:type="form:EventHandlerExtension">
+        <event>OnActivate</event>
+        <name>Расш1_РезультатПриАктивизацииОбластиПосле</name>
+        <callType>Override</callType>
+      </handlers>
       <width>100</width>
       <autoMaxWidth>true</autoMaxWidth>
       <height>10</height>
