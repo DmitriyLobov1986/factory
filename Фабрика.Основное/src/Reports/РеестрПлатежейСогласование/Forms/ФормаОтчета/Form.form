@@ -526,7 +526,7 @@
       <handlers xsi:type="form:EventHandlerExtension">
         <event>OnActivate</event>
         <name>Расш1_РезультатПриАктивизацииОбластиПосле</name>
-        <callType>Override</callType>
+        <callType>After</callType>
       </handlers>
       <width>100</width>
       <autoMaxWidth>true</autoMaxWidth>
