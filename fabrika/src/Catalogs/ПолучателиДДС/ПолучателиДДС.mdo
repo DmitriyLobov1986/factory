@@ -122,6 +122,13 @@
         <value>000000001</value>
       </code>
     </items>
+    <items id="761e0e49-9591-4481-98d6-9b7e4a647fd6">
+      <name>БезЗарплата</name>
+      <description>БезЗарплата</description>
+      <code xsi:type="core:StringValue">
+        <value>ZP</value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
