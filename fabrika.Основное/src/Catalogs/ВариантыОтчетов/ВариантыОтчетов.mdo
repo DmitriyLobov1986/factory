@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="49130078-0ce1-4c16-94fc-01095fb33742">
+  <producedTypes>
+    <objectType typeId="9b528cf4-5ac2-4cc5-abcc-d5d7eb987041" valueTypeId="fe21aff9-6726-4150-9d8b-6cf0a28d38ea"/>
+    <refType typeId="46c4ed34-a0f0-4bd8-b6fa-7e675f57101b" valueTypeId="d753e5fc-30e1-478b-87c6-c75be7c79d17"/>
+    <selectionType typeId="a86b686e-5df7-4549-b1f4-95d6ef6c8fb9" valueTypeId="59a30b4d-a940-4dd0-a5e2-ae5953c20d60"/>
+    <listType typeId="8eae195f-5953-4887-95d9-490054179b71" valueTypeId="8602fd78-35ec-4e83-8c2e-acab7740553f"/>
+    <managerType typeId="076672dc-ad2a-49a7-b968-27e46ed118d5" valueTypeId="7f1c8db2-3695-4748-ad2f-6bf8b2db7a96"/>
+  </producedTypes>
+  <name>ВариантыОтчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <descriptionLength>Extended</descriptionLength>
+  </extension>
+  <descriptionLength>150</descriptionLength>
+  <attributes uuid="f856f8cd-b68b-40bf-b190-69d289ed4f5f">
+    <name>ВидимостьПоУмолчанию</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="18570e0f-3ba0-49d7-bdc0-9d80087e1b71">
+    <name>ТолькоДляАвтора</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="2682a115-b9b0-4015-9399-bd776ba0b11d">
+    <name>ВидимостьПоУмолчаниюПереопределена</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="b5a94223-4ff4-4a43-88f4-71e0a5077867">
+    <name>КлючВарианта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>256</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="5005017d-5f45-4cf7-afcc-d03639a6ab59">
+    <name>ТипОтчета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипыОтчетов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="3e2841d5-3dc0-4102-9e08-666d642f0521">
+    <name>Описание</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="325c143f-993e-431f-913d-571feb133c2e">
+    <name>Пользовательский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="0a5bcc2d-f077-431d-bb68-10ca21f15459">
+    <name>Отчет</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ИдентификаторыОбъектовМетаданных</type>
+        </types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="6717825e-0bfc-4e1b-a237-641a82a3d80a">
+    <name>ПредопределенныйВариант</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ПредопределенныеВариантыОтчетов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="b290e87e-4d06-45f3-8f8d-f4658deaf1a9">
+    <name>Автор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Пользователи</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="954942f4-dff0-413b-97fd-da01583e765d">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <commands uuid="eb9e2420-b94f-4978-8fe5-1eca90d1e16a">
+    <name>Открыть</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <group>Checked</group>
+      <commandParameterTypeExtension/>
+    </extension>
+    <group>FormCommandBarImportant</group>
+  </commands>
+  <commands uuid="b7ee046e-4236-438d-8305-da5abc9e9d2d">
+    <name>СброситьНастройкиПользователей</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <group>Checked</group>
+      <commandParameterTypeExtension/>
+    </extension>
+    <group>FormCommandBarImportant</group>
+  </commands>
+  <commands uuid="bd9b13dd-e923-4fb7-8418-51dcfca8451f">
+    <name>РазместитьВРазделах</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <group>Checked</group>
+      <commandParameterTypeExtension/>
+    </extension>
+    <group>FormCommandBarImportant</group>
+  </commands>
+  <commands uuid="49454235-6512-4753-b8af-256c2ce8bf6e">
+    <name>СброситьНастройкиРазмещения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <group>Checked</group>
+      <commandParameterTypeExtension/>
+    </extension>
+    <group>FormCommandBarImportant</group>
+  </commands>
+</mdclass:Catalog>

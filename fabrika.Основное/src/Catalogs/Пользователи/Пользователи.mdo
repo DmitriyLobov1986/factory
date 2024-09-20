@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="405ca1c3-6728-47ad-8d84-28c889d899af">
+  <producedTypes>
+    <objectType typeId="1599319e-5a12-4b2f-b6d1-c4a425621811" valueTypeId="7e5b82e5-fc57-4a59-aa57-49d56a871526"/>
+    <refType typeId="a74256a4-7784-49e4-9d54-45502647c1b2" valueTypeId="3fe5955d-eef5-4e58-a14e-752b66895fcf"/>
+    <selectionType typeId="ce43c6a7-5144-4d65-aaf5-ffb0ef72b58b" valueTypeId="ef1898e2-adab-402a-a790-80db7b275e35"/>
+    <listType typeId="e22c07a3-39ee-4e99-9497-7ba359f2097b" valueTypeId="972d714d-5193-487d-80f8-3e533a630834"/>
+    <managerType typeId="7a4fb9f8-a0be-4d8e-ad21-1f0da1ee624f" valueTypeId="a0acad05-8a0e-4943-bba9-bb593721ebe4"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <descriptionLength>Extended</descriptionLength>
+  </extension>
+  <descriptionLength>100</descriptionLength>
+  <attributes uuid="24fef244-c45a-49c3-815e-d776aa1db1d6">
+    <name>Недействителен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="aad1dcd5-3967-4455-b767-ea754337d816">
+    <name>ИдентификаторПользователяИБ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>UUID</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="f06182e4-d76f-41c1-88fc-5a8ef89099a1">
+    <name>Служебный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="bc166c86-65c6-4115-bd21-566a789397aa">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <commands uuid="5d4f4874-da89-4455-9386-426047d0515e">
+    <name>ПользователиИБ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <group>Checked</group>
+      <commandParameterTypeExtension/>
+    </extension>
+    <group>FormCommandBarImportant</group>
+  </commands>
+</mdclass:Catalog>

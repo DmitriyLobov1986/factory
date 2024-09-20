@@ -99,6 +99,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <excludedCommands>Help</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <enabled>true</enabled>

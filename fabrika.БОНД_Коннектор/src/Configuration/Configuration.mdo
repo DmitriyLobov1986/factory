@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="05e0b5be-1d34-4cd3-a224-0812dc0b6733">
+  <name>БОНД_Коннектор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коннектор</value>
+  </synonym>
+  <comment>Коннектор: удобный HTTP-клиент для 1С:Предприятие 8</comment>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="7e4686d4-46e6-4691-8196-bf68fee6a326"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="42709b46-fe22-4de2-8b05-e73fe6c9098a"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="ed918bf6-9518-4011-b952-4a9379d1f791"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="7074bc5c-c9be-4867-927b-598538a3b39c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="01f1845e-9f6e-44aa-905e-5b26833ba0d2"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="cb47e61e-75ed-40ba-80aa-4a2451159446"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="4c988a2f-be82-416c-9df3-8f6f0c490e1a"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>БОНД_Коннектор</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Vladimir Bondarevskiy (vbondarevsky@gmail.com)</vendor>
+  <version>2.1.3</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Лицензия Apache-2.0
+https://github.com/vbondarevsky/Connector/blob/master/LICENSE</value>
+  </detailedInformation>
+  <copyright>
+    <key>ru</key>
+    <value>Copyright © Владимир Бондаревский 2017-2020</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/vbondarevsky</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>https://github.com/vbondarevsky/Connector</value>
+  </configurationInformationAddress>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="f1277fda-9e7f-4629-b8b1-505a7ecc8ec6">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension"/>
+  </languages>
+  <subsystems>Subsystem.ВнешниеИсточникиДанных</subsystems>
+  <commonModules>CommonModule.БОНД_Коннектор</commonModules>
+  <commonModules>CommonModule.API</commonModules>
+</mdclass:Configuration>

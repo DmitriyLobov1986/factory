@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="21645cc7-f95e-435f-b639-75f619295f4c">
+  <name>Таможня</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension"/>
+  <content>Document.ТаможняРассчёты</content>
+  <content>Document.ПриходМашины</content>
+  <content>Document.КорректировкаОплатГТД</content>
+  <content>AccumulationRegister.ТаможняОплатаГТД</content>
+</mdclass:Subsystem>

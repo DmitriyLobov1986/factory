@@ -56,6 +56,7 @@
 					<left xsi:type="dcscor:Field">ГТД</left>
 					<comparisonType>InList</comparisonType>
 					<right xsi:type="v8:ValueListType">
+						<v8:valueType/>
 						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
 					</right>
 				</item>
