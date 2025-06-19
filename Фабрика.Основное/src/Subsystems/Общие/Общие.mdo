@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="73612395-5f2e-45a2-bc88-566c3eeed395">
-  <name>Общие</name>
-  <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:SubsystemExtension"/>
-  <content>CommonModule.ОбщийМодульСервер</content>
-  <content>CommonModule.РегламентныеЗадачиСервер</content>
-</mdclass:Subsystem>

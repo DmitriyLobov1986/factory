@@ -74,9 +74,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:NumberValue">
-      <value>0</value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <nameInDataSource>bic</nameInDataSource>
   </tableFields>
   <tableFields uuid="e9519d87-72a2-4e61-8703-c04e5506a3bf">
@@ -93,9 +91,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:NumberValue">
-      <value>0</value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <nameInDataSource>currency</nameInDataSource>
   </tableFields>
   <tableFields uuid="8015cd37-55d5-4e1c-9ca0-d8ebfc75f7a3">
@@ -306,7 +302,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <nameInDataSource>ID</nameInDataSource>
-    <allowNull>true</allowNull>
   </tableFields>
   <forms uuid="378e2df6-d44b-410e-96d7-6cc09136a57e">
     <name>ФормаСписка</name>

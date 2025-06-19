@@ -160,7 +160,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ФайлыБольшиеСтрокаПоиска</source>
+      <source>ФайлыБольшие</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -199,7 +199,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ФайлыБольшиеСостояниеПросмотра</source>
+      <source>ФайлыБольшие</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -238,7 +238,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ФайлыБольшиеУправлениеПоиском</source>
+      <source>ФайлыБольшие</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -429,6 +429,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <width>70</width>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

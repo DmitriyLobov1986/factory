@@ -56,7 +56,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ОбластиПерсональныхДанныхСтрокаПоиска</source>
+      <source>ОбластиПерсональныхДанных</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -95,7 +95,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ОбластиПерсональныхДанныхСостояниеПросмотра</source>
+      <source>ОбластиПерсональныхДанных</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -134,7 +134,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ОбластиПерсональныхДанныхУправлениеПоиском</source>
+      <source>ОбластиПерсональныхДанных</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -293,6 +293,7 @@
   </handlers>
   <width>60</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

@@ -249,7 +249,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ОтвеченныеАнкетыСтрокаПоиска</source>
+      <source>ОтвеченныеАнкеты</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -288,7 +288,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ОтвеченныеАнкетыСостояниеПросмотра</source>
+      <source>ОтвеченныеАнкеты</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -327,7 +327,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ОтвеченныеАнкетыУправлениеПоиском</source>
+      <source>ОтвеченныеАнкеты</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -413,6 +413,7 @@
   </handlers>
   <excludedCommands>Help</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <allowFormCustomize>true</allowFormCustomize>
