@@ -27,11 +27,6 @@
       <extendedTooltip>
         <name>СертификатыЭЦПКомуВыданExtendedTooltip</name>
         <id>32</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -42,11 +37,6 @@
       <contextMenu>
         <name>СертификатыЭЦПКомуВыданКонтекстноеМеню</name>
         <id>7</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -78,11 +68,6 @@
       <extendedTooltip>
         <name>СертификатыЭЦПКемВыданExtendedTooltip</name>
         <id>33</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -93,11 +78,6 @@
       <contextMenu>
         <name>СертификатыЭЦПКемВыданКонтекстноеМеню</name>
         <id>9</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -129,11 +109,6 @@
       <extendedTooltip>
         <name>СертификатыЭЦПДействителенДоExtendedTooltip</name>
         <id>34</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -144,11 +119,6 @@
       <contextMenu>
         <name>СертификатыЭЦПДействителенДоКонтекстноеМеню</name>
         <id>11</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -180,11 +150,6 @@
       <extendedTooltip>
         <name>СертификатыЭЦПНазначениеExtendedTooltip</name>
         <id>35</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -195,11 +160,6 @@
       <contextMenu>
         <name>СертификатыЭЦПНазначениеКонтекстноеМеню</name>
         <id>13</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -221,11 +181,6 @@
     <autoCommandBar>
       <name>СертификатыЭЦПКоманднаяПанель</name>
       <id>5</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
@@ -238,21 +193,11 @@
       <name>СертификатыЭЦПВыбор</name>
     </handlers>
     <searchStringAddition>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <name>СертификатыЭЦПСтрокаПоиска</name>
       <id>36</id>
       <extendedTooltip>
         <name>СертификатыЭЦПСтрокаПоискаРасширеннаяПодсказка</name>
         <id>38</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -263,11 +208,6 @@
       <contextMenu>
         <name>СертификатыЭЦПСтрокаПоискаКонтекстноеМеню</name>
         <id>37</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <source>СертификатыЭЦП</source>
@@ -276,21 +216,11 @@
       </extInfo>
     </searchStringAddition>
     <viewStatusAddition>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <name>СертификатыЭЦПСостояниеПросмотра</name>
       <id>39</id>
       <extendedTooltip>
         <name>СертификатыЭЦПСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>41</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -301,11 +231,6 @@
       <contextMenu>
         <name>СертификатыЭЦПСостояниеПросмотраКонтекстноеМеню</name>
         <id>40</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
@@ -315,21 +240,11 @@
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <name>СертификатыЭЦПУправлениеПоиском</name>
       <id>42</id>
       <extendedTooltip>
         <name>СертификатыЭЦПУправлениеПоискомРасширеннаяПодсказка</name>
         <id>44</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -340,11 +255,6 @@
       <contextMenu>
         <name>СертификатыЭЦПУправлениеПоискомКонтекстноеМеню</name>
         <id>43</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
@@ -356,11 +266,6 @@
     <extendedTooltip>
       <name>СертификатыЭЦПExtendedTooltip</name>
       <id>31</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -382,11 +287,6 @@
         <extendedTooltip>
           <name>ОткрытьСертификатExtendedTooltip</name>
           <id>30</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -401,11 +301,6 @@
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <width>70</width>
@@ -447,11 +342,6 @@
       <extendedTooltip>
         <name>ФормаВыбратьExtendedTooltip</name>
         <id>25</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -478,11 +368,6 @@
       <extendedTooltip>
         <name>ФормаОткрытьСертификатExtendedTooltip</name>
         <id>26</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -508,11 +393,6 @@
       <extendedTooltip>
         <name>ФормаНайтиExtendedTooltip</name>
         <id>27</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -539,11 +419,6 @@
       <extendedTooltip>
         <name>ФормаОтменитьПоискExtendedTooltip</name>
         <id>28</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -570,11 +445,6 @@
       <extendedTooltip>
         <name>ФормаВывестиСписокExtendedTooltip</name>
         <id>29</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -589,11 +459,6 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>

@@ -39,11 +39,6 @@
         <extendedTooltip>
           <name>ДоменыExtendedTooltip</name>
           <id>34</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -54,11 +49,6 @@
         <contextMenu>
           <name>ДоменыКонтекстноеМеню</name>
           <id>12</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
@@ -80,11 +70,6 @@
       <autoCommandBar>
         <name>ТаблицаДоменовКоманднаяПанель</name>
         <id>7</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <horizontalAlign>Left</horizontalAlign>
       </autoCommandBar>
       <handlers>
@@ -92,21 +77,11 @@
         <name>ТаблицаДоменовПриАктивизацииСтроки</name>
       </handlers>
       <searchStringAddition>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <name>ТаблицаДоменовСтрокаПоиска</name>
         <id>41</id>
         <extendedTooltip>
           <name>ТаблицаДоменовСтрокаПоискаРасширеннаяПодсказка</name>
           <id>43</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -117,11 +92,6 @@
         <contextMenu>
           <name>ТаблицаДоменовСтрокаПоискаКонтекстноеМеню</name>
           <id>42</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <source>ТаблицаДоменов</source>
@@ -130,21 +100,11 @@
         </extInfo>
       </searchStringAddition>
       <viewStatusAddition>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <name>ТаблицаДоменовСостояниеПросмотра</name>
         <id>44</id>
         <extendedTooltip>
           <name>ТаблицаДоменовСостояниеПросмотраРасширеннаяПодсказка</name>
           <id>46</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -155,11 +115,6 @@
         <contextMenu>
           <name>ТаблицаДоменовСостояниеПросмотраКонтекстноеМеню</name>
           <id>45</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
@@ -169,21 +124,11 @@
         </extInfo>
       </viewStatusAddition>
       <searchControlAddition>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <name>ТаблицаДоменовУправлениеПоиском</name>
         <id>47</id>
         <extendedTooltip>
           <name>ТаблицаДоменовУправлениеПоискомРасширеннаяПодсказка</name>
           <id>49</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -194,11 +139,6 @@
         <contextMenu>
           <name>ТаблицаДоменовУправлениеПоискомКонтекстноеМеню</name>
           <id>48</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
@@ -210,11 +150,6 @@
       <extendedTooltip>
         <name>ТаблицаДоменовExtendedTooltip</name>
         <id>33</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -236,11 +171,6 @@
           <extendedTooltip>
             <name>ТаблицаДоменовКонтекстноеМенюНайтиExtendedTooltip</name>
             <id>30</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -266,11 +196,6 @@
           <extendedTooltip>
             <name>ТаблицаДоменовКонтекстноеМенюОтменитьПоискExtendedTooltip</name>
             <id>31</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -296,11 +221,6 @@
           <extendedTooltip>
             <name>ТаблицаДоменовКонтекстноеМенюВывестиСписокExtendedTooltip</name>
             <id>32</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -315,11 +235,6 @@
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <autoFill>true</autoFill>
@@ -383,11 +298,6 @@
         <extendedTooltip>
           <name>ПользователиExtendedTooltip</name>
           <id>40</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -398,11 +308,6 @@
         <contextMenu>
           <name>ПользователиКонтекстноеМеню</name>
           <id>14</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
@@ -424,11 +329,6 @@
       <autoCommandBar>
         <name>ТаблицаПользователейДоменаКоманднаяПанель</name>
         <id>10</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <horizontalAlign>Left</horizontalAlign>
       </autoCommandBar>
       <handlers>
@@ -436,21 +336,11 @@
         <name>ТаблицаПользователейДоменаВыбор</name>
       </handlers>
       <searchStringAddition>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <name>ТаблицаПользователейДоменаСтрокаПоиска</name>
         <id>50</id>
         <extendedTooltip>
           <name>ТаблицаПользователейДоменаСтрокаПоискаРасширеннаяПодсказка</name>
           <id>52</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -461,11 +351,6 @@
         <contextMenu>
           <name>ТаблицаПользователейДоменаСтрокаПоискаКонтекстноеМеню</name>
           <id>51</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <source>ТаблицаПользователейДомена</source>
@@ -474,21 +359,11 @@
         </extInfo>
       </searchStringAddition>
       <viewStatusAddition>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <name>ТаблицаПользователейДоменаСостояниеПросмотра</name>
         <id>53</id>
         <extendedTooltip>
           <name>ТаблицаПользователейДоменаСостояниеПросмотраРасширеннаяПодсказка</name>
           <id>55</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -499,11 +374,6 @@
         <contextMenu>
           <name>ТаблицаПользователейДоменаСостояниеПросмотраКонтекстноеМеню</name>
           <id>54</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
@@ -513,21 +383,11 @@
         </extInfo>
       </viewStatusAddition>
       <searchControlAddition>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <name>ТаблицаПользователейДоменаУправлениеПоиском</name>
         <id>56</id>
         <extendedTooltip>
           <name>ТаблицаПользователейДоменаУправлениеПоискомРасширеннаяПодсказка</name>
           <id>58</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -538,11 +398,6 @@
         <contextMenu>
           <name>ТаблицаПользователейДоменаУправлениеПоискомКонтекстноеМеню</name>
           <id>57</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
@@ -554,11 +409,6 @@
       <extendedTooltip>
         <name>ТаблицаПользователейДоменаExtendedTooltip</name>
         <id>39</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -580,11 +430,6 @@
           <extendedTooltip>
             <name>ТаблицаПользователейДоменаКонтекстноеМенюВыбратьExtendedTooltip</name>
             <id>35</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -617,11 +462,6 @@
           <extendedTooltip>
             <name>ТаблицаПользователейДоменаКонтекстноеМенюНайтиExtendedTooltip</name>
             <id>36</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -647,11 +487,6 @@
           <extendedTooltip>
             <name>ТаблицаПользователейДоменаКонтекстноеМенюОтменитьПоискExtendedTooltip</name>
             <id>37</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -677,11 +512,6 @@
           <extendedTooltip>
             <name>ТаблицаПользователейДоменаКонтекстноеМенюВывестиСписокExtendedTooltip</name>
             <id>38</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -696,11 +526,6 @@
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <autoFill>true</autoFill>
@@ -744,11 +569,6 @@
     <extendedTooltip>
       <name>ДоменыИПользователиExtendedTooltip</name>
       <id>29</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -780,11 +600,6 @@
       <extendedTooltip>
         <name>ВыбратьExtendedTooltip</name>
         <id>28</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -809,11 +624,6 @@
       </borderColor>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>

@@ -23,11 +23,6 @@
       <extendedTooltip>
         <name>СтрокаПоискаExtendedTooltip</name>
         <id>82</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -38,11 +33,6 @@
       <contextMenu>
         <name>СтрокаПоискаКонтекстноеМеню</name>
         <id>48</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -89,11 +79,6 @@
       <extendedTooltip>
         <name>ОтборПоИспользованиюМакетаExtendedTooltip</name>
         <id>83</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -104,11 +89,6 @@
       <contextMenu>
         <name>ОтборПоИспользованиюМакетаКонтекстноеМеню</name>
         <id>53</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -193,11 +173,6 @@
     <extendedTooltip>
       <name>ГруппаОтборыExtendedTooltip</name>
       <id>81</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -242,11 +217,6 @@
       <extendedTooltip>
         <name>МакетыПечатныхФормИспользованиеExtendedTooltip</name>
         <id>96</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -257,11 +227,6 @@
       <contextMenu>
         <name>МакетыПечатныхФормИспользованиеКонтекстноеМеню</name>
         <id>64</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>PictureField</type>
@@ -281,6 +246,10 @@
         <valuesPicture xsi:type="core:PictureRef">
           <picture>CommonPicture.ИспользованиеМакета</picture>
         </valuesPicture>
+        <border xsi:type="core:BorderDef">
+          <style>Single</style>
+          <width>1</width>
+        </border>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -297,11 +266,6 @@
       <extendedTooltip>
         <name>МакетыПечатныхФормПредставлениеМакетаExtendedTooltip</name>
         <id>97</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -312,11 +276,6 @@
       <contextMenu>
         <name>МакетыПечатныхФормПредставлениеМакетаКонтекстноеМеню</name>
         <id>60</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -348,11 +307,6 @@
       <extendedTooltip>
         <name>МакетыПечатныхФормПредставлениеВладельцаExtendedTooltip</name>
         <id>98</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -363,11 +317,6 @@
       <contextMenu>
         <name>МакетыПечатныхФормПредставлениеВладельцаКонтекстноеМеню</name>
         <id>62</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -402,11 +351,6 @@
           <extendedTooltip>
             <name>МакетыПечатныхФормОткрытьМакетExtendedTooltip</name>
             <id>85</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -432,11 +376,6 @@
           <extendedTooltip>
             <name>МакетыПечатныхФормИзменитьМакетExtendedTooltip</name>
             <id>86</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -467,11 +406,6 @@
         <extendedTooltip>
           <name>МакетыПечатныхФормГруппаОткрытиеМакетаExtendedTooltip</name>
           <id>84</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -495,11 +429,6 @@
           <extendedTooltip>
             <name>МакетыПечатныхФормИспользоватьИзмененныйМакетExtendedTooltip</name>
             <id>88</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -525,11 +454,6 @@
           <extendedTooltip>
             <name>МакетыПечатныхФормИспользоватьСтандартныйМакетExtendedTooltip</name>
             <id>89</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -560,11 +484,6 @@
         <extendedTooltip>
           <name>МакетыПечатныхФормГруппаПереключениеИспользуемогоМакетаExtendedTooltip</name>
           <id>87</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -585,11 +504,6 @@
         <extendedTooltip>
           <name>МакетыПечатныхФормУдалитьИзмененныйМакетExtendedTooltip</name>
           <id>90</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -618,11 +532,6 @@
           <extendedTooltip>
             <name>МакетыПечатныхФормЗадатьДействиеПриВыбореМакетаПечатнойФормыExtendedTooltip</name>
             <id>92</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -649,11 +558,6 @@
           <extendedTooltip>
             <name>МакетыПечатныхФормИзменитьФормуExtendedTooltip</name>
             <id>93</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -684,11 +588,6 @@
         <extendedTooltip>
           <name>МакетыПечатныхФормГруппаВсеДействияExtendedTooltip</name>
           <id>91</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -709,11 +608,6 @@
         <extendedTooltip>
           <name>МакетыПечатныхФормСправкаExtendedTooltip</name>
           <id>94</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -728,11 +622,6 @@
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
@@ -745,21 +634,11 @@
       <name>МакетыПечатныхФормПриАктивизацииСтроки</name>
     </handlers>
     <searchStringAddition>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <name>МакетыПечатныхФормСтрокаПоиска</name>
       <id>99</id>
       <extendedTooltip>
         <name>МакетыПечатныхФормСтрокаПоискаРасширеннаяПодсказка</name>
         <id>101</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -770,11 +649,6 @@
       <contextMenu>
         <name>МакетыПечатныхФормСтрокаПоискаКонтекстноеМеню</name>
         <id>100</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <source>МакетыПечатныхФорм</source>
@@ -783,21 +657,11 @@
       </extInfo>
     </searchStringAddition>
     <viewStatusAddition>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <name>МакетыПечатныхФормСостояниеПросмотра</name>
       <id>102</id>
       <extendedTooltip>
         <name>МакетыПечатныхФормСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>104</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -808,11 +672,6 @@
       <contextMenu>
         <name>МакетыПечатныхФормСостояниеПросмотраКонтекстноеМеню</name>
         <id>103</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
@@ -822,21 +681,11 @@
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <name>МакетыПечатныхФормУправлениеПоиском</name>
       <id>105</id>
       <extendedTooltip>
         <name>МакетыПечатныхФормУправлениеПоискомРасширеннаяПодсказка</name>
         <id>107</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -847,11 +696,6 @@
       <contextMenu>
         <name>МакетыПечатныхФормУправлениеПоискомКонтекстноеМеню</name>
         <id>106</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
@@ -863,11 +707,6 @@
     <extendedTooltip>
       <name>МакетыПечатныхФормExtendedTooltip</name>
       <id>95</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -878,11 +717,6 @@
     <contextMenu>
       <name>МакетыПечатныхФормКонтекстноеМеню</name>
       <id>55</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <changeRowSet>true</changeRowSet>
@@ -921,11 +755,6 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>

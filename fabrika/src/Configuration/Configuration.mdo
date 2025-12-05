@@ -12,6 +12,7 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b3a963b4-2a89-409f-b926-40b142bd3789"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="db2d4ffa-0c92-4a52-b656-d807cb4f3ffc"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e5b7e923-d133-46fc-acf8-b441a168ee21"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -58,6 +59,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.12</compatibilityMode>
+  <defaultReportAppearanceTemplate>None</defaultReportAppearanceTemplate>
   <languages uuid="50037c8b-8fe4-48c1-8669-f1d2ebbc6f85">
     <name>Русский</name>
     <synonym>
